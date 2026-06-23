@@ -1,0 +1,3492 @@
+{
+  "categories": [
+    "Crops / Seeds",
+    "Fish / Bait",
+    "Ingredients",
+    "Cooked Dishes",
+    "Drinks",
+    "Animal Products",
+    "Materials",
+    "Weapons & Tools",
+    "Armor & Accessories",
+    "Clothing",
+    "Furniture",
+    "Buildings & Upgrades",
+    "Livestock",
+    "Monsters & Yokai",
+    "Pets",
+    "Quest & Story Items",
+    "Currency",
+    "Hidden"
+  ],
+  "hidden_categories": [
+    "Currency",
+    "Hidden"
+  ],
+  "items": {
+    "2605": {
+      "category": "Crops / Seeds",
+      "name": "Cabbage"
+    },
+    "2636": {
+      "category": "Crops / Seeds",
+      "name": "Carrot"
+    },
+    "2603": {
+      "category": "Crops / Seeds",
+      "name": "Celery"
+    },
+    "2629": {
+      "category": "Crops / Seeds",
+      "name": "Chili Pepper"
+    },
+    "2608": {
+      "category": "Crops / Seeds",
+      "name": "Chinese Toon"
+    },
+    "2622": {
+      "category": "Crops / Seeds",
+      "name": "Cucumber"
+    },
+    "2626": {
+      "category": "Crops / Seeds",
+      "name": "Dandelion"
+    },
+    "2614": {
+      "category": "Crops / Seeds",
+      "name": "Daylily"
+    },
+    "2604": {
+      "category": "Crops / Seeds",
+      "name": "Garlic"
+    },
+    "2624": {
+      "category": "Crops / Seeds",
+      "name": "Grape"
+    },
+    "2610": {
+      "category": "Crops / Seeds",
+      "name": "Green Tea"
+    },
+    "2616": {
+      "category": "Crops / Seeds",
+      "name": "Hydrangea"
+    },
+    "2633": {
+      "category": "Crops / Seeds",
+      "name": "Iris"
+    },
+    "2618": {
+      "category": "Crops / Seeds",
+      "name": "Lemon"
+    },
+    "2632": {
+      "category": "Crops / Seeds",
+      "name": "Lily of the Valley"
+    },
+    "2623": {
+      "category": "Crops / Seeds",
+      "name": "Mango"
+    },
+    "2628": {
+      "category": "Crops / Seeds",
+      "name": "Onion"
+    },
+    "2617": {
+      "category": "Crops / Seeds",
+      "name": "Peach"
+    },
+    "2627": {
+      "category": "Crops / Seeds",
+      "name": "Perilla"
+    },
+    "2615": {
+      "category": "Crops / Seeds",
+      "name": "Pineapple"
+    },
+    "2602": {
+      "category": "Crops / Seeds",
+      "name": "Potato"
+    },
+    "2630": {
+      "category": "Crops / Seeds",
+      "name": "Pumpkin"
+    },
+    "2621": {
+      "category": "Crops / Seeds",
+      "name": "Raspberry"
+    },
+    "2606": {
+      "category": "Crops / Seeds",
+      "name": "Red Bean"
+    },
+    "2642": {
+      "category": "Crops / Seeds",
+      "name": "Rice Plant"
+    },
+    "2607": {
+      "category": "Crops / Seeds",
+      "name": "Rose"
+    },
+    "2611": {
+      "category": "Crops / Seeds",
+      "name": "Soybean"
+    },
+    "2635": {
+      "category": "Crops / Seeds",
+      "name": "Spinach"
+    },
+    "2609": {
+      "category": "Crops / Seeds",
+      "name": "Strawberry"
+    },
+    "2613": {
+      "category": "Crops / Seeds",
+      "name": "Sugarcane"
+    },
+    "2631": {
+      "category": "Crops / Seeds",
+      "name": "Sweet Potato"
+    },
+    "2634": {
+      "category": "Crops / Seeds",
+      "name": "Swiss Cheese Plant"
+    },
+    "2637": {
+      "category": "Crops / Seeds",
+      "name": "Taro"
+    },
+    "2620": {
+      "category": "Crops / Seeds",
+      "name": "Tomato"
+    },
+    "2601": {
+      "category": "Crops / Seeds",
+      "name": "Turnip"
+    },
+    "2619": {
+      "category": "Crops / Seeds",
+      "name": "Watermelon"
+    },
+    "2612": {
+      "category": "Crops / Seeds",
+      "name": "Wheat"
+    },
+    "2625": {
+      "category": "Crops / Seeds",
+      "name": "Yam"
+    },
+    "2705": {
+      "category": "Crops / Seeds",
+      "name": "Cabbage Seeds"
+    },
+    "2736": {
+      "category": "Crops / Seeds",
+      "name": "Carrot Seeds"
+    },
+    "2703": {
+      "category": "Crops / Seeds",
+      "name": "Celery Seeds"
+    },
+    "2729": {
+      "category": "Crops / Seeds",
+      "name": "Chili Pepper Seeds"
+    },
+    "2708": {
+      "category": "Crops / Seeds",
+      "name": "Chinese Toon Seeds"
+    },
+    "2722": {
+      "category": "Crops / Seeds",
+      "name": "Cucumber Seeds"
+    },
+    "2726": {
+      "category": "Crops / Seeds",
+      "name": "Dandelion Seeds"
+    },
+    "2714": {
+      "category": "Crops / Seeds",
+      "name": "Daylily Seeds"
+    },
+    "2704": {
+      "category": "Crops / Seeds",
+      "name": "Garlic Seeds"
+    },
+    "2724": {
+      "category": "Crops / Seeds",
+      "name": "Grape Seeds"
+    },
+    "2710": {
+      "category": "Crops / Seeds",
+      "name": "Green Tea Seeds"
+    },
+    "2716": {
+      "category": "Crops / Seeds",
+      "name": "Hydrangea Seeds"
+    },
+    "2733": {
+      "category": "Crops / Seeds",
+      "name": "Iris Seeds"
+    },
+    "2718": {
+      "category": "Crops / Seeds",
+      "name": "Lemon Seeds"
+    },
+    "2732": {
+      "category": "Crops / Seeds",
+      "name": "Lily of the Valley Seeds"
+    },
+    "2723": {
+      "category": "Crops / Seeds",
+      "name": "Mango Seeds"
+    },
+    "2728": {
+      "category": "Crops / Seeds",
+      "name": "Onion Seeds"
+    },
+    "2717": {
+      "category": "Crops / Seeds",
+      "name": "Peach Seeds"
+    },
+    "2727": {
+      "category": "Crops / Seeds",
+      "name": "Perilla Seeds"
+    },
+    "2715": {
+      "category": "Crops / Seeds",
+      "name": "Pineapple Seeds"
+    },
+    "2702": {
+      "category": "Crops / Seeds",
+      "name": "Potato Seeds"
+    },
+    "2730": {
+      "category": "Crops / Seeds",
+      "name": "Pumpkin Seeds"
+    },
+    "2721": {
+      "category": "Crops / Seeds",
+      "name": "Raspberry Seeds"
+    },
+    "2706": {
+      "category": "Crops / Seeds",
+      "name": "Red Bean Seeds"
+    },
+    "2742": {
+      "category": "Crops / Seeds",
+      "name": "Rice Seed"
+    },
+    "2707": {
+      "category": "Crops / Seeds",
+      "name": "Rose Seeds"
+    },
+    "2711": {
+      "category": "Crops / Seeds",
+      "name": "Soybean Seeds"
+    },
+    "2735": {
+      "category": "Crops / Seeds",
+      "name": "Spinach Seeds"
+    },
+    "2709": {
+      "category": "Crops / Seeds",
+      "name": "Strawberry Seeds"
+    },
+    "2713": {
+      "category": "Crops / Seeds",
+      "name": "Sugarcane Seeds"
+    },
+    "2731": {
+      "category": "Crops / Seeds",
+      "name": "Sweet Potato Seeds"
+    },
+    "2734": {
+      "category": "Crops / Seeds",
+      "name": "Swiss Cheese Plant Seeds"
+    },
+    "2737": {
+      "category": "Crops / Seeds",
+      "name": "Taro Seeds"
+    },
+    "2720": {
+      "category": "Crops / Seeds",
+      "name": "Tomato Seeds"
+    },
+    "2701": {
+      "category": "Crops / Seeds",
+      "name": "Turnip Seeds"
+    },
+    "2719": {
+      "category": "Crops / Seeds",
+      "name": "Watermelon Seeds"
+    },
+    "2712": {
+      "category": "Crops / Seeds",
+      "name": "Wheat Seeds"
+    },
+    "2725": {
+      "category": "Crops / Seeds",
+      "name": "Yam Seeds"
+    },
+    "26051": {
+      "category": "Crops / Seeds",
+      "name": "Giant Cabbage"
+    },
+    "26361": {
+      "category": "Crops / Seeds",
+      "name": "Giant Carrot"
+    },
+    "26031": {
+      "category": "Crops / Seeds",
+      "name": "Giant Celery"
+    },
+    "26291": {
+      "category": "Crops / Seeds",
+      "name": "Giant Chili Pepper"
+    },
+    "26081": {
+      "category": "Crops / Seeds",
+      "name": "Giant Chinese Toon"
+    },
+    "26221": {
+      "category": "Crops / Seeds",
+      "name": "Giant Cucumber"
+    },
+    "26261": {
+      "category": "Crops / Seeds",
+      "name": "Giant Dandelion"
+    },
+    "26141": {
+      "category": "Crops / Seeds",
+      "name": "Giant Daylily"
+    },
+    "26041": {
+      "category": "Crops / Seeds",
+      "name": "Giant Garlic"
+    },
+    "26241": {
+      "category": "Crops / Seeds",
+      "name": "Giant Grape"
+    },
+    "26101": {
+      "category": "Crops / Seeds",
+      "name": "Giant Green Tea"
+    },
+    "26161": {
+      "category": "Crops / Seeds",
+      "name": "Giant Hydrangea"
+    },
+    "26295": {
+      "category": "Crops / Seeds",
+      "name": "Giant Iris"
+    },
+    "26181": {
+      "category": "Crops / Seeds",
+      "name": "Giant Lemon"
+    },
+    "26294": {
+      "category": "Crops / Seeds",
+      "name": "Giant Lily of the Valley"
+    },
+    "26231": {
+      "category": "Crops / Seeds",
+      "name": "Giant Mango"
+    },
+    "26281": {
+      "category": "Crops / Seeds",
+      "name": "Giant Onion"
+    },
+    "26171": {
+      "category": "Crops / Seeds",
+      "name": "Giant Peach"
+    },
+    "26271": {
+      "category": "Crops / Seeds",
+      "name": "Giant Perilla"
+    },
+    "26151": {
+      "category": "Crops / Seeds",
+      "name": "Giant Pineapple"
+    },
+    "26021": {
+      "category": "Crops / Seeds",
+      "name": "Giant Potato"
+    },
+    "26292": {
+      "category": "Crops / Seeds",
+      "name": "Giant Pumpkin"
+    },
+    "26211": {
+      "category": "Crops / Seeds",
+      "name": "Giant Raspberry"
+    },
+    "26061": {
+      "category": "Crops / Seeds",
+      "name": "Giant Red Bean"
+    },
+    "26421": {
+      "category": "Crops / Seeds",
+      "name": "Giant Rice Plant"
+    },
+    "26071": {
+      "category": "Crops / Seeds",
+      "name": "Giant Rose"
+    },
+    "26111": {
+      "category": "Crops / Seeds",
+      "name": "Giant Soybean"
+    },
+    "26351": {
+      "category": "Crops / Seeds",
+      "name": "Giant Spinach"
+    },
+    "26091": {
+      "category": "Crops / Seeds",
+      "name": "Giant Strawberry"
+    },
+    "26131": {
+      "category": "Crops / Seeds",
+      "name": "Giant Sugarcane"
+    },
+    "26293": {
+      "category": "Crops / Seeds",
+      "name": "Giant Sweet Potato"
+    },
+    "26341": {
+      "category": "Crops / Seeds",
+      "name": "Giant Swiss Cheese Plant"
+    },
+    "26371": {
+      "category": "Crops / Seeds",
+      "name": "Giant Taro"
+    },
+    "26201": {
+      "category": "Crops / Seeds",
+      "name": "Giant Tomato"
+    },
+    "26011": {
+      "category": "Crops / Seeds",
+      "name": "Giant Turnip"
+    },
+    "26191": {
+      "category": "Crops / Seeds",
+      "name": "Giant Watermelon"
+    },
+    "26121": {
+      "category": "Crops / Seeds",
+      "name": "Giant Wheat"
+    },
+    "26251": {
+      "category": "Crops / Seeds",
+      "name": "Giant Yam"
+    },
+    "42010": {
+      "category": "Fish / Bait",
+      "name": "Black Bass"
+    },
+    "42024": {
+      "category": "Fish / Bait",
+      "name": "Blobfish"
+    },
+    "42013": {
+      "category": "Fish / Bait",
+      "name": "Bream"
+    },
+    "42001": {
+      "category": "Fish / Bait",
+      "name": "Carp"
+    },
+    "42008": {
+      "category": "Fish / Bait",
+      "name": "Catfish"
+    },
+    "42028": {
+      "category": "Fish / Bait",
+      "name": "Cod"
+    },
+    "42002": {
+      "category": "Fish / Bait",
+      "name": "Crucian Carp"
+    },
+    "42037": {
+      "category": "Fish / Bait",
+      "name": "Crystal Shrimp"
+    },
+    "42034": {
+      "category": "Fish / Bait",
+      "name": "Cutlassfish"
+    },
+    "42023": {
+      "category": "Fish / Bait",
+      "name": "Cuttlefish"
+    },
+    "2641": {
+      "category": "Fish / Bait",
+      "name": "Dried Fish"
+    },
+    "42012": {
+      "category": "Fish / Bait",
+      "name": "Eel"
+    },
+    "42035": {
+      "category": "Fish / Bait",
+      "name": "Electric Ray"
+    },
+    "42027": {
+      "category": "Fish / Bait",
+      "name": "Gar"
+    },
+    "42030": {
+      "category": "Fish / Bait",
+      "name": "Golden Arowana"
+    },
+    "42004": {
+      "category": "Fish / Bait",
+      "name": "Horse Mackerel"
+    },
+    "42032": {
+      "category": "Fish / Bait",
+      "name": "Ice Clam"
+    },
+    "42033": {
+      "category": "Fish / Bait",
+      "name": "King Crab"
+    },
+    "42017": {
+      "category": "Fish / Bait",
+      "name": "Lamprey"
+    },
+    "42036": {
+      "category": "Fish / Bait",
+      "name": "Lobster"
+    },
+    "42005": {
+      "category": "Fish / Bait",
+      "name": "Mudskipper"
+    },
+    "42019": {
+      "category": "Fish / Bait",
+      "name": "Noodlefish"
+    },
+    "42031": {
+      "category": "Fish / Bait",
+      "name": "Oarfish"
+    },
+    "42016": {
+      "category": "Fish / Bait",
+      "name": "Ocean Sunfish"
+    },
+    "42011": {
+      "category": "Fish / Bait",
+      "name": "Pond Loach"
+    },
+    "42009": {
+      "category": "Fish / Bait",
+      "name": "Pufferfish"
+    },
+    "42026": {
+      "category": "Fish / Bait",
+      "name": "Rainbow Trout"
+    },
+    "42015": {
+      "category": "Fish / Bait",
+      "name": "Red Porgy"
+    },
+    "42025": {
+      "category": "Fish / Bait",
+      "name": "Redmouth Culter"
+    },
+    "42020": {
+      "category": "Fish / Bait",
+      "name": "River Crab"
+    },
+    "42014": {
+      "category": "Fish / Bait",
+      "name": "Salmon"
+    },
+    "42003": {
+      "category": "Fish / Bait",
+      "name": "Shad"
+    },
+    "42029": {
+      "category": "Fish / Bait",
+      "name": "Siberian Taimen"
+    },
+    "42007": {
+      "category": "Fish / Bait",
+      "name": "Sole"
+    },
+    "42021": {
+      "category": "Fish / Bait",
+      "name": "Sturgeon"
+    },
+    "42006": {
+      "category": "Fish / Bait",
+      "name": "Sweetfish"
+    },
+    "42022": {
+      "category": "Fish / Bait",
+      "name": "Swordfish"
+    },
+    "42018": {
+      "category": "Fish / Bait",
+      "name": "Tilapia"
+    },
+    "2147": {
+      "category": "Fish / Bait",
+      "name": "Basic Fish Bait"
+    },
+    "2141": {
+      "category": "Fish / Bait",
+      "name": "Bountiful Catch Bait"
+    },
+    "2149": {
+      "category": "Fish / Bait",
+      "name": "Nighttime Bait"
+    },
+    "2143": {
+      "category": "Fish / Bait",
+      "name": "Rainy Day Bait"
+    },
+    "2140": {
+      "category": "Fish / Bait",
+      "name": "Rare Fish Bait"
+    },
+    "2144": {
+      "category": "Fish / Bait",
+      "name": "Snowy Day Bait"
+    },
+    "2139": {
+      "category": "Fish / Bait",
+      "name": "Special Fish Bait"
+    },
+    "2142": {
+      "category": "Fish / Bait",
+      "name": "Super Bountiful Catch Bait"
+    },
+    "2145": {
+      "category": "Fish / Bait",
+      "name": "Treasure Chest Bait"
+    },
+    "2148": {
+      "category": "Fish / Bait",
+      "name": "Treasure Hunter Bait"
+    },
+    "2643": {
+      "category": "Ingredients",
+      "name": "Apple"
+    },
+    "2508": {
+      "category": "Ingredients",
+      "name": "Bird's Egg"
+    },
+    "2639": {
+      "category": "Ingredients",
+      "name": "Cheese"
+    },
+    "2644": {
+      "category": "Ingredients",
+      "name": "Cherry Blossom"
+    },
+    "2645": {
+      "category": "Ingredients",
+      "name": "Coffee Bean"
+    },
+    "25106": {
+      "category": "Ingredients",
+      "name": "Flour"
+    },
+    "2663": {
+      "category": "Ingredients",
+      "name": "Fruit Cheese"
+    },
+    "2656": {
+      "category": "Ingredients",
+      "name": "Jade Radish"
+    },
+    "25107": {
+      "category": "Ingredients",
+      "name": "Matcha"
+    },
+    "2654": {
+      "category": "Ingredients",
+      "name": "Matsutake"
+    },
+    "2638": {
+      "category": "Ingredients",
+      "name": "Mayonnaise"
+    },
+    "25105": {
+      "category": "Ingredients",
+      "name": "Miso"
+    },
+    "2640": {
+      "category": "Ingredients",
+      "name": "Mixed Pickled Vegetables"
+    },
+    "2652": {
+      "category": "Ingredients",
+      "name": "Mountain Asparagus"
+    },
+    "2653": {
+      "category": "Ingredients",
+      "name": "Mountain Blueberries"
+    },
+    "2507": {
+      "category": "Ingredients",
+      "name": "Raw Meat"
+    },
+    "25108": {
+      "category": "Ingredients",
+      "name": "Rice"
+    },
+    "25002": {
+      "category": "Ingredients",
+      "name": "Salt"
+    },
+    "2511": {
+      "category": "Ingredients",
+      "name": "Shiitake Mushroom"
+    },
+    "2647": {
+      "category": "Ingredients",
+      "name": "Sky Leek"
+    },
+    "25001": {
+      "category": "Ingredients",
+      "name": "Sugar"
+    },
+    "25104": {
+      "category": "Ingredients",
+      "name": "Tofu"
+    },
+    "2646": {
+      "category": "Ingredients",
+      "name": "Waterfall Bamboo"
+    },
+    "2510": {
+      "category": "Ingredients",
+      "name": "Yokai Shroom"
+    },
+    "26001": {
+      "category": "Cooked Dishes",
+      "name": "Barely Edible Dish"
+    },
+    "26143": {
+      "category": "Cooked Dishes",
+      "name": "Cabbage Rolls"
+    },
+    "26325": {
+      "category": "Cooked Dishes",
+      "name": "Candy Apple"
+    },
+    "26183": {
+      "category": "Cooked Dishes",
+      "name": "Char-Grilled Kebabs"
+    },
+    "26308": {
+      "category": "Cooked Dishes",
+      "name": "Chicken Dumpling Soup"
+    },
+    "26337": {
+      "category": "Cooked Dishes",
+      "name": "Coffee-Flavored Cake"
+    },
+    "26306": {
+      "category": "Cooked Dishes",
+      "name": "Confit Lamb Stew"
+    },
+    "26318": {
+      "category": "Cooked Dishes",
+      "name": "Elva's Beef Curry with Rice"
+    },
+    "26322": {
+      "category": "Cooked Dishes",
+      "name": "Extra-Cold Ice Cream"
+    },
+    "26153": {
+      "category": "Cooked Dishes",
+      "name": "Fried Pork Cutlet"
+    },
+    "29002": {
+      "category": "Cooked Dishes",
+      "name": "Fried Tofu"
+    },
+    "26063": {
+      "category": "Cooked Dishes",
+      "name": "Fruit Medley"
+    },
+    "26173": {
+      "category": "Cooked Dishes",
+      "name": "Grilled Fish"
+    },
+    "26043": {
+      "category": "Cooked Dishes",
+      "name": "Grilled Vegetables"
+    },
+    "26323": {
+      "category": "Cooked Dishes",
+      "name": "Imoni"
+    },
+    "26317": {
+      "category": "Cooked Dishes",
+      "name": "Inarizushi"
+    },
+    "26320": {
+      "category": "Cooked Dishes",
+      "name": "Lun's Beef Stew"
+    },
+    "26103": {
+      "category": "Cooked Dishes",
+      "name": "Matcha Cake"
+    },
+    "26328": {
+      "category": "Cooked Dishes",
+      "name": "Milla's Choice"
+    },
+    "26013": {
+      "category": "Cooked Dishes",
+      "name": "Miso Soup"
+    },
+    "26309": {
+      "category": "Cooked Dishes",
+      "name": "Multi-Flavored Scone"
+    },
+    "26314": {
+      "category": "Cooked Dishes",
+      "name": "Nimu Chicken"
+    },
+    "26133": {
+      "category": "Cooked Dishes",
+      "name": "Okonomiyaki"
+    },
+    "26321": {
+      "category": "Cooked Dishes",
+      "name": "Omurice"
+    },
+    "26329": {
+      "category": "Cooked Dishes",
+      "name": "Pot-Fried Pork"
+    },
+    "26310": {
+      "category": "Cooked Dishes",
+      "name": "Potato Pancake"
+    },
+    "26083": {
+      "category": "Cooked Dishes",
+      "name": "Potato Stew"
+    },
+    "26316": {
+      "category": "Cooked Dishes",
+      "name": "Poutine"
+    },
+    "26307": {
+      "category": "Cooked Dishes",
+      "name": "Raclette Cheese"
+    },
+    "26333": {
+      "category": "Cooked Dishes",
+      "name": "Red Bean Mochi"
+    },
+    "26023": {
+      "category": "Cooked Dishes",
+      "name": "Red Bean Soup"
+    },
+    "26319": {
+      "category": "Cooked Dishes",
+      "name": "Red-Braised Chicken with Rice"
+    },
+    "26123": {
+      "category": "Cooked Dishes",
+      "name": "Refined Miso Soup"
+    },
+    "26311": {
+      "category": "Cooked Dishes",
+      "name": "Rice Burger"
+    },
+    "26053": {
+      "category": "Cooked Dishes",
+      "name": "Roasted Tubers"
+    },
+    "26073": {
+      "category": "Cooked Dishes",
+      "name": "Root Vegetable Puree"
+    },
+    "26326": {
+      "category": "Cooked Dishes",
+      "name": "Sakura Cookie"
+    },
+    "26327": {
+      "category": "Cooked Dishes",
+      "name": "Sakura Milk Pudding"
+    },
+    "26093": {
+      "category": "Cooked Dishes",
+      "name": "Scrambled Eggs"
+    },
+    "26305": {
+      "category": "Cooked Dishes",
+      "name": "Shawarma"
+    },
+    "26304": {
+      "category": "Cooked Dishes",
+      "name": "Shrimp Onigiri"
+    },
+    "26334": {
+      "category": "Cooked Dishes",
+      "name": "Soy Sauce Dango"
+    },
+    "26033": {
+      "category": "Cooked Dishes",
+      "name": "Strawberry Cake"
+    },
+    "26315": {
+      "category": "Cooked Dishes",
+      "name": "Strawberry Milkshake"
+    },
+    "26113": {
+      "category": "Cooked Dishes",
+      "name": "Strong Tea"
+    },
+    "26332": {
+      "category": "Cooked Dishes",
+      "name": "Takoyaki"
+    },
+    "26312": {
+      "category": "Cooked Dishes",
+      "name": "Tapioca Pudding"
+    },
+    "26313": {
+      "category": "Cooked Dishes",
+      "name": "Tella-Obachan's Fried Bread"
+    },
+    "26335": {
+      "category": "Cooked Dishes",
+      "name": "Three-Color Dango"
+    },
+    "26163": {
+      "category": "Cooked Dishes",
+      "name": "Vegetable Tempura"
+    },
+    "26324": {
+      "category": "Cooked Dishes",
+      "name": "Yaki Onigiri Chazuke"
+    },
+    "26300": {
+      "category": "Drinks",
+      "name": "\"Ninja Bubble\" (Lemon)"
+    },
+    "26303": {
+      "category": "Drinks",
+      "name": "\"Ninja Bubble\" (Melon)"
+    },
+    "26302": {
+      "category": "Drinks",
+      "name": "\"Ninja Bubble\" (Pineapple)"
+    },
+    "26301": {
+      "category": "Drinks",
+      "name": "\"Ninja Bubble\" (Strawberry)"
+    },
+    "26330": {
+      "category": "Drinks",
+      "name": "Beer"
+    },
+    "26336": {
+      "category": "Drinks",
+      "name": "Coffee"
+    },
+    "26338": {
+      "category": "Drinks",
+      "name": "Fruit Wine"
+    },
+    "26331": {
+      "category": "Drinks",
+      "name": "Sake"
+    },
+    "25110": {
+      "category": "Drinks",
+      "name": "Sakura Wine"
+    },
+    "2533": {
+      "category": "Animal Products",
+      "name": "Chicken Egg"
+    },
+    "2535": {
+      "category": "Animal Products",
+      "name": "Chicken Feather"
+    },
+    "2536": {
+      "category": "Animal Products",
+      "name": "Cow Bristles"
+    },
+    "2537": {
+      "category": "Animal Products",
+      "name": "Goat Horn"
+    },
+    "2531": {
+      "category": "Animal Products",
+      "name": "Golden Poop"
+    },
+    "2532": {
+      "category": "Animal Products",
+      "name": "Ibis Egg"
+    },
+    "2538": {
+      "category": "Animal Products",
+      "name": "Ibis Feather"
+    },
+    "2534": {
+      "category": "Animal Products",
+      "name": "Manure"
+    },
+    "2528": {
+      "category": "Animal Products",
+      "name": "Milk"
+    },
+    "2545": {
+      "category": "Animal Products",
+      "name": "Preserved Apple"
+    },
+    "2544": {
+      "category": "Animal Products",
+      "name": "Red Panda Fur"
+    },
+    "2539": {
+      "category": "Animal Products",
+      "name": "Sparkling Golden Droppings"
+    },
+    "2530": {
+      "category": "Animal Products",
+      "name": "Wool"
+    },
+    "25128": {
+      "category": "Materials",
+      "name": "Azurite"
+    },
+    "2517": {
+      "category": "Materials",
+      "name": "Bamboo"
+    },
+    "2523": {
+      "category": "Materials",
+      "name": "Bobo Pearl"
+    },
+    "25153": {
+      "category": "Materials",
+      "name": "Cat Moss Fleece"
+    },
+    "2657": {
+      "category": "Materials",
+      "name": "Cat Spirit Moss"
+    },
+    "2650": {
+      "category": "Materials",
+      "name": "Cattail"
+    },
+    "25111": {
+      "category": "Materials",
+      "name": "Charcoal"
+    },
+    "2659": {
+      "category": "Materials",
+      "name": "Cherry Wood"
+    },
+    "25130": {
+      "category": "Materials",
+      "name": "Cinnabar"
+    },
+    "2503": {
+      "category": "Materials",
+      "name": "Clay"
+    },
+    "2651": {
+      "category": "Materials",
+      "name": "Cloud Lotus"
+    },
+    "25101": {
+      "category": "Materials",
+      "name": "Copper Ingot"
+    },
+    "2504": {
+      "category": "Materials",
+      "name": "Copper Ore"
+    },
+    "25117": {
+      "category": "Materials",
+      "name": "Copper Rust Dye"
+    },
+    "25122": {
+      "category": "Materials",
+      "name": "Dark Blue Dye"
+    },
+    "2529": {
+      "category": "Materials",
+      "name": "Dark Man-Eating Plant Leaf"
+    },
+    "2519": {
+      "category": "Materials",
+      "name": "Energy Crystal"
+    },
+    "2541": {
+      "category": "Materials",
+      "name": "Evil Fang"
+    },
+    "2518": {
+      "category": "Materials",
+      "name": "Explosive Flame"
+    },
+    "2543": {
+      "category": "Materials",
+      "name": "Eye Core"
+    },
+    "2512": {
+      "category": "Materials",
+      "name": "Flint"
+    },
+    "2648": {
+      "category": "Materials",
+      "name": "Flowering Wisteria"
+    },
+    "25115": {
+      "category": "Materials",
+      "name": "Gamboge Dye"
+    },
+    "25103": {
+      "category": "Materials",
+      "name": "Gold Ingot"
+    },
+    "2506": {
+      "category": "Materials",
+      "name": "Gold Ore"
+    },
+    "2514": {
+      "category": "Materials",
+      "name": "Hardwood"
+    },
+    "25102": {
+      "category": "Materials",
+      "name": "Iron Ingot"
+    },
+    "2505": {
+      "category": "Materials",
+      "name": "Iron Ore"
+    },
+    "2662": {
+      "category": "Materials",
+      "name": "Kamishiro"
+    },
+    "25126": {
+      "category": "Materials",
+      "name": "Lapis Lazuli"
+    },
+    "25123": {
+      "category": "Materials",
+      "name": "Light Purple Dye"
+    },
+    "25124": {
+      "category": "Materials",
+      "name": "Lilac Dye"
+    },
+    "25152": {
+      "category": "Materials",
+      "name": "Lotus Fiber"
+    },
+    "2658": {
+      "category": "Materials",
+      "name": "Magic Mistletoe"
+    },
+    "25129": {
+      "category": "Materials",
+      "name": "Malachite"
+    },
+    "25119": {
+      "category": "Materials",
+      "name": "Malachite Green Dye"
+    },
+    "2513": {
+      "category": "Materials",
+      "name": "Man-Eating Plant Leaf"
+    },
+    "2661": {
+      "category": "Materials",
+      "name": "Oak Resin"
+    },
+    "2660": {
+      "category": "Materials",
+      "name": "Oak Wood"
+    },
+    "2548": {
+      "category": "Materials",
+      "name": "Obsidian"
+    },
+    "25131": {
+      "category": "Materials",
+      "name": "Ochre"
+    },
+    "25118": {
+      "category": "Materials",
+      "name": "Ochre Dye"
+    },
+    "2542": {
+      "category": "Materials",
+      "name": "Oil Lamp Wick"
+    },
+    "25121": {
+      "category": "Materials",
+      "name": "Pale Blue Dye"
+    },
+    "25120": {
+      "category": "Materials",
+      "name": "Peacock Green Dye"
+    },
+    "2525": {
+      "category": "Materials",
+      "name": "Pearl"
+    },
+    "25113": {
+      "category": "Materials",
+      "name": "Pink Dye"
+    },
+    "25127": {
+      "category": "Materials",
+      "name": "Realgar"
+    },
+    "2655": {
+      "category": "Materials",
+      "name": "Red Spider Lily"
+    },
+    "2515": {
+      "category": "Materials",
+      "name": "Resin"
+    },
+    "25114": {
+      "category": "Materials",
+      "name": "Scarlet Dye"
+    },
+    "25151": {
+      "category": "Materials",
+      "name": "Silk"
+    },
+    "2649": {
+      "category": "Materials",
+      "name": "Silkworm Ice Cocoon"
+    },
+    "2516": {
+      "category": "Materials",
+      "name": "Slime Sludge"
+    },
+    "2521": {
+      "category": "Materials",
+      "name": "Spice Rock"
+    },
+    "2502": {
+      "category": "Materials",
+      "name": "Stone"
+    },
+    "2522": {
+      "category": "Materials",
+      "name": "Stone Golem Core"
+    },
+    "2520": {
+      "category": "Materials",
+      "name": "Straw Doll"
+    },
+    "25150": {
+      "category": "Materials",
+      "name": "Straw Rope"
+    },
+    "25112": {
+      "category": "Materials",
+      "name": "Sulfur"
+    },
+    "2526": {
+      "category": "Materials",
+      "name": "Sulfur Ore"
+    },
+    "2527": {
+      "category": "Materials",
+      "name": "Thatch"
+    },
+    "25125": {
+      "category": "Materials",
+      "name": "Universal Dye"
+    },
+    "25116": {
+      "category": "Materials",
+      "name": "Vermilion Dye"
+    },
+    "25132": {
+      "category": "Materials",
+      "name": "White Crystal"
+    },
+    "2501": {
+      "category": "Materials",
+      "name": "Wood"
+    },
+    "25109": {
+      "category": "Materials",
+      "name": "Wooden Plank"
+    },
+    "25154": {
+      "category": "Materials",
+      "name": "Wool Felt"
+    },
+    "2907": {
+      "category": "Crops / Seeds",
+      "name": "Basic Fertilizer"
+    },
+    "2919": {
+      "category": "Crops / Seeds",
+      "name": "Doubled Yield Boost Fertilizer"
+    },
+    "2912": {
+      "category": "Crops / Seeds",
+      "name": "Giant Growth Fertilizer"
+    },
+    "2914": {
+      "category": "Crops / Seeds",
+      "name": "Hydrating Fertilizer"
+    },
+    "2913": {
+      "category": "Crops / Seeds",
+      "name": "Lightning Growth Fertilizer"
+    },
+    "2909": {
+      "category": "Crops / Seeds",
+      "name": "Organic Fertilizer"
+    },
+    "2911": {
+      "category": "Crops / Seeds",
+      "name": "Yield Boost Fertilizer"
+    },
+    "2916": {
+      "category": "Weapons & Tools",
+      "name": "Advanced Explosive Barrel"
+    },
+    "2136": {
+      "category": "Weapons & Tools",
+      "name": "Advanced Fishing Rod"
+    },
+    "2115": {
+      "category": "Weapons & Tools",
+      "name": "Ani"
+    },
+    "2903": {
+      "category": "Weapons & Tools",
+      "name": "Basic Explosive Barrel"
+    },
+    "2111": {
+      "category": "Weapons & Tools",
+      "name": "Basic Rod"
+    },
+    "2126": {
+      "category": "Weapons & Tools",
+      "name": "Black Bamboo Scythe"
+    },
+    "2131": {
+      "category": "Weapons & Tools",
+      "name": "Breath of Fire"
+    },
+    "2130": {
+      "category": "Weapons & Tools",
+      "name": "Breath of Water"
+    },
+    "2110": {
+      "category": "Weapons & Tools",
+      "name": "Broom"
+    },
+    "3877": {
+      "category": "Weapons & Tools",
+      "name": "Camera"
+    },
+    "2129": {
+      "category": "Weapons & Tools",
+      "name": "Chained Teeth"
+    },
+    "2127": {
+      "category": "Weapons & Tools",
+      "name": "Chuunin Sickle"
+    },
+    "2134": {
+      "category": "Weapons & Tools",
+      "name": "Crystal Sword"
+    },
+    "2121": {
+      "category": "Weapons & Tools",
+      "name": "Decayed Greatsword"
+    },
+    "2114": {
+      "category": "Weapons & Tools",
+      "name": "Dororo, the Black Sword"
+    },
+    "2113": {
+      "category": "Weapons & Tools",
+      "name": "Fine Iron Axe"
+    },
+    "2132": {
+      "category": "Weapons & Tools",
+      "name": "Flaming Sword"
+    },
+    "2117": {
+      "category": "Weapons & Tools",
+      "name": "Giant Deep Sea Anchor"
+    },
+    "2923": {
+      "category": "Weapons & Tools",
+      "name": "Giant Rock Breaker"
+    },
+    "2133": {
+      "category": "Weapons & Tools",
+      "name": "Golden Sword"
+    },
+    "2124": {
+      "category": "Weapons & Tools",
+      "name": "Grand Drum Mallet"
+    },
+    "2924": {
+      "category": "Weapons & Tools",
+      "name": "Hellfire"
+    },
+    "2102": {
+      "category": "Weapons & Tools",
+      "name": "Hero's Iron Sword"
+    },
+    "2105": {
+      "category": "Weapons & Tools",
+      "name": "Hero's Stone Hammer"
+    },
+    "2910": {
+      "category": "Weapons & Tools",
+      "name": "Ice Orb"
+    },
+    "2915": {
+      "category": "Weapons & Tools",
+      "name": "Intermediate Explosive Barrel"
+    },
+    "2109": {
+      "category": "Weapons & Tools",
+      "name": "Iron Pitchfork"
+    },
+    "2108": {
+      "category": "Weapons & Tools",
+      "name": "Iron Shovel"
+    },
+    "2107": {
+      "category": "Weapons & Tools",
+      "name": "Karma Fire Wheel"
+    },
+    "2123": {
+      "category": "Weapons & Tools",
+      "name": "Kikuichimonji Blade"
+    },
+    "8209": {
+      "category": "Weapons & Tools",
+      "name": "Large Animal Den Upgrade Kit"
+    },
+    "8206": {
+      "category": "Weapons & Tools",
+      "name": "Large Barn Upgrade Kit"
+    },
+    "8203": {
+      "category": "Weapons & Tools",
+      "name": "Large Coop Upgrade Kit"
+    },
+    "2125": {
+      "category": "Weapons & Tools",
+      "name": "Lumberjack Axe"
+    },
+    "2922": {
+      "category": "Weapons & Tools",
+      "name": "Maple Leaf Burial"
+    },
+    "2106": {
+      "category": "Weapons & Tools",
+      "name": "Massive Ore Crushing Pickaxe"
+    },
+    "8208": {
+      "category": "Weapons & Tools",
+      "name": "Medium Animal Den Upgrade Kit"
+    },
+    "8205": {
+      "category": "Weapons & Tools",
+      "name": "Medium Barn Upgrade Kit"
+    },
+    "8202": {
+      "category": "Weapons & Tools",
+      "name": "Medium Coop Upgrade Kit"
+    },
+    "2151": {
+      "category": "Weapons & Tools",
+      "name": "Muramasa"
+    },
+    "2122": {
+      "category": "Weapons & Tools",
+      "name": "Nodachi"
+    },
+    "2921": {
+      "category": "Weapons & Tools",
+      "name": "One Strike Victory"
+    },
+    "2103": {
+      "category": "Weapons & Tools",
+      "name": "Oni's Club"
+    },
+    "1100": {
+      "category": "Weapons & Tools",
+      "name": "Pet Flute"
+    },
+    "2116": {
+      "category": "Weapons & Tools",
+      "name": "Phantom, the Yokai Blade"
+    },
+    "2137": {
+      "category": "Weapons & Tools",
+      "name": "Professional Fishing Rod"
+    },
+    "2904": {
+      "category": "Weapons & Tools",
+      "name": "Slime Box"
+    },
+    "2118": {
+      "category": "Weapons & Tools",
+      "name": "Steel Fang"
+    },
+    "2135": {
+      "category": "Weapons & Tools",
+      "name": "Sword in the Stone"
+    },
+    "2120": {
+      "category": "Weapons & Tools",
+      "name": "Tear Swallower"
+    },
+    "3465": {
+      "category": "Weapons & Tools",
+      "name": "Treasure Detector"
+    },
+    "2119": {
+      "category": "Weapons & Tools",
+      "name": "Twin Tusks"
+    },
+    "2917": {
+      "category": "Weapons & Tools",
+      "name": "User-Friendly Explosive Barrel"
+    },
+    "2128": {
+      "category": "Weapons & Tools",
+      "name": "Viper Fang"
+    },
+    "2100": {
+      "category": "Weapons & Tools",
+      "name": "Watering Can"
+    },
+    "9500": {
+      "category": "Weapons & Tools",
+      "name": "Whetstone"
+    },
+    "2150": {
+      "category": "Weapons & Tools",
+      "name": "Yohji's cane"
+    },
+    "2104": {
+      "category": "Weapons & Tools",
+      "name": "Yokai's Wooden Hammer"
+    },
+    "2101": {
+      "category": "Weapons & Tools",
+      "name": "Yokai's Wooden Sword"
+    },
+    "23401": {
+      "category": "Armor & Accessories",
+      "name": "Amaterasu Amulet"
+    },
+    "23203": {
+      "category": "Armor & Accessories",
+      "name": "Armor of Substitution"
+    },
+    "23101": {
+      "category": "Armor & Accessories",
+      "name": "Ashigaru Armor (Head)"
+    },
+    "23503": {
+      "category": "Armor & Accessories",
+      "name": "Ashigaru Armor (Lower)"
+    },
+    "23202": {
+      "category": "Armor & Accessories",
+      "name": "Ashigaru Armor (Upper)"
+    },
+    "23303": {
+      "category": "Armor & Accessories",
+      "name": "Fūma's Ring"
+    },
+    "23406": {
+      "category": "Armor & Accessories",
+      "name": "Gambler's Amulet"
+    },
+    "23502": {
+      "category": "Armor & Accessories",
+      "name": "Geta"
+    },
+    "23408": {
+      "category": "Armor & Accessories",
+      "name": "Inari Amulet"
+    },
+    "23211": {
+      "category": "Armor & Accessories",
+      "name": "Juban Armor (Black)"
+    },
+    "23215": {
+      "category": "Armor & Accessories",
+      "name": "Juban Armor (Blue)"
+    },
+    "23214": {
+      "category": "Armor & Accessories",
+      "name": "Juban Armor (Green)"
+    },
+    "23213": {
+      "category": "Armor & Accessories",
+      "name": "Juban Armor (Orange)"
+    },
+    "23218": {
+      "category": "Armor & Accessories",
+      "name": "Juban Armor (Pink)"
+    },
+    "23216": {
+      "category": "Armor & Accessories",
+      "name": "Juban Armor (Purple)"
+    },
+    "23217": {
+      "category": "Armor & Accessories",
+      "name": "Juban Armor (Red)"
+    },
+    "23210": {
+      "category": "Armor & Accessories",
+      "name": "Juban Armor (White)"
+    },
+    "23212": {
+      "category": "Armor & Accessories",
+      "name": "Juban Armor (Yellow)"
+    },
+    "23407": {
+      "category": "Armor & Accessories",
+      "name": "Kappa's Affection Necklace"
+    },
+    "23305": {
+      "category": "Armor & Accessories",
+      "name": "Kappa's Affection Ring"
+    },
+    "23302": {
+      "category": "Armor & Accessories",
+      "name": "Lucky Black Cat Ring"
+    },
+    "23403": {
+      "category": "Armor & Accessories",
+      "name": "Lumberjack's Amulet"
+    },
+    "23402": {
+      "category": "Armor & Accessories",
+      "name": "Miner's Amulet"
+    },
+    "23307": {
+      "category": "Armor & Accessories",
+      "name": "Mountain Witch's Heart Ring"
+    },
+    "23104": {
+      "category": "Armor & Accessories",
+      "name": "Ninja Armor (Head)"
+    },
+    "23504": {
+      "category": "Armor & Accessories",
+      "name": "Ninja Armor (Lower)"
+    },
+    "23204": {
+      "category": "Armor & Accessories",
+      "name": "Ninja Armor (Upper)"
+    },
+    "23405": {
+      "category": "Armor & Accessories",
+      "name": "Phoenix Armor (Amulet)"
+    },
+    "23508": {
+      "category": "Armor & Accessories",
+      "name": "Phoenix Armor (Lower)"
+    },
+    "23207": {
+      "category": "Armor & Accessories",
+      "name": "Phoenix Armor (Upper)"
+    },
+    "23105": {
+      "category": "Armor & Accessories",
+      "name": "Rōnin Light Armor (Head)"
+    },
+    "23505": {
+      "category": "Armor & Accessories",
+      "name": "Rōnin Light Armor (Lower)"
+    },
+    "23205": {
+      "category": "Armor & Accessories",
+      "name": "Rōnin Light Armor (Upper)"
+    },
+    "23306": {
+      "category": "Armor & Accessories",
+      "name": "Shadow Dancer's Ring"
+    },
+    "23106": {
+      "category": "Armor & Accessories",
+      "name": "Strategist's Armor (Head)"
+    },
+    "23506": {
+      "category": "Armor & Accessories",
+      "name": "Strategist's Armor (Lower)"
+    },
+    "23206": {
+      "category": "Armor & Accessories",
+      "name": "Strategist's Armor (Upper)"
+    },
+    "23304": {
+      "category": "Armor & Accessories",
+      "name": "Sun Wheel Ring"
+    },
+    "23404": {
+      "category": "Armor & Accessories",
+      "name": "Susanoo's Amulet"
+    },
+    "23102": {
+      "category": "Armor & Accessories",
+      "name": "Tanuki Hat"
+    },
+    "23309": {
+      "category": "Armor & Accessories",
+      "name": "True Love Ring"
+    },
+    "23107": {
+      "category": "Armor & Accessories",
+      "name": "Undefeated General's Armor (Head)"
+    },
+    "23507": {
+      "category": "Armor & Accessories",
+      "name": "Undefeated General's Armor (Lower)"
+    },
+    "23208": {
+      "category": "Armor & Accessories",
+      "name": "Undefeated General's Armor (Upper)"
+    },
+    "23201": {
+      "category": "Armor & Accessories",
+      "name": "Vagabond Cloak"
+    },
+    "23108": {
+      "category": "Armor & Accessories",
+      "name": "White Fox Mask"
+    },
+    "23103": {
+      "category": "Armor & Accessories",
+      "name": "Wreath of Water"
+    },
+    "23308": {
+      "category": "Armor & Accessories",
+      "name": "Yokai Affinity Ring"
+    },
+    "23301": {
+      "category": "Armor & Accessories",
+      "name": "Yokaistone Ring"
+    },
+    "23501": {
+      "category": "Armor & Accessories",
+      "name": "Zori"
+    },
+    "2235": {
+      "category": "Clothing",
+      "name": "Beach Party Outfit (Head)"
+    },
+    "2237": {
+      "category": "Clothing",
+      "name": "Beach Party Outfit (Lower)"
+    },
+    "2236": {
+      "category": "Clothing",
+      "name": "Beach Party Outfit (Upper)"
+    },
+    "2249": {
+      "category": "Clothing",
+      "name": "Cat-O'-Lantern Hat (Head)"
+    },
+    "2258": {
+      "category": "Clothing",
+      "name": "Christmas Ribbon Tail (Tail)"
+    },
+    "2263": {
+      "category": "Clothing",
+      "name": "Christmas Tree Hat (Head)"
+    },
+    "2221": {
+      "category": "Clothing",
+      "name": "Cool Sea Breeze (Head)"
+    },
+    "2223": {
+      "category": "Clothing",
+      "name": "Cool Sea Breeze (Lower)"
+    },
+    "2222": {
+      "category": "Clothing",
+      "name": "Cool Sea Breeze (Upper)"
+    },
+    "22000": {
+      "category": "Clothing",
+      "name": "Default (Head)"
+    },
+    "22002": {
+      "category": "Clothing",
+      "name": "Default (Lower)"
+    },
+    "22001": {
+      "category": "Clothing",
+      "name": "Default (Upper)"
+    },
+    "2215": {
+      "category": "Clothing",
+      "name": "Demon Slayer Outfit (Head)"
+    },
+    "2217": {
+      "category": "Clothing",
+      "name": "Demon Slayer Outfit (Lower)"
+    },
+    "2216": {
+      "category": "Clothing",
+      "name": "Demon Slayer Outfit (Upper)"
+    },
+    "2264": {
+      "category": "Clothing",
+      "name": "Festive Fir Tail (Tail)"
+    },
+    "2229": {
+      "category": "Clothing",
+      "name": "Futakuchi-onna Mask"
+    },
+    "2202": {
+      "category": "Clothing",
+      "name": "Jinbei Kimono (Lower)"
+    },
+    "2201": {
+      "category": "Clothing",
+      "name": "Jinbei Kimono (Upper)"
+    },
+    "2231": {
+      "category": "Clothing",
+      "name": "Kappa Mask"
+    },
+    "2253": {
+      "category": "Clothing",
+      "name": "Lantern Spirit Hat (Head)"
+    },
+    "2224": {
+      "category": "Clothing",
+      "name": "Ode to the Fields (Head)"
+    },
+    "2226": {
+      "category": "Clothing",
+      "name": "Ode to the Fields (Lower)"
+    },
+    "2225": {
+      "category": "Clothing",
+      "name": "Ode to the Fields (Upper)"
+    },
+    "2250": {
+      "category": "Clothing",
+      "name": "Pumpkin Vine Tail (Tail)"
+    },
+    "2209": {
+      "category": "Clothing",
+      "name": "Rock Outfit (Head)"
+    },
+    "2211": {
+      "category": "Clothing",
+      "name": "Rock Outfit (Lower)"
+    },
+    "2210": {
+      "category": "Clothing",
+      "name": "Rock Outfit (Upper)"
+    },
+    "2206": {
+      "category": "Clothing",
+      "name": "Samurai Outfit (Head)"
+    },
+    "2208": {
+      "category": "Clothing",
+      "name": "Samurai Outfit (Lower)"
+    },
+    "2207": {
+      "category": "Clothing",
+      "name": "Samurai Outfit (Upper)"
+    },
+    "2228": {
+      "category": "Clothing",
+      "name": "Santan Mask"
+    },
+    "2218": {
+      "category": "Clothing",
+      "name": "Seikyu's Charm (Head)"
+    },
+    "2220": {
+      "category": "Clothing",
+      "name": "Seikyu's Charm (Lower)"
+    },
+    "2219": {
+      "category": "Clothing",
+      "name": "Seikyu's Charm (Upper)"
+    },
+    "2232": {
+      "category": "Clothing",
+      "name": "Serpent Samurai Outfit (Head)"
+    },
+    "2234": {
+      "category": "Clothing",
+      "name": "Serpent Samurai Outfit (Lower)"
+    },
+    "2233": {
+      "category": "Clothing",
+      "name": "Serpent Samurai Outfit (Upper)"
+    },
+    "2257": {
+      "category": "Clothing",
+      "name": "Special Santa Hat (Head)"
+    },
+    "2254": {
+      "category": "Clothing",
+      "name": "Spirit Ribbon Tail (Tail)"
+    },
+    "2245": {
+      "category": "Clothing",
+      "name": "Summer Blossom Outfit (Lower)"
+    },
+    "2244": {
+      "category": "Clothing",
+      "name": "Summer Blossom Outfit (Upper)"
+    },
+    "2227": {
+      "category": "Clothing",
+      "name": "Tengu Mask"
+    },
+    "2248": {
+      "category": "Clothing",
+      "name": "The Absolutely Fabulous Outfit (Head)"
+    },
+    "2247": {
+      "category": "Clothing",
+      "name": "The Absolutely Fabulous Outfit (Lower)"
+    },
+    "2246": {
+      "category": "Clothing",
+      "name": "The Absolutely Fabulous Outfit (Upper)"
+    },
+    "2203": {
+      "category": "Clothing",
+      "name": "Wanyūdō Outfit (Head)"
+    },
+    "2205": {
+      "category": "Clothing",
+      "name": "Wanyūdō Outfit (Lower)"
+    },
+    "2204": {
+      "category": "Clothing",
+      "name": "Wanyūdō Outfit (Upper)"
+    },
+    "2241": {
+      "category": "Clothing",
+      "name": "Wanyūdō Outfit [Limited] (Head)"
+    },
+    "2243": {
+      "category": "Clothing",
+      "name": "Wanyūdō Outfit [Limited] (Lower)"
+    },
+    "2242": {
+      "category": "Clothing",
+      "name": "Wanyūdō Outfit [Limited] (Upper)"
+    },
+    "2269": {
+      "category": "Clothing",
+      "name": "Wedding Attire (Bottom)"
+    },
+    "2267": {
+      "category": "Clothing",
+      "name": "Wedding Attire (Head)"
+    },
+    "2268": {
+      "category": "Clothing",
+      "name": "Wedding Attire (Top)"
+    },
+    "2238": {
+      "category": "Clothing",
+      "name": "Wildcat Outfit (Head)"
+    },
+    "2240": {
+      "category": "Clothing",
+      "name": "Wildcat Outfit (Lower)"
+    },
+    "2251": {
+      "category": "Clothing",
+      "name": "Wildcat Outfit (Tail)"
+    },
+    "2239": {
+      "category": "Clothing",
+      "name": "Wildcat Outfit (Upper)"
+    },
+    "2212": {
+      "category": "Clothing",
+      "name": "Worship Attire (Head)"
+    },
+    "2214": {
+      "category": "Clothing",
+      "name": "Worship Attire (Lower)"
+    },
+    "2213": {
+      "category": "Clothing",
+      "name": "Worship Attire (Upper)"
+    },
+    "2230": {
+      "category": "Clothing",
+      "name": "Yokai Fox Mask"
+    },
+    "3869": {
+      "category": "Furniture",
+      "name": "A Breath of Spring"
+    },
+    "29008": {
+      "category": "Furniture",
+      "name": "ACE Gargoyle"
+    },
+    "3814": {
+      "category": "Furniture",
+      "name": "Amaterasu's Radiance"
+    },
+    "3464": {
+      "category": "Furniture",
+      "name": "Animal Biscuit Oven"
+    },
+    "2905": {
+      "category": "Furniture",
+      "name": "Animal Trap"
+    },
+    "3856": {
+      "category": "Furniture",
+      "name": "Arcade Machine"
+    },
+    "3861": {
+      "category": "Furniture",
+      "name": "Art Tray"
+    },
+    "3837": {
+      "category": "Furniture",
+      "name": "Assorted Cupcakes"
+    },
+    "3871": {
+      "category": "Furniture",
+      "name": "At Play"
+    },
+    "3873": {
+      "category": "Furniture",
+      "name": "Autumn Peonies"
+    },
+    "3834": {
+      "category": "Furniture",
+      "name": "Baking Basket"
+    },
+    "3824": {
+      "category": "Furniture",
+      "name": "Bamboo Branch Vase"
+    },
+    "3935": {
+      "category": "Furniture",
+      "name": "Bamboo Trident"
+    },
+    "3891": {
+      "category": "Furniture",
+      "name": "Basic Covered Table"
+    },
+    "3428": {
+      "category": "Furniture",
+      "name": "Basic Sprinkler"
+    },
+    "3502": {
+      "category": "Furniture",
+      "name": "Bathtub"
+    },
+    "3853": {
+      "category": "Furniture",
+      "name": "Bean Bag Chair"
+    },
+    "3701": {
+      "category": "Furniture",
+      "name": "Bedside Table Lamp"
+    },
+    "3443": {
+      "category": "Furniture",
+      "name": "Beer Keg"
+    },
+    "3836": {
+      "category": "Furniture",
+      "name": "Berry Cream Cake"
+    },
+    "24004": {
+      "category": "Furniture",
+      "name": "Black Koinobori"
+    },
+    "3887": {
+      "category": "Furniture",
+      "name": "Blossom Silhouettes"
+    },
+    "3654": {
+      "category": "Furniture",
+      "name": "Blue Cotton Cushion"
+    },
+    "24002": {
+      "category": "Furniture",
+      "name": "Blue Koinobori"
+    },
+    "3901": {
+      "category": "Furniture",
+      "name": "Bonfire Manga Panels"
+    },
+    "3940": {
+      "category": "Furniture",
+      "name": "Bonsai Tree"
+    },
+    "3895": {
+      "category": "Furniture",
+      "name": "Boombox"
+    },
+    "29005": {
+      "category": "Furniture",
+      "name": "Boss Qian Duoduo and the Greedy Gold Treant"
+    },
+    "29010": {
+      "category": "Furniture",
+      "name": "Box Bakery"
+    },
+    "3461": {
+      "category": "Furniture",
+      "name": "Bug Bait Box"
+    },
+    "3934": {
+      "category": "Furniture",
+      "name": "Bunk Beds"
+    },
+    "3920": {
+      "category": "Furniture",
+      "name": "Burabura"
+    },
+    "3716": {
+      "category": "Furniture",
+      "name": "Burlap Sack"
+    },
+    "3820": {
+      "category": "Furniture",
+      "name": "Calligraphy Art"
+    },
+    "3808": {
+      "category": "Furniture",
+      "name": "Calligraphy Plaque"
+    },
+    "3883": {
+      "category": "Furniture",
+      "name": "Cat Tree"
+    },
+    "3713": {
+      "category": "Furniture",
+      "name": "Ceramic Tea Set"
+    },
+    "3711": {
+      "category": "Furniture",
+      "name": "Ceramic Vase"
+    },
+    "3421": {
+      "category": "Furniture",
+      "name": "Charcoal Kiln"
+    },
+    "3427": {
+      "category": "Furniture",
+      "name": "Cheese Press"
+    },
+    "3866": {
+      "category": "Furniture",
+      "name": "Chessboard"
+    },
+    "3807": {
+      "category": "Furniture",
+      "name": "Chinese Landscape Painting"
+    },
+    "3460": {
+      "category": "Furniture",
+      "name": "Chip Production Machine"
+    },
+    "3911": {
+      "category": "Furniture",
+      "name": "Clock Yokai"
+    },
+    "3720": {
+      "category": "Furniture",
+      "name": "Coffee Machine"
+    },
+    "3875": {
+      "category": "Furniture",
+      "name": "Comfy Futon"
+    },
+    "3885": {
+      "category": "Furniture",
+      "name": "Compact Vanity"
+    },
+    "3457": {
+      "category": "Furniture",
+      "name": "Compost Bin"
+    },
+    "3707": {
+      "category": "Furniture",
+      "name": "Copper Incense Burner"
+    },
+    "3919": {
+      "category": "Furniture",
+      "name": "Covered Round Table"
+    },
+    "3401": {
+      "category": "Furniture",
+      "name": "Crafting Table"
+    },
+    "3916": {
+      "category": "Furniture",
+      "name": "Crane Carpet"
+    },
+    "3459": {
+      "category": "Furniture",
+      "name": "Crystal Replication Machine"
+    },
+    "3801": {
+      "category": "Furniture",
+      "name": "Curved Wall Lamp"
+    },
+    "3881": {
+      "category": "Furniture",
+      "name": "Daruma Doll"
+    },
+    "3816": {
+      "category": "Furniture",
+      "name": "Daybreak Bloom"
+    },
+    "3868": {
+      "category": "Furniture",
+      "name": "Decorative Ship's Wheel"
+    },
+    "3886": {
+      "category": "Furniture",
+      "name": "Desert Plant Display"
+    },
+    "3603": {
+      "category": "Furniture",
+      "name": "Designer Wooden Stool"
+    },
+    "3862": {
+      "category": "Furniture",
+      "name": "Dome Floor Lamp"
+    },
+    "3831": {
+      "category": "Furniture",
+      "name": "Double Gas Stove"
+    },
+    "3915": {
+      "category": "Furniture",
+      "name": "Dragon-Backed Mirror"
+    },
+    "3509": {
+      "category": "Furniture",
+      "name": "Drawing Board"
+    },
+    "3851": {
+      "category": "Furniture",
+      "name": "Drawing Workbench"
+    },
+    "3822": {
+      "category": "Furniture",
+      "name": "Drum-Style Armor"
+    },
+    "3422": {
+      "category": "Furniture",
+      "name": "Drying Rack"
+    },
+    "3444": {
+      "category": "Furniture",
+      "name": "Dye Bath"
+    },
+    "3860": {
+      "category": "Furniture",
+      "name": "Dye Shelf"
+    },
+    "3442": {
+      "category": "Furniture",
+      "name": "Dyeing Station"
+    },
+    "3708": {
+      "category": "Furniture",
+      "name": "Electric Fan"
+    },
+    "3907": {
+      "category": "Furniture",
+      "name": "Elegant Carpet"
+    },
+    "3910": {
+      "category": "Furniture",
+      "name": "Elegant Chair"
+    },
+    "3889": {
+      "category": "Furniture",
+      "name": "Elegant Display Arrow"
+    },
+    "3888": {
+      "category": "Furniture",
+      "name": "Elegant Display Bow"
+    },
+    "3882": {
+      "category": "Furniture",
+      "name": "Elegant Display Case"
+    },
+    "3904": {
+      "category": "Furniture",
+      "name": "Elegant Side Table"
+    },
+    "3922": {
+      "category": "Furniture",
+      "name": "Elegantly Dishevelled Bed"
+    },
+    "3717": {
+      "category": "Furniture",
+      "name": "Engineer's Table Lamp"
+    },
+    "3501": {
+      "category": "Furniture",
+      "name": "Exquisite Bed"
+    },
+    "3514": {
+      "category": "Furniture",
+      "name": "Exquisite Bedside Table"
+    },
+    "3515": {
+      "category": "Furniture",
+      "name": "Exquisite L-Shaped Cabinet"
+    },
+    "3703": {
+      "category": "Furniture",
+      "name": "Exquisite Radio"
+    },
+    "3425": {
+      "category": "Furniture",
+      "name": "Exquisite Wooden Chest"
+    },
+    "3945": {
+      "category": "Furniture",
+      "name": "Festival Lamp Post"
+    },
+    "3946": {
+      "category": "Furniture",
+      "name": "Festival Lantern"
+    },
+    "3863": {
+      "category": "Furniture",
+      "name": "Fireplace"
+    },
+    "3848": {
+      "category": "Furniture",
+      "name": "Fish Display"
+    },
+    "3449": {
+      "category": "Furniture",
+      "name": "Fish Pond"
+    },
+    "2902": {
+      "category": "Furniture",
+      "name": "Fishing Trap"
+    },
+    "3655": {
+      "category": "Furniture",
+      "name": "Floor Cloud Chair"
+    },
+    "3521": {
+      "category": "Furniture",
+      "name": "Floor Tea Table"
+    },
+    "3463": {
+      "category": "Furniture",
+      "name": "Flower Duplication Box"
+    },
+    "29009": {
+      "category": "Furniture",
+      "name": "Fox Plushie"
+    },
+    "3835": {
+      "category": "Furniture",
+      "name": "Fruit Cake"
+    },
+    "3842": {
+      "category": "Furniture",
+      "name": "Glazed Flower Plate"
+    },
+    "3817": {
+      "category": "Furniture",
+      "name": "Golden Fans Wall Decoration"
+    },
+    "3414": {
+      "category": "Furniture",
+      "name": "Gourd Lantern"
+    },
+    "3819": {
+      "category": "Furniture",
+      "name": "Goza Target"
+    },
+    "3651": {
+      "category": "Furniture",
+      "name": "Green Cotton Cushion"
+    },
+    "24001": {
+      "category": "Furniture",
+      "name": "Green Koinobori"
+    },
+    "3527": {
+      "category": "Furniture",
+      "name": "Grid Pattern Floor Table"
+    },
+    "3893": {
+      "category": "Furniture",
+      "name": "Guitar"
+    },
+    "3905": {
+      "category": "Furniture",
+      "name": "Half-Tester Bed"
+    },
+    "3513": {
+      "category": "Furniture",
+      "name": "Harvest Dining Table"
+    },
+    "3830": {
+      "category": "Furniture",
+      "name": "Household Oven"
+    },
+    "3843": {
+      "category": "Furniture",
+      "name": "Integrated Kitchen Counter"
+    },
+    "3510": {
+      "category": "Furniture",
+      "name": "Japanese Bedding"
+    },
+    "3531": {
+      "category": "Furniture",
+      "name": "Japanese Tea Set"
+    },
+    "3804": {
+      "category": "Furniture",
+      "name": "Japanese-Style Fan"
+    },
+    "3917": {
+      "category": "Furniture",
+      "name": "Kasa-obake"
+    },
+    "3821": {
+      "category": "Furniture",
+      "name": "Katana Rack"
+    },
+    "3410": {
+      "category": "Furniture",
+      "name": "Kimono Stand"
+    },
+    "3507": {
+      "category": "Furniture",
+      "name": "Kimono Stand (New)"
+    },
+    "3825": {
+      "category": "Furniture",
+      "name": "Kitchen Counter"
+    },
+    "3441": {
+      "category": "Furniture",
+      "name": "Koinobori Pole"
+    },
+    "3900": {
+      "category": "Furniture",
+      "name": "Kotatsu"
+    },
+    "3503": {
+      "category": "Furniture",
+      "name": "L-Shaped Folding Screen"
+    },
+    "3833": {
+      "category": "Furniture",
+      "name": "Ladle Rack"
+    },
+    "3418": {
+      "category": "Furniture",
+      "name": "Lantern"
+    },
+    "3944": {
+      "category": "Furniture",
+      "name": "Lantern Gate"
+    },
+    "3511": {
+      "category": "Furniture",
+      "name": "Large Clay Jar"
+    },
+    "3605": {
+      "category": "Furniture",
+      "name": "Leather Armchair"
+    },
+    "3451": {
+      "category": "Furniture",
+      "name": "Loom"
+    },
+    "3845": {
+      "category": "Furniture",
+      "name": "Lounge Chair Set"
+    },
+    "3890": {
+      "category": "Furniture",
+      "name": "Low Table"
+    },
+    "29006": {
+      "category": "Furniture",
+      "name": "Ma Feifei"
+    },
+    "3709": {
+      "category": "Furniture",
+      "name": "Maneki-neko"
+    },
+    "3426": {
+      "category": "Furniture",
+      "name": "Mayonnaise Maker"
+    },
+    "3841": {
+      "category": "Furniture",
+      "name": "Metal Safe"
+    },
+    "3602": {
+      "category": "Furniture",
+      "name": "Metal Stool"
+    },
+    "3894": {
+      "category": "Furniture",
+      "name": "Microphone with Stand"
+    },
+    "3850": {
+      "category": "Furniture",
+      "name": "Monstera Potted Plant"
+    },
+    "3809": {
+      "category": "Furniture",
+      "name": "Mountain & Sea Painting"
+    },
+    "3823": {
+      "category": "Furniture",
+      "name": "Mountain Landscape Painting"
+    },
+    "3469": {
+      "category": "Furniture",
+      "name": "Mushroom Stump"
+    },
+    "3532": {
+      "category": "Furniture",
+      "name": "Nine-Tailed Kimono"
+    },
+    "3884": {
+      "category": "Furniture",
+      "name": "Noble Stool"
+    },
+    "3412": {
+      "category": "Furniture",
+      "name": "Oblong Floor Lamp"
+    },
+    "3512": {
+      "category": "Furniture",
+      "name": "Old Bedside Table"
+    },
+    "3604": {
+      "category": "Furniture",
+      "name": "Old Sofa"
+    },
+    "3702": {
+      "category": "Furniture",
+      "name": "Old-Fashioned TV"
+    },
+    "3458": {
+      "category": "Furniture",
+      "name": "Ore Replication Machine"
+    },
+    "3430": {
+      "category": "Furniture",
+      "name": "Outdoor Bonfire"
+    },
+    "3849": {
+      "category": "Furniture",
+      "name": "Paper Globe Lamp"
+    },
+    "3506": {
+      "category": "Furniture",
+      "name": "Paper Lantern"
+    },
+    "3812": {
+      "category": "Furniture",
+      "name": "Peony with Morning Dew"
+    },
+    "1101": {
+      "category": "Furniture",
+      "name": "Pet Den"
+    },
+    "3914": {
+      "category": "Furniture",
+      "name": "Petal Light Fixture"
+    },
+    "3424": {
+      "category": "Furniture",
+      "name": "Pickling Barrel"
+    },
+    "3827": {
+      "category": "Furniture",
+      "name": "Pink Pattern Bed"
+    },
+    "3852": {
+      "category": "Furniture",
+      "name": "Portable Game Console"
+    },
+    "3715": {
+      "category": "Furniture",
+      "name": "Potted Plant"
+    },
+    "3815": {
+      "category": "Furniture",
+      "name": "Queen of Flowers"
+    },
+    "24005": {
+      "category": "Furniture",
+      "name": "Rainbow Koinobori"
+    },
+    "3941": {
+      "category": "Furniture",
+      "name": "Reading Nook"
+    },
+    "3653": {
+      "category": "Furniture",
+      "name": "Red Cotton Cushion"
+    },
+    "24003": {
+      "category": "Furniture",
+      "name": "Red Koinobori"
+    },
+    "3909": {
+      "category": "Furniture",
+      "name": "Refined Desk"
+    },
+    "3829": {
+      "category": "Furniture",
+      "name": "Retro Refrigerator"
+    },
+    "3516": {
+      "category": "Furniture",
+      "name": "Round Floor Table"
+    },
+    "3530": {
+      "category": "Furniture",
+      "name": "Round Western Carpet"
+    },
+    "3607": {
+      "category": "Furniture",
+      "name": "Round Wooden Stool"
+    },
+    "3406": {
+      "category": "Furniture",
+      "name": "Sake Brewer"
+    },
+    "3942": {
+      "category": "Furniture",
+      "name": "Sakura Carpet"
+    },
+    "3405": {
+      "category": "Furniture",
+      "name": "Scarecrow Yokai"
+    },
+    "3710": {
+      "category": "Furniture",
+      "name": "Scrubbing Basin"
+    },
+    "3456": {
+      "category": "Furniture",
+      "name": "Seed Separator"
+    },
+    "3719": {
+      "category": "Furniture",
+      "name": "Seikyu Floral Arrangement [Limited]"
+    },
+    "2901": {
+      "category": "Furniture",
+      "name": "Shrimp and Crab Trap"
+    },
+    "3522": {
+      "category": "Furniture",
+      "name": "Simple Floor Table"
+    },
+    "3517": {
+      "category": "Furniture",
+      "name": "Simple Wooden Table"
+    },
+    "3847": {
+      "category": "Furniture",
+      "name": "Sleek Minimalist Sofa"
+    },
+    "2920": {
+      "category": "Furniture",
+      "name": "Slime Cultivation Barrel"
+    },
+    "3705": {
+      "category": "Furniture",
+      "name": "Small Picture Frame"
+    },
+    "3402": {
+      "category": "Furniture",
+      "name": "Small Wooden Box"
+    },
+    "3407": {
+      "category": "Furniture",
+      "name": "Smelting Furnace"
+    },
+    "3879": {
+      "category": "Furniture",
+      "name": "Snowy View"
+    },
+    "3897": {
+      "category": "Furniture",
+      "name": "Sound Mixer"
+    },
+    "3896": {
+      "category": "Furniture",
+      "name": "Speaker"
+    },
+    "3943": {
+      "category": "Furniture",
+      "name": "Special Weapon Rack"
+    },
+    "3450": {
+      "category": "Furniture",
+      "name": "Spinning Wheel"
+    },
+    "3936": {
+      "category": "Furniture",
+      "name": "Spouse's Wardrobe"
+    },
+    "3445": {
+      "category": "Furniture",
+      "name": "Spray Station"
+    },
+    "3423": {
+      "category": "Furniture",
+      "name": "Square Ceiling Chandelier"
+    },
+    "3528": {
+      "category": "Furniture",
+      "name": "Square Cloud Carpet"
+    },
+    "3652": {
+      "category": "Furniture",
+      "name": "Square Floor Chair"
+    },
+    "3529": {
+      "category": "Furniture",
+      "name": "Square Western Carpet"
+    },
+    "3524": {
+      "category": "Furniture",
+      "name": "Square Wooden Table"
+    },
+    "3898": {
+      "category": "Furniture",
+      "name": "Standing Keyboard"
+    },
+    "3846": {
+      "category": "Furniture",
+      "name": "Standing Lantern"
+    },
+    "3828": {
+      "category": "Furniture",
+      "name": "Standing Wooden Cabinet"
+    },
+    "3903": {
+      "category": "Furniture",
+      "name": "Stately Drawers"
+    },
+    "3912": {
+      "category": "Furniture",
+      "name": "Stately Leather Armchair"
+    },
+    "3913": {
+      "category": "Furniture",
+      "name": "Stately Leather Sofa"
+    },
+    "3921": {
+      "category": "Furniture",
+      "name": "Stately Low Table"
+    },
+    "3840": {
+      "category": "Furniture",
+      "name": "Step Cabinet"
+    },
+    "3416": {
+      "category": "Furniture",
+      "name": "Stone Lantern"
+    },
+    "3409": {
+      "category": "Furniture",
+      "name": "Stone Mill"
+    },
+    "3446": {
+      "category": "Furniture",
+      "name": "Stone Mortar"
+    },
+    "34001": {
+      "category": "Furniture",
+      "name": "Storage Yokai"
+    },
+    "3404": {
+      "category": "Furniture",
+      "name": "Stove"
+    },
+    "3876": {
+      "category": "Furniture",
+      "name": "Sturdy Bed"
+    },
+    "3872": {
+      "category": "Furniture",
+      "name": "Sudden Rain"
+    },
+    "3874": {
+      "category": "Furniture",
+      "name": "Summer Flows to Autumn"
+    },
+    "3870": {
+      "category": "Furniture",
+      "name": "Summer's Bloom"
+    },
+    "3838": {
+      "category": "Furniture",
+      "name": "Sunflower Arrangement"
+    },
+    "3712": {
+      "category": "Furniture",
+      "name": "Tabletop Candle"
+    },
+    "3525": {
+      "category": "Furniture",
+      "name": "Tea Display Cabinet"
+    },
+    "3813": {
+      "category": "Furniture",
+      "name": "Tears of the Moon"
+    },
+    "3855": {
+      "category": "Furniture",
+      "name": "Television"
+    },
+    "3878": {
+      "category": "Furniture",
+      "name": "Terrarium"
+    },
+    "3718": {
+      "category": "Furniture",
+      "name": "Test Fish Tank"
+    },
+    "3462": {
+      "category": "Furniture",
+      "name": "Thatch Spirit"
+    },
+    "3420": {
+      "category": "Furniture",
+      "name": "Thatched Bed"
+    },
+    "3432": {
+      "category": "Furniture",
+      "name": "Thatched Fishing Hut"
+    },
+    "3431": {
+      "category": "Furniture",
+      "name": "Thatched Shelter"
+    },
+    "3892": {
+      "category": "Furniture",
+      "name": "Toaster"
+    },
+    "3448": {
+      "category": "Furniture",
+      "name": "Toaster Oven"
+    },
+    "3408": {
+      "category": "Furniture",
+      "name": "Tofu Press"
+    },
+    "3844": {
+      "category": "Furniture",
+      "name": "Tomato Basket"
+    },
+    "3810": {
+      "category": "Furniture",
+      "name": "Tool Pegboard"
+    },
+    "3722": {
+      "category": "Furniture",
+      "name": "Torii"
+    },
+    "3706": {
+      "category": "Furniture",
+      "name": "Toy Ornament"
+    },
+    "3933": {
+      "category": "Furniture",
+      "name": "Traditional Lamppost"
+    },
+    "3857": {
+      "category": "Furniture",
+      "name": "Training Dummy"
+    },
+    "3880": {
+      "category": "Furniture",
+      "name": "Travel Backpack"
+    },
+    "29007": {
+      "category": "Furniture",
+      "name": "Tree Village Hero"
+    },
+    "3859": {
+      "category": "Furniture",
+      "name": "Two-Tier Bookshelf"
+    },
+    "3865": {
+      "category": "Furniture",
+      "name": "Typewriter"
+    },
+    "3854": {
+      "category": "Furniture",
+      "name": "Video Game Console"
+    },
+    "3826": {
+      "category": "Furniture",
+      "name": "Vintage Wooden Cabinet"
+    },
+    "3806": {
+      "category": "Furniture",
+      "name": "Wall Mirror"
+    },
+    "3832": {
+      "category": "Furniture",
+      "name": "Warm Glow Chandelier"
+    },
+    "3867": {
+      "category": "Furniture",
+      "name": "Wave-Pattern Carpet"
+    },
+    "3906": {
+      "category": "Furniture",
+      "name": "Wavy Folding Screen"
+    },
+    "3939": {
+      "category": "Furniture",
+      "name": "Weapon Care Kit"
+    },
+    "3411": {
+      "category": "Furniture",
+      "name": "Well-Made Bedding"
+    },
+    "3601": {
+      "category": "Furniture",
+      "name": "Western Leather Sofa"
+    },
+    "3802": {
+      "category": "Furniture",
+      "name": "Western Pendulum Clock"
+    },
+    "3519": {
+      "category": "Furniture",
+      "name": "Western Wooden Floor Table"
+    },
+    "3518": {
+      "category": "Furniture",
+      "name": "Western Wooden Table"
+    },
+    "3714": {
+      "category": "Furniture",
+      "name": "White Ceramic Tea Set"
+    },
+    "3864": {
+      "category": "Furniture",
+      "name": "Wooden Altar"
+    },
+    "3520": {
+      "category": "Furniture",
+      "name": "Wooden Chest Of Drawers"
+    },
+    "3606": {
+      "category": "Furniture",
+      "name": "Wooden Cotton Stool"
+    },
+    "3523": {
+      "category": "Furniture",
+      "name": "Wooden Desk"
+    },
+    "3858": {
+      "category": "Furniture",
+      "name": "Wooden Double Bed"
+    },
+    "3419": {
+      "category": "Furniture",
+      "name": "Wooden Fence"
+    },
+    "3429": {
+      "category": "Furniture",
+      "name": "Wooden Flooring"
+    },
+    "3417": {
+      "category": "Furniture",
+      "name": "Wooden Gate"
+    },
+    "3505": {
+      "category": "Furniture",
+      "name": "Wooden Mirror"
+    },
+    "3805": {
+      "category": "Furniture",
+      "name": "Wooden Shelf"
+    },
+    "3415": {
+      "category": "Furniture",
+      "name": "Wooden Sign"
+    },
+    "3413": {
+      "category": "Furniture",
+      "name": "Wooden Storage Cabinet"
+    },
+    "3508": {
+      "category": "Furniture",
+      "name": "Wooden Storage Unit"
+    },
+    "3526": {
+      "category": "Furniture",
+      "name": "Wooden Tea Cabinet"
+    },
+    "3811": {
+      "category": "Furniture",
+      "name": "Wooden Wall Cabinet"
+    },
+    "3504": {
+      "category": "Furniture",
+      "name": "Wooden Wardrobe"
+    },
+    "3818": {
+      "category": "Furniture",
+      "name": "Wooden Wine Cabinet"
+    },
+    "3839": {
+      "category": "Furniture",
+      "name": "Wooden-Frame Lantern"
+    },
+    "3721": {
+      "category": "Furniture",
+      "name": "Yohji’s Coffee Setup"
+    },
+    "3403": {
+      "category": "Furniture",
+      "name": "Yokai Cauldron"
+    },
+    "3803": {
+      "category": "Furniture",
+      "name": "Yokai Wall Ornament"
+    },
+    "3704": {
+      "category": "Furniture",
+      "name": "Yuni's Antlers"
+    },
+    "8023": {
+      "category": "Buildings & Upgrades",
+      "name": "Capybara Hot Springs"
+    },
+    "8022": {
+      "category": "Buildings & Upgrades",
+      "name": "Large Animal Den"
+    },
+    "8012": {
+      "category": "Buildings & Upgrades",
+      "name": "Large Barn"
+    },
+    "8002": {
+      "category": "Buildings & Upgrades",
+      "name": "Large Coop"
+    },
+    "8021": {
+      "category": "Buildings & Upgrades",
+      "name": "Medium Animal Den"
+    },
+    "8011": {
+      "category": "Buildings & Upgrades",
+      "name": "Medium Barn"
+    },
+    "8001": {
+      "category": "Buildings & Upgrades",
+      "name": "Medium Coop"
+    },
+    "8040": {
+      "category": "Buildings & Upgrades",
+      "name": "Monster House"
+    },
+    "8210": {
+      "category": "Buildings & Upgrades",
+      "name": "Monster House Tool Kit"
+    },
+    "3468": {
+      "category": "Buildings & Upgrades",
+      "name": "Overground Teleport Point"
+    },
+    "3467": {
+      "category": "Buildings & Upgrades",
+      "name": "Ruins Teleport Point"
+    },
+    "8030": {
+      "category": "Buildings & Upgrades",
+      "name": "Silo"
+    },
+    "8020": {
+      "category": "Buildings & Upgrades",
+      "name": "Small Animal Den"
+    },
+    "8207": {
+      "category": "Buildings & Upgrades",
+      "name": "Small Animal Den Construction Kit"
+    },
+    "8010": {
+      "category": "Buildings & Upgrades",
+      "name": "Small Barn"
+    },
+    "8204": {
+      "category": "Buildings & Upgrades",
+      "name": "Small Barn Construction Kit"
+    },
+    "8000": {
+      "category": "Buildings & Upgrades",
+      "name": "Small Coop"
+    },
+    "8201": {
+      "category": "Buildings & Upgrades",
+      "name": "Small Coop Construction Kit"
+    },
+    "8104": {
+      "category": "Livestock",
+      "name": "Capybara"
+    },
+    "8101": {
+      "category": "Livestock",
+      "name": "Chicken"
+    },
+    "8103": {
+      "category": "Livestock",
+      "name": "Cow"
+    },
+    "8102": {
+      "category": "Livestock",
+      "name": "Goat"
+    },
+    "8105": {
+      "category": "Livestock",
+      "name": "Ibis"
+    },
+    "8106": {
+      "category": "Livestock",
+      "name": "Red Panda"
+    },
+    "8156": {
+      "category": "Monsters & Yokai",
+      "name": "Abura-sumashi"
+    },
+    "8171": {
+      "category": "Monsters & Yokai",
+      "name": "Arrow Statue"
+    },
+    "8151": {
+      "category": "Monsters & Yokai",
+      "name": "Blue Oni"
+    },
+    "8169": {
+      "category": "Monsters & Yokai",
+      "name": "Dark Fox Wraith"
+    },
+    "8158": {
+      "category": "Monsters & Yokai",
+      "name": "Little Skull"
+    },
+    "8155": {
+      "category": "Monsters & Yokai",
+      "name": "Man-Eating Plant"
+    },
+    "8157": {
+      "category": "Monsters & Yokai",
+      "name": "Mekurabe"
+    },
+    "8161": {
+      "category": "Monsters & Yokai",
+      "name": "Mud Slime"
+    },
+    "8163": {
+      "category": "Monsters & Yokai",
+      "name": "Nioh"
+    },
+    "8150": {
+      "category": "Monsters & Yokai",
+      "name": "Oni"
+    },
+    "8160": {
+      "category": "Monsters & Yokai",
+      "name": "Pale Puppet"
+    },
+    "8153": {
+      "category": "Monsters & Yokai",
+      "name": "Puppet Oni"
+    },
+    "8159": {
+      "category": "Monsters & Yokai",
+      "name": "Shadowblade Oni"
+    },
+    "8154": {
+      "category": "Monsters & Yokai",
+      "name": "Slime"
+    },
+    "8167": {
+      "category": "Monsters & Yokai",
+      "name": "Spear-Wielding Oni"
+    },
+    "8166": {
+      "category": "Monsters & Yokai",
+      "name": "Stone Golem"
+    },
+    "8152": {
+      "category": "Monsters & Yokai",
+      "name": "Stone Statue"
+    },
+    "8162": {
+      "category": "Monsters & Yokai",
+      "name": "Sword Oni"
+    },
+    "8168": {
+      "category": "Monsters & Yokai",
+      "name": "Walking Man-Eating Plant"
+    },
+    "8165": {
+      "category": "Monsters & Yokai",
+      "name": "Wild Boar"
+    },
+    "8164": {
+      "category": "Monsters & Yokai",
+      "name": "Withered Stone Golem"
+    },
+    "8301": {
+      "category": "Pets",
+      "name": "Animal Treats"
+    },
+    "8107": {
+      "category": "Pets",
+      "name": "Bao"
+    },
+    "8305": {
+      "category": "Pets",
+      "name": "Christmas Hat"
+    },
+    "8302": {
+      "category": "Pets",
+      "name": "Frog Headgear"
+    },
+    "8303": {
+      "category": "Pets",
+      "name": "Little Yellow Duck"
+    },
+    "8108": {
+      "category": "Pets",
+      "name": "Marbles"
+    },
+    "8307": {
+      "category": "Pets",
+      "name": "Pet Super Treat"
+    },
+    "8110": {
+      "category": "Pets",
+      "name": "Pillow"
+    },
+    "8304": {
+      "category": "Pets",
+      "name": "Propeller Cap"
+    },
+    "8109": {
+      "category": "Pets",
+      "name": "Torg"
+    },
+    "8111": {
+      "category": "Pets",
+      "name": "Tusser"
+    },
+    "25156": {
+      "category": "Quest & Story Items",
+      "name": "A Perfect Egg"
+    },
+    "2550": {
+      "category": "Quest & Story Items",
+      "name": "Anji’s Talisman"
+    },
+    "25144": {
+      "category": "Quest & Story Items",
+      "name": "Bonfire Delight!"
+    },
+    "29004": {
+      "category": "Quest & Story Items",
+      "name": "Carp Festival Bait"
+    },
+    "24006": {
+      "category": "Quest & Story Items",
+      "name": "Carp Festival Golden Egg"
+    },
+    "2906": {
+      "category": "Quest & Story Items",
+      "name": "Damp Package"
+    },
+    "2546": {
+      "category": "Quest & Story Items",
+      "name": "Fox Scroll"
+    },
+    "25139": {
+      "category": "Quest & Story Items",
+      "name": "Fox Seal"
+    },
+    "29001": {
+      "category": "Quest & Story Items",
+      "name": "Gulubo's Treasure"
+    },
+    "25134": {
+      "category": "Quest & Story Items",
+      "name": "Hana"
+    },
+    "25155": {
+      "category": "Quest & Story Items",
+      "name": "Hidden Note"
+    },
+    "25146": {
+      "category": "Quest & Story Items",
+      "name": "Hot Spring Opening!"
+    },
+    "2547": {
+      "category": "Quest & Story Items",
+      "name": "Human Scroll"
+    },
+    "42000": {
+      "category": "Quest & Story Items",
+      "name": "Kappa's Cucumber"
+    },
+    "2524": {
+      "category": "Quest & Story Items",
+      "name": "Kappa's Keepsake"
+    },
+    "29003": {
+      "category": "Quest & Story Items",
+      "name": "Koban"
+    },
+    "25147": {
+      "category": "Quest & Story Items",
+      "name": "Kon and Seabert Fishing!"
+    },
+    "25145": {
+      "category": "Quest & Story Items",
+      "name": "Kon’s Party!"
+    },
+    "4001": {
+      "category": "Quest & Story Items",
+      "name": "Mysterious Box"
+    },
+    "25157": {
+      "category": "Quest & Story Items",
+      "name": "Old Record Book"
+    },
+    "25138": {
+      "category": "Quest & Story Items",
+      "name": "Pieced-Together Note"
+    },
+    "25135": {
+      "category": "Quest & Story Items",
+      "name": "Scrap of Paper · I"
+    },
+    "25136": {
+      "category": "Quest & Story Items",
+      "name": "Scrap of Paper · II"
+    },
+    "25137": {
+      "category": "Quest & Story Items",
+      "name": "Scrap of Paper · III"
+    },
+    "2925": {
+      "category": "Quest & Story Items",
+      "name": "Seabert's Photo"
+    },
+    "25143": {
+      "category": "Quest & Story Items",
+      "name": "Special Fishing Rod"
+    },
+    "25133": {
+      "category": "Quest & Story Items",
+      "name": "Tales of Glory"
+    },
+    "25148": {
+      "category": "Quest & Story Items",
+      "name": "The Superheroes and their Statues!"
+    },
+    "2146": {
+      "category": "Quest & Story Items",
+      "name": "Underwater Treasure Chest"
+    },
+    "2908": {
+      "category": "Quest & Story Items",
+      "name": "VHS Camcorder"
+    },
+    "2549": {
+      "category": "Quest & Story Items",
+      "name": "Yuki-onna Scroll"
+    },
+    "25140": {
+      "category": "Quest & Story Items",
+      "name": "Tabletop Game Figurine (Copper)"
+    },
+    "25142": {
+      "category": "Quest & Story Items",
+      "name": "Tabletop Game Figurine (Gold)"
+    },
+    "25141": {
+      "category": "Quest & Story Items",
+      "name": "Tabletop Game Figurine (Iron)"
+    },
+    "37010": {
+      "category": "Buildings & Upgrades",
+      "name": "Backpack Expansion"
+    },
+    "2": {
+      "category": "Currency",
+      "name": "Chip"
+    },
+    "1": {
+      "category": "Currency",
+      "name": "Gold"
+    },
+    "3": {
+      "category": "Currency",
+      "name": "Talisman"
+    },
+    "40001": {
+      "category": "Hidden",
+      "name": "Rotten Item"
+    },
+    "35555": {
+      "category": "Hidden",
+      "name": "Test Quest Item"
+    }
+  }
+}

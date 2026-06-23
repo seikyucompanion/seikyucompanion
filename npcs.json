@@ -1,0 +1,942 @@
+[
+  {
+    "id": 4202,
+    "name": "Yohji",
+    "birthday_month": 4,
+    "birthday_day": 9,
+    "birthday_season": "Winter",
+    "romanceable": true,
+    "gift_enabled": true,
+    "show_relation": true
+  },
+  {
+    "id": 4203,
+    "name": "Musashi",
+    "birthday_month": 1,
+    "birthday_day": 6,
+    "birthday_season": "Spring",
+    "romanceable": true,
+    "gift_enabled": true,
+    "show_relation": true
+  },
+  {
+    "id": 4204,
+    "name": "Liliana",
+    "birthday_month": 4,
+    "birthday_day": 9,
+    "birthday_season": "Winter",
+    "romanceable": true,
+    "gift_enabled": true,
+    "show_relation": true
+  },
+  {
+    "id": 4205,
+    "name": "Miss Ama",
+    "birthday_month": 3,
+    "birthday_day": 17,
+    "birthday_season": "Autumn",
+    "romanceable": true,
+    "gift_enabled": true,
+    "show_relation": true
+  },
+  {
+    "id": 4206,
+    "name": "Torleone",
+    "birthday_month": 2,
+    "birthday_day": 9,
+    "birthday_season": "Summer",
+    "romanceable": true,
+    "gift_enabled": true,
+    "show_relation": true
+  },
+  {
+    "id": 4207,
+    "name": "Seabert",
+    "birthday_month": 1,
+    "birthday_day": 25,
+    "birthday_season": "Spring",
+    "romanceable": false,
+    "gift_enabled": true,
+    "show_relation": true
+  },
+  {
+    "id": 4208,
+    "name": "Shuten",
+    "birthday_month": 3,
+    "birthday_day": 28,
+    "birthday_season": "Autumn",
+    "romanceable": true,
+    "gift_enabled": true,
+    "show_relation": true
+  },
+  {
+    "id": 4209,
+    "name": "Yui",
+    "birthday_month": 2,
+    "birthday_day": 3,
+    "birthday_season": "Summer",
+    "romanceable": true,
+    "gift_enabled": true,
+    "show_relation": true
+  },
+  {
+    "id": 4210,
+    "name": "Sasaki",
+    "birthday_month": 4,
+    "birthday_day": 20,
+    "birthday_season": "Winter",
+    "romanceable": true,
+    "gift_enabled": true,
+    "show_relation": true
+  },
+  {
+    "id": 4212,
+    "name": "Prince",
+    "birthday_month": 2,
+    "birthday_day": 24,
+    "birthday_season": "Summer",
+    "romanceable": false,
+    "gift_enabled": true,
+    "show_relation": true
+  },
+  {
+    "id": 4213,
+    "name": "Theo",
+    "birthday_month": 2,
+    "birthday_day": 12,
+    "birthday_season": "Summer",
+    "romanceable": false,
+    "gift_enabled": true,
+    "show_relation": true
+  },
+  {
+    "id": 4214,
+    "name": "Tommy",
+    "birthday_month": 2,
+    "birthday_day": 12,
+    "birthday_season": "Summer",
+    "romanceable": false,
+    "gift_enabled": true,
+    "show_relation": true
+  },
+  {
+    "id": 4215,
+    "name": "Ivan",
+    "birthday_month": 3,
+    "birthday_day": 11,
+    "birthday_season": "Autumn",
+    "romanceable": false,
+    "gift_enabled": true,
+    "show_relation": true
+  },
+  {
+    "id": 4216,
+    "name": "Uozumi",
+    "birthday_month": 4,
+    "birthday_day": 17,
+    "birthday_season": "Winter",
+    "romanceable": false,
+    "gift_enabled": true,
+    "show_relation": true
+  },
+  {
+    "id": 4217,
+    "name": "Mr Croaks",
+    "birthday_month": 0,
+    "birthday_day": 0,
+    "birthday_season": null,
+    "romanceable": false,
+    "gift_enabled": true,
+    "show_relation": false
+  },
+  {
+    "id": 4218,
+    "name": "Anna",
+    "birthday_month": 3,
+    "birthday_day": 19,
+    "birthday_season": "Autumn",
+    "romanceable": true,
+    "gift_enabled": true,
+    "show_relation": true
+  },
+  {
+    "id": 4219,
+    "name": "Mika",
+    "birthday_month": 4,
+    "birthday_day": 12,
+    "birthday_season": "Winter",
+    "romanceable": true,
+    "gift_enabled": true,
+    "show_relation": true
+  },
+  {
+    "id": 4220,
+    "name": "Leon",
+    "birthday_month": 3,
+    "birthday_day": 8,
+    "birthday_season": "Autumn",
+    "romanceable": true,
+    "gift_enabled": true,
+    "show_relation": true
+  },
+  {
+    "id": 4221,
+    "name": "Koiwa",
+    "birthday_month": 4,
+    "birthday_day": 20,
+    "birthday_season": "Winter",
+    "romanceable": false,
+    "gift_enabled": true,
+    "show_relation": true
+  },
+  {
+    "id": 4223,
+    "name": "Kababa",
+    "birthday_month": 4,
+    "birthday_day": 14,
+    "birthday_season": "Winter",
+    "romanceable": false,
+    "gift_enabled": false,
+    "show_relation": false
+  },
+  {
+    "id": 4225,
+    "name": "Lantern",
+    "birthday_month": 0,
+    "birthday_day": 0,
+    "birthday_season": null,
+    "romanceable": false,
+    "gift_enabled": true,
+    "show_relation": false
+  },
+  {
+    "id": 4226,
+    "name": "Yuki-onna",
+    "birthday_month": 4,
+    "birthday_day": 13,
+    "birthday_season": "Winter",
+    "romanceable": true,
+    "gift_enabled": true,
+    "show_relation": false
+  },
+  {
+    "id": 4227,
+    "name": "Yuki-onna",
+    "birthday_month": 4,
+    "birthday_day": 13,
+    "birthday_season": "Winter",
+    "romanceable": false,
+    "gift_enabled": true,
+    "show_relation": true
+  },
+  {
+    "id": 4228,
+    "name": "Alin",
+    "birthday_month": 3,
+    "birthday_day": 6,
+    "birthday_season": "Autumn",
+    "romanceable": true,
+    "gift_enabled": true,
+    "show_relation": true
+  },
+  {
+    "id": 4229,
+    "name": "Uwabami",
+    "birthday_month": 1,
+    "birthday_day": 26,
+    "birthday_season": "Spring",
+    "romanceable": true,
+    "gift_enabled": true,
+    "show_relation": true
+  },
+  {
+    "id": 4230,
+    "name": "Tourist",
+    "birthday_month": 0,
+    "birthday_day": 0,
+    "birthday_season": null,
+    "romanceable": false,
+    "gift_enabled": false,
+    "show_relation": false
+  },
+  {
+    "id": 4231,
+    "name": "Tourist",
+    "birthday_month": 0,
+    "birthday_day": 0,
+    "birthday_season": null,
+    "romanceable": false,
+    "gift_enabled": false,
+    "show_relation": false
+  },
+  {
+    "id": 4232,
+    "name": "Tourist",
+    "birthday_month": 0,
+    "birthday_day": 0,
+    "birthday_season": null,
+    "romanceable": false,
+    "gift_enabled": false,
+    "show_relation": false
+  },
+  {
+    "id": 4233,
+    "name": "Tourist",
+    "birthday_month": 0,
+    "birthday_day": 0,
+    "birthday_season": null,
+    "romanceable": false,
+    "gift_enabled": false,
+    "show_relation": false
+  },
+  {
+    "id": 4234,
+    "name": "Tourist",
+    "birthday_month": 0,
+    "birthday_day": 0,
+    "birthday_season": null,
+    "romanceable": false,
+    "gift_enabled": false,
+    "show_relation": false
+  },
+  {
+    "id": 4235,
+    "name": "Tourist",
+    "birthday_month": 0,
+    "birthday_day": 0,
+    "birthday_season": null,
+    "romanceable": false,
+    "gift_enabled": false,
+    "show_relation": false
+  },
+  {
+    "id": 4236,
+    "name": "Tourist",
+    "birthday_month": 0,
+    "birthday_day": 0,
+    "birthday_season": null,
+    "romanceable": false,
+    "gift_enabled": false,
+    "show_relation": false
+  },
+  {
+    "id": 4237,
+    "name": "Tourist",
+    "birthday_month": 0,
+    "birthday_day": 0,
+    "birthday_season": null,
+    "romanceable": false,
+    "gift_enabled": false,
+    "show_relation": false
+  },
+  {
+    "id": 4238,
+    "name": "Tourist",
+    "birthday_month": 0,
+    "birthday_day": 0,
+    "birthday_season": null,
+    "romanceable": false,
+    "gift_enabled": false,
+    "show_relation": false
+  },
+  {
+    "id": 4239,
+    "name": "Tourist",
+    "birthday_month": 0,
+    "birthday_day": 0,
+    "birthday_season": null,
+    "romanceable": false,
+    "gift_enabled": false,
+    "show_relation": false
+  },
+  {
+    "id": 4240,
+    "name": "Tourist",
+    "birthday_month": 0,
+    "birthday_day": 0,
+    "birthday_season": null,
+    "romanceable": false,
+    "gift_enabled": false,
+    "show_relation": false
+  },
+  {
+    "id": 4241,
+    "name": "Tourist",
+    "birthday_month": 0,
+    "birthday_day": 0,
+    "birthday_season": null,
+    "romanceable": false,
+    "gift_enabled": false,
+    "show_relation": false
+  },
+  {
+    "id": 4242,
+    "name": "Tourist",
+    "birthday_month": 0,
+    "birthday_day": 0,
+    "birthday_season": null,
+    "romanceable": false,
+    "gift_enabled": false,
+    "show_relation": false
+  },
+  {
+    "id": 4243,
+    "name": "Tourist",
+    "birthday_month": 0,
+    "birthday_day": 0,
+    "birthday_season": null,
+    "romanceable": false,
+    "gift_enabled": false,
+    "show_relation": false
+  },
+  {
+    "id": 4244,
+    "name": "Tourist",
+    "birthday_month": 0,
+    "birthday_day": 0,
+    "birthday_season": null,
+    "romanceable": false,
+    "gift_enabled": false,
+    "show_relation": false
+  },
+  {
+    "id": 4245,
+    "name": "Tourist",
+    "birthday_month": 0,
+    "birthday_day": 0,
+    "birthday_season": null,
+    "romanceable": false,
+    "gift_enabled": false,
+    "show_relation": false
+  },
+  {
+    "id": 4246,
+    "name": "Tourist",
+    "birthday_month": 0,
+    "birthday_day": 0,
+    "birthday_season": null,
+    "romanceable": false,
+    "gift_enabled": false,
+    "show_relation": false
+  },
+  {
+    "id": 4247,
+    "name": "Tourist",
+    "birthday_month": 0,
+    "birthday_day": 0,
+    "birthday_season": null,
+    "romanceable": false,
+    "gift_enabled": false,
+    "show_relation": false
+  },
+  {
+    "id": 4248,
+    "name": "Tourist",
+    "birthday_month": 0,
+    "birthday_day": 0,
+    "birthday_season": null,
+    "romanceable": false,
+    "gift_enabled": false,
+    "show_relation": false
+  },
+  {
+    "id": 4249,
+    "name": "Tourist",
+    "birthday_month": 0,
+    "birthday_day": 0,
+    "birthday_season": null,
+    "romanceable": false,
+    "gift_enabled": false,
+    "show_relation": false
+  },
+  {
+    "id": 4101,
+    "name": "Kon",
+    "birthday_month": 1,
+    "birthday_day": 12,
+    "birthday_season": "Spring",
+    "romanceable": false,
+    "gift_enabled": true,
+    "show_relation": true
+  },
+  {
+    "id": 4102,
+    "name": "Ritsuryo",
+    "birthday_month": 3,
+    "birthday_day": 2,
+    "birthday_season": "Autumn",
+    "romanceable": false,
+    "gift_enabled": true,
+    "show_relation": true
+  },
+  {
+    "id": 4103,
+    "name": "Kinntarou",
+    "birthday_month": 3,
+    "birthday_day": 2,
+    "birthday_season": "Autumn",
+    "romanceable": false,
+    "gift_enabled": true,
+    "show_relation": true
+  },
+  {
+    "id": 4104,
+    "name": "Nyotengu",
+    "birthday_month": 4,
+    "birthday_day": 4,
+    "birthday_season": "Winter",
+    "romanceable": true,
+    "gift_enabled": true,
+    "show_relation": true
+  },
+  {
+    "id": 4105,
+    "name": "Yoni",
+    "birthday_month": 2,
+    "birthday_day": 5,
+    "birthday_season": "Summer",
+    "romanceable": true,
+    "gift_enabled": true,
+    "show_relation": true
+  },
+  {
+    "id": 4106,
+    "name": "Hephaestus",
+    "birthday_month": 1,
+    "birthday_day": 17,
+    "birthday_season": "Spring",
+    "romanceable": true,
+    "gift_enabled": true,
+    "show_relation": true
+  },
+  {
+    "id": 4107,
+    "name": "Kon",
+    "birthday_month": 1,
+    "birthday_day": 12,
+    "birthday_season": "Spring",
+    "romanceable": false,
+    "gift_enabled": true,
+    "show_relation": true
+  },
+  {
+    "id": 4401,
+    "name": "Gulubo Duke",
+    "birthday_month": 0,
+    "birthday_day": 0,
+    "birthday_season": null,
+    "romanceable": false,
+    "gift_enabled": true,
+    "show_relation": false
+  },
+  {
+    "id": 4402,
+    "name": "Gulubo Prince",
+    "birthday_month": 0,
+    "birthday_day": 0,
+    "birthday_season": null,
+    "romanceable": false,
+    "gift_enabled": true,
+    "show_relation": false
+  },
+  {
+    "id": 4403,
+    "name": "Gulubo Rōnin",
+    "birthday_month": 0,
+    "birthday_day": 0,
+    "birthday_season": null,
+    "romanceable": false,
+    "gift_enabled": true,
+    "show_relation": false
+  },
+  {
+    "id": 4404,
+    "name": "Gulubo Queen",
+    "birthday_month": 0,
+    "birthday_day": 0,
+    "birthday_season": null,
+    "romanceable": false,
+    "gift_enabled": true,
+    "show_relation": false
+  },
+  {
+    "id": 4405,
+    "name": "Gulubo Kenshi",
+    "birthday_month": 0,
+    "birthday_day": 0,
+    "birthday_season": null,
+    "romanceable": false,
+    "gift_enabled": true,
+    "show_relation": false
+  },
+  {
+    "id": 4406,
+    "name": "Gulu Bobo",
+    "birthday_month": 0,
+    "birthday_day": 0,
+    "birthday_season": null,
+    "romanceable": false,
+    "gift_enabled": true,
+    "show_relation": false
+  },
+  {
+    "id": 4502,
+    "name": "Nini",
+    "birthday_month": 0,
+    "birthday_day": 0,
+    "birthday_season": null,
+    "romanceable": false,
+    "gift_enabled": true,
+    "show_relation": false
+  },
+  {
+    "id": 4503,
+    "name": "Hara",
+    "birthday_month": 0,
+    "birthday_day": 0,
+    "birthday_season": null,
+    "romanceable": false,
+    "gift_enabled": true,
+    "show_relation": false
+  },
+  {
+    "id": 4504,
+    "name": "Casino Dealer",
+    "birthday_month": 0,
+    "birthday_day": 0,
+    "birthday_season": null,
+    "romanceable": false,
+    "gift_enabled": true,
+    "show_relation": false
+  },
+  {
+    "id": 4505,
+    "name": "Casino Dealer",
+    "birthday_month": 0,
+    "birthday_day": 0,
+    "birthday_season": null,
+    "romanceable": false,
+    "gift_enabled": true,
+    "show_relation": false
+  },
+  {
+    "id": 4601,
+    "name": "Hephaestus",
+    "birthday_month": 1,
+    "birthday_day": 17,
+    "birthday_season": "Spring",
+    "romanceable": false,
+    "gift_enabled": false,
+    "show_relation": false
+  },
+  {
+    "id": 4602,
+    "name": "Anji",
+    "birthday_month": 0,
+    "birthday_day": 0,
+    "birthday_season": null,
+    "romanceable": true,
+    "gift_enabled": false,
+    "show_relation": true
+  },
+  {
+    "id": 4603,
+    "name": "Fujiki",
+    "birthday_month": 4,
+    "birthday_day": 12,
+    "birthday_season": "Winter",
+    "romanceable": false,
+    "gift_enabled": true,
+    "show_relation": true
+  },
+  {
+    "id": 4604,
+    "name": "Kuzuha",
+    "birthday_month": 4,
+    "birthday_day": 12,
+    "birthday_season": "Winter",
+    "romanceable": false,
+    "gift_enabled": true,
+    "show_relation": false
+  },
+  {
+    "id": 4605,
+    "name": "Nine Lives",
+    "birthday_month": 0,
+    "birthday_day": 0,
+    "birthday_season": null,
+    "romanceable": false,
+    "gift_enabled": false,
+    "show_relation": true
+  },
+  {
+    "id": 4606,
+    "name": "Nyotengu",
+    "birthday_month": 0,
+    "birthday_day": 0,
+    "birthday_season": null,
+    "romanceable": false,
+    "gift_enabled": false,
+    "show_relation": false
+  },
+  {
+    "id": 4607,
+    "name": "Yui",
+    "birthday_month": 2,
+    "birthday_day": 3,
+    "birthday_season": "Summer",
+    "romanceable": false,
+    "gift_enabled": true,
+    "show_relation": false
+  },
+  {
+    "id": 4609,
+    "name": "Kincho",
+    "birthday_month": 4,
+    "birthday_day": 28,
+    "birthday_season": "Winter",
+    "romanceable": true,
+    "gift_enabled": true,
+    "show_relation": true
+  },
+  {
+    "id": 4301,
+    "name": "Daifuku",
+    "birthday_month": 0,
+    "birthday_day": 0,
+    "birthday_season": null,
+    "romanceable": false,
+    "gift_enabled": false,
+    "show_relation": false
+  },
+  {
+    "id": 4302,
+    "name": "Yokan",
+    "birthday_month": 0,
+    "birthday_day": 0,
+    "birthday_season": null,
+    "romanceable": false,
+    "gift_enabled": false,
+    "show_relation": false
+  },
+  {
+    "id": 4304,
+    "name": "Hana",
+    "birthday_month": 0,
+    "birthday_day": 0,
+    "birthday_season": null,
+    "romanceable": false,
+    "gift_enabled": false,
+    "show_relation": false
+  },
+  {
+    "id": 4305,
+    "name": "Shiro",
+    "birthday_month": 0,
+    "birthday_day": 0,
+    "birthday_season": null,
+    "romanceable": false,
+    "gift_enabled": false,
+    "show_relation": false
+  },
+  {
+    "id": 4306,
+    "name": "Kyoto",
+    "birthday_month": 0,
+    "birthday_day": 0,
+    "birthday_season": null,
+    "romanceable": false,
+    "gift_enabled": false,
+    "show_relation": false
+  },
+  {
+    "id": 4307,
+    "name": "Luna",
+    "birthday_month": 0,
+    "birthday_day": 0,
+    "birthday_season": null,
+    "romanceable": false,
+    "gift_enabled": false,
+    "show_relation": false
+  },
+  {
+    "id": 4308,
+    "name": "Shima",
+    "birthday_month": 0,
+    "birthday_day": 0,
+    "birthday_season": null,
+    "romanceable": false,
+    "gift_enabled": false,
+    "show_relation": false
+  },
+  {
+    "id": 4309,
+    "name": "Bruce",
+    "birthday_month": 0,
+    "birthday_day": 0,
+    "birthday_season": null,
+    "romanceable": false,
+    "gift_enabled": false,
+    "show_relation": false
+  },
+  {
+    "id": 4310,
+    "name": "Musashi",
+    "birthday_month": 0,
+    "birthday_day": 0,
+    "birthday_season": null,
+    "romanceable": false,
+    "gift_enabled": false,
+    "show_relation": false
+  },
+  {
+    "id": 4690,
+    "name": "Guard",
+    "birthday_month": 0,
+    "birthday_day": 0,
+    "birthday_season": null,
+    "romanceable": false,
+    "gift_enabled": false,
+    "show_relation": false
+  },
+  {
+    "id": 1307,
+    "name": "Dark Fox",
+    "birthday_month": 0,
+    "birthday_day": 0,
+    "birthday_season": null,
+    "romanceable": false,
+    "gift_enabled": false,
+    "show_relation": false
+  },
+  {
+    "id": 4311,
+    "name": "Merchant Cats - Nine Lives’s Vendors",
+    "birthday_month": 0,
+    "birthday_day": 0,
+    "birthday_season": null,
+    "romanceable": false,
+    "gift_enabled": false,
+    "show_relation": false
+  },
+  {
+    "id": 4312,
+    "name": "Merchant Cats - Nine Lives’s Vendors",
+    "birthday_month": 0,
+    "birthday_day": 0,
+    "birthday_season": null,
+    "romanceable": false,
+    "gift_enabled": false,
+    "show_relation": false
+  },
+  {
+    "id": 4313,
+    "name": "Merchant Cats - Nine Lives’s Vendors",
+    "birthday_month": 0,
+    "birthday_day": 0,
+    "birthday_season": null,
+    "romanceable": false,
+    "gift_enabled": false,
+    "show_relation": false
+  },
+  {
+    "id": 4314,
+    "name": "Merchant Cats - Nine Lives’s Vendors",
+    "birthday_month": 0,
+    "birthday_day": 0,
+    "birthday_season": null,
+    "romanceable": false,
+    "gift_enabled": false,
+    "show_relation": false
+  },
+  {
+    "id": 4315,
+    "name": "Merchant Cats - Nine Lives’s Vendors",
+    "birthday_month": 0,
+    "birthday_day": 0,
+    "birthday_season": null,
+    "romanceable": false,
+    "gift_enabled": false,
+    "show_relation": false
+  },
+  {
+    "id": 4316,
+    "name": "Merchant Cats - Nine Lives’s Vendors",
+    "birthday_month": 0,
+    "birthday_day": 0,
+    "birthday_season": null,
+    "romanceable": false,
+    "gift_enabled": false,
+    "show_relation": false
+  },
+  {
+    "id": 4317,
+    "name": "Merchant Cats - Nine Lives’s Vendors",
+    "birthday_month": 0,
+    "birthday_day": 0,
+    "birthday_season": null,
+    "romanceable": false,
+    "gift_enabled": false,
+    "show_relation": false
+  },
+  {
+    "id": 4318,
+    "name": "Merchant Cats - Nine Lives’s Vendors",
+    "birthday_month": 0,
+    "birthday_day": 0,
+    "birthday_season": null,
+    "romanceable": false,
+    "gift_enabled": false,
+    "show_relation": false
+  },
+  {
+    "id": 4319,
+    "name": "Merchant Cats - Nine Lives’s Vendors",
+    "birthday_month": 0,
+    "birthday_day": 0,
+    "birthday_season": null,
+    "romanceable": false,
+    "gift_enabled": false,
+    "show_relation": false
+  },
+  {
+    "id": 4320,
+    "name": "Merchant Cats - Nine Lives’s Vendors",
+    "birthday_month": 0,
+    "birthday_day": 0,
+    "birthday_season": null,
+    "romanceable": false,
+    "gift_enabled": false,
+    "show_relation": false
+  },
+  {
+    "id": 4321,
+    "name": "Merchant Cats - Nine Lives’s Vendors",
+    "birthday_month": 0,
+    "birthday_day": 0,
+    "birthday_season": null,
+    "romanceable": false,
+    "gift_enabled": false,
+    "show_relation": false
+  },
+  {
+    "id": 4322,
+    "name": "Merchant Cats - Nine Lives’s Vendors",
+    "birthday_month": 0,
+    "birthday_day": 0,
+    "birthday_season": null,
+    "romanceable": false,
+    "gift_enabled": false,
+    "show_relation": false
+  },
+  {
+    "id": 4323,
+    "name": "Merchant Cats - Nine Lives’s Vendors",
+    "birthday_month": 0,
+    "birthday_day": 0,
+    "birthday_season": null,
+    "romanceable": false,
+    "gift_enabled": false,
+    "show_relation": false
+  }
+]

@@ -1,0 +1,974 @@
+[
+  {
+    "id": 42001,
+    "name": "Carp",
+    "value": 10,
+    "quality": 1,
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Autumn",
+      "Winter"
+    ],
+    "regions": [
+      "Pond",
+      "River",
+      "Sea"
+    ],
+    "times": [
+      "Morning",
+      "Midday",
+      "Afternoon",
+      "Night"
+    ],
+    "weather": [
+      "Sunny",
+      "Rainy",
+      "Cloudy to Clear"
+    ],
+    "min_weight": 2,
+    "max_weight": 30
+  },
+  {
+    "id": 42002,
+    "name": "Crucian Carp",
+    "value": 10,
+    "quality": 1,
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Autumn",
+      "Winter"
+    ],
+    "regions": [
+      "Pond",
+      "River",
+      "Sea"
+    ],
+    "times": [
+      "Morning",
+      "Midday",
+      "Afternoon",
+      "Night"
+    ],
+    "weather": [
+      "Sunny",
+      "Rainy",
+      "Cloudy to Clear"
+    ],
+    "min_weight": 0.75,
+    "max_weight": 8
+  },
+  {
+    "id": 42005,
+    "name": "Mudskipper",
+    "value": 15,
+    "quality": 1,
+    "seasons": [
+      "Spring"
+    ],
+    "regions": [
+      "Pond",
+      "River",
+      "Sea"
+    ],
+    "times": [
+      "Morning",
+      "Midday",
+      "Afternoon",
+      "Night"
+    ],
+    "weather": [
+      "Sunny",
+      "Rainy",
+      "Cloudy to Clear"
+    ],
+    "min_weight": 0.75,
+    "max_weight": 3
+  },
+  {
+    "id": 42006,
+    "name": "Sweetfish",
+    "value": 15,
+    "quality": 1,
+    "seasons": [
+      "Summer"
+    ],
+    "regions": [
+      "Pond",
+      "River",
+      "Sea"
+    ],
+    "times": [
+      "Morning",
+      "Midday",
+      "Afternoon",
+      "Night"
+    ],
+    "weather": [
+      "Sunny",
+      "Rainy",
+      "Cloudy to Clear"
+    ],
+    "min_weight": 0.550000011920929,
+    "max_weight": 4
+  },
+  {
+    "id": 42007,
+    "name": "Sole",
+    "value": 15,
+    "quality": 1,
+    "seasons": [
+      "Autumn"
+    ],
+    "regions": [
+      "Pond",
+      "River",
+      "Sea"
+    ],
+    "times": [
+      "Morning",
+      "Midday",
+      "Afternoon",
+      "Night"
+    ],
+    "weather": [
+      "Sunny",
+      "Rainy",
+      "Cloudy to Clear"
+    ],
+    "min_weight": 2,
+    "max_weight": 15
+  },
+  {
+    "id": 42008,
+    "name": "Catfish",
+    "value": 15,
+    "quality": 1,
+    "seasons": [
+      "Winter"
+    ],
+    "regions": [
+      "Pond",
+      "River",
+      "Sea"
+    ],
+    "times": [
+      "Morning",
+      "Midday",
+      "Afternoon",
+      "Night"
+    ],
+    "weather": [
+      "Sunny",
+      "Rainy",
+      "Cloudy to Clear"
+    ],
+    "min_weight": 1.5,
+    "max_weight": 50
+  },
+  {
+    "id": 42010,
+    "name": "Black Bass",
+    "value": 10,
+    "quality": 1,
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Autumn"
+    ],
+    "regions": [
+      "Pond",
+      "River"
+    ],
+    "times": [
+      "Morning",
+      "Midday",
+      "Afternoon",
+      "Night"
+    ],
+    "weather": [
+      "Sunny",
+      "Rainy",
+      "Cloudy to Clear"
+    ],
+    "min_weight": 3,
+    "max_weight": 20
+  },
+  {
+    "id": 42011,
+    "name": "Pond Loach",
+    "value": 10,
+    "quality": 1,
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Autumn"
+    ],
+    "regions": [
+      "Pond",
+      "River"
+    ],
+    "times": [
+      "Morning",
+      "Midday",
+      "Afternoon",
+      "Night"
+    ],
+    "weather": [
+      "Sunny",
+      "Rainy",
+      "Cloudy to Clear"
+    ],
+    "min_weight": 0.10000000149011612,
+    "max_weight": 2
+  },
+  {
+    "id": 42003,
+    "name": "Shad",
+    "value": 25,
+    "quality": 2,
+    "seasons": [
+      "Spring",
+      "Summer"
+    ],
+    "regions": [
+      "Pond",
+      "River",
+      "Sea",
+      "Azure Channel"
+    ],
+    "times": [
+      "Morning",
+      "Midday",
+      "Afternoon",
+      "Night"
+    ],
+    "weather": [
+      "Sunny",
+      "Rainy",
+      "Cloudy to Clear"
+    ],
+    "min_weight": 1.5,
+    "max_weight": 12
+  },
+  {
+    "id": 42004,
+    "name": "Horse Mackerel",
+    "value": 25,
+    "quality": 2,
+    "seasons": [
+      "Autumn",
+      "Winter"
+    ],
+    "regions": [
+      "Pond",
+      "River",
+      "Sea",
+      "Azure Channel"
+    ],
+    "times": [
+      "Morning",
+      "Midday",
+      "Afternoon",
+      "Night"
+    ],
+    "weather": [
+      "Sunny",
+      "Rainy",
+      "Cloudy to Clear"
+    ],
+    "min_weight": 1,
+    "max_weight": 5
+  },
+  {
+    "id": 42009,
+    "name": "Pufferfish",
+    "value": 20,
+    "quality": 2,
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Autumn",
+      "Winter"
+    ],
+    "regions": [
+      "River",
+      "Sea",
+      "Azure Channel"
+    ],
+    "times": [
+      "Morning",
+      "Midday",
+      "Afternoon",
+      "Night"
+    ],
+    "weather": [
+      "Sunny",
+      "Rainy",
+      "Cloudy to Clear"
+    ],
+    "min_weight": 5,
+    "max_weight": 10
+  },
+  {
+    "id": 42012,
+    "name": "Eel",
+    "value": 40,
+    "quality": 2,
+    "seasons": [
+      "Spring"
+    ],
+    "regions": [
+      "River",
+      "Sea",
+      "Azure Channel"
+    ],
+    "times": [
+      "Morning",
+      "Midday",
+      "Afternoon",
+      "Night"
+    ],
+    "weather": [
+      "Sunny",
+      "Rainy",
+      "Cloudy to Clear"
+    ],
+    "min_weight": 0.699999988079071,
+    "max_weight": 25
+  },
+  {
+    "id": 42013,
+    "name": "Bream",
+    "value": 40,
+    "quality": 2,
+    "seasons": [
+      "Summer"
+    ],
+    "regions": [
+      "Pond",
+      "River",
+      "Azure Channel"
+    ],
+    "times": [
+      "Morning",
+      "Midday",
+      "Afternoon",
+      "Night"
+    ],
+    "weather": [
+      "Sunny",
+      "Rainy",
+      "Cloudy to Clear"
+    ],
+    "min_weight": 0.800000011920929,
+    "max_weight": 10
+  },
+  {
+    "id": 42014,
+    "name": "Salmon",
+    "value": 25,
+    "quality": 2,
+    "seasons": [
+      "Autumn",
+      "Winter"
+    ],
+    "regions": [
+      "River",
+      "Sea",
+      "Azure Channel"
+    ],
+    "times": [
+      "Morning",
+      "Midday",
+      "Afternoon",
+      "Night"
+    ],
+    "weather": [
+      "Sunny",
+      "Rainy",
+      "Cloudy to Clear"
+    ],
+    "min_weight": 4,
+    "max_weight": 35
+  },
+  {
+    "id": 42015,
+    "name": "Red Porgy",
+    "value": 45,
+    "quality": 2,
+    "seasons": [
+      "Spring"
+    ],
+    "regions": [
+      "Sea",
+      "Azure Channel"
+    ],
+    "times": [
+      "Morning",
+      "Midday",
+      "Afternoon",
+      "Night"
+    ],
+    "weather": [
+      "Sunny",
+      "Rainy",
+      "Cloudy to Clear"
+    ],
+    "min_weight": 1.5,
+    "max_weight": 40
+  },
+  {
+    "id": 42017,
+    "name": "Lamprey",
+    "value": 25,
+    "quality": 2,
+    "seasons": [
+      "Autumn",
+      "Winter"
+    ],
+    "regions": [
+      "River",
+      "Sea",
+      "Azure Channel"
+    ],
+    "times": [
+      "Morning",
+      "Midday",
+      "Afternoon",
+      "Night"
+    ],
+    "weather": [
+      "Sunny",
+      "Rainy",
+      "Cloudy to Clear"
+    ],
+    "min_weight": 1,
+    "max_weight": 6
+  },
+  {
+    "id": 42018,
+    "name": "Tilapia",
+    "value": 40,
+    "quality": 2,
+    "seasons": [
+      "Spring"
+    ],
+    "regions": [
+      "Pond",
+      "River",
+      "Azure Channel"
+    ],
+    "times": [
+      "Morning",
+      "Midday",
+      "Afternoon",
+      "Night"
+    ],
+    "weather": [
+      "Sunny",
+      "Rainy",
+      "Cloudy to Clear"
+    ],
+    "min_weight": 2,
+    "max_weight": 15
+  },
+  {
+    "id": 42019,
+    "name": "Noodlefish",
+    "value": 40,
+    "quality": 2,
+    "seasons": [
+      "Summer"
+    ],
+    "regions": [
+      "Pond",
+      "Sea",
+      "Azure Channel"
+    ],
+    "times": [
+      "Morning",
+      "Midday",
+      "Afternoon",
+      "Night"
+    ],
+    "weather": [
+      "Sunny",
+      "Rainy",
+      "Cloudy to Clear"
+    ],
+    "min_weight": 0.019999999552965164,
+    "max_weight": 1.5
+  },
+  {
+    "id": 42020,
+    "name": "River Crab",
+    "value": 25,
+    "quality": 2,
+    "seasons": [
+      "Autumn",
+      "Winter"
+    ],
+    "regions": [
+      "Pond",
+      "River",
+      "Azure Channel"
+    ],
+    "times": [
+      "Morning",
+      "Midday",
+      "Afternoon",
+      "Night"
+    ],
+    "weather": [
+      "Sunny",
+      "Rainy",
+      "Cloudy to Clear"
+    ],
+    "min_weight": 0.30000001192092896,
+    "max_weight": 4
+  },
+  {
+    "id": 42034,
+    "name": "Cutlassfish",
+    "value": 45,
+    "quality": 2,
+    "seasons": [
+      "Summer"
+    ],
+    "regions": [
+      "Sea",
+      "Azure Channel"
+    ],
+    "times": [
+      "Morning",
+      "Midday",
+      "Afternoon",
+      "Night"
+    ],
+    "weather": [
+      "Sunny",
+      "Rainy",
+      "Cloudy to Clear"
+    ],
+    "min_weight": 0.5,
+    "max_weight": 25
+  },
+  {
+    "id": 42037,
+    "name": "Crystal Shrimp",
+    "value": 20,
+    "quality": 2,
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Autumn"
+    ],
+    "regions": [
+      "Pond",
+      "River",
+      "Sea",
+      "Azure Channel"
+    ],
+    "times": [
+      "Morning",
+      "Midday",
+      "Afternoon",
+      "Night"
+    ],
+    "weather": [
+      "Sunny",
+      "Rainy",
+      "Cloudy to Clear"
+    ],
+    "min_weight": 0.5,
+    "max_weight": 20
+  },
+  {
+    "id": 42016,
+    "name": "Ocean Sunfish",
+    "value": 130,
+    "quality": 3,
+    "seasons": [
+      "Summer"
+    ],
+    "regions": [
+      "Sea",
+      "Azure Channel"
+    ],
+    "times": [
+      "Morning",
+      "Midday",
+      "Afternoon",
+      "Night"
+    ],
+    "weather": [
+      "Sunny",
+      "Rainy",
+      "Cloudy to Clear"
+    ],
+    "min_weight": 5,
+    "max_weight": 2000
+  },
+  {
+    "id": 42021,
+    "name": "Sturgeon",
+    "value": 90,
+    "quality": 3,
+    "seasons": [
+      "Spring",
+      "Summer"
+    ],
+    "regions": [
+      "River",
+      "Azure Channel"
+    ],
+    "times": [
+      "Morning",
+      "Midday",
+      "Afternoon"
+    ],
+    "weather": [
+      "Sunny",
+      "Rainy",
+      "Cloudy to Clear"
+    ],
+    "min_weight": 50,
+    "max_weight": 500
+  },
+  {
+    "id": 42022,
+    "name": "Swordfish",
+    "value": 120,
+    "quality": 3,
+    "seasons": [
+      "Autumn",
+      "Winter"
+    ],
+    "regions": [
+      "Sea",
+      "Azure Channel"
+    ],
+    "times": [
+      "Night"
+    ],
+    "weather": [
+      "Sunny",
+      "Rainy",
+      "Cloudy to Clear"
+    ],
+    "min_weight": 40,
+    "max_weight": 700
+  },
+  {
+    "id": 42023,
+    "name": "Cuttlefish",
+    "value": 90,
+    "quality": 3,
+    "seasons": [
+      "Spring",
+      "Summer"
+    ],
+    "regions": [
+      "Sea",
+      "Azure Channel"
+    ],
+    "times": [
+      "Morning",
+      "Midday",
+      "Afternoon"
+    ],
+    "weather": [
+      "Sunny",
+      "Rainy",
+      "Cloudy to Clear"
+    ],
+    "min_weight": 0.5,
+    "max_weight": 80
+  },
+  {
+    "id": 42024,
+    "name": "Blobfish",
+    "value": 120,
+    "quality": 3,
+    "seasons": [
+      "Autumn",
+      "Winter"
+    ],
+    "regions": [
+      "Sea",
+      "Azure Channel"
+    ],
+    "times": [
+      "Night"
+    ],
+    "weather": [
+      "Sunny",
+      "Rainy",
+      "Cloudy to Clear"
+    ],
+    "min_weight": 0.5,
+    "max_weight": 25
+  },
+  {
+    "id": 42025,
+    "name": "Redmouth Culter",
+    "value": 90,
+    "quality": 3,
+    "seasons": [
+      "Spring",
+      "Summer"
+    ],
+    "regions": [
+      "Pond",
+      "Azure Channel"
+    ],
+    "times": [
+      "Morning",
+      "Midday",
+      "Afternoon"
+    ],
+    "weather": [
+      "Sunny",
+      "Rainy",
+      "Cloudy to Clear"
+    ],
+    "min_weight": 3,
+    "max_weight": 18
+  },
+  {
+    "id": 42026,
+    "name": "Rainbow Trout",
+    "value": 90,
+    "quality": 3,
+    "seasons": [
+      "Autumn",
+      "Winter"
+    ],
+    "regions": [
+      "Pond",
+      "Azure Channel"
+    ],
+    "times": [
+      "Night"
+    ],
+    "weather": [
+      "Sunny",
+      "Rainy",
+      "Cloudy to Clear"
+    ],
+    "min_weight": 2,
+    "max_weight": 25
+  },
+  {
+    "id": 42027,
+    "name": "Gar",
+    "value": 70,
+    "quality": 3,
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Autumn"
+    ],
+    "regions": [
+      "Pond",
+      "River"
+    ],
+    "times": [
+      "Morning",
+      "Midday",
+      "Afternoon",
+      "Night"
+    ],
+    "weather": [
+      "Rainy"
+    ],
+    "min_weight": 1,
+    "max_weight": 150
+  },
+  {
+    "id": 42028,
+    "name": "Cod",
+    "value": 60,
+    "quality": 3,
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Autumn",
+      "Winter"
+    ],
+    "regions": [
+      "Sea",
+      "Azure Channel"
+    ],
+    "times": [
+      "Morning",
+      "Midday",
+      "Afternoon",
+      "Night"
+    ],
+    "weather": [
+      "Rainy"
+    ],
+    "min_weight": 3,
+    "max_weight": 60
+  },
+  {
+    "id": 42029,
+    "name": "Siberian Taimen",
+    "value": 130,
+    "quality": 3,
+    "seasons": [
+      "Winter"
+    ],
+    "regions": [
+      "Pond",
+      "Azure Channel"
+    ],
+    "times": [
+      "Morning",
+      "Midday",
+      "Afternoon",
+      "Night"
+    ],
+    "weather": [
+      "Cloudy to Clear"
+    ],
+    "min_weight": 2.5,
+    "max_weight": 120
+  },
+  {
+    "id": 42035,
+    "name": "Electric Ray",
+    "value": 170,
+    "quality": 3,
+    "seasons": [
+      "Summer"
+    ],
+    "regions": [
+      "Sea",
+      "Azure Channel"
+    ],
+    "times": [
+      "Night"
+    ],
+    "weather": [
+      "Sunny",
+      "Rainy",
+      "Cloudy to Clear"
+    ],
+    "min_weight": 10,
+    "max_weight": 350
+  },
+  {
+    "id": 42036,
+    "name": "Lobster",
+    "value": 70,
+    "quality": 3,
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Autumn"
+    ],
+    "regions": [
+      "Sea",
+      "Azure Channel"
+    ],
+    "times": [
+      "Morning",
+      "Midday",
+      "Afternoon",
+      "Night"
+    ],
+    "weather": [
+      "Rainy"
+    ],
+    "min_weight": 4,
+    "max_weight": 20
+  },
+  {
+    "id": 42030,
+    "name": "Golden Arowana",
+    "value": 500,
+    "quality": 4,
+    "seasons": [
+      "Winter"
+    ],
+    "regions": [
+      "Pond",
+      "Azure Channel"
+    ],
+    "times": [
+      "Morning"
+    ],
+    "weather": [
+      "Cloudy to Clear"
+    ],
+    "min_weight": 0.30000001192092896,
+    "max_weight": 100
+  },
+  {
+    "id": 42031,
+    "name": "Oarfish",
+    "value": 500,
+    "quality": 4,
+    "seasons": [
+      "Autumn"
+    ],
+    "regions": [
+      "Sea",
+      "Azure Channel"
+    ],
+    "times": [
+      "Morning"
+    ],
+    "weather": [
+      "Rainy"
+    ],
+    "min_weight": 1.5,
+    "max_weight": 300
+  },
+  {
+    "id": 42032,
+    "name": "Ice Clam",
+    "value": 500,
+    "quality": 4,
+    "seasons": [
+      "Winter"
+    ],
+    "regions": [
+      "Pond",
+      "Azure Channel"
+    ],
+    "times": [
+      "Night"
+    ],
+    "weather": [
+      "Cloudy to Clear"
+    ],
+    "min_weight": 0.20000000298023224,
+    "max_weight": 30
+  },
+  {
+    "id": 42033,
+    "name": "King Crab",
+    "value": 500,
+    "quality": 4,
+    "seasons": [
+      "Summer"
+    ],
+    "regions": [
+      "Sea",
+      "Azure Channel"
+    ],
+    "times": [
+      "Night"
+    ],
+    "weather": [
+      "Rainy"
+    ],
+    "min_weight": 3,
+    "max_weight": 15
+  }
+]

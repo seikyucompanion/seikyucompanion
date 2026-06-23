@@ -1,0 +1,2016 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Seikyu Companion</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='12' fill='%23C8502E'/><text x='32' y='45' font-size='38' text-anchor='middle' fill='%23ffffff' font-family='serif'>%E7%B8%81</text></svg>">
+<meta name="theme-color" content="#294B5A" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#1A1714" media="(prefers-color-scheme: dark)">
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Seikyu">
+<meta name="mobile-web-app-capable" content="yes">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Yuji+Syuku&family=Zen+Maru+Gothic:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --washi:#F4EFE6; --washi-2:#EBE3D4; --card:#FBF8F1;
+    --sumi:#2B2622; --sumi-soft:#675E52; --line:rgba(43,38,34,.12);
+    --indigo:#294B5A; --indigo-deep:#1E3A47; --seal:#C8502E;
+    --loved:#C0453B; --liked:#6F9159; --disliked:#C2872F; --hated:#4A6470;
+    --radius:14px; --shadow:0 1px 0 rgba(255,255,255,.6) inset, 0 6px 18px -12px rgba(30,40,45,.5); --link:#294B5A;
+    --head-text:#F3ECDD; --head-sub:#C9D6DA;
+    --done-bg:#EEF3E8; --done-border:#cdd9bf; --done-bg2:#EAF0E4;
+    --warn-bg:#FFF7DF; --warn-border:#D9BE87; --warn-text:#806128;
+    --needed-bg:#FFF9E9; --needed-bg-hover:#FFF3CF;
+    --heart-empty:#D9CBB8; --sel-soft:#ffe1d7;
+    --page-dot:rgba(43,38,34,.035);
+  }
+  @media (prefers-color-scheme:dark){ :root:not([data-theme="light"]){
+    --washi:#1A1714; --washi-2:#241F1B; --card:#221D19;
+    --sumi:#EDE4D6; --sumi-soft:#A99F92; --line:rgba(237,228,214,.14);
+    --indigo:#3B6678; --indigo-deep:#2C4F5E; --seal:#E0673F;
+    --loved:#E0675C; --liked:#8FB36F; --disliked:#D8A24A; --hated:#88A3B0;
+    --shadow:0 1px 0 rgba(255,255,255,.04) inset, 0 10px 24px -14px rgba(0,0,0,.75);
+    --head-text:#F3ECDD; --head-sub:#D0DEE3;
+    --done-bg:#23301F; --done-border:#3C5132; --done-bg2:#26331F;
+    --warn-bg:#2E2716; --warn-border:#6B5A2E; --warn-text:#E0C684;
+    --needed-bg:#2C2614; --needed-bg-hover:#3A311A;
+    --heart-empty:#4A423A; --sel-soft:#3a2018;
+    --page-dot:rgba(237,228,214,.04); --link:#8FBDD0;
+  }}
+  :root[data-theme="dark"]{
+    --washi:#1A1714; --washi-2:#241F1B; --card:#221D19;
+    --sumi:#EDE4D6; --sumi-soft:#A99F92; --line:rgba(237,228,214,.14);
+    --indigo:#3B6678; --indigo-deep:#2C4F5E; --seal:#E0673F;
+    --loved:#E0675C; --liked:#8FB36F; --disliked:#D8A24A; --hated:#88A3B0;
+    --shadow:0 1px 0 rgba(255,255,255,.04) inset, 0 10px 24px -14px rgba(0,0,0,.75);
+    --head-text:#F3ECDD; --head-sub:#D0DEE3;
+    --done-bg:#23301F; --done-border:#3C5132; --done-bg2:#26331F;
+    --warn-bg:#2E2716; --warn-border:#6B5A2E; --warn-text:#E0C684;
+    --needed-bg:#2C2614; --needed-bg-hover:#3A311A;
+    --heart-empty:#4A423A; --sel-soft:#3a2018;
+    --page-dot:rgba(237,228,214,.04); --link:#8FBDD0;
+  }
+  *{box-sizing:border-box} html,body{margin:0}
+  body{background:var(--washi); color:var(--sumi); font-family:"Zen Maru Gothic",system-ui,sans-serif; line-height:1.5;
+    background-image:radial-gradient(var(--page-dot) 1px,transparent 1px); background-size:18px 18px}
+  body, header.noren, .panel, .dense-card, .site-card, .site-hero, .summary-box, .fold-card, .bundle, .source-row, .make-row, .lnk, .mat, .chip, .tab-btn, .util-btn, input, select, button{
+    transition:background-color .22s ease, color .22s ease, border-color .22s ease, box-shadow .22s ease;
+  }
+  a{color:var(--link)}
+
+  header.noren{background:var(--indigo); color:var(--head-text); padding:18px 22px 0; border-bottom:0}
+  .brand{display:flex; align-items:center; gap:14px; max-width:1100px; margin:0 auto}
+  .seal{flex:0 0 auto; width:46px; height:46px; border-radius:10px; background:var(--seal); color:#fff; display:grid; place-items:center;
+    font-family:"Yuji Syuku",serif; font-size:26px; line-height:1; box-shadow:0 2px 0 rgba(0,0,0,.25), 0 0 0 2px rgba(255,255,255,.25) inset; transform:rotate(-3deg)}
+  .brand h1{font-family:"Yuji Syuku",serif; font-weight:400; font-size:clamp(22px,3.4vw,30px); margin:0; letter-spacing:.5px}
+  .brand .sub{display:none}
+  .utility-nav{margin-left:auto; display:flex; align-items:center; gap:5px; flex-wrap:wrap; justify-content:flex-end}
+  .utility-nav .util-btn{font:inherit; font-size:12.5px; cursor:pointer; border:1px solid rgba(244,239,230,.18); background:rgba(244,239,230,.08); color:var(--head-sub); border-radius:999px; padding:5px 10px}
+  .utility-nav .util-btn:hover{background:rgba(244,239,230,.16); color:var(--head-text)}
+  .utility-nav .util-btn[aria-current="page"]{background:var(--seal); border-color:var(--seal); color:#fff}
+  .utility-nav .util-btn:focus-visible{outline:2px solid var(--seal); outline-offset:2px}
+  .mobile-nav{display:none; font:inherit; color:var(--sumi); background:var(--washi); border:1px solid rgba(244,239,230,.35); border-radius:999px; padding:7px 34px 7px 12px; max-width:210px}
+
+  .tabs{max-width:1100px; margin:0 auto; padding:10px 22px 0; display:flex; gap:6px; flex-wrap:nowrap; align-items:flex-end; position:relative;
+    overflow-x:auto; overflow-y:hidden; scrollbar-width:none; -webkit-overflow-scrolling:touch;
+    -webkit-mask-image:linear-gradient(to right,#000 calc(100% - 22px),transparent); mask-image:linear-gradient(to right,#000 calc(100% - 22px),transparent)}
+  .tabs::-webkit-scrollbar{display:none}
+  .tab-btn{flex:0 0 auto; white-space:nowrap; font:inherit; font-size:15px; cursor:pointer; padding:9px 16px 11px; border:0; border-radius:10px 10px 0 0; background:transparent; color:var(--head-sub)}
+  .tab-btn:hover{background:rgba(244,239,230,.12); color:var(--head-text)}
+  .tab-btn[aria-selected="true"]{background:var(--washi); color:var(--sumi)}
+  .tab-btn:focus-visible{outline:2px solid var(--seal); outline-offset:-3px}
+  .more-nav{position:relative; margin-left:auto}
+  .more-nav summary{list-style:none}
+  .more-nav summary::-webkit-details-marker{display:none}
+  .more-panel{position:absolute; right:0; top:100%; z-index:20; min-width:190px; padding:7px; background:var(--card); border:1px solid var(--line); border-radius:10px; box-shadow:0 18px 34px -24px #000}
+  .more-panel .tab-btn{display:block; width:100%; text-align:left; color:var(--sumi); border-radius:8px; padding:7px 10px}
+  .more-panel .tab-btn[aria-selected="true"]{background:var(--seal); color:#fff}
+  .more-panel .tab-btn:hover{background:var(--washi-2); color:var(--sumi)}
+  @media (max-width:720px){
+    header.noren{padding:10px 12px 12px}
+    .brand{align-items:center; gap:9px; flex-wrap:wrap}
+    .brand h1{font-family:"Yuji Syuku",serif; font-weight:400; font-size:23px; line-height:1.05; letter-spacing:.35px; white-space:nowrap; max-width:none}
+    .seal{width:36px; height:36px; font-size:22px; border-radius:9px}
+    .utility-nav,.tabs{display:none}
+    .mobile-nav{display:block; order:4; flex:0 0 100%; width:100%; max-width:none; margin:8px 0 0; padding:9px 34px 9px 12px; border-radius:12px}
+    .theme-toggle {font-size: 18px; width: 36px; height: 36px; padding: 0; margin-left: auto; display: flex; align-items: center; justify-content: center; line-height: 1;}
+}
+  @media (max-width:380px){.brand h1{font-size:21px}}
+
+  main{max-width:1100px; margin:0 auto; padding:20px 18px 40px; display:grid; grid-template-columns:330px 1fr; gap:20px; align-items:start}
+  @media (max-width:820px){ main{grid-template-columns:1fr; padding:14px} }
+  .back-btn{display:none; font:inherit; font-size:13.5px; cursor:pointer; align-items:center; gap:6px; margin:12px 14px 0; padding:8px 12px; border:1px solid var(--line); border-radius:10px; background:var(--washi); color:var(--sumi)}
+  .back-btn:hover{background:var(--washi-2); border-color:var(--seal)}
+  .back-btn:focus-visible{outline:2px solid var(--seal); outline-offset:1px}
+  @media (max-width:820px){
+    main.has-detail .list{display:none}
+    main.has-detail .detail{display:block}
+    main:not(.has-detail) .detail{display:none}
+    main.has-detail .back-btn{display:inline-flex}
+  }
+  .panel{background:var(--card); border:1px solid var(--line); border-radius:var(--radius); box-shadow:var(--shadow)}
+
+  .list{position:sticky; top:14px; overflow:hidden; display:flex; flex-direction:column; max-height:calc(100vh - 28px)}
+  @media (max-width:820px){ .list{position:static; max-height:none} }
+  .list .head{padding:14px 14px 10px; border-bottom:1px solid var(--line)}
+  .search{width:100%; padding:11px 12px; border-radius:10px; border:1px solid var(--line); background:var(--washi); color:var(--sumi); font:inherit; font-size:15px}
+  .search::-webkit-search-cancel-button{-webkit-appearance:none; appearance:none}
+  .search-wrap{position:relative; display:block; width:100%}
+  .search-wrap .search{width:100%; padding-right:30px}
+  .search-clear{position:absolute; right:6px; top:50%; transform:translateY(-50%); border:0; background:transparent; color:var(--sumi-soft); font-size:14px; line-height:1; cursor:pointer; padding:4px; border-radius:6px; display:none}
+  .search-wrap .search:not(:placeholder-shown) ~ .search-clear{display:block}
+  .search-clear:hover{color:var(--seal)}
+  .search-clear:focus-visible{outline:2px solid var(--seal); outline-offset:1px}
+  .search:focus-visible{outline:2px solid var(--seal); outline-offset:1px; border-color:transparent}
+  .row{display:flex; gap:8px; margin-top:10px; flex-wrap:wrap; align-items:center}
+  .chip{font:inherit; font-size:12.5px; cursor:pointer; padding:6px 11px; border-radius:999px; border:1px solid var(--line); background:var(--washi); color:var(--sumi-soft)}
+  .chip:hover{background:var(--washi-2); border-color:var(--seal); color:var(--sumi)}
+  .chip[aria-pressed="true"]{background:var(--indigo); color:var(--head-text); border-color:var(--indigo)}
+  .chip[aria-pressed="true"]:hover{background:var(--indigo-deep); color:var(--head-text); border-color:var(--indigo-deep)}
+  .chip:focus-visible{outline:2px solid var(--seal); outline-offset:1px}
+  select.sort{font:inherit; font-size:12.5px; padding:6px 8px; border-radius:8px; border:1px solid var(--line); background:var(--washi); color:var(--sumi); margin-left:auto}
+  .count{font-size:12px; color:var(--sumi-soft); margin-top:9px}
+
+  .items{overflow:auto; padding:6px}
+  .group-title{display:flex; align-items:baseline; gap:8px; padding:13px 11px 5px; color:var(--sumi-soft); font-size:12px; text-transform:uppercase; letter-spacing:.08em; font-weight:700}
+  .group-title .n{margin-left:auto; font-weight:400; letter-spacing:0; text-transform:none}
+  .item-btn{width:100%; text-align:left; font:inherit; cursor:pointer; background:transparent; border:0; border-radius:10px; padding:9px 11px; display:flex; align-items:center; gap:10px; color:var(--sumi)}
+  .item-btn:hover{background:var(--washi-2)}
+  .item-btn[aria-current="true"]{background:var(--seal); color:#fff}
+  .item-btn[aria-current="true"] .heart, .item-btn[aria-current="true"] .sub2, .item-btn[aria-current="true"] .val{color:var(--sel-soft)}
+  .item-btn:focus-visible{outline:2px solid var(--seal); outline-offset:-2px}
+  .item-name{flex:1; min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+  .item-name .sub2{display:block; font-size:11.5px; color:var(--sumi-soft)}
+  .val{flex:0 0 auto; font-size:11.5px; color:var(--sumi-soft)}
+  .heart{flex:0 0 auto; font-size:12px; color:var(--loved); font-weight:700}
+
+  .detail{padding:0; min-height:300px}
+  .empty{padding:48px 28px; text-align:center; color:var(--sumi-soft)}
+  .empty .big{font-family:"Yuji Syuku",serif; font-size:40px; color:var(--washi-2); display:block; margin-bottom:8px}
+
+  .item-head{padding:20px 22px 16px; border-bottom:1px solid var(--line); display:flex; gap:14px; align-items:flex-start}
+  .item-head .seal-dot{flex:0 0 auto; width:14px; height:14px; border-radius:50%; background:var(--seal); box-shadow:0 0 0 4px rgba(200,80,46,.16); margin-top:8px}
+  .item-head h2{font-family:"Yuji Syuku",serif; font-weight:400; font-size:26px; margin:0 0 4px}
+  .meta{display:flex; flex-wrap:wrap; gap:8px 14px; font-size:13px; color:var(--sumi-soft); margin-top:6px; align-items:center}
+  .meta b{color:var(--sumi); font-weight:700}
+  .pill{background:var(--washi-2); border-radius:999px; padding:2px 10px; font-size:12px; color:var(--sumi)}
+  .pill.romance{background:#F3DDD7; color:var(--seal)}
+  .desc{margin:10px 0 0; font-size:14px; color:var(--sumi-soft); max-width:60ch}
+  .thumb{width:34px; height:34px; object-fit:contain; border-radius:8px; background:var(--washi-2); border:1px solid var(--line); flex:0 0 auto}
+  .item-btn .thumb{width:30px; height:30px; margin-right:8px}
+  .item-head .thumb{width:56px; height:56px; border-radius:12px; margin-right:12px}
+  .gchip .thumb,.lnk .thumb,.ing .thumb,.mat .thumb{width:22px; height:22px; border-radius:6px; margin:-2px 0}
+  .shrine-badge{display:inline-flex; align-items:center; gap:4px; border:1px solid var(--warn-border); background:var(--warn-bg); color:var(--warn-text); border-radius:999px; padding:2px 8px; font-size:11.5px; line-height:1.2; white-space:nowrap}
+  .item-btn .shrine-badge{margin-left:auto}
+  .frow.shrine-needed,.lnk.shrine-needed{background:var(--needed-bg)}
+  .frow.shrine-needed:hover,.lnk.shrine-needed:hover{background:var(--needed-bg-hover)}
+  .dash-wrap{max-width:1100px; margin:0 auto; padding:20px 18px 40px}
+  .summary-strip{display:grid; grid-template-columns:repeat(auto-fit,minmax(190px,1fr)); gap:12px; margin-bottom:16px}
+  .summary-box{background:var(--card); border:1px solid var(--line); border-radius:var(--radius); box-shadow:var(--shadow); padding:13px 15px}
+  .summary-box .k{font-size:12.5px; color:var(--sumi-soft)}
+  .summary-box .v{font-family:"Yuji Syuku",serif; font-size:24px; line-height:1.1}
+  .upgrade-note{background:var(--washi-2); border:1px solid var(--line); border-radius:var(--radius); box-shadow:var(--shadow); padding:11px 14px; margin:-4px 0 16px; color:var(--sumi-soft); font-size:13.5px}
+  .upgrade-note b{color:var(--sumi)}
+  .dense-grid{display:grid; grid-template-columns:repeat(auto-fill,minmax(260px,1fr)); gap:14px; margin-bottom:22px}
+  .dense-card{background:var(--card); border:1px solid var(--line); border-radius:var(--radius); box-shadow:var(--shadow); padding:14px 15px}
+  .dense-card.done{background:var(--done-bg); border-color:var(--done-border)}
+  .dense-card h3{font-family:"Yuji Syuku",serif; font-weight:400; font-size:18px; margin:0 0 7px; display:flex; align-items:center; gap:8px}
+  .dense-card h3 .madebox{margin-right:2px}
+  .mini-meta{display:flex; flex-wrap:wrap; gap:8px; margin:8px 0 12px}
+  .mini-meta span{display:inline-flex; align-items:center; gap:4px; background:var(--washi-2); border:1px solid var(--line); border-radius:999px; padding:4px 9px; font-size:12.5px; line-height:1.2; color:var(--sumi-soft)}
+  .mini-meta b{color:var(--sumi); font-weight:700}
+  .mat-mode-panel{display:grid; grid-template-columns:minmax(0,1fr) auto; gap:12px; align-items:center; background:var(--washi-2); border:1px solid var(--line); border-radius:14px; padding:10px 12px; margin-bottom:10px}
+  .mat-mode-copy{display:flex; flex-direction:column; gap:2px; color:var(--sumi-soft); font-size:12.5px}
+  .mat-mode-copy b{font-size:13.5px; color:var(--sumi)}
+  .mode-toggle{display:inline-flex; align-items:center; padding:3px; gap:3px; border:1px solid var(--line); border-radius:999px; background:var(--card); box-shadow:inset 0 1px 0 rgba(255,255,255,.45)}
+  .mode-toggle .chip{border-color:transparent; background:transparent; color:var(--sumi-soft); margin:0}
+  .mode-toggle .chip:hover{background:var(--washi-2); border-color:transparent; color:var(--sumi)}
+  .mode-toggle .chip[aria-pressed="true"]{background:var(--seal); color:#fff; border-color:var(--seal); box-shadow:0 1px 4px rgba(99,49,31,.18)}
+  .mode-toggle .chip[aria-pressed="true"]:hover{background:var(--seal); color:#fff; border-color:var(--seal)}
+  .materials-zone{transition:opacity .16s ease, transform .16s ease}
+  .materials-zone.updating{opacity:.32; transform:translateY(2px)}
+  .mat-list{display:flex; flex-wrap:wrap; gap:8px; margin-top:8px}
+  .mat{display:inline-flex; align-items:center; gap:6px; min-height:34px; background:var(--card); border:1px solid var(--line); border-radius:999px; padding:5px 12px; font:inherit; font-size:13.5px; line-height:1.2; color:var(--sumi); text-decoration:none}
+  button.mat{cursor:pointer}
+  button.mat:hover{background:var(--washi-2); border-color:var(--seal)}
+  button.mat:focus-visible{outline:2px solid var(--seal); outline-offset:1px}
+  .mat b{color:var(--seal); font-weight:700}
+  .section-title{font-family:"Yuji Syuku",serif; font-weight:400; font-size:22px; margin:20px 2px 10px; padding-bottom:8px; border-bottom:2px solid var(--line)}
+  .compact-table{background:var(--card); border:1px solid var(--line); border-radius:var(--radius); box-shadow:var(--shadow); overflow:hidden; margin-bottom:18px}
+  .compact-row{display:grid; grid-template-columns:auto 1fr auto; gap:10px; align-items:center; padding:9px 12px; border-bottom:1px solid var(--line); font-size:13.5px}
+  .compact-row:last-child{border-bottom:0}
+  .compact-row.done{background:var(--done-bg)}
+  .compact-row .cost{font-weight:700; color:var(--seal)}
+  .fold{margin-bottom:16px}
+  .fold > .section-toggle{width:100%; display:flex; align-items:center; gap:10px; text-align:left; font:inherit; color:var(--sumi); background:transparent; border:0; border-bottom:2px solid var(--line); padding:7px 2px 9px; cursor:pointer}
+  .fold > .section-toggle:hover .ttl{color:var(--seal)}
+  .fold > .section-toggle .ttl{font-family:"Yuji Syuku",serif; font-size:22px}
+  .fold > .section-toggle .hint{margin-left:auto; color:var(--sumi-soft); font-size:12.5px}
+  .fold > .section-toggle::before{content:"▾"; color:var(--seal); width:16px; text-align:center}
+  .fold.collapsed > .section-toggle::before{content:"▸"}
+  .fold > .fold-body{display:grid; grid-template-rows:1fr; max-height:12000px; opacity:1; overflow:hidden; transition:grid-template-rows .25s ease, max-height .25s ease, opacity .18s ease}
+  .fold > .fold-body > .fold-inner{overflow:hidden}
+  .fold.collapsed > .fold-body{grid-template-rows:0fr; max-height:0; opacity:.02}
+  .fold-card{background:var(--card); border:1px solid var(--line); border-radius:var(--radius); box-shadow:var(--shadow); padding:14px 15px}
+  .fold-card > .section-toggle{border-bottom:1px solid var(--line); padding:0 0 10px; margin-bottom:12px}
+  .fold-card > .section-toggle .ttl{font-size:18px}
+  .fold-card.collapsed > .section-toggle{border-bottom:0; margin-bottom:0; padding-bottom:0}
+  .tag-detail{padding:20px 22px}
+  .tag-detail h2{font-family:"Yuji Syuku",serif; font-weight:400; font-size:26px; margin:0 0 4px}
+  .villager-hero .npc-thumb{width:132px; height:132px; border-radius:14px; object-fit:contain}
+  .source-list{display:grid; gap:8px}
+  .source-row,.make-row{display:grid; grid-template-columns:minmax(180px,1fr) auto; gap:10px; align-items:center; background:var(--washi); border:1px solid var(--line); border-radius:10px; padding:9px 11px; font-size:13px}
+  .make-row:has(button):hover{background:var(--washi-2)}
+  .source-main,.make-main{display:flex; flex-direction:column; gap:3px; min-width:0}
+  .source-main b,.make-main b{font-size:13.5px}
+  .source-meta,.make-meta{display:flex; flex-wrap:wrap; gap:6px; justify-content:flex-end}
+  .info-pill{display:inline-flex; gap:4px; align-items:center; border:1px solid var(--line); background:var(--card); border-radius:999px; padding:3px 8px; color:var(--sumi-soft); white-space:nowrap}
+  .info-pill b{color:var(--sumi); font-weight:700}
+  @media (max-width:720px){.source-row,.make-row,.mat-mode-panel{grid-template-columns:1fr}.source-meta,.make-meta{justify-content:flex-start}.mode-toggle{width:max-content}.villager-hero{flex-direction:column}.villager-hero .npc-thumb{width:160px;height:160px}}
+  .data-table{width:100%; border-collapse:collapse; font-size:13px}
+  .data-table th,.data-table td{text-align:left; vertical-align:top; padding:8px 9px; border-bottom:1px solid var(--line)}
+  .data-table th{font-size:12px; color:var(--sumi-soft); background:var(--washi)}
+  .data-table tr:last-child td{border-bottom:0}
+  @media (max-width:720px){
+    .data-table,.data-table tbody,.data-table tr,.data-table td{display:block; width:100%}
+    .data-table thead{display:none}
+    .data-table{border-collapse:separate; border-spacing:0}
+    .data-table tr{background:var(--washi); border:1px solid var(--line); border-radius:12px; padding:9px 10px; margin-bottom:10px}
+    .data-table td{display:grid; grid-template-columns:105px minmax(0,1fr); gap:8px; padding:6px 0; border-bottom:1px solid var(--line)}
+    .data-table td:last-child{border-bottom:0}
+    .data-table td::before{content:attr(data-label); color:var(--sumi-soft); font-weight:700; font-size:12px}
+  }
+  .map-copy{max-width:none}
+  .map-link{display:block; margin-top:10px}
+  .map-img{display:block; width:100%; max-width:900px; height:auto; border-radius:10px; border:1px solid var(--line); background:var(--washi-2)}
+  .spoiler{display:inline-flex; margin-left:8px; font-family:"Zen Maru Gothic"; font-size:11px; border:1px solid var(--warn-border); background:var(--warn-bg); color:var(--warn-text); border-radius:999px; padding:1px 7px}
+  .tag-sep{color:var(--sumi-soft); font-size:12px; align-self:center}
+  .backup-actions{display:flex; flex-wrap:wrap; gap:8px; margin-top:10px}
+  .backup-note{font-size:13px; color:var(--sumi-soft); margin:8px 0 0}
+  .backup-status{font-size:13px; margin-top:8px; color:var(--liked)}
+  .backup-status.err{color:var(--seal)}
+  .site-page{max-width:860px; margin:0 auto; padding:20px 18px 40px}
+  .site-hero{background:var(--card); border:1px solid var(--line); border-radius:var(--radius); box-shadow:var(--shadow); padding:22px}
+  .site-hero h2{font-family:"Yuji Syuku",serif; font-weight:400; font-size:30px; margin:0 0 8px}
+  .site-hero p{margin:0; color:var(--sumi-soft); max-width:70ch}
+  .site-grid{display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:14px; margin-top:14px}
+  .site-card{background:var(--card); border:1px solid var(--line); border-radius:var(--radius); box-shadow:var(--shadow); padding:16px}
+  .site-card h3{font-family:"Yuji Syuku",serif; font-weight:400; font-size:20px; margin:0 0 8px}
+  .site-card p,.site-card li{font-size:13.5px; color:var(--sumi-soft)}
+  .site-card p{margin:7px 0}
+  .site-card ul{margin:8px 0 0; padding-left:20px}
+  .site-card strong{color:var(--sumi)}
+  .site-card.full{grid-column:1 / -1}
+  .status-list{display:grid; gap:8px; margin-top:10px}
+  .status-row{display:grid; grid-template-columns:130px 1fr; gap:10px; align-items:start; border:1px solid var(--line); border-radius:10px; background:var(--washi); padding:9px 11px}
+  .status-row .status{font-size:12px; color:#fff; background:var(--indigo); border-radius:999px; padding:3px 8px; text-align:center}
+  .status-row .status.waiting{background:var(--disliked)}
+  .status-row .status.later{background:var(--hated)}
+  .status-row b{display:block; color:var(--sumi)}
+  .status-row span:last-child{color:var(--sumi-soft); font-size:13.5px}
+  @media (max-width:620px){.status-row{grid-template-columns:1fr}.status-row .status{width:max-content}}
+
+  .tiers{padding:16px 18px 22px; display:grid; gap:14px}
+  .tier{border:1px solid var(--line); border-radius:12px; overflow:hidden; background:var(--washi)}
+  .tier > .t-head{display:flex; align-items:center; gap:10px; padding:10px 14px; font-family:"Yuji Syuku",serif; font-size:17px; border-left:5px solid var(--tc)}
+  .tier .t-head .dot{width:8px;height:8px;border-radius:50%;background:var(--tc)}
+  .tier .t-head .n{margin-left:auto; font-family:"Zen Maru Gothic"; font-size:13px; color:var(--sumi-soft)}
+  .tier.loved{--tc:var(--loved)} .tier.liked{--tc:var(--liked)} .tier.disliked{--tc:var(--disliked)} .tier.hated{--tc:var(--hated)}
+  .chips-wrap{display:flex; flex-wrap:wrap; gap:8px; padding:0 14px 14px}
+  .lnk{background:var(--card); border:1px solid var(--line); border-radius:999px; padding:5px 12px; font:inherit; font-size:13.5px; cursor:pointer; color:var(--sumi); display:inline-flex; align-items:center; gap:6px}
+  .lnk:hover{background:var(--washi-2); border-color:var(--seal)}
+  .lnk:focus-visible{outline:2px solid var(--seal); outline-offset:1px}
+  .lnk .via{font-size:11.5px; color:var(--sumi-soft)}
+  .tier .none{padding:0 14px 14px; color:var(--sumi-soft); font-size:13px}
+  .tier .vtags{padding:0 14px 12px; font-size:13px; color:var(--sumi-soft)}
+  .tier .vtags b{color:var(--tc)}
+  .gift-part{padding:0 14px 12px}
+  .gift-part .gift-label{display:block; margin:0 0 7px; font-size:12px; color:var(--sumi-soft); font-weight:700; text-transform:uppercase; letter-spacing:.06em}
+  .gift-part .chips-wrap{padding:0}
+  .tier .gift-part + .gift-part{padding-top:2px}
+  .neutral{padding:30px 22px; color:var(--sumi-soft)}
+  .usedin{padding:14px 22px 22px; border-top:1px solid var(--line)}
+  .usedin h4{margin:0 0 8px; font-family:"Yuji Syuku",serif; font-weight:400; font-size:16px}
+
+  /* villager tracker */
+  .gchip{background:var(--card); border:1px solid var(--line); border-radius:10px; padding:5px 8px 5px 10px; font-size:13.5px; display:inline-flex; align-items:center; gap:8px}
+  .gchip.done{background:var(--done-bg2); border-color:var(--done-border)}
+  .gchip input{accent-color:var(--liked); width:16px; height:16px; margin:0; cursor:pointer}
+  .gchip .gname{font:inherit; font-size:13.5px; background:none; border:0; cursor:pointer; color:var(--sumi); padding:0}
+  .gchip.done .gname{color:var(--sumi-soft); text-decoration:line-through}
+  .gchip .gname:hover{color:var(--seal)}
+  .gchip .gname:focus-visible{outline:2px solid var(--seal); outline-offset:2px}
+
+  .track{padding:14px 22px; border-bottom:1px solid var(--line); display:flex; align-items:center; gap:14px; flex-wrap:wrap}
+  .track + .fold{margin-top:16px}
+  .hearts{display:flex; gap:3px}
+  .hbtn{font:inherit; cursor:pointer; border:0; background:transparent; font-size:20px; line-height:1; color:var(--heart-empty); padding:2px}
+  .hbtn.full{color:var(--loved)}
+  .hbtn:focus-visible{outline:2px solid var(--seal); outline-offset:1px; border-radius:4px}
+  .track .lvl{font-size:13px; color:var(--sumi-soft)} .track .reset{margin-left:auto; font-size:12px}
+
+  /* shrine */
+  .shrine-wrap{max-width:1100px; margin:0 auto; padding:20px 18px 40px}
+  .shrine-group{margin-bottom:26px}
+  .shrine-head{display:flex; align-items:baseline; gap:12px; margin:0 2px 12px; padding-bottom:8px; border-bottom:2px solid var(--line)}
+  .shrine-head h2{font-family:"Yuji Syuku",serif; font-weight:400; font-size:23px; margin:0}
+  .shrine-head .prog{font-size:13px; color:var(--sumi-soft)}
+  .bundles{display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:14px}
+  .bundle{background:var(--card); border:1px solid var(--line); border-radius:var(--radius); box-shadow:var(--shadow); padding:14px 15px; position:relative}
+  .bundle.complete{background:var(--done-bg); border-color:var(--done-border)}
+  .bundle.complete::after{content:"✓ complete"; position:absolute; top:13px; right:14px; font-size:11.5px; color:var(--liked); font-weight:700}
+  .bhead{display:flex; align-items:baseline; gap:8px; margin-bottom:10px}
+  .bhead h3{font-family:"Yuji Syuku",serif; font-weight:400; font-size:17px; margin:0}
+  .bhead .bprog{margin-left:auto; font-size:12px; color:var(--sumi-soft)} .bundle.complete .bprog{display:none}
+  .offs{display:flex; flex-direction:column; gap:7px}
+  .off{display:flex; align-items:center; gap:8px; font-size:13.5px}
+  .off .oname{flex:1; min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; text-align:left; font:inherit; background:none; border:0; cursor:pointer; color:var(--sumi); padding:0}
+  .off .oname:hover{color:var(--seal)} .off .oname:focus-visible{outline:2px solid var(--seal); outline-offset:2px}
+  .off.met .oname{color:var(--sumi-soft); text-decoration:line-through}
+  .octl{display:flex; align-items:center; gap:4px; flex:0 0 auto}
+  .octl .cnt{font-size:12.5px; min-width:50px; text-align:center; color:var(--sumi-soft)} .off.met .cnt{color:var(--liked)} .octl .cnt b{color:var(--sumi)}
+  .offer-input{width:52px; font:inherit; font-size:12.5px; text-align:center; color:var(--sumi); background:var(--washi); border:1px solid var(--line); border-radius:7px; padding:3px 4px}
+  .offer-input:focus-visible{outline:2px solid var(--seal); outline-offset:1px}
+  .step{font:inherit; cursor:pointer; width:24px; height:24px; line-height:1; border:1px solid var(--line); background:var(--washi); border-radius:7px; color:var(--sumi)}
+  .step:hover{background:var(--washi-2)} .step.max{color:var(--liked); font-size:13px} .step:focus-visible{outline:2px solid var(--seal); outline-offset:1px}
+  .award{margin-top:11px; padding-top:10px; border-top:1px dashed var(--line); font-size:12.5px; color:var(--sumi-soft)} .award b{color:var(--seal)}
+
+  /* recipes */
+  .ings{display:flex; flex-wrap:wrap; gap:6px; margin-top:4px}
+  .ing{font-size:12.5px; padding:4px 9px; border-radius:8px; border:1px solid var(--line); background:var(--washi)}
+  .ing.tagy{color:var(--sumi-soft); font-style:italic}
+  button.ing{cursor:pointer; color:var(--sumi)} button.ing:hover{border-color:var(--seal); color:var(--seal)}
+  button.ing:focus-visible{outline:2px solid var(--seal); outline-offset:1px}
+  .bhead .rname{font:inherit; font-size:17px; background:none; border:0; cursor:pointer; color:var(--sumi); padding:0; font-family:"Yuji Syuku",serif}
+  .bhead .rname:hover{color:var(--seal)} .bhead .rname:focus-visible{outline:2px solid var(--seal); outline-offset:2px}
+  .makerow{padding:8px 0; border-bottom:1px solid var(--line)} .makerow:last-child{border-bottom:0}
+  .makerow .makeres{font-size:12.5px; color:var(--sumi-soft); display:block; margin-bottom:5px}
+
+
+  .today-wrap,.fish-wrap{max-width:1100px; margin:0 auto; padding:20px 18px 40px}
+.today-controls{display:flex; gap:16px; flex-wrap:wrap; margin-bottom:18px; background:var(--card); border:1px solid var(--line); border-radius:var(--radius); box-shadow:var(--shadow); padding:14px 18px}
+.today-controls label{font-size:13px; color:var(--sumi-soft); display:flex; align-items:center; gap:7px}
+.today-controls select{font:inherit; font-size:14px; padding:6px 8px; border-radius:8px; border:1px solid var(--line); background:var(--washi); color:var(--sumi)}
+.time-legend{display:flex; gap:6px; flex-wrap:wrap; margin:-4px 0 14px}
+.time-pill{font-size:12.5px; color:var(--sumi-soft); background:var(--card); border:1px solid var(--line); border-radius:999px; padding:5px 9px}
+.time-pill b{color:var(--sumi); font-weight:700}
+.tcard{background:var(--card); border:1px solid var(--line); border-radius:var(--radius); box-shadow:var(--shadow); padding:16px 18px; margin-bottom:14px}
+  .tcard h3{font-family:"Yuji Syuku",serif; font-weight:400; font-size:18px; margin:0 0 10px}
+  .minihead{font:inherit; font-size:12px; font-weight:700; letter-spacing:.02em; text-transform:uppercase; color:var(--sumi-soft); margin:10px 0 8px; padding:0 2px}
+  .muted{color:var(--sumi-soft); font-size:13.5px; margin:0}
+  .muted2{font-family:"Zen Maru Gothic"; font-size:13px; color:var(--sumi-soft)}
+  .fish-bar{display:flex; gap:10px; flex-wrap:wrap; align-items:center; margin-bottom:14px}
+  .frows{display:flex; flex-direction:column; gap:4px}
+  .frow{display:flex; align-items:center; gap:10px; padding:8px 10px; border-radius:9px; font-size:13.5px}
+  .frow:hover{background:var(--washi-2)}
+  .frow input{accent-color:var(--liked); width:16px; height:16px; margin:0; cursor:pointer; flex:0 0 auto}
+  .frow .fname{font:inherit; font-size:14px; background:none; border:0; cursor:pointer; color:var(--sumi); padding:0; flex:0 0 auto; min-width:130px; text-align:left}
+  .frow .fname:hover{color:var(--seal)} .frow .fname:focus-visible{outline:2px solid var(--seal); outline-offset:2px}
+  .frow.caught .fname, .frow.done .fname{color:var(--sumi-soft); text-decoration:line-through}
+  .bundle.made{background:var(--done-bg); border-color:var(--done-border)}
+  .madebox{accent-color:var(--liked); width:16px; height:16px; margin:0 2px 0 0; cursor:pointer; flex:0 0 auto; vertical-align:middle}
+  .bhead{align-items:center}
+  .frow .fmeta{color:var(--sumi-soft); font-size:12.5px; flex:1; min-width:0}
+  .fish-row{align-items:flex-start}
+  .fish-main{display:flex; align-items:center; gap:10px; min-width:220px; flex:0 0 auto}
+  .fish-main .fname{min-width:0}
+  .fish-meta{display:flex; flex-wrap:wrap; gap:6px; min-width:0; flex:1}
+  .fish-meta .info-pill{background:var(--card); padding:3px 8px; font-size:12.5px; line-height:1.3; white-space:normal}
+  .crop-row{align-items:flex-start}
+  .crop-main{display:flex; align-items:center; gap:10px; min-width:220px; flex:0 0 auto}
+  .crop-main .fname{min-width:0}
+  .crop-meta{display:flex; flex-wrap:wrap; gap:6px; min-width:0; flex:1}
+  .crop-meta .info-pill{background:var(--card); padding:3px 8px; font-size:12.5px; line-height:1.3; white-space:normal}
+
+  @media (max-width:720px){
+    .fish-bar{align-items:stretch}
+    .fish-bar .search-wrap,.fish-bar > .search{flex:0 0 100%; max-width:none!important}
+    .fish-bar .row{flex:0 0 100%; overflow-x:auto; flex-wrap:nowrap; padding-bottom:2px}
+    .fish-bar .count{flex:1 1 auto; min-width:120px}
+    .fish-bar select.sort{margin-left:0}
+    .fish-row{display:grid; grid-template-columns:auto 1fr; gap:8px 10px; background:var(--card); border:1px solid var(--line); border-radius:14px; padding:11px}
+    .fish-row:hover{background:var(--card)}
+    .fish-row > input{grid-column:1; grid-row:1}
+    .fish-row > .fish-main{grid-column:2; grid-row:1; min-width:0}
+    .fish-main .fname{font-size:15px; flex:1}
+    .fish-meta{grid-column:1 / -1}
+    .fish-meta .info-pill{font-size:12.5px; padding:3px 7px; max-width:100%}
+    .crop-row{display:grid; grid-template-columns:auto 1fr; gap:8px 10px; background:var(--card); border:1px solid var(--line); border-radius:14px; padding:11px}
+    .crop-row:hover{background:var(--card)}
+    .crop-row > input{grid-column:1; grid-row:1}
+    .crop-row > .crop-main{grid-column:2; grid-row:1; min-width:0}
+    .crop-main .fname{font-size:15px; flex:1; min-width:0}
+    .crop-row .shrine-badge{justify-self:start}
+    .crop-meta{grid-column:1 / -1}
+    .crop-meta .info-pill{font-size:12.5px; padding:3px 7px; max-width:100%}
+  }
+
+
+  .ov{max-width:1100px; margin:0 auto; padding:20px 18px 40px}
+  .stats{display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:14px; margin-bottom:24px}
+  .stat{text-align:left; font:inherit; cursor:pointer; background:var(--card); border:1px solid var(--line); border-radius:var(--radius); box-shadow:var(--shadow); padding:16px 18px; color:var(--sumi)}
+  .stat:hover{border-color:var(--seal)} .stat:focus-visible{outline:2px solid var(--seal); outline-offset:1px}
+  .stat-k{font-size:12px; letter-spacing:.14em; text-transform:uppercase; color:var(--sumi-soft)}
+  .stat-v{font-family:"Yuji Syuku",serif; font-size:27px; margin:4px 0 8px}
+  .bar{height:8px; border-radius:99px; background:var(--washi-2); overflow:hidden}
+  .bar span{display:block; height:100%; background:var(--liked)}
+  .stat.seal-bar .bar span{background:var(--seal)}
+  .stat-sub{font-size:12.5px; color:var(--sumi-soft); margin-top:8px}
+  .ov-bdays h3{font-family:"Yuji Syuku",serif; font-weight:400; font-size:20px; margin:0 0 12px}
+  .bday-season{margin-bottom:14px}
+  .bday-season .s{font-size:12px; letter-spacing:.12em; text-transform:uppercase; color:var(--sumi-soft); margin-bottom:7px}
+  .bday-list{display:flex; flex-wrap:wrap; gap:8px}
+  .bchip{background:var(--card); border:1px solid var(--line); border-radius:999px; padding:5px 12px; font:inherit; font-size:13.5px; cursor:pointer; color:var(--sumi)}
+  .bchip:hover{border-color:var(--seal)} .bchip:focus-visible{outline:2px solid var(--seal); outline-offset:1px}
+  .bchip .d{color:var(--sumi-soft); font-size:12px; margin-left:5px}
+
+  footer{max-width:1100px; margin:0 auto; padding:6px 20px 34px; color:var(--sumi-soft); font-size:12px}
+  .foot-hint{margin-bottom:10px}
+  .site-strip{border-top:1px solid var(--line); padding-top:12px; display:flex; flex-wrap:wrap; gap:8px 14px; justify-content:space-between; align-items:center}
+  .site-strip .links{display:flex; flex-wrap:wrap; gap:8px}
+  .site-strip button{font:inherit; color:var(--link); background:transparent; border:0; padding:0; cursor:pointer}
+  .site-strip button:hover{text-decoration:underline}
+  .loader{max-width:580px; margin:50px auto; padding:26px}
+  .theme-toggle{margin-left:auto; flex:0 0 auto; font-size:18px; line-height:1; background:rgba(244,239,230,.12); color:var(--head-text); border:0; border-radius:9px; padding:7px 10px; cursor:pointer}
+  .theme-toggle:hover{background:rgba(244,239,230,.22)}
+  .theme-toggle:focus-visible{outline:2px solid var(--seal); outline-offset:2px}
+  .spinner{width:34px; height:34px; border-radius:50%; border:3px solid var(--washi-2); border-top-color:var(--seal); animation:spin .8s linear infinite; margin:4px auto 12px}
+  @keyframes spin{to{transform:rotate(360deg)}}
+  @media (prefers-reduced-motion:reduce){.spinner{animation:none}}
+  .loader h2{font-family:"Yuji Syuku",serif; font-weight:400; margin:0 0 8px}
+  .drop{border:2px dashed var(--line); border-radius:14px; padding:22px; text-align:center; background:var(--card)}
+  .err{color:var(--seal); margin-top:10px; font-size:13px}
+  code{background:var(--washi-2); padding:1px 6px; border-radius:5px; font-size:.92em}
+
+  @media (prefers-reduced-motion:no-preference){
+    .detail-inner,.ov,.shrine-wrap{animation:fade .25s ease}
+    @keyframes fade{from{opacity:0; transform:translateY(4px)} to{opacity:1; transform:none}}
+  }
+</style>
+</head>
+<body>
+<header class="noren">
+  <div class="brand"><div class="seal" aria-hidden="true">縁</div>
+    <div><h1>Seikyu Companion</h1><p class="sub">Companion</p></div>
+    <nav class="utility-nav" id="utilityTabs" aria-label="Site pages"></nav>
+    <select class="mobile-nav" id="mobileNav" aria-label="Go to page"></select>
+    <button id="themeToggle" class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle light/dark">🌙</button></div>
+  <nav class="tabs" id="tabs" role="tablist"></nav>
+</header>
+<div id="app"></div>
+<footer id="foot"></footer>
+
+<script>
+const LS="seikyu_";
+const TIER_ORDER=["loved","liked","disliked","hated"];
+const TIER_LABEL={loved:"Loved",liked:"Liked",disliked:"Disliked",hated:"Hated"};
+const APP_TABS=[["overview","Overview"],["today","Today"],["gifts","Items"],["villagers","Villagers"],["fish","Fish"],["crops","Crops"],["recipes","Recipes"],["shrine","Shrine"],["upgrades","Upgrades"],["animals","Animals"],["pets","Pets"],["shops","Shops"],["monsters","Monsters"],["maps","Maps"]];
+const SITE_TABS=[["progress","Backup"],["about","About"],["faq","FAQ"],["future","Future Patches"],["privacy","Privacy"]];
+const TABS=APP_TABS.concat(SITE_TABS);
+const TAB_KEYS=TABS.map(t=>t[0]);
+const PRIMARY_TABS=["overview","today","gifts","villagers","shrine"];
+const SEASON_ORDER={Spring:0,Summer:1,Autumn:2,Winter:3};
+const SEASONS=["Spring","Summer","Autumn","Winter"];
+const WEATHERS=["Sunny","Rainy","Cloudy to Clear","Snowy","Windy","Cloudy"];
+const FISH_TIME_WINDOWS=[
+  {label:"Morning", id:0, endsAt:11, window:"06:00-11:00"},
+  {label:"Midday", id:1, endsAt:13, window:"11:00-13:00"},
+  {label:"Afternoon", id:2, endsAt:18, window:"13:00-18:00"},
+  {label:"Night", id:3, endsAt:24, window:"18:00-24:00"}
+];
+const FISH_TIME_BY_LABEL=Object.fromEntries(FISH_TIME_WINDOWS.map(t=>[t.label,t]));
+
+let ITEMS=[],ITEM_BY_ID={},TAGS={},GIFTS={},NPCS_BY_ID={},ROSTER=[],SHRINE=null,ITEM_BUNDLES={},ITEM_SOURCES={},ITEM_CATEGORIES=null,FISH=[],FESTIVALS=[],CROPS=[],RECIPES=[],ITEM_RECIPES={},UPGRADES=null,HUSBANDRY=null,PETS=null,SHOPS=null,MONSTERS=null,MAPS=null,SCHEDULES={};
+let tagItemCache={}, lovedCount={}, wired=false;
+let state={tab:"overview", q:"", filter:"all", sort:"name", itemCat:"all", sel:null, vsel:null, vq:"",
+           fq:"", fseason:"all", fregion:"all", cq:"", cseason:"all", csort:"name",
+           rq:"", rstation:"Cooking", tagSel:null, matMode:"direct",
+           tSeason:"Spring", tDay:1, tWeather:"Sunny", tTime:"all", shopSort:"item",
+           mDetail:false, _focusDetail:false};
+
+/* ---------- load ---------- */
+async function tryFetchAll(){
+  const need=["items","tags","gifts"], opt=["npcs","shrine","fish","festivals","crops","recipes","upgrades","husbandry","pets","shops","monsters","maps","schedules","item_categories"];
+  const grabReq=async n=>{ const r=await fetch(n+".json",{cache:"no-store"}); if(!r.ok) throw new Error(n+".json "+r.status); return [n,await r.json()]; };
+  const grabOpt=async n=>{ try{ const r=await fetch(n+".json",{cache:"no-store"}); if(r.ok) return [n,await r.json()]; }catch(e){} return null; };
+  const [req,optl]=await Promise.all([ Promise.all(need.map(grabReq)), Promise.all(opt.map(grabOpt)) ]);
+  const out={};
+  req.forEach(([n,v])=>out[n]=v);
+  optl.forEach(p=>{ if(p) out[p[0]]=p[1]; });
+  return out;
+}
+function boot(data){
+  ITEMS=Array.isArray(data.items)?data.items:Object.values(data.items);
+  TAGS=Array.isArray(data.tags)?Object.fromEntries(data.tags.map(t=>[t.id,t])):data.tags;
+  GIFTS=Array.isArray(data.gifts)?Object.fromEntries(data.gifts.map(g=>[g.npc_id,g])):data.gifts;
+  ITEM_BY_ID={}; ITEMS.forEach(i=>ITEM_BY_ID[i.id]=i);
+  NPCS_BY_ID={}; const np=data.npcs?(Array.isArray(data.npcs)?data.npcs:Object.values(data.npcs)):[];
+  np.forEach(n=>NPCS_BY_ID[n.id]=n);
+  SHRINE=data.shrine||null;
+  FISH=data.fish?(Array.isArray(data.fish)?data.fish:Object.values(data.fish)):[];
+  FESTIVALS=data.festivals?(Array.isArray(data.festivals)?data.festivals:Object.values(data.festivals)):[];
+  CROPS=data.crops?(Array.isArray(data.crops)?data.crops:Object.values(data.crops)):[];
+  RECIPES=data.recipes?(Array.isArray(data.recipes)?data.recipes:Object.values(data.recipes)):[];
+  UPGRADES=data.upgrades||null; HUSBANDRY=data.husbandry||null; PETS=data.pets||null; SHOPS=data.shops||null; MONSTERS=data.monsters||null; MAPS=data.maps||null; SCHEDULES=data.schedules||{}; ITEM_CATEGORIES=data.item_categories||null;
+  RECIPES.forEach((r,i)=>{ r.rid=i; });
+  ITEM_RECIPES={}; RECIPES.forEach(r=>{ if(r.result_id!=null)(ITEM_RECIPES[r.result_id]=ITEM_RECIPES[r.result_id]||[]).push(r); });
+  buildRoster(); buildItemBundles(); buildItemSources(); restore(); setupOnce(); renderTabs();
+  if(location.hash) applyHash(); else location.hash = hashFor();
+}
+
+/* ---------- tags / roster ---------- */
+function expandTag(id,seen){
+  if(tagItemCache[id]) return tagItemCache[id];
+  seen=seen||new Set(); if(seen.has(id)) return new Map(); seen.add(id);
+  const t=TAGS[id], map=new Map();
+  if(t){ (t.items||[]).forEach(it=>{ if(!map.has(it)) map.set(it,t.label||("tag_"+id)); });
+    (t.child_tags||[]).forEach(c=>expandTag(c,seen).forEach((l,it)=>{ if(!map.has(it)) map.set(it,t.label||("tag_"+id)); })); }
+  tagItemCache[id]=map; return map;
+}
+function buildRoster(){
+  ROSTER=[]; lovedCount={};
+  for(const nid in GIFTS){
+    const g=GIFTS[nid], sets={}; let has=false;
+    for(const tier of TIER_ORDER){
+      const blk=g[tier]||{items:[],tags:[]};
+      const direct=new Set((blk.items||[]).map(x=>x.id));
+      const tagMap=new Map();
+      (blk.tags||[]).forEach(tg=>expandTag(tg.id).forEach((l,it)=>{ if(!tagMap.has(it)) tagMap.set(it,tg.label||l); }));
+      if(direct.size||(blk.tags&&blk.tags.length)) has=true;
+      sets[tier]={direct,tagMap,raw:blk};
+    }
+    if(!has) continue;
+    const info=NPCS_BY_ID[+nid]||{};
+    ROSTER.push({id:+nid, name:g.npc_name||info.name||("NPC "+nid), info, sets});
+    const lov=sets.loved, seen=new Set([...lov.direct]); lov.tagMap.forEach((_,it)=>seen.add(it));
+    seen.forEach(it=>lovedCount[it]=(lovedCount[it]||0)+1);
+  }
+  ROSTER.sort((a,b)=>a.name.localeCompare(b.name));
+}
+function tierFor(npc,itemId){
+  for(const tier of TIER_ORDER){ const s=npc.sets[tier];
+    if(s.direct.has(itemId)) return {tier,via:null};
+    if(s.tagMap.has(itemId)) return {tier,via:s.tagMap.get(itemId)}; }
+  return null;
+}
+function prettyLabel(s){
+  return String(s==null?"":s)
+    .replace(/([a-z])([A-Z])/g,"$1 $2")
+    .replace(/_/g," ")
+    .replace(/\b([A-Z]+)([A-Z][a-z])/g,"$1 $2")
+    .trim();
+}
+function tagInfo(id){ const t=TAGS[id]||{}; return {id:+id, label:prettyLabel(t.label||("tag_"+id)), raw:t}; }
+function tagItems(id){
+  return Array.from(expandTag(+id).keys()).map(x=>ITEM_BY_ID[x]).filter(Boolean).filter(itemIsListed).sort((a,b)=>(a.name||"").localeCompare(b.name||""));
+}
+function tagChip(t){
+  const id=t.id!=null?t.id:t;
+  const info=tagInfo(id);
+  return `<button class="lnk" data-nav="tag:${info.id}">${esc(info.label)}</button>`;
+}
+function categoryKey(label){
+  return String(label||"").toLowerCase().replace(/&/g,"and").replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"")||"processing";
+}
+function hiddenItemCategoryLabels(){
+  return new Set(((ITEM_CATEGORIES&&ITEM_CATEGORIES.hidden_categories)||["Currency","Hidden"]).map(x=>String(x).toLowerCase()));
+}
+function itemCategoryLabel(it){
+  const row=ITEM_CATEGORIES&&ITEM_CATEGORIES.items&&ITEM_CATEGORIES.items[String(it.id)];
+  return row&&row.category ? row.category : itemCategoryForFallback(it).label;
+}
+function isHiddenItemCategory(label){
+  return hiddenItemCategoryLabels().has(String(label||"").toLowerCase());
+}
+function itemIsListed(it){
+  return !isHiddenItemCategory(itemCategoryLabel(it));
+}
+function itemCategoryDefs(){
+  if(ITEM_CATEGORIES&&ITEM_CATEGORIES.categories){
+    return ITEM_CATEGORIES.categories
+      .filter(label=>!isHiddenItemCategory(label))
+      .map(label=>({key:categoryKey(label), label}));
+  }
+  return fallbackItemCategoryDefs();
+}
+function fallbackItemCategoryDefs(){
+  return [
+    {key:"seeds", label:"Seeds", test:it=>/\bSeeds?\b/i.test(it.name||"")},
+    {key:"crops", label:"Crops", tag:1042},
+    {key:"giant-crops", label:"Giant Crops", tag:1041},
+    {key:"fish", label:"Fish", tag:10001},
+    {key:"fish-bait", label:"Fish Bait", test:it=>/\bBait\b/i.test(it.name||"")},
+    {key:"dishes", label:"Dishes", tag:3031},
+    {key:"ingredients", label:"Ingredients", test:it=>itemInTag(it.id,10009)||itemInTag(it.id,10004)||itemInTag(it.id,10005)},
+    {key:"materials", label:"Materials", tag:1},
+    {key:"furniture", label:"Furniture", tag:5},
+    {key:"equipment", label:"Equipment", tag:6},
+    {key:"clothing", label:"Clothing", tag:3},
+    {key:"weapons", label:"Weapons", tag:2},
+    {key:"animals", label:"Animals", tag:307},
+    {key:"quest", label:"Quest Items", tag:320001001},
+    {key:"collection", label:"Collection", tag:7},
+    {key:"processing", label:"Processing"}
+  ];
+}
+function itemInTag(itemId, tagId){ return expandTag(+tagId).has(+itemId); }
+function itemMatchesCategory(it, cat){
+  if(ITEM_CATEGORIES&&ITEM_CATEGORIES.items) return categoryKey(itemCategoryLabel(it))===cat.key;
+  if(cat.key==="processing") return itemCategoryFor(it).key==="processing";
+  return itemMatchesFallbackCategory(it,cat);
+}
+function itemMatchesFallbackCategory(it, cat){
+  if(cat.key==="processing") return itemCategoryForFallback(it).key==="processing";
+  if(cat.test) return cat.test(it);
+  if(cat.tag!=null) return itemInTag(it.id,cat.tag);
+  return false;
+}
+function itemCategoryFor(it){
+  if(ITEM_CATEGORIES&&ITEM_CATEGORIES.items){
+    const label=itemCategoryLabel(it);
+    return {key:categoryKey(label), label};
+  }
+  return itemCategoryForFallback(it);
+}
+function itemCategoryForFallback(it){
+  const defs=fallbackItemCategoryDefs();
+  return defs.find(c=>c.key!=="processing"&&itemMatchesFallbackCategory(it,c)) || defs[defs.length-1];
+}
+function itemCategoryByKey(key){ return itemCategoryDefs().find(c=>c.key===key) || null; }
+function itemListButton(it){
+  const lc=lovedCount[it.id]||0;
+  return `<button class="item-btn" type="button" data-nav="item:${it.id}" aria-current="${String(state.sel===it.id)}">${thumb("item",it.id,it.name)}<span class="item-name">${esc(it.name)}</span>${shrineBadge(it.id)}${it.value!=null?`<span class="val">${it.value}g</span>`:""}${lc?`<span class="heart">♥ ${lc}</span>`:""}</button>`;
+}
+function buildItemBundles(){
+  ITEM_BUNDLES={};
+  if(!SHRINE||!SHRINE.bundles) return;
+  SHRINE.bundles.forEach(b=>(b.offerings||[]).forEach(o=>{
+    (ITEM_BUNDLES[o.id]=ITEM_BUNDLES[o.id]||[]).push({bundle:b, count:o.count}); }));
+}
+function buildItemSources(){
+  ITEM_SOURCES={};
+  ((SHOPS&&SHOPS.shops)||[]).forEach(shop=>{
+    (shop.items||[]).forEach(row=>{
+      if(row.item_id==null) return;
+      (ITEM_SOURCES[row.item_id]=ITEM_SOURCES[row.item_id]||[]).push({
+        type:"shop", shop:shop.name, price:row.price, season:row.season, limit:row.limit, refresh:row.refresh
+      });
+    });
+  });
+}
+function sourcesFor(itemId){ return ITEM_SOURCES[itemId]||[]; }
+function shrineNeedsFor(itemId){
+  return (ITEM_BUNDLES[itemId]||[]).map(x=>{
+    const have=getOffered(x.bundle.id,itemId), need=x.count||0;
+    return {bundle:x.bundle, have, need, left:Math.max(0,need-have)};
+  }).filter(x=>x.left>0);
+}
+function hasShrineNeed(itemId){ return shrineNeedsFor(itemId).length>0; }
+function isShrineSatisfied(itemId){ return !!(ITEM_BUNDLES[itemId]&&ITEM_BUNDLES[itemId].length) && !hasShrineNeed(itemId); }
+function shrineNeedText(itemId){
+  const needs=shrineNeedsFor(itemId);
+  const left=needs.reduce((n,x)=>n+x.left,0);
+  return left?`Shrine: ${left}`:"";
+}
+function shrineBadge(itemId){
+  const txt=shrineNeedText(itemId);
+  return txt?`<span class="shrine-badge" title="Still needed for shrine offerings">${esc(txt)}</span>`:"";
+}
+
+/* ---------- shell + routing ---------- */
+const app=document.getElementById("app");
+function setupOnce(){
+  if(wired) return; wired=true;
+  window.addEventListener("hashchange", applyHash);
+  const tt=document.getElementById("themeToggle"); if(tt) tt.addEventListener("click", cycleTheme);
+  if(window.matchMedia){ const mq=window.matchMedia("(prefers-color-scheme:dark)"); const onChange=()=>{ if(getTheme()==="auto") applyTheme("auto"); }; if(mq.addEventListener) mq.addEventListener("change",onChange); else if(mq.addListener) mq.addListener(onChange); }
+  const SEARCH_FIELDS={gifts:["q",updateGiftList], villagers:["vq",updateVillagerList], fish:["fq",updateFishList], crops:["cq",updateCropList], recipes:["rq",updateRecipeList]};
+  document.addEventListener("click", e=>{
+    const b=e.target.closest(".search-clear"); if(!b) return;
+    const m=SEARCH_FIELDS[b.dataset.field]; if(!m) return;
+    state[m[0]]=""; persist();
+    const inp=b.parentElement.querySelector(".search"); if(inp) inp.value="";
+    m[1](); if(inp) inp.focus();
+  });
+  document.addEventListener("click", e=>{
+    const t=e.target.closest("[data-nav]"); if(!t) return;
+    const [kind,val]=t.dataset.nav.split(":");
+    if(kind==="tab") navigate(val);
+    else if(kind==="item") navigate("gifts","item",+val);
+    else if(kind==="villager") navigate("villagers","villager",+val);
+    else if(kind==="tag") navigate("gifts","tag",+val);
+    else if(kind==="toggle") toggleSection(val);
+  });
+}
+function hashFor(){
+  if(state.tab==="gifts") return state.tagSel!=null?`#gifts/t${state.tagSel}`:(state.sel!=null?`#gifts/i${state.sel}`:"#gifts");
+  if(state.tab==="villagers") return state.vsel!=null?`#villagers/n${state.vsel}`:"#villagers";
+  if(TAB_KEYS.includes(state.tab)) return `#${state.tab}`;
+  return "#overview";
+}
+function applyHash(){
+  const h=(location.hash||"").replace(/^#/,""); const [tab,sub]=h.split("/");
+  if(TAB_KEYS.includes(tab)) state.tab=tab;
+  if(tab==="gifts"&&sub&&sub[0]==="i"){ const id=+sub.slice(1); if(ITEM_BY_ID[id]){ state.sel=id; state.tagSel=null; } }
+  if(tab==="gifts"&&sub&&sub[0]==="t"){ const id=+sub.slice(1); if(TAGS[id]){ state.tagSel=id; state.sel=null; } }
+  if(tab==="villagers"&&sub&&sub[0]==="n"){ const id=+sub.slice(1); if(ROSTER.find(n=>n.id===id)) state.vsel=id; }
+  state.mDetail = !!(sub && ((tab==="gifts"&&(sub[0]==="i"||sub[0]==="t")) || (tab==="villagers"&&sub[0]==="n")));
+  persist(); renderTabs(); render();
+}
+function navigate(tab,kind,id){
+  const sameTab=(state.tab===tab);
+  state.tab=tab;
+  if(kind==="item"){ state.sel=id; state.tagSel=null; state.mDetail=true; state._focusDetail=true; }
+  else if(kind==="villager"){ state.vsel=id; state.mDetail=true; state._focusDetail=true; }
+  else if(kind==="tag"){ state.tagSel=id; state.sel=null; state.mDetail=true; state._focusDetail=true; }
+  else { state.mDetail=false; }            /* plain tab switch lands on the list */
+  if(!sameTab && !kind) state.mDetail=false;
+  const nh=hashFor();
+  if(location.hash!==nh) location.hash=nh; else applyHash();
+}
+function goBackToList(){ state.mDetail=false; render(); }
+function renderTabs(){
+  const bar=document.getElementById("tabs");
+  bar.innerHTML=APP_TABS.map(([k,l])=>`<button class="tab-btn" role="tab" data-nav="tab:${k}" aria-selected="${state.tab===k}">${l}</button>`).join("");
+  const util=document.getElementById("utilityTabs");
+  util.innerHTML=SITE_TABS.map(([k,l])=>`<button class="util-btn" type="button" data-nav="tab:${k}" ${state.tab===k?'aria-current="page"':''}>${l}</button>`).join("");
+  const mobile=document.getElementById("mobileNav");
+  if(mobile){
+    mobile.innerHTML=`<optgroup label="Trackers">${APP_TABS.map(([k,l])=>`<option value="${esc(k)}" ${state.tab===k?'selected':''}>${esc(l)}</option>`).join("")}</optgroup><optgroup label="Site">${SITE_TABS.map(([k,l])=>`<option value="${esc(k)}" ${state.tab===k?'selected':''}>${esc(l)}</option>`).join("")}</optgroup>`;
+    mobile.onchange=()=>navigate(mobile.value);
+  }
+  const active=bar.querySelector('.tab-btn[aria-selected="true"]');
+  if(active&&active.scrollIntoView) active.scrollIntoView({inline:"center",block:"nearest"});
+}
+function render(){
+  document.getElementById("foot").innerHTML=footText();
+  if(state.tab==="overview") return renderOverview();
+  if(state.tab==="today") return renderToday();
+  if(state.tab==="gifts") return renderGifts();
+  if(state.tab==="villagers") return renderVillagers();
+  if(state.tab==="fish") return renderFish();
+  if(state.tab==="crops") return renderCrops();
+  if(state.tab==="recipes") return renderRecipes();
+  if(state.tab==="upgrades") return renderUpgrades();
+  if(state.tab==="animals") return renderAnimals();
+  if(state.tab==="pets") return renderPets();
+  if(state.tab==="shops") return renderShops();
+  if(state.tab==="monsters") return renderMonsters();
+  if(state.tab==="maps") return renderMaps();
+  if(state.tab==="progress") return renderProgress();
+  if(state.tab==="about") return renderAbout();
+  if(state.tab==="faq") return renderFAQ();
+  if(state.tab==="future") return renderFuturePatches();
+  if(state.tab==="privacy") return renderPrivacy();
+  return renderShrine();
+}
+function footText(){
+  let hint="";
+  if(state.tab==="villagers") hint=`Log your hearts and tick off gifts as you give them. Tap any gift to see who else loves it. All saved in your browser.`;
+  else if(state.tab==="shrine") hint=`ally each offering as you hand it in. Tap an item to see who likes it too.`;
+  else if(state.tab==="overview") hint=`Everything you're tracking, in one spot. Every name's a link — go on, have a poke around.`;
+  else if(state.tab==="today") hint=`Set the day and weather to see who's celebrating, what's biting, and what's worth planting.`;
+  else if(state.tab==="fish") hint=`Every fish, and when and where it's biting. Tick off your catches; tap a name to see who'd love it as a gift.`;
+  else if(state.tab==="crops") hint=`When to plant, how long it takes, what it's worth. Tap a crop to see who'd love it as a gift.`;
+  else if(state.tab==="recipes") hint=`Every cooking and crafting recipe. Tap any dish or ingredient to dig in.`;
+  else if(state.tab==="upgrades") hint=`Track your house, farm, and barn upgrades — the shopping list updates as you tick things off.`;
+  else if(state.tab==="animals") hint=`Housing, capacity, what they make, and how to keep them happy — all at a glance.`;
+  else if(state.tab==="pets") hint=`What to feed them, when they nap, and what it takes to win them over.`;
+  else if(state.tab==="shops") hint=`Who sells what, and for how much. Tap an item to open its page.`;
+  else if(state.tab==="monsters") hint=`Drops and taming notes. The big drop tables stay tucked away until you want them.`;
+  else if(state.tab==="maps") hint=`Handy map references. Spoiler-ish ones stay hidden until you open them.`;
+  else if(state.tab==="progress") hint=`Back up your progress any time. Cross-device sync is on the way.`;
+  else if(state.tab==="about") hint=`Who made this, where the data comes from, and the legal fine print.`;
+  else if(state.tab==="faq") hint=`Quick answers to the usual questions.`;
+  else if(state.tab==="future") hint=`What's coming next — and what's still missing.`;
+  else if(state.tab==="privacy") hint=`What's saved, where it lives, and what happens to it.`;
+  else hint=`Pick an item to see who wants it, where to find it, and how to make it. Tap a villager to drop in on them. Category likes are marked <em>via</em>.`;
+  return `<div class="foot-hint">${hint}</div><div class="site-strip"><span>Made with love, 2026. Data from game version (Steam): v1.0.</span><span class="links"><button data-nav="tab:about">About</button><button data-nav="tab:faq">FAQ</button><button data-nav="tab:future">Future Patches</button><button data-nav="tab:privacy">Privacy</button></span></div>`;
+}
+function sectionKey(id){ return LS+"fold:"+id; }
+function isFolded(id, def){
+  const v=ls(sectionKey(id));
+  return v==null?!!def:v==="1";
+}
+function fold(id,title,body,opt){
+  opt=opt||{};
+  const collapsed=isFolded(id,opt.collapsed);
+  const cls=`fold ${opt.card?'fold-card':''} ${collapsed?'collapsed':''}`.trim();
+  const hint=collapsed?"expand":"hide";
+  const count=opt.count!=null?`<span class="hint">${hint} · ${esc(opt.count)}</span>`:`<span class="hint">${hint}</span>`;
+  return `<section class="${cls}" data-fold="${esc(id)}">
+    <button class="section-toggle" data-nav="toggle:${esc(id)}" aria-expanded="${!collapsed}"><span class="ttl">${esc(title)}</span>${count}</button>
+    <div class="fold-body"><div class="fold-inner">${body}</div></div>
+  </section>`;
+}
+function toggleSection(id){
+  let section=null;
+  document.querySelectorAll("[data-fold]").forEach(s=>{ if(s.dataset.fold===id) section=s; });
+  if(!section) return;
+  const next=!section.classList.contains("collapsed");
+  lsSet(sectionKey(id),next?"1":"0");
+  section.classList.toggle("collapsed",next);
+  const btn=section.querySelector(".section-toggle");
+  if(btn) btn.setAttribute("aria-expanded",String(!next));
+  const hint=section.querySelector(".section-toggle .hint");
+  if(hint) hint.textContent=hint.textContent.replace(/^(expand|hide)/,next?"expand":"hide");
+}
+
+/* ================= OVERVIEW ================= */
+function shrineStats(){
+  const bs=(SHRINE&&SHRINE.bundles)||[]; let slots=0,met=0,done=0;
+  bs.forEach(b=>{ const p=shrineProgress(b); slots+=p.total; met+=p.metSlots; if(p.complete) done++; });
+  return {bundles:bs.length, done, slots, met};
+}
+function heartStats(){
+  let sum=0,maxed=0; ROSTER.forEach(n=>{ const h=getHeart(n.id); sum+=h; if(h>=10) maxed++; });
+  return {sum, max:ROSTER.length*10, maxed, count:ROSTER.length};
+}
+function renderOverview(){
+  const ss=shrineStats(), hs=heartStats(), given=countLS(LS+"given:");
+  const pct=(a,b)=>b?Math.round(a/b*100):0;
+  const stats=`<div class="stats">
+    <button class="stat seal-bar" data-nav="tab:shrine">
+      <div class="stat-k">Shrine</div><div class="stat-v">${ss.done}/${ss.bundles}</div>
+      <div class="bar"><span style="width:${pct(ss.done,ss.bundles)}%"></span></div>
+      <div class="stat-sub">${ss.met}/${ss.slots} offerings handed in</div></button>
+    <button class="stat" data-nav="tab:villagers">
+      <div class="stat-k">Friendship</div><div class="stat-v">${hs.sum}<span style="font-size:15px;color:var(--sumi-soft)"> / ${hs.max} ♥</span></div>
+      <div class="bar"><span style="width:${pct(hs.sum,hs.max)}%"></span></div>
+      <div class="stat-sub">${hs.maxed} of ${hs.count} at full hearts</div></button>
+    <button class="stat" data-nav="tab:villagers">
+      <div class="stat-k">Gifts logged</div><div class="stat-v">${given}</div>
+      <div class="stat-sub">loved &amp; liked gifts you've ticked off</div></button>
+  </div>`;
+  const collect=[];
+  if(FISH.length){ const c=FISH.filter(f=>isCaught(f.id)).length; collect.push(["Fish caught",c,FISH.length,"tab:fish"]); }
+  if(CROPS.length){ const c=CROPS.filter(x=>getGrown(x.crop_id)).length; collect.push(["Crops grown",c,CROPS.length,"tab:crops"]); }
+  if(RECIPES.length){ const c=RECIPES.filter(r=>getMade(r.rid)).length; collect.push(["Recipes made",c,RECIPES.length,"tab:recipes"]); }
+  const collectHtml = collect.length?`<div class="stats">`+collect.map(([k,c,t,nav])=>
+    `<button class="stat" data-nav="${nav}"><div class="stat-k">${k}</div><div class="stat-v">${c}<span style="font-size:15px;color:var(--sumi-soft)"> / ${t}</span></div>
+     <div class="bar"><span style="width:${pct(c,t)}%"></span></div></button>`).join("")+`</div>`:"";
+
+  // birthdays grouped by season
+  const withB=ROSTER.filter(n=>n.info&&n.info.birthday_day>0)
+    .sort((a,b)=>(SEASON_ORDER[a.info.birthday_season]-SEASON_ORDER[b.info.birthday_season])||(a.info.birthday_day-b.info.birthday_day));
+  let bd="";
+  ["Spring","Summer","Autumn","Winter"].forEach(se=>{
+    const g=withB.filter(n=>n.info.birthday_season===se); if(!g.length) return;
+    bd+=`<div class="bday-season"><div class="s">${se}</div><div class="bday-list">`+
+      g.map(n=>`<button class="bchip" data-nav="villager:${n.id}">${esc(n.name)}<span class="d">${n.info.birthday_day}</span></button>`).join("")+`</div></div>`;
+  });
+  const bdays = bd?`<section class="ov-bdays"><h3>Birthdays</h3>${bd}</section>`:"";
+
+  app.innerHTML=`<div class="ov">${stats}${collectHtml}${bdays}</div>`;
+}
+
+function renderProgress(){
+  const saved=countLS(LS);
+  app.innerHTML=`<div class="dash-wrap">
+    <section class="site-hero">
+      <h2>Backup &amp; Sync</h2>
+      <p><b>Backup &amp; restore (saved locally).</b> Your progress lives right here in your browser — no account needed. Export a backup whenever you like and pop it back in on another device. Proper cross-device sync is something I'd love to add down the track.</p>
+    </section>
+    <div class="site-grid">
+    <section class="dense-card">
+      <h3>Import / Export Progress</h3>
+      <p class="backup-note">Everything saves automatically as you go. Grab a backup before you clear your browser or switch devices — just in case.</p>
+      <p class="backup-note">You've got <b>${saved}</b> things saved in this browser right now.</p>
+      <div class="backup-actions">
+        <button class="chip" id="exportProgress">Export progress</button>
+        <label class="chip" for="importProgress">Import progress</label>
+        <input id="importProgress" type="file" accept="application/json,.json" hidden>
+      </div>
+      <div id="backupStatus" class="backup-status" role="status"></div>
+    </section>
+    <section class="site-card">
+      <h3>Account sync later</h3>
+      <p>If sync ever arrives, it'll be optional — use the whole site without an account, and only sign in if you want your progress to follow you around. It'd carry everything you track: hearts, gifts, shrine offerings, fish, crops, recipes, upgrades, and your settings.</p>
+    </section>
+    </div>
+  </div>`;
+  wireProgressBackup();
+}
+
+function siteShell(title,intro,body){
+  app.innerHTML=`<div class="site-page"><section class="site-hero"><h2>${esc(title)}</h2><p>${intro}</p></section>${body}</div>`;
+}
+function renderAbout(){
+  siteShell("About Seikyu Companion",
+    "A little fan-made companion for Tales of Seikyu — here to help you track gifts, shrine offerings, crops, fish, recipes, upgrades, and everything in between.",
+    `<div class="site-grid">
+      <section class="site-card">
+        <h3>Contact</h3>
+        <p>Found a bug or have an idea? Email me at <a href="mailto:cyberbaby2000@gmail.com">cyberbaby2000@gmail.com</a></p>
+        <p>If you like this app, <a href="https://ko-fi.com/crybaby2000" target="_blank" rel="noopener">support future updates by shouting me a coffee</a>.</p>
+      </section>
+      <section class="site-card">
+        <h3>Credits</h3>
+        <p>The data here is pieced together from game files and the community's hard work, then tidied up for easy browsing.
+        <p>Currently based on Steam v1.0."</p>
+      </section>
+      <section class="site-card full">
+        <h3>Fan-use disclaimer</h3>
+        <p>Seikyu Companion is a fan-made online resource for Tales of Seikyu. Tales of Seikyu content, names, images, and related materials are trademarks and copyrights of ACE Entertainment, Fireshine Games, Logoi Games, and their respective licensors. All rights reserved.</p>
+        <p>Seikyu Companion is not affiliated with, endorsed by, sponsored by, or approved by ACE Entertainment, Fireshine Games, or Logoi Games.</p>
+      </section>
+    </div>`);
+}
+function renderFAQ(){
+  siteShell("FAQ",
+    "Quick answers for using Seikyu Companion and understanding how progress is stored.",
+    `<div class="site-grid">
+      <section class="site-card">
+        <h3>Does progress save automatically?</h3>
+        <p>Yep! It all saves automatically in this browser. Just export a backup from the Backup page before you clear your browser or switch devices.</p>
+      </section>
+      <section class="site-card">
+        <h3>Can I move progress to another device?</h3>
+        <p>Head to Backup &amp; Sync, export your progress, then import it on the other device. One day there'll be proper sync — for now, this does the trick.</p>
+      </section>
+      <section class="site-card">
+        <h3>What is Direct vs Raw materials?</h3>
+        <p>Direct shows exactly what an upgrade asks for. Raw goes a step further and breaks craftable bits down into their base ingredients, so you know what to actually gather.</p>
+      </section>
+      <section class="site-card">
+        <h3>Why are some images missing?</h3>
+        <p>1.0 of the game has only just been released, so the Wiki and other fansites have not finished adding all assets. These will be updated as more content becomes available.</p>
+      </section>
+      <section class="site-card">
+        <h3>Are spoilers hidden?</h3>
+        <p>The spoiler-ish sections start collapsed, so you won't trip over anything by accident. A proper hide-spoilers toggle is on the wish list.</p>
+      </section>
+      <section class="site-card">
+        <h3>Where does the data come from?</h3>
+        <p>The data here is pieced together from game files and the community's hard work, then tidied up for easy browsing.</p>
+      </section>
+    </div>`);
+}
+function renderFuturePatches(){
+  siteShell("Future Patches",
+    "Here's what's on my mind. Some I can build right now; others are waiting on better data before they're worth doing.",
+    `<div class="site-grid">
+      <section class="site-card full">
+        <h3>Ready to build</h3>
+        <div class="status-list">
+          <div class="status-row"><span class="status">Planned</span><span><b>Owned animal tracker</b>Track owned animals, houses, product cycles, affection, and notes.</span></div>
+          <div class="status-row"><span class="status">Planned</span><span><b>Pet collection tracker</b>Track adopted pets, relationship levels, favourite foods, and images.</span></div>
+          <div class="status-row"><span class="status">Planned</span><span><b>Advanced material calculator</b>Separate required crafting stations from consumable raw materials.</span></div>
+          <div class="status-row"><span class="status">Planned</span><span><b>Better mobile Today view</b>Redesign Today cards so fish, crops, shrine needs, and other daily tasks are easier to scan on small screens.</span></div>
+          <div class="status-row"><span class="status">Planned</span><span><b>Wiki category links</b>Add external links from in-app category pages to matching wiki category pages.</span></div>
+          <div class="status-row"><span class="status">Planned</span><span><b>Spoiler visibility setting</b>Let users hide or reveal spoiler and late-game content globally.</span></div>
+          <div class="status-row"><span class="status">Planned</span><span><b>Villager schedule index</b>Browse parsed schedules by villager, time, and location.</span></div>
+          <div class="status-row"><span class="status">Planned</span><span><b>Account sync</b>Optional login so progress can follow users across browsers and devices.</span></div>
+          <div class="status-row"><span class="status">Planned</span><span><b>Cat merchants</b>Map/list of known cat merchant locations.</span></div>
+          <div class="status-row"><span class="status">Planned</span><span><b>Game save import</b>Load a local save file to auto-fill progress instead of entering everything manually.</span></div>
+          <div class="status-row"><span class="status">Planned</span><span><b>Yokai form guide</b>Show each form, upgrades, effects, and upgrade costs.</span></div>
+          <div class="status-row"><span class="status">Planned</span><span><b>Shop hours</b>Show shop open/close times where known.</span></div>
+        </div>
+      </section>
+      <section class="site-card full">
+        <h3>Waiting on better data</h3>
+        <div class="status-list">
+          <div class="status-row"><span class="status waiting">Needs data</span><span><b>Pet locations</b>Needs a spawn/adoption location source or manual location list.</span></div>
+          <div class="status-row"><span class="status waiting">Needs data</span><span><b>Ruins completion tracker</b>Needs richer room, chest, boss, relic, floor, or completion data.</span></div>
+          <div class="status-row"><span class="status waiting">Needs data</span><span><b>Forageable crop badges</b>Needs a source that distinguishes wild forage from normal farm-grown crops.</span></div>
+          <div class="status-row"><span class="status waiting">Needs data</span><span><b>Village bin tracker</b>Needs bin locations, ideally for an interactive map.</span></div>
+        </div>
+      </section>
+    </div>`);
+}
+function renderPrivacy(){
+  siteShell("Privacy",
+    "Privacy info for the current site and the future account-sync version.",
+    `<div class="site-grid">
+      <section class="site-card full">
+        <h3>Current version</h3>
+        <p>Seikyu Companion stores progress in your browser using local storage. This can include hearts, gifted items, shrine offerings, caught fish, grown crops, recipes, upgrades, filters, settings, and expanded or hidden sections.</p>
+        <p>In the current static version, that progress stays on your device unless you export it and share or move the backup file yourself.</p>
+      </section>
+      <section class="site-card full">
+        <h3>Future account sync</h3>
+        <p>If account sync is added, Seikyu Companion will store login session data and companion progress so users can sync progress across browsers and devices. Account sync should be optional.</p>
+        <p>The site should minimise personal data. A username/email, encrypted password or third-party login ID, and companion progress may be stored using a third-party hosting or database provider. Users should be able to export their data and request account deletion.</p>
+      </section>
+      <section class="site-card">
+        <h3>Analytics, ads, and cookies</h3>
+        <p>No analytics, no ad cookies, no trackers — nothing here is watching you.</p>
+      </section>
+      <section class="site-card">
+        <h3>External links</h3>
+        <p>Seikyu Companion may link to external sites such as wikis, Ko-fi, or community resources. Those sites have their own privacy practices.</p>
+      </section>
+      <section class="site-card full">
+        <h3>Last updated</h3>
+        <p>23 June 2026</p>
+      </section>
+    </div>`);
+}
+
+/* ================= TODAY ================= */
+function fishTimeLabel(t){
+  const info=FISH_TIME_BY_LABEL[t];
+  return info ? `${info.label} ${info.window}` : t;
+}
+function fishTimeText(times){
+  return (times||[]).map(fishTimeLabel).join(" / ");
+}
+function fishTimeLegend(){
+  return `<div class="time-legend">${FISH_TIME_WINDOWS.map(t=>`<span class="time-pill"><b>${esc(t.label)}</b> ${t.window}</span>`).join("")}</div>`;
+}
+function fishBitesNow(season, weather, time){
+  return FISH.filter(f=>(f.seasons||[]).includes(season) && (f.weather||[]).includes(weather) && (time==="all" || (f.times||[]).includes(time)))
+    .sort((a,b)=>(a.name||"").localeCompare(b.name||""));
+}
+function renderToday(){
+  const s=state.tSeason, d=+state.tDay, w=state.tWeather, time=state.tTime||"all";
+  const bdays=ROSTER.filter(n=>n.info&&n.info.birthday_season===s&&n.info.birthday_day===d);
+  const fests=FESTIVALS.filter(f=>f.season===s&&f.day===d);
+  const fishAll=fishBitesNow(s,w,time);
+  const fish=fishAll.filter(f=>!isCaught(f.id) && hasShrineNeed(f.id));
+  const fishOther=fishAll.filter(f=>!isCaught(f.id) && !hasShrineNeed(f.id) && !isShrineSatisfied(f.id));
+  const plantAll=CROPS.filter(c=>(c.seasons||[]).includes(s)).sort((a,b)=>(a.crop_name||"").localeCompare(b.crop_name||""));
+  const plant=plantAll.filter(c=>!getGrown(c.crop_id) && hasShrineNeed(c.crop_id));
+  const plantOther=plantAll.filter(c=>!getGrown(c.crop_id) && !hasShrineNeed(c.crop_id) && !isShrineSatisfied(c.crop_id));
+
+  const seasonSel=`<label>Season <select id="t-season">${SEASONS.map(x=>`<option ${x===s?'selected':''}>${x}</option>`).join("")}</select></label>`;
+  const daySel=`<label>Day <select id="t-day">${Array.from({length:28},(_,k)=>`<option ${k+1===d?'selected':''}>${k+1}</option>`).join("")}</select></label>`;
+  const wSel=`<label>Weather <select id="t-weather">${WEATHERS.map(x=>`<option ${x===w?'selected':''}>${x}</option>`).join("")}</select></label>`;
+  const timeSel=`<label>Fish time <select id="t-time"><option value="all" ${time==="all"?'selected':''}>All day</option>${FISH_TIME_WINDOWS.map(x=>`<option value="${esc(x.label)}" ${time===x.label?'selected':''}>${esc(x.label)} (${esc(x.window)})</option>`).join("")}</select></label>`;
+
+  const bdayHtml = bdays.length
+    ? `<div class="chips-wrap">`+bdays.map(n=>`<button class="lnk" data-nav="villager:${n.id}">🎂 ${esc(n.name)}</button>`).join("")+`</div>`
+    : `<p class="muted">No birthdays today.</p>`;
+  // daily gifting checklist (resets per date)
+  const giftedN=ROSTER.filter(n=>getGifted(n.id)).length;
+  const giftRows=ROSTER.map(n=>{
+    const gv=getGifted(n.id), isB=n.info&&n.info.birthday_season===s&&n.info.birthday_day===d;
+    const loved=((n.sets.loved.raw&&n.sets.loved.raw.items)||[]).slice(0,2).map(i=>i.name).join(", ");
+    return `<div class="frow ${gv?'done':''}"><input type="checkbox" data-gift="${n.id}" ${gv?'checked':''} aria-label="Gifted ${esc(n.name)}">
+      <button class="fname" data-nav="villager:${n.id}">${isB?'🎂 ':''}${esc(n.name)}</button>
+      <span class="fmeta">${loved?'♥ '+esc(loved):''}</span></div>`;
+  }).join("");
+  const festHtml = fests.length
+    ? `<div class="chips-wrap">`+fests.map(f=>`<span class="lnk" style="cursor:default">🎏 ${esc(f.name)}</span>`).join("")+`</div>`
+    : `<p class="muted">Nothing on today.</p>`;
+  const hiddenFish=fishAll.length-fish.length-fishOther.length;
+  const hiddenPlant=plantAll.length-plant.length-plantOther.length;
+  const fishHtml = (fish.length||fishOther.length)
+    ? `${fish.length?`<h4 class="minihead">Needed for shrine</h4><div class="frows">${fish.map(fishRow).join("")}</div>`:""}
+       ${fishOther.length?`<h4 class="minihead">Available, not yet caught</h4><div class="frows">${fishOther.map(fishRow).join("")}</div>`:""}
+       ${hiddenFish?`<p class="muted">${hiddenFish} hidden because already caught/offered.</p>`:""}`
+    : `<p class="muted">No uncaught fish match this season and weather.</p>`;
+  const plantHtml = (plant.length||plantOther.length)
+    ? `${plant.length?`<h4 class="minihead">Needed for shrine</h4><div class="chips-wrap">`+plant.map(c=>`<button class="lnk shrine-needed" data-nav="item:${c.crop_id}">${thumb("item",c.crop_id,c.crop_name)}🌱 ${esc(c.crop_name)}${shrineBadge(c.crop_id)}${c.grow_days?`<span class="via">${c.grow_days}d</span>`:""}</button>`).join("")+`</div>`:""}
+       ${plantOther.length?`<h4 class="minihead">Available, not yet grown</h4><div class="chips-wrap">`+plantOther.map(c=>`<button class="lnk" data-nav="item:${c.crop_id}">${thumb("item",c.crop_id,c.crop_name)}🌱 ${esc(c.crop_name)}${c.grow_days?`<span class="via">${c.grow_days}d</span>`:""}</button>`).join("")+`</div>`:""}
+       ${hiddenPlant?`<p class="muted">${hiddenPlant} hidden because already grown/offered.</p>`:""}`
+    : `<p class="muted">Nothing ungrown to plant this season.</p>`;
+
+  app.innerHTML=`<div class="today-wrap">
+    <div class="today-controls">${seasonSel}${daySel}${wSel}${timeSel}</div>
+    ${fishTimeLegend()}
+    ${fold("today-bdays","Birthdays",bdayHtml,{card:true,count:bdays.length,collapsed:true})}
+    ${fold("today-gifts","Daily gifts",`<div class="frows">${giftRows}</div>`,{card:true,count:`${giftedN}/${ROSTER.length}`,collapsed:true})}
+    ${fold("today-festivals","Festivals",festHtml,{card:true,count:fests.length,collapsed:true})}
+    ${fold("today-crops","Plantable this season",plantHtml,{card:true,count:plant.length+plantOther.length,collapsed:true})}
+    ${fold("today-fish","Fish biting now",fishHtml,{card:true,count:fish.length+fishOther.length,collapsed:true})}
+  </div>`;
+  const set=(id,key)=>{ const el=document.getElementById(id); if(el) el.addEventListener("change",e=>{ state[key]= key==="tDay"?+e.target.value:e.target.value; persist(); renderToday(); }); };
+  set("t-season","tSeason"); set("t-day","tDay"); set("t-weather","tWeather"); set("t-time","tTime");
+  app.querySelectorAll("input[data-gift]").forEach(cb=>cb.addEventListener("change",()=>{ setGifted(+cb.dataset.gift,cb.checked); cb.closest(".frow").classList.toggle("done",cb.checked); }));
+  wireCaught(app);
+}
+
+/* ================= FISH ================= */
+function visibleFish(){
+  const q=state.fq.trim().toLowerCase();
+  return FISH.filter(f=>{
+    if(state.fseason!=="all" && !(f.seasons||[]).includes(state.fseason)) return false;
+    if(state.fregion!=="all" && !(f.regions||[]).includes(state.fregion)) return false;
+    if(q && !(f.name||"").toLowerCase().includes(q)) return false;
+    return true;
+  }).sort((a,b)=>(a.name||"").localeCompare(b.name||""));
+}
+function fishRow(f){
+  const caught=isCaught(f.id);
+  const need=hasShrineNeed(f.id);
+  const seasons=(f.seasons||[]).length===4?"All year":(f.seasons||[]).join(", ");
+  const wt=(f.min_weight!=null&&f.max_weight!=null)?`${rnd(f.min_weight)}–${rnd(f.max_weight)} kg`:"";
+  const chips=[
+    ["Season",seasons],
+    ["Water",(f.regions||[]).join("/")],
+    ["Time",fishTimeText(f.times)],
+    ["Weather",(f.weather||[]).join("/")],
+    ["Weight",wt],
+    ["Value",f.value!=null?`${f.value}g`:""]
+  ].filter(x=>x[1]).map(([k,v])=>`<span class="info-pill"><b>${esc(k)}:</b> ${esc(v)}</span>`).join("");
+  return `<div class="frow fish-row ${caught?'caught':''} ${need?'shrine-needed':''}">
+    <input type="checkbox" data-caught="${f.id}" ${caught?'checked':''} aria-label="Caught ${esc(f.name)}">
+    <div class="fish-main">${thumb("fish",f.id,f.name)}<button class="fname" data-nav="item:${f.id}">${esc(f.name)}</button>${shrineBadge(f.id)}</div>
+    <div class="fish-meta">${chips}</div>
+  </div>`;
+}
+function rnd(x){ return Math.round(x*100)/100; }
+function renderFish(){
+  if(!FISH.length){ app.innerHTML=`<div class="loader panel"><h2>Fish</h2><p>No <code>fish.json</code> found. Re-run the updated <code>normalise.py</code> and add it to your data files.</p></div>`; return; }
+  const vis=visibleFish(), caughtN=FISH.filter(f=>isCaught(f.id)).length;
+  const seasonChips=["all",...SEASONS].map(x=>`<button class="chip" data-fs="${x}" aria-pressed="${state.fseason===x}">${x==="all"?"All seasons":x}</button>`).join("");
+  const regions=["all",...Array.from(new Set(FISH.flatMap(f=>f.regions||[]))).sort()];
+  const regionChips=regions.map(x=>`<button class="chip" data-fr="${x}" aria-pressed="${state.fregion===x}">${x==="all"?"All waters":x}</button>`).join("");
+  app.innerHTML=`<div class="fish-wrap">
+    <div class="fish-bar">
+      <span class="search-wrap" style="max-width:260px"><input class="search" type="search" placeholder="Search fish…" value="${esc(state.fq)}" aria-label="Search fish"><button class="search-clear" type="button" data-field="fish" aria-label="Clear search" tabindex="-1">✕</button></span>
+      <div class="row">${seasonChips}</div>
+      <div class="row">${regionChips}</div>
+      <div class="count">${vis.length} shown · ${caughtN}/${FISH.length} caught</div>
+    </div>
+    ${fishTimeLegend()}
+    <div class="frows panel" style="padding:8px">${vis.map(fishRow).join("")||'<p class="muted" style="padding:12px">No fish match.</p>'}</div>
+  </div>`;
+  const s=app.querySelector(".search");
+  s.addEventListener("input",e=>{ state.fq=e.target.value; persist(); updateFishList(); });
+  app.querySelectorAll("[data-fs]").forEach(c=>c.addEventListener("click",()=>{ state.fseason=c.dataset.fs; persist(); renderFish(); }));
+  app.querySelectorAll("[data-fr]").forEach(c=>c.addEventListener("click",()=>{ state.fregion=c.dataset.fr; persist(); renderFish(); }));
+  wireCaught(app);
+}
+function wireCaught(root){
+  root.querySelectorAll("input[data-caught]").forEach(cb=>cb.addEventListener("change",()=>{
+    setCaught(+cb.dataset.caught, cb.checked); cb.closest(".frow").classList.toggle("caught",cb.checked); }));
+}
+function updateFishList(){
+  const box=app.querySelector(".frows.panel"); if(!box) return;
+  const vis=visibleFish(), caughtN=FISH.filter(f=>isCaught(f.id)).length;
+  box.innerHTML=vis.map(fishRow).join("")||'<p class="muted" style="padding:12px">No fish match.</p>';
+  wireCaught(box);
+  const c=app.querySelector(".fish-bar .count"); if(c) c.textContent=`${vis.length} shown · ${caughtN}/${FISH.length} caught`;
+}
+function updateCropList(){
+  const box=app.querySelector(".frows.panel"); if(!box) return;
+  const vis=visibleCrops();
+  box.innerHTML=vis.map(cropRow).join("")||'<p class="muted" style="padding:12px">No crops match.</p>';
+  box.querySelectorAll("input[data-grown]").forEach(cb=>cb.addEventListener("change",()=>{ setGrown(+cb.dataset.grown,cb.checked); cb.closest(".frow").classList.toggle("done",cb.checked); }));
+  const c=app.querySelector(".fish-bar .count"); if(c) c.textContent=`${vis.length} crop${vis.length===1?"":"s"}`;
+}
+function updateRecipeList(){
+  const box=app.querySelector(".bundles"); if(!box) return;
+  const vis=visibleRecipes();
+  box.innerHTML=vis.map(recipeCard).join("")||'<p class="muted">No recipes match.</p>';
+  box.querySelectorAll("input[data-made]").forEach(cb=>cb.addEventListener("change",()=>{ setMade(+cb.dataset.made,cb.checked); cb.closest(".bundle").classList.toggle("made",cb.checked); }));
+  const c=app.querySelector(".fish-bar .count"); if(c) c.textContent=`${vis.length} recipe${vis.length===1?"":"s"}`;
+}
+
+/* ================= CROPS ================= */
+function visibleCrops(){
+  const q=state.cq.trim().toLowerCase();
+  let arr=CROPS.filter(c=>{
+    if(state.cseason!=="all" && !(c.seasons||[]).includes(state.cseason)) return false;
+    if(q && !((c.crop_name||"").toLowerCase().includes(q) || (c.seed_name||"").toLowerCase().includes(q))) return false;
+    return true;
+  });
+  if(state.csort==="value") arr.sort((a,b)=>(b.crop_value||0)-(a.crop_value||0)||(a.crop_name||"").localeCompare(b.crop_name||""));
+  else if(state.csort==="days") arr.sort((a,b)=>(a.grow_days||999)-(b.grow_days||999)||(a.crop_name||"").localeCompare(b.crop_name||""));
+  else arr.sort((a,b)=>(a.crop_name||"").localeCompare(b.crop_name||""));
+  return arr;
+}
+function cropRow(c){
+  const grown=getGrown(c.crop_id);
+  const need=hasShrineNeed(c.crop_id);
+  const seasons=(c.seasons||[]).length===4?"All year":(c.seasons||[]).join(", ");
+  const chips=[
+    ["Season",seasons],
+    ["Grow",c.grow_days?`${c.grow_days} days`:""],
+    ["Yield",c.yield?`×${c.yield}`:""],
+    ["Value",c.crop_value!=null?`${c.crop_value}g`:""],
+    ["Seed",c.seed_name||""]
+  ].filter(x=>x[1]).map(([k,v])=>`<span class="info-pill"><b>${esc(k)}:</b> ${esc(v)}</span>`).join("");
+  return `<div class="frow crop-row ${grown?'done':''} ${need?'shrine-needed':''}">
+    <input type="checkbox" data-grown="${c.crop_id}" ${grown?'checked':''} aria-label="Grown ${esc(c.crop_name)}">
+    <div class="crop-main">${thumb("item",c.crop_id,c.crop_name)}<button class="fname" data-nav="item:${c.crop_id}">${esc(c.crop_name||c.seed_name)}</button>${shrineBadge(c.crop_id)}</div>
+    <div class="crop-meta">${chips}</div>
+  </div>`;
+}
+function renderCrops(){
+  if(!CROPS.length){ app.innerHTML=`<div class="loader panel"><h2>Crops</h2><p>No <code>crops.json</code> found. Re-run the updated <code>normalise.py</code> and add it to your data files.</p></div>`; return; }
+  const vis=visibleCrops();
+  const seasonChips=["all",...SEASONS].map(x=>`<button class="chip" data-cs="${x}" aria-pressed="${state.cseason===x}">${x==="all"?"All seasons":x}</button>`).join("");
+  app.innerHTML=`<div class="fish-wrap">
+    <div class="fish-bar">
+      <span class="search-wrap" style="max-width:260px"><input class="search" type="search" placeholder="Search crops…" value="${esc(state.cq)}" aria-label="Search crops"><button class="search-clear" type="button" data-field="crops" aria-label="Clear search" tabindex="-1">✕</button></span>
+      <div class="row">${seasonChips}</div>
+      <select class="sort" aria-label="Sort">
+        <option value="name" ${state.csort==='name'?'selected':''}>A–Z</option>
+        <option value="value" ${state.csort==='value'?'selected':''}>Value</option>
+        <option value="days" ${state.csort==='days'?'selected':''}>Grow time</option>
+      </select>
+      <div class="count">${vis.length} crop${vis.length===1?"":"s"}</div>
+    </div>
+    <div class="frows panel" style="padding:8px">${vis.map(cropRow).join("")||'<p class="muted" style="padding:12px">No crops match.</p>'}</div>
+  </div>`;
+  const s=app.querySelector(".search");
+  s.addEventListener("input",e=>{ state.cq=e.target.value; persist(); updateCropList(); });
+  app.querySelectorAll("[data-cs]").forEach(c=>c.addEventListener("click",()=>{ state.cseason=c.dataset.cs; persist(); renderCrops(); }));
+  app.querySelector(".sort").addEventListener("change",e=>{ state.csort=e.target.value; persist(); renderCrops(); });
+  app.querySelectorAll("input[data-grown]").forEach(cb=>cb.addEventListener("change",()=>{ setGrown(+cb.dataset.grown,cb.checked); cb.closest(".frow").classList.toggle("done",cb.checked); }));
+}
+
+/* ================= RECIPES ================= */
+function recipeStations(){
+  const order=["Cooking","Backpack","Crafting Table Recipes","Sasaki's Furniture Studio","Hephaestus's Forge","Miss Ama's Tailor Shop","Other"];
+  const present=Array.from(new Set(RECIPES.map(r=>r.station)));
+  return order.filter(s=>present.includes(s)).concat(present.filter(s=>!order.includes(s)));
+}
+function stationLabel(s){ return s==="Other"?"Processing":(s||"Unknown"); }
+function visibleRecipes(){
+  const q=state.rq.trim().toLowerCase();
+  return RECIPES.filter(r=>{
+    if(state.rstation!=="all" && r.station!==state.rstation) return false;
+    if(q){ const hay=(r.result_name||"")+" "+(r.ingredients||[]).map(i=>i.name).join(" "); if(!hay.toLowerCase().includes(q)) return false; }
+    return true;
+  }).sort((a,b)=>(a.result_name||"").localeCompare(b.result_name||""));
+}
+function ingChip(i){
+  const q=i.qty&&i.qty>1?`${i.qty}× `:"";
+  if(i.id!=null) return `<button class="lnk ing" data-nav="item:${i.id}">${thumb("item",i.id,i.name)}${q}${esc(i.name)}</button>`;
+  if(i.tag!=null) return `<button class="lnk ing tagy" data-nav="tag:${i.tag}">${q}${esc(prettyLabel(i.name))}</button>`;
+  return `<span class="ing tagy">${q}${esc(prettyLabel(i.name))}</span>`;
+}
+function recipeCard(r){
+  const cnt=r.result_count&&r.result_count>1?` ×${r.result_count}`:"";
+  const ings=(r.ingredients||[]).map(ingChip).join("");
+  const extra=[];
+  if(r.gold) extra.push(`${r.gold}g`);
+  if(r.seasons&&r.seasons.length&&r.seasons.length<4) extra.push(r.seasons.join(", "));
+  const foot=extra.length?`<div class="award">${esc(extra.join(" · "))}</div>`:"";
+  const badge=r.type==="cook"?"🍳":"🔨";
+  const made=getMade(r.rid);
+  return `<article class="bundle ${made?'made':''}"><header class="bhead">
+    <input type="checkbox" class="madebox" data-made="${r.rid}" ${made?'checked':''} aria-label="Made ${esc(r.result_name||'')}">
+    <h3>${badge} <button class="rname" data-nav="item:${r.result_id}">${esc(r.result_name||"?")}</button>${cnt}</h3></header>
+    <div class="ings">${ings||'<span class="muted">—</span>'}</div>${foot}</article>`;
+}
+function renderRecipes(){
+  if(!RECIPES.length){ app.innerHTML=`<div class="loader panel"><h2>Recipes</h2><p>No <code>recipes.json</code> found. Re-run the updated <code>normalise.py</code> and add it to your data files.</p></div>`; return; }
+  const stations=recipeStations();
+  const chips=["all",...stations].map(s=>`<button class="chip" data-rs="${esc(s)}" aria-pressed="${state.rstation===s}">${s==="all"?"All":esc(stationLabel(s))}</button>`).join("");
+  const vis=visibleRecipes();
+  app.innerHTML=`<div class="shrine-wrap">
+    <div class="fish-bar">
+      <span class="search-wrap" style="max-width:260px"><input class="search" type="search" placeholder="Search recipes…" value="${esc(state.rq)}" aria-label="Search recipes"><button class="search-clear" type="button" data-field="recipes" aria-label="Clear search" tabindex="-1">✕</button></span>
+      <div class="row">${chips}</div>
+      <div class="count">${vis.length} recipe${vis.length===1?"":"s"}</div>
+    </div>
+    <div class="bundles">${vis.map(recipeCard).join("")||'<p class="muted">No recipes match.</p>'}</div>
+  </div>`;
+  const s=app.querySelector(".search");
+  s.addEventListener("input",e=>{ state.rq=e.target.value; persist(); updateRecipeList(); });
+  app.querySelectorAll("[data-rs]").forEach(c=>c.addEventListener("click",()=>{ state.rstation=c.dataset.rs; persist(); renderRecipes(); }));
+  app.querySelectorAll("input[data-made]").forEach(cb=>cb.addEventListener("change",()=>{ setMade(+cb.dataset.made,cb.checked); cb.closest(".bundle").classList.toggle("made",cb.checked); }));
+}
+
+/* ================= GIFTS ================= */
+function visibleItems(){
+  const q=state.q.trim().toLowerCase();
+  let arr=ITEMS.filter(it=>{
+    if(!itemIsListed(it)) return false;
+    if(state.filter==="loved" && !lovedCount[it.id]) return false;
+    if(!q && state.itemCat!=="all"){
+      const cat=itemCategoryByKey(state.itemCat);
+      if(cat && !itemMatchesCategory(it,cat)) return false;
+    }
+    if(q && !(it.name||"").toLowerCase().includes(q)) return false;
+    return true;
+  });
+  if(state.sort==="value") arr.sort((a,b)=>(b.value||0)-(a.value||0)||(a.name||"").localeCompare(b.name||""));
+  else if(state.sort==="loved") arr.sort((a,b)=>((lovedCount[b.id]||0)-(lovedCount[a.id]||0))||(a.name||"").localeCompare(b.name||""));
+  else arr.sort((a,b)=>(a.name||"").localeCompare(b.name||""));
+  return arr;
+}
+function itemListHtml(items){
+  const q=state.q.trim();
+  if(q || state.itemCat!=="all") return items.map(itemListButton).join("");
+  const defs=itemCategoryDefs(), by={};
+  items.forEach(it=>{
+    const cat=itemCategoryFor(it);
+    (by[cat.key]=by[cat.key]||[]).push(it);
+  });
+  return defs.map(cat=>{
+    const arr=by[cat.key]||[];
+    if(!arr.length) return "";
+    return `<div class="group-title">${esc(cat.label)}<span class="n">${arr.length}</span></div>${arr.map(itemListButton).join("")}`;
+  }).join("");
+}
+function renderGifts(){
+  const previousScroll=app.querySelector(".list .items")?.scrollTop||0;
+  app.innerHTML="";
+  const wrap=document.createElement("main");
+  const list=document.createElement("aside"); list.className="panel list";
+  const vis=visibleItems();
+  const catOpts=[`<option value="all" ${state.itemCat==="all"?'selected':''}>All categories</option>`]
+    .concat(itemCategoryDefs().map(c=>`<option value="${esc(c.key)}" ${state.itemCat===c.key?'selected':''}>${esc(c.label)}</option>`)).join("");
+  const catNote=state.q.trim()?`<div class="count cat-note">Search checks all categories.</div>`:"";
+  list.innerHTML=`<div class="head">
+      <span class="search-wrap"><input class="search" type="search" placeholder="Search items…" value="${esc(state.q)}" aria-label="Search items"><button class="search-clear" type="button" data-field="gifts" aria-label="Clear search" tabindex="-1">✕</button></span>
+      <div class="row" role="group" aria-label="Filter and sort">
+        <button class="chip" data-f="all" aria-pressed="${state.filter==='all'}">All</button>
+        <button class="chip" data-f="loved" aria-pressed="${state.filter==='loved'}">Loved by someone</button>
+        <select class="item-cat sort" aria-label="Category">${catOpts}</select>
+        <select class="sort" aria-label="Sort">
+          <option value="name" ${state.sort==='name'?'selected':''}>A–Z</option>
+          <option value="value" ${state.sort==='value'?'selected':''}>Value</option>
+          <option value="loved" ${state.sort==='loved'?'selected':''}>Most loved</option>
+        </select>
+      </div>
+      <div class="count">${vis.length} item${vis.length===1?"":"s"}</div>${catNote}
+    </div><div class="items"></div>`;
+  const box=list.querySelector(".items");
+  box.innerHTML=itemListHtml(vis);
+  const detail=document.createElement("section"); detail.className="panel detail";
+  const back=document.createElement("button"); back.type="button"; back.className="back-btn"; back.innerHTML="← Back to items"; back.addEventListener("click",goBackToList);
+  const inner=document.createElement("div");
+  inner.innerHTML = state.tagSel!=null ? detailTag(state.tagSel) : (state.sel==null ? emptyG() : detailItem(ITEM_BY_ID[state.sel]));
+  detail.append(back, inner);
+  wrap.classList.toggle("has-detail", state.mDetail && (state.sel!=null||state.tagSel!=null));
+  wrap.append(list,detail); app.appendChild(wrap);
+  box.scrollTop=previousScroll;
+  focusDetailIfNeeded(detail);
+  const s=list.querySelector(".search");
+  s.addEventListener("input",e=>{ state.q=e.target.value; persist(); updateGiftList(); });
+  list.querySelectorAll(".chip").forEach(c=>c.addEventListener("click",()=>{ state.filter=c.dataset.f; persist(); renderGifts(); }));
+  list.querySelector(".item-cat").addEventListener("change",e=>{ state.itemCat=e.target.value; persist(); renderGifts(); });
+  list.querySelector("select.sort:not(.item-cat)").addEventListener("change",e=>{ state.sort=e.target.value; persist(); renderGifts(); });
+}
+function updateGiftList(){
+  const box=document.querySelector(".list .items"); if(!box) return;
+  const vis=visibleItems();
+  box.innerHTML=itemListHtml(vis);
+  const head=document.querySelector(".list .head");
+  if(head){
+    const c=head.querySelector(".count:not(.cat-note)"); if(c) c.textContent=`${vis.length} item${vis.length===1?"":"s"}`;
+    const note=head.querySelector(".cat-note"), want=state.q.trim();
+    if(want&&!note){ const d=document.createElement("div"); d.className="count cat-note"; d.textContent="Search checks all categories."; head.appendChild(d); }
+    else if(!want&&note){ note.remove(); }
+  }
+}
+function focusDetailIfNeeded(detail){
+  if(!state._focusDetail) return;
+  state._focusDetail=false;
+  const h=detail.querySelector("h2,.empty,.tag-detail h2");
+  if(h){ h.setAttribute("tabindex","-1"); try{ h.focus({preventScroll:false}); }catch(e){ h.focus(); } }
+}
+function emptyG(){ return `<div class="empty"><span class="big">贈</span>Pick an item to see who wants it — and how much.</div>`; }
+function detailTag(tagId){
+  const info=tagInfo(tagId), items=tagItems(tagId);
+  const buttons=items.map(it=>`<button class="item-btn" data-nav="item:${it.id}">${thumb("item",it.id,it.name)}<span class="item-name">${esc(it.name)}</span>${it.value!=null?`<span class="val">${it.value}g</span>`:""}</button>`).join("");
+  return `<div class="tag-detail"><h2>${esc(info.label)}</h2><div class="meta"><span>${items.length} item${items.length===1?"":"s"}</span></div>
+    <p class="desc">Items included in this category. Category gifts still expand into concrete items on villager pages.</p>
+    <div class="items" style="margin-top:12px">${buttons||'<p class="muted">No known items in this category.</p>'}</div></div>`;
+}
+function detailItem(it){
+  if(!it) return emptyG();
+  const buckets={loved:[],liked:[],disliked:[],hated:[]};
+  ROSTER.forEach(npc=>{ const r=tierFor(npc,it.id); if(r) buckets[r.tier].push({id:npc.id,name:npc.name,via:r.via}); });
+  const any=TIER_ORDER.some(t=>buckets[t].length);
+  const seasons=(it.seasons||[]), showS=seasons.length>0&&seasons.length<4, meta=[];
+  if(it.value!=null) meta.push(`<span><b>${it.value}</b>g sell</span>`);
+  if(it.quality!=null) meta.push(`<span>Quality <b>${it.quality}</b></span>`);
+  if(showS) meta.push(seasons.map(s=>`<span class="pill">${esc(String(s))}</span>`).join(" "));
+  let tiers = !any ? `<div class="neutral">Nobody feels strongly about this one — a safe gift for anyone.</div>`
+    : `<div class="tiers">`+TIER_ORDER.map(t=>{
+        const arr=buckets[t].sort((a,b)=>a.name.localeCompare(b.name));
+        const chips=arr.length?`<div class="chips-wrap">`+arr.map(n=>`<button class="lnk" data-nav="villager:${n.id}">${thumb("npc",n.id,n.name)}${esc(n.name)}${n.via?`<span class="via">via ${esc(prettyLabel(n.via))}</span>`:""}</button>`).join("")+`</div>`:`<div class="none">No one.</div>`;
+        return `<div class="tier ${t}"><div class="t-head"><span class="dot"></span>${TIER_LABEL[t]}<span class="n">${arr.length}</span></div>${chips}</div>`;
+      }).join("")+`</div>`;
+  // shrine usage
+  const inb=ITEM_BUNDLES[it.id]||[];
+  const used = inb.length?`<div class="usedin"><h4>Offered at the shrine</h4><div class="chips-wrap">`+
+    inb.map(x=>`<button class="lnk" data-nav="tab:shrine"><b>${x.count}×</b>&nbsp;${esc(x.bundle.name)}<span class="via">${esc(x.bundle.shrine)}</span></button>`).join("")+`</div></div>`:"";
+  // how to make
+  const recs=ITEM_RECIPES[it.id]||[];
+  const make = recs.length?`<div class="usedin"><h4>How to make</h4>`+recs.map(r=>{
+      const ings=(r.ingredients||[]).map(ingChip).join("");
+      const cnt=r.result_count&&r.result_count>1?` ×${r.result_count}`:"";
+      const meta=[`<span class="info-pill">Station: <b>${esc(stationLabel(r.station))}</b></span>`];
+      if(r.gold) meta.push(`<span class="info-pill">Cost: <b>${esc(r.gold)}g</b></span>`);
+      if(cnt) meta.push(`<span class="info-pill">Makes: <b>${esc(cnt.trim())}</b></span>`);
+      return `<div class="make-row"><div class="make-main"><b>Ingredients</b><div class="ings">${ings}</div></div><div class="make-meta">${meta.join("")}</div></div>`;
+    }).join("")+`</div>`:"";
+  const srcs=sourcesFor(it.id);
+  const find = srcs.length?`<div class="usedin"><h4>Where to buy</h4><div class="source-list">`+
+    srcs.map(s=>{
+      const meta=[];
+      if(s.price) meta.push(`<span class="info-pill">Price: <b>${esc(s.price)}</b></span>`);
+      if(s.season) meta.push(`<span class="info-pill">Season: <b>${esc(s.season)}</b></span>`);
+      if(s.limit) meta.push(`<span class="info-pill">Limit: <b>${esc(s.limit)}</b></span>`);
+      if(s.refresh) meta.push(`<span class="info-pill">Refresh: <b>${esc(s.refresh)}</b></span>`);
+      return `<div class="source-row"><div class="source-main"><b>${esc(s.shop)}</b></div><div class="source-meta">${meta.join("")}</div></div>`;
+    }).join("")+
+    `</div></div>`:"";
+  return `<div class="detail-inner"><div class="item-head">${thumb("item",it.id,it.name)}<div>
+      <h2>${esc(it.name)}</h2><div class="meta">${meta.join("")}</div>
+      ${it.description?`<p class="desc">${esc(it.description)}</p>`:""}</div></div>${tiers}${find}${used}${make}</div>`;
+}
+
+/* ================= VILLAGERS ================= */
+function visibleVillagers(){ const q=state.vq.trim().toLowerCase(); return ROSTER.filter(n=>!q||n.name.toLowerCase().includes(q)); }
+function villagerButton(n){
+  const b=document.createElement("button"); b.className="item-btn"; b.type="button";
+  b.setAttribute("aria-current",String(state.vsel===n.id));
+  const bday=birthday(n), lvl=getHeart(n.id);
+  b.innerHTML=`${thumb("npc",n.id,n.name)}<span class="item-name">${esc(n.name)}<span class="sub2">${bday||"&nbsp;"}</span></span>`+(lvl?`<span class="heart">♥ ${lvl}</span>`:"");
+  b.addEventListener("click",()=>navigate("villagers","villager",n.id));
+  return b;
+}
+function renderVillagers(){
+  const previousScroll=app.querySelector(".list .items")?.scrollTop||0;
+  app.innerHTML="";
+  const wrap=document.createElement("main");
+  const list=document.createElement("aside"); list.className="panel list";
+  const vis=visibleVillagers();
+  list.innerHTML=`<div class="head">
+      <span class="search-wrap"><input class="search" type="search" placeholder="Search villagers…" value="${esc(state.vq)}" aria-label="Search villagers"><button class="search-clear" type="button" data-field="villagers" aria-label="Clear search" tabindex="-1">✕</button></span>
+      <div class="count">${vis.length} villager${vis.length===1?"":"s"}</div>
+    </div><div class="items"></div>`;
+  const box=list.querySelector(".items"), frag=document.createDocumentFragment();
+  vis.forEach(n=>frag.appendChild(villagerButton(n)));
+  box.appendChild(frag);
+  const detail=document.createElement("section"); detail.className="panel detail";
+  const back=document.createElement("button"); back.type="button"; back.className="back-btn"; back.innerHTML="← Back to villagers"; back.addEventListener("click",goBackToList);
+  const inner=document.createElement("div");
+  inner.innerHTML = state.vsel==null ? emptyV() : villagerDetail(ROSTER.find(n=>n.id===state.vsel));
+  detail.append(back, inner);
+  wrap.classList.toggle("has-detail", state.mDetail && state.vsel!=null);
+  wrap.append(list,detail); app.appendChild(wrap);
+  box.scrollTop=previousScroll;
+  focusDetailIfNeeded(detail);
+  const s=list.querySelector(".search");
+  s.addEventListener("input",e=>{ state.vq=e.target.value; persist(); updateVillagerList(); });
+  if(state.vsel!=null) wireVillager(detail, state.vsel);
+}
+function updateVillagerList(){
+  const box=document.querySelector(".list .items"); if(!box) return;
+  const vis=visibleVillagers();
+  box.innerHTML=""; const frag=document.createDocumentFragment();
+  vis.forEach(n=>frag.appendChild(villagerButton(n)));
+  box.appendChild(frag);
+  const c=document.querySelector(".list .head .count"); if(c) c.textContent=`${vis.length} villager${vis.length===1?"":"s"}`;
+}
+function emptyV(){ return `<div class="empty"><span class="big">縁</span>Pick a villager to see their birthday, what they love, and how your friendship's going.</div>`; }
+function birthday(n){ const i=n.info||{}; if(i.birthday_day && i.birthday_day>0) return `${i.birthday_season||""} ${i.birthday_day}`.trim(); return ""; }
+function scheduleFor(n){ return (SCHEDULES&&SCHEDULES[n.id])||null; }
+function scheduleBlock(n){
+  const s=scheduleFor(n);
+  if(!s) return "";
+  const rows=(s.schedule||[]).map(r=>`<tr><td data-label="Time">${esc(r.Time)}</td><td data-label="Location">${esc(r.Location)}</td><td data-label="Activity">${esc(r.Activity)}</td><td data-label="Conditions">${esc(r.Conditions)}</td></tr>`).join("");
+  const body=rows?`<table class="data-table"><thead><tr><th>Time</th><th>Location</th><th>Activity</th><th>Conditions</th></tr></thead><tbody>${rows}</tbody></table>`:`<p class="muted">No daily schedule listed in the saved page.</p>`;
+  return fold("sched-"+n.id,"Schedule",body,{card:true,count:(s.schedule||[]).length||"none",collapsed:true});
+}
+function eventBlock(n){
+  const s=scheduleFor(n), events=s?(s.events||[]):[];
+  if(!events.length) return "";
+  const rows=events.filter(e=>e.Event&&/Date|Heart Event|Wedding/i.test(e.Event)).slice(0,12).map(e=>
+    `<tr><td data-label="Event">${esc(e.Event)}</td><td data-label="Requirement">${esc(e.Requirement)}</td><td data-label="Location">${esc(e.Location)}</td><td data-label="What Happens">${esc(e["What Happens"]||"")}</td></tr>`).join("");
+  if(!rows) return "";
+  const body=`<div class="meta"><span class="spoiler">Spoiler</span></div><table class="data-table"><thead><tr><th>Event</th><th>Requirement</th><th>Location</th><th>What Happens</th></tr></thead><tbody>${rows}</tbody></table>`;
+  return fold("events-"+n.id,"Events (Spoiler)",body,{card:true,count:events.length,collapsed:true});
+}
+function giftCategoryCandidates(){
+  return Object.values(TAGS).map(t=>{
+    const ids=Array.from(expandTag(t.id).keys()).filter(id=>ITEM_BY_ID[id]);
+    return {id:+t.id, label:t.label||("tag_"+t.id), ids};
+  }).filter(t=>{
+    const label=String(t.label||"");
+    if(t.ids.length<3) return false;
+    if(/^Base/.test(label)) return false;
+    if(["Gather","QuestRelated"].includes(label)) return false;
+    return true;
+  });
+}
+function collapseGiftTier(blk, higherIds){
+  const rawItems=(blk.items||[]).filter(it=>it&&it.id!=null&&!higherIds.has(it.id));
+  const remaining=new Map(rawItems.map(it=>[it.id,it]));
+  const categories=[];
+  const addCat=(id,label)=>{
+    if(categories.some(c=>c.id===+id)) return;
+    categories.push({id:+id,label});
+  };
+  (blk.tags||[]).forEach(t=>{
+    addCat(t.id,t.label);
+    expandTag(t.id).forEach((_,id)=>remaining.delete(id));
+  });
+  const detected=giftCategoryCandidates().map(t=>{
+    const eligible=t.ids.filter(id=>!higherIds.has(id));
+    const overlap=eligible.filter(id=>remaining.has(id));
+    return {tag:t, overlap, ratio:eligible.length?overlap.length/eligible.length:0};
+  }).filter(x=>x.overlap.length>=3 && x.ratio>=0.85)
+    .sort((a,b)=>b.overlap.length-a.overlap.length || a.tag.ids.length-b.tag.ids.length);
+  detected.forEach(x=>{
+    const overlap=x.overlap.filter(id=>remaining.has(id));
+    if(overlap.length<3) return;
+    addCat(x.tag.id,x.tag.label);
+    overlap.forEach(id=>remaining.delete(id));
+  });
+  return {items:Array.from(remaining.values()), categories};
+}
+function villagerDetail(n){
+  if(!n) return emptyV();
+  const i=n.info||{}, bday=birthday(n), pills=[];
+  if(bday) pills.push(`<span class="pill">🎂 ${esc(bday)}</span>`);
+  if(i.romanceable) pills.push(`<span class="pill romance">Romanceable</span>`);
+  const lvl=getHeart(n.id);
+  const hearts=`<div class="track"><div class="hearts" role="group" aria-label="Friendship level">`+
+    Array.from({length:10},(_,k)=>`<button class="hbtn ${k<lvl?'full':''}" data-h="${k+1}" aria-label="Set level ${k+1}">♥</button>`).join("")+
+    `</div><span class="lvl">${lvl} / 10 hearts</span><button class="chip reset" data-reset>Clear</button></div>`;
+  const higherIds=new Set();
+  const tiers=`<div class="tiers">`+TIER_ORDER.map(tier=>{
+    const blk=n.sets[tier].raw||{items:[],tags:[]};
+    const collapsed=collapseGiftTier(blk,higherIds), items=collapsed.items, tags=collapsed.categories;
+    items.forEach(it=>higherIds.add(it.id));
+    const checkable=(tier==="loved"||tier==="liked");
+    const chips=items.length?`<div class="gift-part"><span class="gift-label">Specific gifts</span><div class="chips-wrap">`+items.map(it=>{
+        const done=isGiven(n.id,it.id);
+        if(checkable) return `<span class="gchip ${done?'done':''}"><input type="checkbox" data-give="${it.id}" ${done?'checked':''} aria-label="Given ${esc(it.name)}">${thumb("item",it.id,it.name)}<button class="gname" data-nav="item:${it.id}">${esc(it.name)}</button></span>`;
+        return `<button class="lnk" data-nav="item:${it.id}">${thumb("item",it.id,it.name)}${esc(it.name)}</button>`;
+      }).join("")+`</div></div>`:"";
+    const vtags=tags.length?`<div class="gift-part"><span class="gift-label">Category gifts</span><div class="chips-wrap">${tags.map(t=>`<button class="lnk ing" data-nav="tag:${t.id}"><b>Any ${esc(prettyLabel(t.label))}</b></button>`).join("")}</div></div>`:"";
+    const none=(!items.length&&!tags.length)?`<div class="none">—</div>`:"";
+    return `<div class="tier ${tier}"><div class="t-head"><span class="dot"></span>${TIER_LABEL[tier]}<span class="n">${items.length+tags.length}</span></div>${chips}${vtags}${none}</div>`;
+  }).join("")+`</div>`;
+  return `<div class="detail-inner"><div class="item-head villager-hero">${thumb("npc",n.id,n.name)}<div>
+      <h2>${esc(n.name)}</h2><div class="meta">${pills.join("")}</div></div></div>${hearts}${scheduleBlock(n)}${eventBlock(n)}${tiers}</div>`;
+}
+function wireVillager(root,nid){
+  root.querySelectorAll(".hbtn").forEach(b=>b.addEventListener("click",()=>{ setHeart(nid, +b.dataset.h); renderVillagers(); }));
+  const rst=root.querySelector("[data-reset]"); if(rst) rst.addEventListener("click",()=>{ setHeart(nid,0); renderVillagers(); });
+  root.querySelectorAll("input[data-give]").forEach(cb=>cb.addEventListener("change",()=>{
+    setGiven(nid, +cb.dataset.give, cb.checked); cb.closest(".gchip").classList.toggle("done",cb.checked); }));
+}
+
+/* ================= SHRINE ================= */
+function shrineProgress(b){ let met=0, off=b.offerings||[]; off.forEach(o=>{ if(getOffered(b.id,o.id)>=o.count) met++; }); return {metSlots:met, total:off.length, complete:off.length>0&&met===off.length}; }
+function renderShrine(){
+  if(!SHRINE||!SHRINE.bundles){ app.innerHTML=`<div class="loader panel"><h2>Shrine offerings</h2><p>No <code>shrine.json</code> found. Re-run the updated <code>normalise.py</code>, then add it to your data files.</p></div>`; return; }
+  app.innerHTML="";
+  const wrap=document.createElement("div"); wrap.className="shrine-wrap";
+  const shrines=SHRINE.shrines&&SHRINE.shrines.length?SHRINE.shrines:[{id:null,name:""}];
+  const byShrine={}; SHRINE.bundles.forEach(b=>(byShrine[b.shrine_id]=byShrine[b.shrine_id]||[]).push(b));
+  let html="";
+  shrines.forEach(s=>{ const lst=byShrine[s.id]||[]; if(!lst.length) return;
+    const done=lst.filter(b=>shrineProgress(b).complete).length;
+    html+=`<section class="shrine-group"><div class="shrine-head"><h2>${esc(s.name||"Shrine")}</h2><span class="prog">${done}/${lst.length} bundles complete</span></div><div class="bundles">`+lst.map(bundleCard).join("")+`</div></section>`; });
+  wrap.innerHTML=html; app.appendChild(wrap); wireShrine(wrap);
+}
+function bundleCard(b){
+  const p=shrineProgress(b);
+  const offs=(b.offerings||[]).map(o=>{
+    const have=getOffered(b.id,o.id), met=have>=o.count;
+    return `<div class="off ${met?'met':''}" data-bid="${b.id}" data-oid="${o.id}" data-need="${o.count}">
+      <button class="oname" data-nav="item:${o.id}">${esc(o.name)}</button>
+      <span class="octl"><button class="step" data-d="-1" aria-label="Decrease">−</button>
+        <input class="offer-input" type="number" min="0" max="${o.count}" step="1" value="${have}" aria-label="Offered ${esc(o.name)} count">
+        <span class="cnt">/ ${o.count}</span>
+        <button class="step" data-d="1" aria-label="Increase">+</button>
+        <button class="step max" data-d="max" aria-label="Mark complete">✓</button></span></div>`;
+  }).join("");
+  const award=b.award&&b.award.id?`<div class="award">Reward: <b>${b.award.count}×</b> ${esc(b.award.name)}</div>`:"";
+  return `<article class="bundle ${p.complete?'complete':''}"><header class="bhead"><h3>${esc(b.name)}</h3><span class="bprog">${p.metSlots}/${p.total}</span></header><div class="offs">${offs}</div>${award}</article>`;
+}
+function wireShrine(root){
+  root.querySelectorAll(".off").forEach(row=>{
+    const bid=+row.dataset.bid, oid=+row.dataset.oid, need=+row.dataset.need;
+    row.querySelectorAll(".step").forEach(btn=>btn.addEventListener("click",()=>{
+      const d=btn.dataset.d, cur=getOffered(bid,oid);
+      let v=d==="max"?(cur>=need?0:need):Math.max(0,cur+(+d));
+      setOffered(bid,oid,v); renderShrine(); }));
+    const input=row.querySelector(".offer-input");
+    if(input) input.addEventListener("change",()=>{
+      const v=Math.max(0, Math.min(need, Math.floor(Number(input.value)||0)));
+      setOffered(bid,oid,v); renderShrine();
+    });
+  });
+}
+
+/* ================= UPGRADES / ANIMALS / PETS ================= */
+function money(n){ return `${Number(n||0).toLocaleString()}g`; }
+function taskId(kind,id){ return `${kind}:${id}`; }
+function qtyText(n){ return Number.isInteger(n)?String(n):String(Math.round(n*100)/100); }
+function matButton(m){
+  if(m.id!=null) return `<button class="mat" data-nav="item:${m.id}">${thumb("item",m.id,m.name)}<b>${qtyText(m.qty||1)}×</b> ${esc(m.name)}</button>`;
+  return `<span class="mat"><b>${qtyText(m.qty||1)}×</b> ${esc(m.name)}</span>`;
+}
+function addNeed(store,m,qty){
+  const key=m.id==null?m.name:m.id;
+  store.mats[key]=(store.mats[key]||0)+qty;
+  store.names[key]={id:m.id,name:m.name};
+}
+function craftRecipeFor(itemId){
+  const rs=(ITEM_RECIPES[itemId]||[]).filter(r=>(r.ingredients||[]).length && !(r.ingredients||[]).some(x=>x.id===itemId));
+  if(!rs.length) return null;
+  return rs[0];
+}
+function addExpandedNeed(store,m,qty,seen,mode){
+  mode=mode||state.matMode;
+  if(mode!=="raw" || m.id==null) return addNeed(store,m,qty);
+  seen=seen||new Set();
+  if(seen.has(m.id)) return addNeed(store,m,qty);
+  const recipe=craftRecipeFor(m.id);
+  if(!recipe) return addNeed(store,m,qty);
+  seen.add(m.id);
+  const makes=recipe.result_count||1, crafts=Math.ceil(qty/makes);
+  (recipe.ingredients||[]).forEach(x=>addExpandedNeed(store,{id:x.id,name:x.name},(x.qty||1)*crafts,new Set(seen),mode));
+}
+function materialList(ingredients,mode){
+  const store={mats:{}, names:{}};
+  (ingredients||[]).forEach(m=>addExpandedNeed(store,m,m.qty||1,null,mode));
+  return Object.keys(store.mats).map(k=>({id:store.names[k].id,name:store.names[k].name,qty:store.mats[k]})).sort((a,b)=>a.name.localeCompare(b.name));
+}
+function materialModeText(mode){
+  return mode==="raw"
+    ? {title:"Raw materials", desc:"Expands craftable materials into their base inputs, so ingots become ore plus fuel where recipes are known."}
+    : {title:"Direct materials", desc:"Shows exactly what the upgrade asks for, including crafted materials such as ingots."};
+}
+function modePanel(scope,mode){
+  const text=materialModeText(mode);
+  const attr=scope==="global"?"data-matmode":"data-cardmat";
+  return `<div class="mat-mode-panel">
+    <div class="mat-mode-copy" data-mode-copy="${esc(scope)}"><b>${esc(text.title)}</b><span>${esc(text.desc)}</span></div>
+    <div class="mode-toggle" role="group" aria-label="Material view">
+      <button class="chip" ${attr}="${scope==="global"?"direct":esc(scope)}" ${scope==="global"?"":"data-mode=\"direct\""} aria-pressed="${mode!=='raw'}">Direct</button>
+      <button class="chip" ${attr}="${scope==="global"?"raw":esc(scope)}" ${scope==="global"?"":"data-mode=\"raw\""} aria-pressed="${mode==='raw'}">Raw</button>
+    </div>
+  </div>`;
+}
+function materialListHtml(mats,empty){
+  return mats.map(matButton).join("")||`<span class="muted">${esc(empty||"No materials listed.")}</span>`;
+}
+function setModePanelText(root,mode){
+  const copy=root&&root.querySelector("[data-mode-copy]");
+  if(!copy) return;
+  const text=materialModeText(mode);
+  copy.innerHTML=`<b>${esc(text.title)}</b><span>${esc(text.desc)}</span>`;
+}
+function swapMaterialHtml(el,html){
+  if(!el){ return; }
+  el.classList.add("updating");
+  window.setTimeout(()=>{
+    el.innerHTML=html;
+    window.requestAnimationFrame(()=>el.classList.remove("updating"));
+  },90);
+}
+function cardMatKey(id){ return LS+"cardmat:"+id; }
+function cardMatMode(id){ return ls(cardMatKey(id))==="raw"?"raw":"direct"; }
+function setCardMatMode(id,mode){ lsSet(cardMatKey(id),mode==="raw"?"raw":"direct"); }
+function cardMaterials(id,ingredients){
+  const mode=cardMatMode(id), mats=materialList(ingredients,mode);
+  return `${modePanel(String(id),mode)}<div class="mat-list materials-zone" data-card-mats="${esc(id)}" data-ingredients="${esc(JSON.stringify(ingredients||[]))}">${materialListHtml(mats)}</div>`;
+}
+function sumUpgradeNeeds(){
+  const store={mats:{}, names:{}}; let coin=0, tasks=0;
+  ((UPGRADES&&UPGRADES.building_steps)||[]).forEach(b=>{
+    if(isTaskDone("build",b.id)) return; tasks++;
+    const r=b.recipe||{}; coin+=r.gold||0;
+    (r.ingredients||[]).forEach(m=>addExpandedNeed(store,m,m.qty||1));
+  });
+  ((UPGRADES&&UPGRADES.home_levels)||[]).forEach(h=>{ if(!isTaskDone("home",h.level)){ tasks++; coin+=h.cost_coin||0; } });
+  ((UPGRADES&&UPGRADES.farm_unlocks)||[]).forEach(f=>{ if(!isTaskDone("farm",f.level)){ tasks++; coin+=f.cost_coin||0; } });
+  const matArr=Object.keys(store.mats).map(k=>({id:store.names[k].id,name:store.names[k].name,qty:store.mats[k]})).sort((a,b)=>a.name.localeCompare(b.name));
+  return {coin,tasks,mats:matArr};
+}
+function renderUpgrades(){
+  if(!UPGRADES){ app.innerHTML=`<div class="loader panel"><h2>Upgrades</h2><p>No <code>upgrades.json</code> found.</p></div>`; return; }
+  const needs=sumUpgradeNeeds();
+  const summary=`<div class="summary-strip">
+    <div class="summary-box"><div class="k">Remaining upgrade tasks</div><div class="v">${needs.tasks}</div></div>
+    <div class="summary-box"><div class="k">Remaining gold needed</div><div class="v">${money(needs.coin)}</div></div>
+    <div class="summary-box"><div class="k">Material types still needed</div><div class="v" data-upg-material-count>${needs.mats.length}</div></div>
+  </div>`;
+  const note=`<div class="upgrade-note"><b>Building upgrades are ordered at Sasaki's Furniture Studio.</b> Use Direct to track the listed request, or Raw to expand craftable materials into base ingredients.</div>`;
+  const matSummary=fold("upg-materials","Material Shopping List",`${modePanel("global",state.matMode)}<div class="mat-list materials-zone" data-global-mats>${materialListHtml(needs.mats,"All tracked upgrade materials complete.")}</div>`,{card:true,count:state.matMode==="raw"?"raw":"direct"});
+  const groups={}; (UPGRADES.building_steps||[]).forEach(b=>(groups[b.house_type_label||"Other"]=groups[b.house_type_label||"Other"]||[]).push(b));
+  const buildings=Object.keys(groups).sort().map(g=>fold("upg-"+g, g, `<div class="dense-grid">`+
+    groups[g].map(b=>{ const done=isTaskDone("build",b.id), r=b.recipe||{};
+      return `<article class="dense-card ${done?'done':''}">
+        <h3><input type="checkbox" class="madebox" data-upg="${taskId("build",b.id)}" ${done?'checked':''} aria-label="Complete ${esc(b.name)}">${thumb("item",b.id,b.name)}${esc(b.name)}</h3>
+        <div class="mini-meta"><span>Upgrade: <b>${esc(b.new_name)}</b></span>${b.capacity!=null?`<span>Capacity: <b>${b.capacity}</b></span>`:""}${b.build_days?`<span>Crafting time: <b>${b.build_days} day${b.build_days===1?'':'s'}</b></span>`:""}${r.gold?`<span>Cost: <b>${money(r.gold)}</b></span>`:""}${b.has_auto_petting?`<span>Feature: <b>auto petting</b></span>`:""}</div>
+        ${cardMaterials(b.id,r.ingredients||[])}
+      </article>`; }).join("")+`</div>`,{count:groups[g].length})).join("");
+  const homeRows=(UPGRADES.home_levels||[]).map(h=>{ const done=isTaskDone("home",h.level); return `<div class="compact-row ${done?'done':''}">
+    <input type="checkbox" class="madebox" data-upg="${taskId("home",h.level)}" ${done?'checked':''} aria-label="Complete home level ${h.level}">
+    <span>Home upgrade level ${h.level}</span><span class="cost">Cost: ${money(h.cost_coin)}</span></div>`; }).join("");
+  const farmRows=(UPGRADES.farm_unlocks||[]).map(f=>{ const done=isTaskDone("farm",f.level); return `<div class="compact-row ${done?'done':''}">
+    <input type="checkbox" class="madebox" data-upg="${taskId("farm",f.level)}" ${done?'checked':''} aria-label="Complete farm unlock ${f.level}">
+    <span>Farm area ${f.farm_id}</span><span class="cost">Cost: ${money(f.cost_coin)}</span></div>`; }).join("");
+  app.innerHTML=`<div class="dash-wrap">${summary}${note}${matSummary}${buildings}
+    ${fold("upg-home","Home Upgrades",`<div class="compact-table">${homeRows}</div>`,{count:(UPGRADES.home_levels||[]).length,collapsed:true})}
+    ${fold("upg-farm","Farm Unlocks",`<div class="compact-table">${farmRows}</div>`,{count:(UPGRADES.farm_unlocks||[]).length,collapsed:true})}</div>`;
+  app.querySelectorAll("[data-upg]").forEach(cb=>cb.addEventListener("change",()=>{ const [kind,id]=cb.dataset.upg.split(":"); setTaskDone(kind,id,cb.checked); renderUpgrades(); }));
+  app.querySelectorAll("[data-matmode]").forEach(btn=>btn.addEventListener("click",()=>updateGlobalMatMode(btn.dataset.matmode)));
+  app.querySelectorAll("[data-cardmat]").forEach(btn=>btn.addEventListener("click",()=>updateCardMatMode(btn.dataset.cardmat,btn.dataset.mode)));
+}
+function updateGlobalMatMode(mode){
+  if(mode!=="raw") mode="direct";
+  if(state.matMode===mode) return;
+  state.matMode=mode; persist();
+  const needs=sumUpgradeNeeds();
+  const root=app.querySelector('[data-fold="upg-materials"]');
+  if(root){
+    root.querySelectorAll("[data-matmode]").forEach(btn=>btn.setAttribute("aria-pressed",String(btn.dataset.matmode===mode)));
+    setModePanelText(root,mode);
+    const hint=root.querySelector(".section-toggle .hint");
+    if(hint) hint.textContent=hint.textContent.replace(/(direct|raw)$/,mode);
+  }
+  const count=app.querySelector("[data-upg-material-count]");
+  if(count) count.textContent=String(needs.mats.length);
+  swapMaterialHtml(app.querySelector("[data-global-mats]"),materialListHtml(needs.mats,"All tracked upgrade materials complete."));
+}
+function updateCardMatMode(id,mode){
+  if(mode!=="raw") mode="direct";
+  if(cardMatMode(id)===mode) return;
+  setCardMatMode(id,mode);
+  let zone=null;
+  app.querySelectorAll("[data-card-mats]").forEach(el=>{ if(el.dataset.cardMats===String(id)) zone=el; });
+  const panel=zone?zone.closest(".dense-card"):null;
+  if(panel){
+    panel.querySelectorAll("[data-cardmat]").forEach(btn=>{ if(btn.dataset.cardmat===String(id)) btn.setAttribute("aria-pressed",String(btn.dataset.mode===mode)); });
+    setModePanelText(panel,mode);
+  }
+  let ingredients=[];
+  try{ ingredients=JSON.parse(zone&&zone.dataset.ingredients||"[]"); }catch(_){}
+  swapMaterialHtml(zone,materialListHtml(materialList(ingredients,mode)));
+}
+function outputLine(o){
+  if(!o||!o.id) return "";
+  const timing=o.every_days?`<span class="via">every ${o.every_days}d</span>`:"";
+  const badges=useBadges(o.id);
+  return `<button class="lnk" data-nav="item:${o.id}">${thumb("item",o.id,o.name)}${o.qty||1}× ${esc(o.name)}${timing&&badges?`${timing}<span class="tag-sep">·</span>${badges}`:timing+badges}</button>`;
+}
+function useBadges(itemId){
+  const bits=[];
+  if(hasShrineNeed(itemId)) bits.push("shrine");
+  if((UPGRADES&&UPGRADES.building_steps||[]).some(b=>((b.recipe&&b.recipe.ingredients)||[]).some(m=>m.id===itemId))) bits.push("upgrade");
+  if((ITEM_RECIPES[itemId]||[]).length) bits.push("recipe");
+  return bits.map(x=>`<span class="via">${x}</span>`).join("");
+}
+function renderAnimals(){
+  if(!HUSBANDRY){ app.innerHTML=`<div class="loader panel"><h2>Animals</h2><p>No <code>husbandry.json</code> found.</p></div>`; return; }
+  const houses=`<div class="dense-grid">`+(HUSBANDRY.houses||[]).map(h=>`<article class="dense-card">
+      <h3>${thumb("item",h.id,h.name)}${esc(h.name)}</h3>
+      <div class="mini-meta"><span>${esc(h.house_type_label)}</span><span>Level ${h.level}</span><span>${h.capacity} capacity</span></div>
+    </article>`).join("")+`</div>`;
+  const rules=HUSBANDRY.rules||{}, moods=rules.moods||{}, out=rules.output||{};
+  const ruleHtml=`<div class="dense-card"><div class="mat-list">
+    <span class="mat">Treat item: ${esc((rules.treats&&rules.treats.name)||"Animal Treats")}</span>
+    <span class="mat">Silo fodder: ${esc((rules.silo_item&&rules.silo_item.name)||"Thatch")}</span>
+    <span class="mat">Output mood minimum: ${out.min_moods_output||"?"}</span>
+    <span class="mat">Rare-output mood: ${out.moods_rare_value||"?"}</span>
+    <span class="mat">Petting mood: +${moods.touch_add||"?"}</span>
+    <span class="mat">Missed food: -${moods.not_eat||"?"}</span>
+  </div></div>`;
+  const animals=`<div class="dense-grid">`+(HUSBANDRY.animals||[]).map(a=>{
+    const growth=[a.pre_baby_days?`${a.pre_baby_days}d pre-baby`:"",a.baby_days?`${a.baby_days}d baby`:"",a.young_days?`${a.young_days}d young`:""].filter(Boolean).join(" · ");
+    return `<article class="dense-card">
+      <h3>${thumb("item",a.id,a.name)}${esc(a.name)}</h3>
+      <div class="mini-meta"><span>${(a.house_types||[]).map(h=>esc(h.label)).join(", ")}</span><span>Baby ${money(a.baby_price)}</span><span>Adult ${money(a.adult_price)}</span></div>
+      ${growth?`<div class="mini-meta"><span>${esc(growth)}</span></div>`:""}
+      <div class="mat-list">${outputLine(a.normal_output)}${outputLine(a.rare_output)}</div>
+    </article>`; }).join("")+`</div>`;
+  app.innerHTML=`<div class="dash-wrap">
+    ${fold("animals-main","Animals & Outputs",animals,{count:(HUSBANDRY.animals||[]).length})}
+    ${fold("animals-housing","Housing Capacity",houses,{count:(HUSBANDRY.houses||[]).length,collapsed:true})}
+    ${fold("animals-rules","Care Rules",ruleHtml,{count:"optional",collapsed:true})}
+  </div>`;
+}
+function sleepText(v){ return Array.isArray(v)?`${v[0]}:00-${v[1]}:00`:""; }
+function petLevel(p,lvl){ const r=(p.relationship_levels||[]).find(x=>x.level===lvl); return r&&r.points!=null?r.points:"?"; }
+function petThumb(p){ return thumb("pet",p.id,p.name,p.item_id?imgPath("item",p.item_id):null); }
+function renderPets(){
+  if(!PETS){ app.innerHTML=`<div class="loader panel"><h2>Pets</h2><p>No <code>pets.json</code> found.</p></div>`; return; }
+  const g=PETS.global||{};
+  const summary=`<div class="summary-strip">
+    <div class="summary-box"><div class="k">Adopt unlock</div><div class="v">Lv ${g.adopt_relation_level}</div></div>
+    <div class="summary-box"><div class="k">Follow unlock</div><div class="v">Lv ${g.follow_relation_level}</div></div>
+    <div class="summary-box"><div class="k">Gift unlock</div><div class="v">Lv ${g.gift_relation_level}</div></div>
+    <div class="summary-box"><div class="k">Decorate unlock</div><div class="v">Lv ${g.decorate_relation_level}</div></div>
+  </div>`;
+  const groups={}; (PETS.pets||[]).forEach(p=>(groups[p.type_label]=groups[p.type_label]||[]).push(p));
+  const cards=Object.keys(groups).sort().map(type=>fold("pets-"+type,type,`<div class="dense-grid">`+
+    groups[type].map(p=>`<article class="dense-card">
+      <h3>${petThumb(p)}${esc(p.name)}</h3>
+      <div class="mini-meta"><span>${esc(p.type_label)}</span>${p.can_be_decorated?`<span>decoratable</span>`:""}${p.sleep_time?`<span>sleeps ${esc(sleepText(p.sleep_time))}</span>`:""}</div>
+      <div class="mini-meta"><span>Adopt ${petLevel(p,g.adopt_relation_level)} pts</span><span>Follow ${petLevel(p,g.follow_relation_level)} pts</span><span>Gift ${petLevel(p,g.gift_relation_level)} pts</span></div>
+      <div class="mat-list">${(p.food_items||[]).map(f=>`<button class="mat" data-nav="item:${f.id}">${thumb("item",f.id,f.name)}${esc(f.name)}</button>`).join("")}${(p.food_tags||[]).map(t=>`<button class="mat" data-nav="tag:${t.id}">${esc(prettyLabel(t.label))}</button>`).join("")}</div>
+    </article>`).join("")+`</div>`,{count:groups[type].length})).join("");
+  app.innerHTML=`<div class="dash-wrap">${summary}${cards}</div>`;
+}
+
+/* ================= SHOPS / MONSTERS / MAPS ================= */
+function itemCell(name,id){
+  return id!=null?`<button class="lnk" data-nav="item:${id}">${thumb("item",id,name)}${esc(name)}</button>`:esc(name||"");
+}
+function moneyValue(s){
+  const m=String(s||"").replace(/,/g,"").match(/\d+/);
+  return m?+m[0]:Number.MAX_SAFE_INTEGER;
+}
+function sortedShopItems(items){
+  const arr=[...(items||[])], sort=state.shopSort||"item";
+  const text=k=>x=>String(x[k]||"").toLowerCase();
+  if(sort==="price") arr.sort((a,b)=>moneyValue(a.price)-moneyValue(b.price) || text("item")(a).localeCompare(text("item")(b)));
+  else if(sort==="season") arr.sort((a,b)=>String(a.season||a.availability||"").localeCompare(String(b.season||b.availability||"")) || text("item")(a).localeCompare(text("item")(b)));
+  else if(sort==="limit") arr.sort((a,b)=>text("limit")(a).localeCompare(text("limit")(b)) || text("item")(a).localeCompare(text("item")(b)));
+  else if(sort==="refresh") arr.sort((a,b)=>text("refresh")(a).localeCompare(text("refresh")(b)) || text("item")(a).localeCompare(text("item")(b)));
+  else arr.sort((a,b)=>text("item")(a).localeCompare(text("item")(b)));
+  return arr;
+}
+function renderShops(){
+  if(!SHOPS){ app.innerHTML=`<div class="loader panel"><h2>Shops</h2><p>No <code>shops.json</code> found.</p></div>`; return; }
+  const sections=(SHOPS.shops||[]).map((shop,idx)=>{
+    const rows=sortedShopItems(shop.items).map(x=>`<tr><td data-label="Item">${itemCell(x.item,x.item_id)}</td><td data-label="Price">${esc(x.price||"")}</td><td data-label="Season">${esc(x.season||x.availability||"")}</td><td data-label="Limit">${esc(x.limit||"")}</td><td data-label="Refresh">${esc(x.refresh||"")}</td></tr>`).join("");
+    const body=`<table class="data-table"><thead><tr><th>Item</th><th>Price</th><th>Season / Availability</th><th>Limit</th><th>Refresh</th></tr></thead><tbody>${rows}</tbody></table>`;
+    return fold("shop-"+idx,shop.name,body,{card:true,count:(shop.items||[]).length,collapsed:true});
+  }).join("");
+  app.innerHTML=`<div class="dash-wrap">
+    <div class="today-controls"><label>Sort shop items <select id="shop-sort">
+      <option value="item" ${state.shopSort==="item"?'selected':''}>Item name</option>
+      <option value="price" ${state.shopSort==="price"?'selected':''}>Price</option>
+      <option value="season" ${state.shopSort==="season"?'selected':''}>Season / availability</option>
+      <option value="limit" ${state.shopSort==="limit"?'selected':''}>Limit</option>
+      <option value="refresh" ${state.shopSort==="refresh"?'selected':''}>Refresh</option>
+    </select></label></div>
+    ${sections}</div>`;
+  const sort=document.getElementById("shop-sort");
+  if(sort) sort.addEventListener("change",e=>{ state.shopSort=e.target.value; persist(); renderShops(); });
+}
+function renderMonsters(){
+  if(!MONSTERS){ app.innerHTML=`<div class="loader panel"><h2>Monsters</h2><p>No <code>monsters.json</code> found.</p></div>`; return; }
+  const cleanMonster=(MONSTERS.monsters||[]).filter(m=>m.name && !String(m.name).includes("Advertisement") && !String(m.name).includes("rdSmartLoad"));
+  const cleanDrops=(MONSTERS.drop_values||[]).filter(d=>d["Drop Item"] && !String(d["Drop Item"]).includes("Advertisement") && !String(d["Drop Item"]).includes("rdSmartLoad"));
+  const monsterRows=cleanMonster.map(m=>{
+    const drops=(m.drops||[]).map(d=>itemCell(d.name,d.item_id)).join(" ");
+    return `<tr><td data-label="Monster"><b>${esc(m.name)}</b></td><td data-label="HP">${esc(m.hp)}</td><td data-label="Damage">${esc(m.damage)}</td><td data-label="Drops">${drops}</td><td data-label="Tameable As">${esc(m.tameable_as||"")}</td><td data-label="Tame Tries">${esc(m.tame_tries||"")}</td></tr>`;
+  }).join("");
+  const dropRows=cleanDrops.map(d=>`<tr><td data-label="Drop Item">${itemCell(d["Drop Item"],d.item_id)}</td><td data-label="Sell Price">${esc(d["Sell Price"]||"")}</td><td data-label="Dropped By">${esc(d["Dropped By"]||"")}</td></tr>`).join("");
+  const monsters=`<table class="data-table"><thead><tr><th>Monster</th><th>HP</th><th>Damage</th><th>Drops</th><th>Tameable As</th><th>Tame Tries</th></tr></thead><tbody>${monsterRows}</tbody></table>`;
+  const drops=`<table class="data-table"><thead><tr><th>Drop Item</th><th>Sell Price</th><th>Dropped By</th></tr></thead><tbody>${dropRows}</tbody></table>`;
+  app.innerHTML=`<div class="dash-wrap">
+    ${fold("monsters-list","Monster List",monsters,{card:true,count:cleanMonster.length,collapsed:false})}
+    ${fold("monsters-drops","Drop Values",drops,{card:true,count:cleanDrops.length,collapsed:true})}
+  </div>`;
+}
+function renderMaps(){
+  if(!MAPS){ app.innerHTML=`<div class="loader panel"><h2>Maps</h2><p>No <code>maps.json</code> found.</p></div>`; return; }
+  const sections=(MAPS.sections||[]).map((m,idx)=>{
+    const title=m.spoiler?`${m.title} (Spoiler)`:m.title;
+    const body=`${m.spoiler?`<div class="meta"><span class="spoiler">Spoiler</span></div>`:""}${m.description?`<p class="desc map-copy">${esc(m.description)}</p>`:""}${m.image?`<a class="map-link" href="${esc(m.image)}" target="_blank" rel="noopener"><img class="map-img" src="${esc(m.image)}" alt="${esc(m.title)}" loading="lazy"></a>`:""}`;
+    return fold("map-"+idx,title,body,{card:true,count:m.image?"image":"info",collapsed:true});
+  }).join("");
+  app.innerHTML=`<div class="dash-wrap">${sections}</div>`;
+}
+
+/* ---------- storage ---------- */
+function getHeart(id){ const v=ls(LS+"heart:"+id); return v?Math.max(0,Math.min(10,+v)):0; }
+function setHeart(id,v){ v=Math.max(0,Math.min(10,v)); lsSet(LS+"heart:"+id,String(v)); }
+function isGiven(nid,iid){ return ls(LS+"given:"+nid+":"+iid)==="1"; }
+function setGiven(nid,iid,on){ if(on) lsSet(LS+"given:"+nid+":"+iid,"1"); else lsDel(LS+"given:"+nid+":"+iid); }
+function getOffered(bid,oid){ const v=ls(LS+"off:"+bid+":"+oid); return v?Math.max(0,+v):0; }
+function setOffered(bid,oid,v){ if(v>0) lsSet(LS+"off:"+bid+":"+oid,String(v)); else lsDel(LS+"off:"+bid+":"+oid); }
+function isCaught(id){ return ls(LS+"caught:"+id)==="1"; }
+function setCaught(id,on){ if(on) lsSet(LS+"caught:"+id,"1"); else lsDel(LS+"caught:"+id); }
+function getGrown(id){ return ls(LS+"grown:"+id)==="1"; }
+function setGrown(id,on){ if(on) lsSet(LS+"grown:"+id,"1"); else lsDel(LS+"grown:"+id); }
+function getMade(id){ return ls(LS+"made:"+id)==="1"; }
+function setMade(id,on){ if(on) lsSet(LS+"made:"+id,"1"); else lsDel(LS+"made:"+id); }
+function isTaskDone(kind,id){ return ls(LS+"task:"+kind+":"+id)==="1"; }
+function setTaskDone(kind,id,on){ if(on) lsSet(LS+"task:"+kind+":"+id,"1"); else lsDel(LS+"task:"+kind+":"+id); }
+function dayKey(){ return state.tSeason+"-"+state.tDay; }
+function getGifted(npc){ return ls(LS+"gift:"+dayKey()+":"+npc)==="1"; }
+function setGifted(npc,on){ if(on) lsSet(LS+"gift:"+dayKey()+":"+npc,"1"); else lsDel(LS+"gift:"+dayKey()+":"+npc); }
+function countLS(prefix){ let c=0; try{ for(let i=0;i<localStorage.length;i++){ const k=localStorage.key(i); if(k&&k.indexOf(prefix)===0) c++; } }catch(e){} return c; }
+function progressData(){
+  const data={};
+  try{
+    for(let i=0;i<localStorage.length;i++){
+      const k=localStorage.key(i);
+      if(k&&k.indexOf(LS)===0) data[k]=localStorage.getItem(k);
+    }
+  }catch(e){}
+  return {app:"Seikyu Companion", version:1, exportedAt:new Date().toISOString(), data};
+}
+function exportProgress(){
+  persist();
+  const payload=JSON.stringify(progressData(),null,2);
+  const blob=new Blob([payload],{type:"application/json"});
+  const a=document.createElement("a");
+  const day=new Date().toISOString().slice(0,10);
+  a.href=URL.createObjectURL(blob); a.download=`seikyu-progress-${day}.json`;
+  document.body.appendChild(a); a.click();
+  setTimeout(()=>{ URL.revokeObjectURL(a.href); a.remove(); },0);
+}
+function importProgressFile(file,done){
+  const reader=new FileReader();
+  reader.onload=()=>{
+    try{
+      const parsed=JSON.parse(String(reader.result||"{}"));
+      const data=parsed.data&&typeof parsed.data==="object"?parsed.data:parsed;
+      if(!data||typeof data!=="object") throw new Error("No progress data found.");
+      const keys=Object.keys(data).filter(k=>k.indexOf(LS)===0);
+      if(!keys.length) throw new Error("This does not look like a Seikyu progress backup.");
+      const old=[]; for(let i=0;i<localStorage.length;i++){ const k=localStorage.key(i); if(k&&k.indexOf(LS)===0) old.push(k); }
+      old.forEach(k=>localStorage.removeItem(k));
+      keys.forEach(k=>localStorage.setItem(k,String(data[k])));
+      restore(); applyHash();
+      done(null,`Imported ${keys.length} saved entries.`);
+    }catch(e){ done(e); }
+  };
+  reader.onerror=()=>done(new Error("Could not read that file."));
+  reader.readAsText(file);
+}
+function wireProgressBackup(){
+  const out=document.getElementById("exportProgress"), inp=document.getElementById("importProgress"), status=document.getElementById("backupStatus");
+  if(out) out.addEventListener("click",()=>{ exportProgress(); if(status){ status.classList.remove("err"); status.textContent="Progress backup downloaded."; } });
+  if(inp) inp.addEventListener("change",()=>{
+    const file=inp.files&&inp.files[0]; if(!file) return;
+    importProgressFile(file,(err,msg)=>{
+      const s=document.getElementById("backupStatus");
+      if(s){ s.classList.toggle("err",!!err); s.textContent=err?err.message:msg; }
+    });
+  });
+}
+
+/* ---------- state ---------- */
+function persist(){ const s=state; lsSet(LS+"tab",s.tab); lsSet(LS+"q",s.q); lsSet(LS+"filter",s.filter); lsSet(LS+"sort",s.sort); lsSet(LS+"itemCat",s.itemCat); lsSet(LS+"vq",s.vq);
+  lsSet(LS+"sel",s.sel==null?"":String(s.sel)); lsSet(LS+"tagSel",s.tagSel==null?"":String(s.tagSel)); lsSet(LS+"vsel",s.vsel==null?"":String(s.vsel));
+  lsSet(LS+"fq",s.fq); lsSet(LS+"fseason",s.fseason); lsSet(LS+"fregion",s.fregion);
+  lsSet(LS+"cq",s.cq); lsSet(LS+"cseason",s.cseason); lsSet(LS+"csort",s.csort);
+  lsSet(LS+"rq",s.rq); lsSet(LS+"rstation",s.rstation); lsSet(LS+"matMode",s.matMode);
+  lsSet(LS+"tSeason",s.tSeason); lsSet(LS+"tDay",String(s.tDay)); lsSet(LS+"tWeather",s.tWeather); lsSet(LS+"tTime",s.tTime||"all"); lsSet(LS+"shopSort",s.shopSort||"item"); }
+function restore(){
+  state.q=ls(LS+"q")||""; state.filter=ls(LS+"filter")||"all"; state.sort=ls(LS+"sort")||"name"; state.itemCat=ls(LS+"itemCat")||"all"; if(state.itemCat!=="all"&&!itemCategoryByKey(state.itemCat)) state.itemCat="all"; state.vq=ls(LS+"vq")||"";
+  const s=ls(LS+"sel"); state.sel=s?+s:null; if(state.sel!=null&&!ITEM_BY_ID[state.sel]) state.sel=null;
+  const ts=ls(LS+"tagSel"); state.tagSel=ts?+ts:null; if(state.tagSel!=null&&!TAGS[state.tagSel]) state.tagSel=null; if(state.tagSel!=null) state.sel=null;
+  const v=ls(LS+"vsel"); state.vsel=v?+v:null; if(state.vsel!=null&&!ROSTER.find(n=>n.id===state.vsel)) state.vsel=null;
+  state.fq=ls(LS+"fq")||""; state.fseason=ls(LS+"fseason")||"all"; state.fregion=ls(LS+"fregion")||"all";
+  state.cq=ls(LS+"cq")||""; state.cseason=ls(LS+"cseason")||"all"; state.csort=ls(LS+"csort")||"name";
+  state.rq=ls(LS+"rq")||""; state.rstation=ls(LS+"rstation")||"Cooking"; state.matMode=ls(LS+"matMode")||"direct";
+  state.tSeason=ls(LS+"tSeason")||"Spring"; state.tDay=+(ls(LS+"tDay")||1)||1; state.tWeather=ls(LS+"tWeather")||"Sunny"; state.tTime=ls(LS+"tTime")||"all";
+  state.shopSort=ls(LS+"shopSort")||"item";
+}
+
+/* ---------- helpers ---------- */
+function ls(k){ try{return localStorage.getItem(k);}catch(e){return null;} }
+function lsSet(k,v){ try{localStorage.setItem(k,v);}catch(e){} }
+function lsDel(k){ try{localStorage.removeItem(k);}catch(e){} }
+function normalizeText(s){ return String(s==null?"":s).replace(/[‘’]/g,"'"); }
+function esc(s){ return normalizeText(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c])); }
+function imgPath(kind,id){
+  const folder = kind==="npc" ? "npcs" : kind==="fish" ? "fish" : kind==="pet" ? "pets" : "items";
+  return `images/${folder}/${id}.png`;
+}
+function thumb(kind,id,alt,fallback){
+  if(id==null) return "";
+  const onerr=fallback?`this.onerror=function(){this.hidden=true};this.src='${esc(fallback)}'`:"this.hidden=true";
+  return `<img class="thumb ${kind}-thumb" src="${esc(imgPath(kind,id))}" alt="" loading="lazy" onerror="${onerr}">`;
+}
+
+/* ---------- theme (Change 8) ---------- */
+function getTheme(){ return ls(LS+"theme")||"auto"; }
+function osDark(){ return !!(window.matchMedia && window.matchMedia("(prefers-color-scheme:dark)").matches); }
+function isDarkActive(t){ t=t||getTheme(); return t==="dark" || (t==="auto" && osDark()); }
+function applyTheme(t){
+  t=t||getTheme();
+  const root=document.documentElement;
+  if(t==="auto") root.removeAttribute("data-theme"); else root.setAttribute("data-theme",t);
+  const btn=document.getElementById("themeToggle");
+  if(btn){ const dark=isDarkActive(t); btn.textContent=dark?"☀️":"🌙"; btn.setAttribute("aria-pressed",String(dark)); btn.title=dark?"Switch to light":"Switch to dark"; }
+}
+function cycleTheme(){ const next=isDarkActive()?"light":"dark"; lsSet(LS+"theme",next); applyTheme(next); }
+
+/* ---------- spinner (Change 7) ---------- */
+function showSpinner(){
+  app.innerHTML=`<div class="loader panel"><div class="spinner" aria-hidden="true"></div><h2>Loading…</h2><p class="muted" role="status">Reading your data files.</p></div>`;
+}
+
+/* ---------- fallback loader ---------- */
+function showLoader(msg){
+  app.innerHTML=`<div class="loader panel"><h2>Load your data</h2>
+    <p>Couldn't read the data files automatically${msg?` (${esc(msg)})`:""}. This happens when opening the page straight from disk.
+    Pick your <code>app_data</code> files — <b>items.json, tags.json, gifts.json</b> (npcs.json, shrine.json, upgrades.json, husbandry.json, pets.json, shops.json, monsters.json, maps.json, schedules.json recommended) — or host the folder with a local server.</p>
+    <div class="drop"><div>Select your app_data .json files</div><input id="files" type="file" accept=".json" multiple><div class="err" id="ferr"></div></div>
+    <p style="font-size:12px;color:var(--sumi-soft);margin-top:14px">Tip: run <code>python -m http.server</code> in the folder and open the printed address — then no manual loading is needed.</p></div>`;
+  document.getElementById("files").addEventListener("change", async e=>{
+    const data={};
+    for(const f of e.target.files){ try{ const k=f.name.replace(".json",""); if(["items","tags","gifts","npcs","shrine","fish","festivals","crops","recipes","upgrades","husbandry","pets","shops","monsters","maps","schedules","item_categories"].includes(k)) data[k]=JSON.parse(await f.text()); }catch(_){} }
+    if(!data.items||!data.tags||!data.gifts){ document.getElementById("ferr").textContent="Need at least items.json, tags.json and gifts.json."; return; }
+    boot(data);
+  });
+}
+applyTheme(getTheme());
+showSpinner();
+tryFetchAll().then(boot).catch(err=>showLoader(err.message));
+</script>
+</body>
+</html>

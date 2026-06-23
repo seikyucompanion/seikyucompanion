@@ -1,0 +1,536 @@
+{
+  "home_levels": [
+    {
+      "level": 1,
+      "cost_coin": 4000
+    },
+    {
+      "level": 2,
+      "cost_coin": 8000
+    },
+    {
+      "level": 3,
+      "cost_coin": 12000
+    },
+    {
+      "level": 4,
+      "cost_coin": 16000
+    },
+    {
+      "level": 5,
+      "cost_coin": 20000
+    },
+    {
+      "level": 6,
+      "cost_coin": 24000
+    },
+    {
+      "level": 7,
+      "cost_coin": 28000
+    },
+    {
+      "level": 8,
+      "cost_coin": 32000
+    },
+    {
+      "level": 9,
+      "cost_coin": 36000
+    },
+    {
+      "level": 10,
+      "cost_coin": 40000
+    },
+    {
+      "level": 11,
+      "cost_coin": 44000
+    },
+    {
+      "level": 12,
+      "cost_coin": 48000
+    },
+    {
+      "level": 13,
+      "cost_coin": 52000
+    },
+    {
+      "level": 14,
+      "cost_coin": 56000
+    },
+    {
+      "level": 15,
+      "cost_coin": 60000
+    },
+    {
+      "level": 16,
+      "cost_coin": 64000
+    },
+    {
+      "level": 17,
+      "cost_coin": 68000
+    },
+    {
+      "level": 18,
+      "cost_coin": 72000
+    },
+    {
+      "level": 19,
+      "cost_coin": 76000
+    },
+    {
+      "level": 20,
+      "cost_coin": 80000
+    },
+    {
+      "level": 21,
+      "cost_coin": 84000
+    },
+    {
+      "level": 22,
+      "cost_coin": 88000
+    },
+    {
+      "level": 23,
+      "cost_coin": 92000
+    },
+    {
+      "level": 24,
+      "cost_coin": 96000
+    },
+    {
+      "level": 25,
+      "cost_coin": 100000
+    },
+    {
+      "level": 26,
+      "cost_coin": 104000
+    },
+    {
+      "level": 27,
+      "cost_coin": 108000
+    }
+  ],
+  "farm_unlocks": [
+    {
+      "level": 1,
+      "farm_id": 2,
+      "cost_coin": 2000
+    },
+    {
+      "level": 2,
+      "farm_id": 3,
+      "cost_coin": 4000
+    },
+    {
+      "level": 3,
+      "farm_id": 4,
+      "cost_coin": 6000
+    },
+    {
+      "level": 4,
+      "farm_id": 5,
+      "cost_coin": 8000
+    },
+    {
+      "level": 5,
+      "farm_id": 6,
+      "cost_coin": 10000
+    }
+  ],
+  "building_steps": [
+    {
+      "id": 8201,
+      "name": "Small Coop Construction Kit",
+      "old_id": 8201,
+      "old_name": "Small Coop Construction Kit",
+      "new_id": 8000,
+      "new_name": "Small Coop",
+      "house_type": 1,
+      "house_type_label": "Coop",
+      "level": 1,
+      "capacity": 4,
+      "build_days": 1,
+      "unlock_check_item": 0,
+      "has_auto_petting": false,
+      "recipe": {
+        "result_id": 8201,
+        "result_name": "Small Coop Construction Kit",
+        "gold": 1000,
+        "station": "Sasaki's Furniture Studio",
+        "ingredients": [
+          {
+            "id": 2501,
+            "name": "Wood",
+            "qty": 20
+          },
+          {
+            "id": 25102,
+            "name": "Iron Ingot",
+            "qty": 3
+          },
+          {
+            "id": 25101,
+            "name": "Copper Ingot",
+            "qty": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": 8202,
+      "name": "Medium Coop Upgrade Kit",
+      "old_id": 8000,
+      "old_name": "Small Coop",
+      "new_id": 8001,
+      "new_name": "Medium Coop",
+      "house_type": 1,
+      "house_type_label": "Coop",
+      "level": 2,
+      "capacity": 8,
+      "build_days": 2,
+      "unlock_check_item": 8000,
+      "has_auto_petting": false,
+      "recipe": {
+        "result_id": 8202,
+        "result_name": "Medium Coop Upgrade Kit",
+        "gold": 3000,
+        "station": "Sasaki's Furniture Studio",
+        "ingredients": [
+          {
+            "id": 25102,
+            "name": "Iron Ingot",
+            "qty": 5
+          },
+          {
+            "id": 2660,
+            "name": "Oak Wood",
+            "qty": 25
+          },
+          {
+            "id": 2516,
+            "name": "Slime Sludge",
+            "qty": 20
+          }
+        ]
+      }
+    },
+    {
+      "id": 8203,
+      "name": "Large Coop Upgrade Kit",
+      "old_id": 8001,
+      "old_name": "Medium Coop",
+      "new_id": 8002,
+      "new_name": "Large Coop",
+      "house_type": 1,
+      "house_type_label": "Coop",
+      "level": 3,
+      "capacity": 12,
+      "build_days": 3,
+      "unlock_check_item": 8001,
+      "has_auto_petting": true,
+      "recipe": {
+        "result_id": 8203,
+        "result_name": "Large Coop Upgrade Kit",
+        "gold": 9000,
+        "station": "Sasaki's Furniture Studio",
+        "ingredients": [
+          {
+            "id": 25103,
+            "name": "Gold Ingot",
+            "qty": 5
+          },
+          {
+            "id": 2659,
+            "name": "Cherry Wood",
+            "qty": 25
+          },
+          {
+            "id": 2525,
+            "name": "Pearl",
+            "qty": 20
+          },
+          {
+            "id": 2535,
+            "name": "Chicken Feather",
+            "qty": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": 8204,
+      "name": "Small Barn Construction Kit",
+      "old_id": 8204,
+      "old_name": "Small Barn Construction Kit",
+      "new_id": 8010,
+      "new_name": "Small Barn",
+      "house_type": 2,
+      "house_type_label": "Barn",
+      "level": 1,
+      "capacity": 4,
+      "build_days": 1,
+      "unlock_check_item": 0,
+      "has_auto_petting": false,
+      "recipe": {
+        "result_id": 8204,
+        "result_name": "Small Barn Construction Kit",
+        "gold": 2000,
+        "station": "Sasaki's Furniture Studio",
+        "ingredients": [
+          {
+            "id": 25101,
+            "name": "Copper Ingot",
+            "qty": 4
+          },
+          {
+            "id": 2501,
+            "name": "Wood",
+            "qty": 20
+          },
+          {
+            "id": 2502,
+            "name": "Stone",
+            "qty": 20
+          }
+        ]
+      }
+    },
+    {
+      "id": 8205,
+      "name": "Medium Barn Upgrade Kit",
+      "old_id": 8010,
+      "old_name": "Small Barn",
+      "new_id": 8011,
+      "new_name": "Medium Barn",
+      "house_type": 2,
+      "house_type_label": "Barn",
+      "level": 2,
+      "capacity": 8,
+      "build_days": 2,
+      "unlock_check_item": 8010,
+      "has_auto_petting": false,
+      "recipe": {
+        "result_id": 8205,
+        "result_name": "Medium Barn Upgrade Kit",
+        "gold": 5000,
+        "station": "Sasaki's Furniture Studio",
+        "ingredients": [
+          {
+            "id": 25102,
+            "name": "Iron Ingot",
+            "qty": 4
+          },
+          {
+            "id": 2514,
+            "name": "Hardwood",
+            "qty": 20
+          },
+          {
+            "id": 2513,
+            "name": "Man-Eating Plant Leaf",
+            "qty": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": 8206,
+      "name": "Large Barn Upgrade Kit",
+      "old_id": 8011,
+      "old_name": "Medium Barn",
+      "new_id": 8012,
+      "new_name": "Large Barn",
+      "house_type": 2,
+      "house_type_label": "Barn",
+      "level": 3,
+      "capacity": 12,
+      "build_days": 3,
+      "unlock_check_item": 8011,
+      "has_auto_petting": true,
+      "recipe": {
+        "result_id": 8206,
+        "result_name": "Large Barn Upgrade Kit",
+        "gold": 12000,
+        "station": "Sasaki's Furniture Studio",
+        "ingredients": [
+          {
+            "id": 25103,
+            "name": "Gold Ingot",
+            "qty": 4
+          },
+          {
+            "id": 2660,
+            "name": "Oak Wood",
+            "qty": 20
+          },
+          {
+            "id": 2522,
+            "name": "Stone Golem Core",
+            "qty": 2
+          },
+          {
+            "id": 2537,
+            "name": "Goat Horn",
+            "qty": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": 8207,
+      "name": "Small Animal Den Construction Kit",
+      "old_id": 8207,
+      "old_name": "Small Animal Den Construction Kit",
+      "new_id": 8020,
+      "new_name": "Small Animal Den",
+      "house_type": 3,
+      "house_type_label": "Animal Den",
+      "level": 1,
+      "capacity": 4,
+      "build_days": 1,
+      "unlock_check_item": 0,
+      "has_auto_petting": false,
+      "recipe": {
+        "result_id": 8207,
+        "result_name": "Small Animal Den Construction Kit",
+        "gold": 3000,
+        "station": "Sasaki's Furniture Studio",
+        "ingredients": [
+          {
+            "id": 25101,
+            "name": "Copper Ingot",
+            "qty": 4
+          },
+          {
+            "id": 2501,
+            "name": "Wood",
+            "qty": 20
+          },
+          {
+            "id": 2512,
+            "name": "Flint",
+            "qty": 20
+          }
+        ]
+      }
+    },
+    {
+      "id": 8208,
+      "name": "Medium Animal Den Upgrade Kit",
+      "old_id": 8020,
+      "old_name": "Small Animal Den",
+      "new_id": 8021,
+      "new_name": "Medium Animal Den",
+      "house_type": 3,
+      "house_type_label": "Animal Den",
+      "level": 2,
+      "capacity": 8,
+      "build_days": 2,
+      "unlock_check_item": 8020,
+      "has_auto_petting": false,
+      "recipe": {
+        "result_id": 8208,
+        "result_name": "Medium Animal Den Upgrade Kit",
+        "gold": 5000,
+        "station": "Sasaki's Furniture Studio",
+        "ingredients": [
+          {
+            "id": 25102,
+            "name": "Iron Ingot",
+            "qty": 5
+          },
+          {
+            "id": 2660,
+            "name": "Oak Wood",
+            "qty": 25
+          },
+          {
+            "id": 2523,
+            "name": "Bobo Pearl",
+            "qty": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": 8209,
+      "name": "Large Animal Den Upgrade Kit",
+      "old_id": 8021,
+      "old_name": "Medium Animal Den",
+      "new_id": 8022,
+      "new_name": "Large Animal Den",
+      "house_type": 3,
+      "house_type_label": "Animal Den",
+      "level": 3,
+      "capacity": 12,
+      "build_days": 3,
+      "unlock_check_item": 8021,
+      "has_auto_petting": true,
+      "recipe": {
+        "result_id": 8209,
+        "result_name": "Large Animal Den Upgrade Kit",
+        "gold": 15000,
+        "station": "Sasaki's Furniture Studio",
+        "ingredients": [
+          {
+            "id": 25103,
+            "name": "Gold Ingot",
+            "qty": 5
+          },
+          {
+            "id": 2659,
+            "name": "Cherry Wood",
+            "qty": 25
+          },
+          {
+            "id": 2541,
+            "name": "Evil Fang",
+            "qty": 5
+          },
+          {
+            "id": 2536,
+            "name": "Cow Bristles",
+            "qty": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": 8210,
+      "name": "Monster House Tool Kit",
+      "old_id": 8210,
+      "old_name": "Monster House Tool Kit",
+      "new_id": 8040,
+      "new_name": "Monster House",
+      "house_type": 5,
+      "house_type_label": "Monster House",
+      "level": 1,
+      "capacity": 8,
+      "build_days": 1,
+      "unlock_check_item": 0,
+      "has_auto_petting": false,
+      "recipe": {
+        "result_id": 8210,
+        "result_name": "Monster House Tool Kit",
+        "gold": 100,
+        "station": "Sasaki's Furniture Studio",
+        "ingredients": [
+          {
+            "id": 25101,
+            "name": "Copper Ingot",
+            "qty": 4
+          },
+          {
+            "id": 2501,
+            "name": "Wood",
+            "qty": 20
+          },
+          {
+            "id": 2503,
+            "name": "Clay",
+            "qty": 20
+          }
+        ]
+      }
+    }
+  ]
+}

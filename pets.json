@@ -1,0 +1,4237 @@
+{
+  "pets": [
+    {
+      "id": 1,
+      "name": "Beanie",
+      "item_id": null,
+      "item_name": null,
+      "animal_type": 2,
+      "type_label": "Cat",
+      "can_be_decorated": true,
+      "food_items": [],
+      "food_tags": [
+        {
+          "id": 10001,
+          "label": "Fish"
+        },
+        {
+          "id": 3031,
+          "label": "Dish"
+        },
+        {
+          "id": 10003,
+          "label": "Meat"
+        },
+        {
+          "id": 3033,
+          "label": "AnimalFood"
+        }
+      ],
+      "sleep_time": [
+        9,
+        17
+      ],
+      "hunger_decrease_velocity": 1,
+      "material_group": "WorldCat1_1",
+      "relationship_levels": [
+        {
+          "level": 1,
+          "points": 10
+        },
+        {
+          "level": 2,
+          "points": 30
+        },
+        {
+          "level": 3,
+          "points": 40
+        },
+        {
+          "level": 4,
+          "points": 50
+        },
+        {
+          "level": 5,
+          "points": 60
+        },
+        {
+          "level": 6,
+          "points": 80
+        },
+        {
+          "level": 7,
+          "points": 100
+        },
+        {
+          "level": 8,
+          "points": 120
+        },
+        {
+          "level": 9,
+          "points": 140
+        },
+        {
+          "level": 10,
+          "points": 160
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Naki",
+      "item_id": null,
+      "item_name": null,
+      "animal_type": 2,
+      "type_label": "Cat",
+      "can_be_decorated": true,
+      "food_items": [],
+      "food_tags": [
+        {
+          "id": 10001,
+          "label": "Fish"
+        },
+        {
+          "id": 3031,
+          "label": "Dish"
+        },
+        {
+          "id": 10003,
+          "label": "Meat"
+        },
+        {
+          "id": 3033,
+          "label": "AnimalFood"
+        }
+      ],
+      "sleep_time": [
+        9,
+        17
+      ],
+      "hunger_decrease_velocity": 1,
+      "material_group": "WorldCat1_2",
+      "relationship_levels": [
+        {
+          "level": 1,
+          "points": 10
+        },
+        {
+          "level": 2,
+          "points": 30
+        },
+        {
+          "level": 3,
+          "points": 40
+        },
+        {
+          "level": 4,
+          "points": 50
+        },
+        {
+          "level": 5,
+          "points": 60
+        },
+        {
+          "level": 6,
+          "points": 80
+        },
+        {
+          "level": 7,
+          "points": 100
+        },
+        {
+          "level": 8,
+          "points": 120
+        },
+        {
+          "level": 9,
+          "points": 140
+        },
+        {
+          "level": 10,
+          "points": 160
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Flame",
+      "item_id": null,
+      "item_name": null,
+      "animal_type": 2,
+      "type_label": "Cat",
+      "can_be_decorated": true,
+      "food_items": [],
+      "food_tags": [
+        {
+          "id": 10001,
+          "label": "Fish"
+        },
+        {
+          "id": 3031,
+          "label": "Dish"
+        },
+        {
+          "id": 10003,
+          "label": "Meat"
+        },
+        {
+          "id": 3033,
+          "label": "AnimalFood"
+        }
+      ],
+      "sleep_time": [
+        9,
+        17
+      ],
+      "hunger_decrease_velocity": 1,
+      "material_group": "WorldCat1_3",
+      "relationship_levels": [
+        {
+          "level": 1,
+          "points": 10
+        },
+        {
+          "level": 2,
+          "points": 30
+        },
+        {
+          "level": 3,
+          "points": 40
+        },
+        {
+          "level": 4,
+          "points": 50
+        },
+        {
+          "level": 5,
+          "points": 60
+        },
+        {
+          "level": 6,
+          "points": 80
+        },
+        {
+          "level": 7,
+          "points": 100
+        },
+        {
+          "level": 8,
+          "points": 120
+        },
+        {
+          "level": 9,
+          "points": 140
+        },
+        {
+          "level": 10,
+          "points": 160
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Freya",
+      "item_id": null,
+      "item_name": null,
+      "animal_type": 2,
+      "type_label": "Cat",
+      "can_be_decorated": true,
+      "food_items": [],
+      "food_tags": [
+        {
+          "id": 10001,
+          "label": "Fish"
+        },
+        {
+          "id": 3031,
+          "label": "Dish"
+        },
+        {
+          "id": 10003,
+          "label": "Meat"
+        },
+        {
+          "id": 3033,
+          "label": "AnimalFood"
+        }
+      ],
+      "sleep_time": [
+        9,
+        17
+      ],
+      "hunger_decrease_velocity": 1,
+      "material_group": "WorldCat1_4",
+      "relationship_levels": [
+        {
+          "level": 1,
+          "points": 10
+        },
+        {
+          "level": 2,
+          "points": 30
+        },
+        {
+          "level": 3,
+          "points": 40
+        },
+        {
+          "level": 4,
+          "points": 50
+        },
+        {
+          "level": 5,
+          "points": 60
+        },
+        {
+          "level": 6,
+          "points": 80
+        },
+        {
+          "level": 7,
+          "points": 100
+        },
+        {
+          "level": 8,
+          "points": 120
+        },
+        {
+          "level": 9,
+          "points": 140
+        },
+        {
+          "level": 10,
+          "points": 160
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Jax",
+      "item_id": null,
+      "item_name": null,
+      "animal_type": 2,
+      "type_label": "Cat",
+      "can_be_decorated": true,
+      "food_items": [],
+      "food_tags": [
+        {
+          "id": 10001,
+          "label": "Fish"
+        },
+        {
+          "id": 3031,
+          "label": "Dish"
+        },
+        {
+          "id": 10003,
+          "label": "Meat"
+        },
+        {
+          "id": 3033,
+          "label": "AnimalFood"
+        }
+      ],
+      "sleep_time": [
+        9,
+        17
+      ],
+      "hunger_decrease_velocity": 1,
+      "material_group": "WorldCat1_5",
+      "relationship_levels": [
+        {
+          "level": 1,
+          "points": 10
+        },
+        {
+          "level": 2,
+          "points": 30
+        },
+        {
+          "level": 3,
+          "points": 40
+        },
+        {
+          "level": 4,
+          "points": 50
+        },
+        {
+          "level": 5,
+          "points": 60
+        },
+        {
+          "level": 6,
+          "points": 80
+        },
+        {
+          "level": 7,
+          "points": 100
+        },
+        {
+          "level": 8,
+          "points": 120
+        },
+        {
+          "level": 9,
+          "points": 140
+        },
+        {
+          "level": 10,
+          "points": 160
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Cindy",
+      "item_id": null,
+      "item_name": null,
+      "animal_type": 2,
+      "type_label": "Cat",
+      "can_be_decorated": true,
+      "food_items": [],
+      "food_tags": [
+        {
+          "id": 10001,
+          "label": "Fish"
+        },
+        {
+          "id": 3031,
+          "label": "Dish"
+        },
+        {
+          "id": 10003,
+          "label": "Meat"
+        },
+        {
+          "id": 3033,
+          "label": "AnimalFood"
+        }
+      ],
+      "sleep_time": [
+        9,
+        17
+      ],
+      "hunger_decrease_velocity": 1,
+      "material_group": "WorldCat2_1",
+      "relationship_levels": [
+        {
+          "level": 1,
+          "points": 10
+        },
+        {
+          "level": 2,
+          "points": 30
+        },
+        {
+          "level": 3,
+          "points": 40
+        },
+        {
+          "level": 4,
+          "points": 50
+        },
+        {
+          "level": 5,
+          "points": 60
+        },
+        {
+          "level": 6,
+          "points": 80
+        },
+        {
+          "level": 7,
+          "points": 100
+        },
+        {
+          "level": 8,
+          "points": 120
+        },
+        {
+          "level": 9,
+          "points": 140
+        },
+        {
+          "level": 10,
+          "points": 160
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Miso",
+      "item_id": null,
+      "item_name": null,
+      "animal_type": 2,
+      "type_label": "Cat",
+      "can_be_decorated": true,
+      "food_items": [],
+      "food_tags": [
+        {
+          "id": 10001,
+          "label": "Fish"
+        },
+        {
+          "id": 3031,
+          "label": "Dish"
+        },
+        {
+          "id": 10003,
+          "label": "Meat"
+        },
+        {
+          "id": 3033,
+          "label": "AnimalFood"
+        }
+      ],
+      "sleep_time": [
+        9,
+        17
+      ],
+      "hunger_decrease_velocity": 1,
+      "material_group": "WorldCat2_2",
+      "relationship_levels": [
+        {
+          "level": 1,
+          "points": 10
+        },
+        {
+          "level": 2,
+          "points": 30
+        },
+        {
+          "level": 3,
+          "points": 40
+        },
+        {
+          "level": 4,
+          "points": 50
+        },
+        {
+          "level": 5,
+          "points": 60
+        },
+        {
+          "level": 6,
+          "points": 80
+        },
+        {
+          "level": 7,
+          "points": 100
+        },
+        {
+          "level": 8,
+          "points": 120
+        },
+        {
+          "level": 9,
+          "points": 140
+        },
+        {
+          "level": 10,
+          "points": 160
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Mochi",
+      "item_id": null,
+      "item_name": null,
+      "animal_type": 2,
+      "type_label": "Cat",
+      "can_be_decorated": true,
+      "food_items": [],
+      "food_tags": [
+        {
+          "id": 10001,
+          "label": "Fish"
+        },
+        {
+          "id": 3031,
+          "label": "Dish"
+        },
+        {
+          "id": 10003,
+          "label": "Meat"
+        },
+        {
+          "id": 3033,
+          "label": "AnimalFood"
+        }
+      ],
+      "sleep_time": [
+        9,
+        17
+      ],
+      "hunger_decrease_velocity": 1,
+      "material_group": "WorldCat2_3",
+      "relationship_levels": [
+        {
+          "level": 1,
+          "points": 10
+        },
+        {
+          "level": 2,
+          "points": 30
+        },
+        {
+          "level": 3,
+          "points": 40
+        },
+        {
+          "level": 4,
+          "points": 50
+        },
+        {
+          "level": 5,
+          "points": 60
+        },
+        {
+          "level": 6,
+          "points": 80
+        },
+        {
+          "level": 7,
+          "points": 100
+        },
+        {
+          "level": 8,
+          "points": 120
+        },
+        {
+          "level": 9,
+          "points": 140
+        },
+        {
+          "level": 10,
+          "points": 160
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Giles",
+      "item_id": null,
+      "item_name": null,
+      "animal_type": 2,
+      "type_label": "Cat",
+      "can_be_decorated": true,
+      "food_items": [],
+      "food_tags": [
+        {
+          "id": 10001,
+          "label": "Fish"
+        },
+        {
+          "id": 3031,
+          "label": "Dish"
+        },
+        {
+          "id": 10003,
+          "label": "Meat"
+        },
+        {
+          "id": 3033,
+          "label": "AnimalFood"
+        }
+      ],
+      "sleep_time": [
+        9,
+        17
+      ],
+      "hunger_decrease_velocity": 1,
+      "material_group": "WorldCat2_4",
+      "relationship_levels": [
+        {
+          "level": 1,
+          "points": 10
+        },
+        {
+          "level": 2,
+          "points": 30
+        },
+        {
+          "level": 3,
+          "points": 40
+        },
+        {
+          "level": 4,
+          "points": 50
+        },
+        {
+          "level": 5,
+          "points": 60
+        },
+        {
+          "level": 6,
+          "points": 80
+        },
+        {
+          "level": 7,
+          "points": 100
+        },
+        {
+          "level": 8,
+          "points": 120
+        },
+        {
+          "level": 9,
+          "points": 140
+        },
+        {
+          "level": 10,
+          "points": 160
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Tamago",
+      "item_id": null,
+      "item_name": null,
+      "animal_type": 2,
+      "type_label": "Cat",
+      "can_be_decorated": true,
+      "food_items": [],
+      "food_tags": [
+        {
+          "id": 10001,
+          "label": "Fish"
+        },
+        {
+          "id": 3031,
+          "label": "Dish"
+        },
+        {
+          "id": 10003,
+          "label": "Meat"
+        },
+        {
+          "id": 3033,
+          "label": "AnimalFood"
+        }
+      ],
+      "sleep_time": [
+        9,
+        17
+      ],
+      "hunger_decrease_velocity": 1,
+      "material_group": "WorldCat2_5",
+      "relationship_levels": [
+        {
+          "level": 1,
+          "points": 10
+        },
+        {
+          "level": 2,
+          "points": 30
+        },
+        {
+          "level": 3,
+          "points": 40
+        },
+        {
+          "level": 4,
+          "points": 50
+        },
+        {
+          "level": 5,
+          "points": 60
+        },
+        {
+          "level": 6,
+          "points": 80
+        },
+        {
+          "level": 7,
+          "points": 100
+        },
+        {
+          "level": 8,
+          "points": 120
+        },
+        {
+          "level": 9,
+          "points": 140
+        },
+        {
+          "level": 10,
+          "points": 160
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "San-chan",
+      "item_id": null,
+      "item_name": null,
+      "animal_type": 1,
+      "type_label": "Dog",
+      "can_be_decorated": true,
+      "food_items": [
+        {
+          "id": 2534,
+          "name": "Manure"
+        }
+      ],
+      "food_tags": [
+        {
+          "id": 3030,
+          "label": "CookingIngredient"
+        },
+        {
+          "id": 3031,
+          "label": "Dish"
+        },
+        {
+          "id": 3033,
+          "label": "AnimalFood"
+        }
+      ],
+      "sleep_time": [
+        24,
+        10
+      ],
+      "hunger_decrease_velocity": 1,
+      "material_group": "WorldDog1_1",
+      "relationship_levels": [
+        {
+          "level": 1,
+          "points": 10
+        },
+        {
+          "level": 2,
+          "points": 30
+        },
+        {
+          "level": 3,
+          "points": 40
+        },
+        {
+          "level": 4,
+          "points": 50
+        },
+        {
+          "level": 5,
+          "points": 60
+        },
+        {
+          "level": 6,
+          "points": 70
+        },
+        {
+          "level": 7,
+          "points": 80
+        },
+        {
+          "level": 8,
+          "points": 100
+        },
+        {
+          "level": 9,
+          "points": 120
+        },
+        {
+          "level": 10,
+          "points": 140
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Egg Tart",
+      "item_id": null,
+      "item_name": null,
+      "animal_type": 1,
+      "type_label": "Dog",
+      "can_be_decorated": true,
+      "food_items": [
+        {
+          "id": 2534,
+          "name": "Manure"
+        }
+      ],
+      "food_tags": [
+        {
+          "id": 3030,
+          "label": "CookingIngredient"
+        },
+        {
+          "id": 3031,
+          "label": "Dish"
+        },
+        {
+          "id": 3033,
+          "label": "AnimalFood"
+        }
+      ],
+      "sleep_time": [
+        24,
+        10
+      ],
+      "hunger_decrease_velocity": 1,
+      "material_group": "WorldDog1_2",
+      "relationship_levels": [
+        {
+          "level": 1,
+          "points": 10
+        },
+        {
+          "level": 2,
+          "points": 30
+        },
+        {
+          "level": 3,
+          "points": 40
+        },
+        {
+          "level": 4,
+          "points": 50
+        },
+        {
+          "level": 5,
+          "points": 60
+        },
+        {
+          "level": 6,
+          "points": 70
+        },
+        {
+          "level": 7,
+          "points": 80
+        },
+        {
+          "level": 8,
+          "points": 100
+        },
+        {
+          "level": 9,
+          "points": 120
+        },
+        {
+          "level": 10,
+          "points": 140
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Otto",
+      "item_id": null,
+      "item_name": null,
+      "animal_type": 1,
+      "type_label": "Dog",
+      "can_be_decorated": true,
+      "food_items": [
+        {
+          "id": 2534,
+          "name": "Manure"
+        }
+      ],
+      "food_tags": [
+        {
+          "id": 3030,
+          "label": "CookingIngredient"
+        },
+        {
+          "id": 3031,
+          "label": "Dish"
+        },
+        {
+          "id": 3033,
+          "label": "AnimalFood"
+        }
+      ],
+      "sleep_time": [
+        24,
+        10
+      ],
+      "hunger_decrease_velocity": 1,
+      "material_group": "WorldDog1_3",
+      "relationship_levels": [
+        {
+          "level": 1,
+          "points": 10
+        },
+        {
+          "level": 2,
+          "points": 30
+        },
+        {
+          "level": 3,
+          "points": 40
+        },
+        {
+          "level": 4,
+          "points": 50
+        },
+        {
+          "level": 5,
+          "points": 60
+        },
+        {
+          "level": 6,
+          "points": 70
+        },
+        {
+          "level": 7,
+          "points": 80
+        },
+        {
+          "level": 8,
+          "points": 100
+        },
+        {
+          "level": 9,
+          "points": 120
+        },
+        {
+          "level": 10,
+          "points": 140
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Noodles",
+      "item_id": null,
+      "item_name": null,
+      "animal_type": 1,
+      "type_label": "Dog",
+      "can_be_decorated": true,
+      "food_items": [
+        {
+          "id": 2534,
+          "name": "Manure"
+        }
+      ],
+      "food_tags": [
+        {
+          "id": 3030,
+          "label": "CookingIngredient"
+        },
+        {
+          "id": 3031,
+          "label": "Dish"
+        },
+        {
+          "id": 3033,
+          "label": "AnimalFood"
+        }
+      ],
+      "sleep_time": [
+        24,
+        10
+      ],
+      "hunger_decrease_velocity": 1,
+      "material_group": "WorldDog1_4",
+      "relationship_levels": [
+        {
+          "level": 1,
+          "points": 10
+        },
+        {
+          "level": 2,
+          "points": 30
+        },
+        {
+          "level": 3,
+          "points": 40
+        },
+        {
+          "level": 4,
+          "points": 50
+        },
+        {
+          "level": 5,
+          "points": 60
+        },
+        {
+          "level": 6,
+          "points": 70
+        },
+        {
+          "level": 7,
+          "points": 80
+        },
+        {
+          "level": 8,
+          "points": 100
+        },
+        {
+          "level": 9,
+          "points": 120
+        },
+        {
+          "level": 10,
+          "points": 140
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Wolfie",
+      "item_id": null,
+      "item_name": null,
+      "animal_type": 1,
+      "type_label": "Dog",
+      "can_be_decorated": true,
+      "food_items": [
+        {
+          "id": 2534,
+          "name": "Manure"
+        }
+      ],
+      "food_tags": [
+        {
+          "id": 3030,
+          "label": "CookingIngredient"
+        },
+        {
+          "id": 3031,
+          "label": "Dish"
+        },
+        {
+          "id": 3033,
+          "label": "AnimalFood"
+        }
+      ],
+      "sleep_time": [
+        24,
+        10
+      ],
+      "hunger_decrease_velocity": 1,
+      "material_group": "WorldDog1_5",
+      "relationship_levels": [
+        {
+          "level": 1,
+          "points": 10
+        },
+        {
+          "level": 2,
+          "points": 30
+        },
+        {
+          "level": 3,
+          "points": 40
+        },
+        {
+          "level": 4,
+          "points": 50
+        },
+        {
+          "level": 5,
+          "points": 60
+        },
+        {
+          "level": 6,
+          "points": 70
+        },
+        {
+          "level": 7,
+          "points": 80
+        },
+        {
+          "level": 8,
+          "points": 100
+        },
+        {
+          "level": 9,
+          "points": 120
+        },
+        {
+          "level": 10,
+          "points": 140
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Thor",
+      "item_id": null,
+      "item_name": null,
+      "animal_type": 1,
+      "type_label": "Dog",
+      "can_be_decorated": true,
+      "food_items": [
+        {
+          "id": 2534,
+          "name": "Manure"
+        }
+      ],
+      "food_tags": [
+        {
+          "id": 3030,
+          "label": "CookingIngredient"
+        },
+        {
+          "id": 3031,
+          "label": "Dish"
+        },
+        {
+          "id": 3033,
+          "label": "AnimalFood"
+        }
+      ],
+      "sleep_time": [
+        24,
+        10
+      ],
+      "hunger_decrease_velocity": 1,
+      "material_group": "WorldDog1_6",
+      "relationship_levels": [
+        {
+          "level": 1,
+          "points": 10
+        },
+        {
+          "level": 2,
+          "points": 30
+        },
+        {
+          "level": 3,
+          "points": 40
+        },
+        {
+          "level": 4,
+          "points": 50
+        },
+        {
+          "level": 5,
+          "points": 60
+        },
+        {
+          "level": 6,
+          "points": 70
+        },
+        {
+          "level": 7,
+          "points": 80
+        },
+        {
+          "level": 8,
+          "points": 100
+        },
+        {
+          "level": 9,
+          "points": 120
+        },
+        {
+          "level": 10,
+          "points": 140
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Odin",
+      "item_id": null,
+      "item_name": null,
+      "animal_type": 1,
+      "type_label": "Dog",
+      "can_be_decorated": true,
+      "food_items": [
+        {
+          "id": 2534,
+          "name": "Manure"
+        }
+      ],
+      "food_tags": [
+        {
+          "id": 3030,
+          "label": "CookingIngredient"
+        },
+        {
+          "id": 3031,
+          "label": "Dish"
+        },
+        {
+          "id": 3033,
+          "label": "AnimalFood"
+        }
+      ],
+      "sleep_time": [
+        24,
+        10
+      ],
+      "hunger_decrease_velocity": 1,
+      "material_group": "WorldDog1_7",
+      "relationship_levels": [
+        {
+          "level": 1,
+          "points": 10
+        },
+        {
+          "level": 2,
+          "points": 30
+        },
+        {
+          "level": 3,
+          "points": 40
+        },
+        {
+          "level": 4,
+          "points": 50
+        },
+        {
+          "level": 5,
+          "points": 60
+        },
+        {
+          "level": 6,
+          "points": 70
+        },
+        {
+          "level": 7,
+          "points": 80
+        },
+        {
+          "level": 8,
+          "points": 100
+        },
+        {
+          "level": 9,
+          "points": 120
+        },
+        {
+          "level": 10,
+          "points": 140
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Jojo",
+      "item_id": null,
+      "item_name": null,
+      "animal_type": 1,
+      "type_label": "Dog",
+      "can_be_decorated": true,
+      "food_items": [
+        {
+          "id": 2534,
+          "name": "Manure"
+        }
+      ],
+      "food_tags": [
+        {
+          "id": 3030,
+          "label": "CookingIngredient"
+        },
+        {
+          "id": 3031,
+          "label": "Dish"
+        },
+        {
+          "id": 3033,
+          "label": "AnimalFood"
+        }
+      ],
+      "sleep_time": [
+        24,
+        10
+      ],
+      "hunger_decrease_velocity": 1,
+      "material_group": "WorldDog1_8",
+      "relationship_levels": [
+        {
+          "level": 1,
+          "points": 10
+        },
+        {
+          "level": 2,
+          "points": 30
+        },
+        {
+          "level": 3,
+          "points": 40
+        },
+        {
+          "level": 4,
+          "points": 50
+        },
+        {
+          "level": 5,
+          "points": 60
+        },
+        {
+          "level": 6,
+          "points": 70
+        },
+        {
+          "level": 7,
+          "points": 80
+        },
+        {
+          "level": 8,
+          "points": 100
+        },
+        {
+          "level": 9,
+          "points": 120
+        },
+        {
+          "level": 10,
+          "points": 140
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Tubs",
+      "item_id": null,
+      "item_name": null,
+      "animal_type": 1,
+      "type_label": "Dog",
+      "can_be_decorated": true,
+      "food_items": [
+        {
+          "id": 2534,
+          "name": "Manure"
+        }
+      ],
+      "food_tags": [
+        {
+          "id": 3030,
+          "label": "CookingIngredient"
+        },
+        {
+          "id": 3031,
+          "label": "Dish"
+        },
+        {
+          "id": 3033,
+          "label": "AnimalFood"
+        }
+      ],
+      "sleep_time": [
+        24,
+        10
+      ],
+      "hunger_decrease_velocity": 1,
+      "material_group": "WorldDog1_9",
+      "relationship_levels": [
+        {
+          "level": 1,
+          "points": 10
+        },
+        {
+          "level": 2,
+          "points": 30
+        },
+        {
+          "level": 3,
+          "points": 40
+        },
+        {
+          "level": 4,
+          "points": 50
+        },
+        {
+          "level": 5,
+          "points": 60
+        },
+        {
+          "level": 6,
+          "points": 70
+        },
+        {
+          "level": 7,
+          "points": 80
+        },
+        {
+          "level": 8,
+          "points": 100
+        },
+        {
+          "level": 9,
+          "points": 120
+        },
+        {
+          "level": 10,
+          "points": 140
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Mr Floof",
+      "item_id": null,
+      "item_name": null,
+      "animal_type": 1,
+      "type_label": "Dog",
+      "can_be_decorated": true,
+      "food_items": [
+        {
+          "id": 2534,
+          "name": "Manure"
+        }
+      ],
+      "food_tags": [
+        {
+          "id": 3030,
+          "label": "CookingIngredient"
+        },
+        {
+          "id": 3031,
+          "label": "Dish"
+        },
+        {
+          "id": 3033,
+          "label": "AnimalFood"
+        }
+      ],
+      "sleep_time": [
+        24,
+        10
+      ],
+      "hunger_decrease_velocity": 1,
+      "material_group": "WorldDog1_10",
+      "relationship_levels": [
+        {
+          "level": 1,
+          "points": 10
+        },
+        {
+          "level": 2,
+          "points": 30
+        },
+        {
+          "level": 3,
+          "points": 40
+        },
+        {
+          "level": 4,
+          "points": 50
+        },
+        {
+          "level": 5,
+          "points": 60
+        },
+        {
+          "level": 6,
+          "points": 70
+        },
+        {
+          "level": 7,
+          "points": 80
+        },
+        {
+          "level": 8,
+          "points": 100
+        },
+        {
+          "level": 9,
+          "points": 120
+        },
+        {
+          "level": 10,
+          "points": 140
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Brownie",
+      "item_id": null,
+      "item_name": null,
+      "animal_type": 4,
+      "type_label": "Lizard",
+      "can_be_decorated": true,
+      "food_items": [],
+      "food_tags": [
+        {
+          "id": 3030,
+          "label": "CookingIngredient"
+        },
+        {
+          "id": 3031,
+          "label": "Dish"
+        },
+        {
+          "id": 3033,
+          "label": "AnimalFood"
+        }
+      ],
+      "sleep_time": [
+        21,
+        6
+      ],
+      "hunger_decrease_velocity": 1,
+      "material_group": "WorldLizard1_1",
+      "relationship_levels": [
+        {
+          "level": 1,
+          "points": 10
+        },
+        {
+          "level": 2,
+          "points": 30
+        },
+        {
+          "level": 3,
+          "points": 40
+        },
+        {
+          "level": 4,
+          "points": 50
+        },
+        {
+          "level": 5,
+          "points": 70
+        },
+        {
+          "level": 6,
+          "points": 90
+        },
+        {
+          "level": 7,
+          "points": 110
+        },
+        {
+          "level": 8,
+          "points": 140
+        },
+        {
+          "level": 9,
+          "points": 180
+        },
+        {
+          "level": 10,
+          "points": 200
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Sunny",
+      "item_id": null,
+      "item_name": null,
+      "animal_type": 4,
+      "type_label": "Lizard",
+      "can_be_decorated": true,
+      "food_items": [],
+      "food_tags": [
+        {
+          "id": 3030,
+          "label": "CookingIngredient"
+        },
+        {
+          "id": 3031,
+          "label": "Dish"
+        },
+        {
+          "id": 3033,
+          "label": "AnimalFood"
+        }
+      ],
+      "sleep_time": [
+        21,
+        6
+      ],
+      "hunger_decrease_velocity": 1,
+      "material_group": "WorldLizard1_2",
+      "relationship_levels": [
+        {
+          "level": 1,
+          "points": 10
+        },
+        {
+          "level": 2,
+          "points": 30
+        },
+        {
+          "level": 3,
+          "points": 40
+        },
+        {
+          "level": 4,
+          "points": 50
+        },
+        {
+          "level": 5,
+          "points": 70
+        },
+        {
+          "level": 6,
+          "points": 90
+        },
+        {
+          "level": 7,
+          "points": 110
+        },
+        {
+          "level": 8,
+          "points": 140
+        },
+        {
+          "level": 9,
+          "points": 180
+        },
+        {
+          "level": 10,
+          "points": 200
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Lemon",
+      "item_id": null,
+      "item_name": null,
+      "animal_type": 4,
+      "type_label": "Lizard",
+      "can_be_decorated": true,
+      "food_items": [],
+      "food_tags": [
+        {
+          "id": 3030,
+          "label": "CookingIngredient"
+        },
+        {
+          "id": 3031,
+          "label": "Dish"
+        },
+        {
+          "id": 3033,
+          "label": "AnimalFood"
+        }
+      ],
+      "sleep_time": [
+        21,
+        6
+      ],
+      "hunger_decrease_velocity": 1,
+      "material_group": "WorldLizard1_3",
+      "relationship_levels": [
+        {
+          "level": 1,
+          "points": 10
+        },
+        {
+          "level": 2,
+          "points": 30
+        },
+        {
+          "level": 3,
+          "points": 40
+        },
+        {
+          "level": 4,
+          "points": 50
+        },
+        {
+          "level": 5,
+          "points": 70
+        },
+        {
+          "level": 6,
+          "points": 90
+        },
+        {
+          "level": 7,
+          "points": 110
+        },
+        {
+          "level": 8,
+          "points": 140
+        },
+        {
+          "level": 9,
+          "points": 180
+        },
+        {
+          "level": 10,
+          "points": 200
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Leaf",
+      "item_id": null,
+      "item_name": null,
+      "animal_type": 4,
+      "type_label": "Lizard",
+      "can_be_decorated": true,
+      "food_items": [],
+      "food_tags": [
+        {
+          "id": 3030,
+          "label": "CookingIngredient"
+        },
+        {
+          "id": 3031,
+          "label": "Dish"
+        },
+        {
+          "id": 3033,
+          "label": "AnimalFood"
+        }
+      ],
+      "sleep_time": [
+        21,
+        6
+      ],
+      "hunger_decrease_velocity": 1,
+      "material_group": "WorldLizard1_4",
+      "relationship_levels": [
+        {
+          "level": 1,
+          "points": 10
+        },
+        {
+          "level": 2,
+          "points": 30
+        },
+        {
+          "level": 3,
+          "points": 40
+        },
+        {
+          "level": 4,
+          "points": 50
+        },
+        {
+          "level": 5,
+          "points": 70
+        },
+        {
+          "level": 6,
+          "points": 90
+        },
+        {
+          "level": 7,
+          "points": 110
+        },
+        {
+          "level": 8,
+          "points": 140
+        },
+        {
+          "level": 9,
+          "points": 180
+        },
+        {
+          "level": 10,
+          "points": 200
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Happy",
+      "item_id": null,
+      "item_name": null,
+      "animal_type": 4,
+      "type_label": "Lizard",
+      "can_be_decorated": true,
+      "food_items": [],
+      "food_tags": [
+        {
+          "id": 3030,
+          "label": "CookingIngredient"
+        },
+        {
+          "id": 3031,
+          "label": "Dish"
+        },
+        {
+          "id": 3033,
+          "label": "AnimalFood"
+        }
+      ],
+      "sleep_time": [
+        21,
+        6
+      ],
+      "hunger_decrease_velocity": 1,
+      "material_group": "WorldLizard1_5",
+      "relationship_levels": [
+        {
+          "level": 1,
+          "points": 10
+        },
+        {
+          "level": 2,
+          "points": 30
+        },
+        {
+          "level": 3,
+          "points": 40
+        },
+        {
+          "level": 4,
+          "points": 50
+        },
+        {
+          "level": 5,
+          "points": 70
+        },
+        {
+          "level": 6,
+          "points": 90
+        },
+        {
+          "level": 7,
+          "points": 110
+        },
+        {
+          "level": 8,
+          "points": 140
+        },
+        {
+          "level": 9,
+          "points": 180
+        },
+        {
+          "level": 10,
+          "points": 200
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Draco",
+      "item_id": null,
+      "item_name": null,
+      "animal_type": 4,
+      "type_label": "Lizard",
+      "can_be_decorated": true,
+      "food_items": [],
+      "food_tags": [
+        {
+          "id": 3030,
+          "label": "CookingIngredient"
+        },
+        {
+          "id": 3031,
+          "label": "Dish"
+        },
+        {
+          "id": 3033,
+          "label": "AnimalFood"
+        }
+      ],
+      "sleep_time": [
+        21,
+        6
+      ],
+      "hunger_decrease_velocity": 1,
+      "material_group": "WorldLizard1_6",
+      "relationship_levels": [
+        {
+          "level": 1,
+          "points": 10
+        },
+        {
+          "level": 2,
+          "points": 30
+        },
+        {
+          "level": 3,
+          "points": 40
+        },
+        {
+          "level": 4,
+          "points": 50
+        },
+        {
+          "level": 5,
+          "points": 70
+        },
+        {
+          "level": 6,
+          "points": 90
+        },
+        {
+          "level": 7,
+          "points": 110
+        },
+        {
+          "level": 8,
+          "points": 140
+        },
+        {
+          "level": 9,
+          "points": 180
+        },
+        {
+          "level": 10,
+          "points": 200
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Pascal",
+      "item_id": null,
+      "item_name": null,
+      "animal_type": 4,
+      "type_label": "Lizard",
+      "can_be_decorated": true,
+      "food_items": [],
+      "food_tags": [
+        {
+          "id": 3030,
+          "label": "CookingIngredient"
+        },
+        {
+          "id": 3031,
+          "label": "Dish"
+        },
+        {
+          "id": 3033,
+          "label": "AnimalFood"
+        }
+      ],
+      "sleep_time": [
+        21,
+        6
+      ],
+      "hunger_decrease_velocity": 1,
+      "material_group": "WorldLizard1_7",
+      "relationship_levels": [
+        {
+          "level": 1,
+          "points": 10
+        },
+        {
+          "level": 2,
+          "points": 30
+        },
+        {
+          "level": 3,
+          "points": 40
+        },
+        {
+          "level": 4,
+          "points": 50
+        },
+        {
+          "level": 5,
+          "points": 70
+        },
+        {
+          "level": 6,
+          "points": 90
+        },
+        {
+          "level": 7,
+          "points": 110
+        },
+        {
+          "level": 8,
+          "points": 140
+        },
+        {
+          "level": 9,
+          "points": 180
+        },
+        {
+          "level": 10,
+          "points": 200
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Char",
+      "item_id": null,
+      "item_name": null,
+      "animal_type": 4,
+      "type_label": "Lizard",
+      "can_be_decorated": true,
+      "food_items": [],
+      "food_tags": [
+        {
+          "id": 3030,
+          "label": "CookingIngredient"
+        },
+        {
+          "id": 3031,
+          "label": "Dish"
+        },
+        {
+          "id": 3033,
+          "label": "AnimalFood"
+        }
+      ],
+      "sleep_time": [
+        21,
+        6
+      ],
+      "hunger_decrease_velocity": 1,
+      "material_group": "WorldLizard1_8",
+      "relationship_levels": [
+        {
+          "level": 1,
+          "points": 10
+        },
+        {
+          "level": 2,
+          "points": 30
+        },
+        {
+          "level": 3,
+          "points": 40
+        },
+        {
+          "level": 4,
+          "points": 50
+        },
+        {
+          "level": 5,
+          "points": 70
+        },
+        {
+          "level": 6,
+          "points": 90
+        },
+        {
+          "level": 7,
+          "points": 110
+        },
+        {
+          "level": 8,
+          "points": 140
+        },
+        {
+          "level": 9,
+          "points": 180
+        },
+        {
+          "level": 10,
+          "points": 200
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Miora",
+      "item_id": null,
+      "item_name": null,
+      "animal_type": 4,
+      "type_label": "Lizard",
+      "can_be_decorated": true,
+      "food_items": [],
+      "food_tags": [
+        {
+          "id": 3030,
+          "label": "CookingIngredient"
+        },
+        {
+          "id": 3031,
+          "label": "Dish"
+        },
+        {
+          "id": 3033,
+          "label": "AnimalFood"
+        }
+      ],
+      "sleep_time": [
+        21,
+        6
+      ],
+      "hunger_decrease_velocity": 1,
+      "material_group": "WorldLizard1_9",
+      "relationship_levels": [
+        {
+          "level": 1,
+          "points": 10
+        },
+        {
+          "level": 2,
+          "points": 30
+        },
+        {
+          "level": 3,
+          "points": 40
+        },
+        {
+          "level": 4,
+          "points": 50
+        },
+        {
+          "level": 5,
+          "points": 70
+        },
+        {
+          "level": 6,
+          "points": 90
+        },
+        {
+          "level": 7,
+          "points": 110
+        },
+        {
+          "level": 8,
+          "points": 140
+        },
+        {
+          "level": 9,
+          "points": 180
+        },
+        {
+          "level": 10,
+          "points": 200
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Unagi",
+      "item_id": null,
+      "item_name": null,
+      "animal_type": 4,
+      "type_label": "Lizard",
+      "can_be_decorated": true,
+      "food_items": [],
+      "food_tags": [
+        {
+          "id": 3030,
+          "label": "CookingIngredient"
+        },
+        {
+          "id": 3031,
+          "label": "Dish"
+        },
+        {
+          "id": 3033,
+          "label": "AnimalFood"
+        }
+      ],
+      "sleep_time": [
+        21,
+        6
+      ],
+      "hunger_decrease_velocity": 1,
+      "material_group": "WorldLizard1_10",
+      "relationship_levels": [
+        {
+          "level": 1,
+          "points": 10
+        },
+        {
+          "level": 2,
+          "points": 30
+        },
+        {
+          "level": 3,
+          "points": 40
+        },
+        {
+          "level": 4,
+          "points": 50
+        },
+        {
+          "level": 5,
+          "points": 70
+        },
+        {
+          "level": 6,
+          "points": 90
+        },
+        {
+          "level": 7,
+          "points": 110
+        },
+        {
+          "level": 8,
+          "points": 140
+        },
+        {
+          "level": 9,
+          "points": 180
+        },
+        {
+          "level": 10,
+          "points": 200
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "name": "Pacha",
+      "item_id": null,
+      "item_name": null,
+      "animal_type": 3,
+      "type_label": "Aardwolf",
+      "can_be_decorated": true,
+      "food_items": [],
+      "food_tags": [
+        {
+          "id": 10003,
+          "label": "Meat"
+        },
+        {
+          "id": 3031,
+          "label": "Dish"
+        },
+        {
+          "id": 3033,
+          "label": "AnimalFood"
+        }
+      ],
+      "sleep_time": [
+        8,
+        18
+      ],
+      "hunger_decrease_velocity": 1,
+      "material_group": "WorldAardwolf1_1",
+      "relationship_levels": [
+        {
+          "level": 1,
+          "points": 10
+        },
+        {
+          "level": 2,
+          "points": 30
+        },
+        {
+          "level": 3,
+          "points": 40
+        },
+        {
+          "level": 4,
+          "points": 50
+        },
+        {
+          "level": 5,
+          "points": 70
+        },
+        {
+          "level": 6,
+          "points": 90
+        },
+        {
+          "level": 7,
+          "points": 110
+        },
+        {
+          "level": 8,
+          "points": 130
+        },
+        {
+          "level": 9,
+          "points": 160
+        },
+        {
+          "level": 10,
+          "points": 180
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "name": "Chea",
+      "item_id": null,
+      "item_name": null,
+      "animal_type": 3,
+      "type_label": "Aardwolf",
+      "can_be_decorated": true,
+      "food_items": [],
+      "food_tags": [
+        {
+          "id": 10003,
+          "label": "Meat"
+        },
+        {
+          "id": 3031,
+          "label": "Dish"
+        },
+        {
+          "id": 3033,
+          "label": "AnimalFood"
+        }
+      ],
+      "sleep_time": [
+        8,
+        18
+      ],
+      "hunger_decrease_velocity": 1,
+      "material_group": "WorldAardwolf1_2",
+      "relationship_levels": [
+        {
+          "level": 1,
+          "points": 10
+        },
+        {
+          "level": 2,
+          "points": 30
+        },
+        {
+          "level": 3,
+          "points": 40
+        },
+        {
+          "level": 4,
+          "points": 50
+        },
+        {
+          "level": 5,
+          "points": 70
+        },
+        {
+          "level": 6,
+          "points": 90
+        },
+        {
+          "level": 7,
+          "points": 110
+        },
+        {
+          "level": 8,
+          "points": 130
+        },
+        {
+          "level": 9,
+          "points": 160
+        },
+        {
+          "level": 10,
+          "points": 180
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "name": "Orange",
+      "item_id": null,
+      "item_name": null,
+      "animal_type": 3,
+      "type_label": "Aardwolf",
+      "can_be_decorated": true,
+      "food_items": [],
+      "food_tags": [
+        {
+          "id": 10003,
+          "label": "Meat"
+        },
+        {
+          "id": 3031,
+          "label": "Dish"
+        },
+        {
+          "id": 3033,
+          "label": "AnimalFood"
+        }
+      ],
+      "sleep_time": [
+        8,
+        18
+      ],
+      "hunger_decrease_velocity": 1,
+      "material_group": "WorldAardwolf1_3",
+      "relationship_levels": [
+        {
+          "level": 1,
+          "points": 10
+        },
+        {
+          "level": 2,
+          "points": 30
+        },
+        {
+          "level": 3,
+          "points": 40
+        },
+        {
+          "level": 4,
+          "points": 50
+        },
+        {
+          "level": 5,
+          "points": 70
+        },
+        {
+          "level": 6,
+          "points": 90
+        },
+        {
+          "level": 7,
+          "points": 110
+        },
+        {
+          "level": 8,
+          "points": 130
+        },
+        {
+          "level": 9,
+          "points": 160
+        },
+        {
+          "level": 10,
+          "points": 180
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "name": "Lily",
+      "item_id": null,
+      "item_name": null,
+      "animal_type": 3,
+      "type_label": "Aardwolf",
+      "can_be_decorated": true,
+      "food_items": [],
+      "food_tags": [
+        {
+          "id": 10003,
+          "label": "Meat"
+        },
+        {
+          "id": 3031,
+          "label": "Dish"
+        },
+        {
+          "id": 3033,
+          "label": "AnimalFood"
+        }
+      ],
+      "sleep_time": [
+        8,
+        18
+      ],
+      "hunger_decrease_velocity": 1,
+      "material_group": "WorldAardwolf1_4",
+      "relationship_levels": [
+        {
+          "level": 1,
+          "points": 10
+        },
+        {
+          "level": 2,
+          "points": 30
+        },
+        {
+          "level": 3,
+          "points": 40
+        },
+        {
+          "level": 4,
+          "points": 50
+        },
+        {
+          "level": 5,
+          "points": 70
+        },
+        {
+          "level": 6,
+          "points": 90
+        },
+        {
+          "level": 7,
+          "points": 110
+        },
+        {
+          "level": 8,
+          "points": 130
+        },
+        {
+          "level": 9,
+          "points": 160
+        },
+        {
+          "level": 10,
+          "points": 180
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "name": "Patrick",
+      "item_id": null,
+      "item_name": null,
+      "animal_type": 3,
+      "type_label": "Aardwolf",
+      "can_be_decorated": true,
+      "food_items": [],
+      "food_tags": [
+        {
+          "id": 10003,
+          "label": "Meat"
+        },
+        {
+          "id": 3031,
+          "label": "Dish"
+        },
+        {
+          "id": 3033,
+          "label": "AnimalFood"
+        }
+      ],
+      "sleep_time": [
+        8,
+        18
+      ],
+      "hunger_decrease_velocity": 1,
+      "material_group": "WorldAardwolf1_5",
+      "relationship_levels": [
+        {
+          "level": 1,
+          "points": 10
+        },
+        {
+          "level": 2,
+          "points": 30
+        },
+        {
+          "level": 3,
+          "points": 40
+        },
+        {
+          "level": 4,
+          "points": 50
+        },
+        {
+          "level": 5,
+          "points": 70
+        },
+        {
+          "level": 6,
+          "points": 90
+        },
+        {
+          "level": 7,
+          "points": 110
+        },
+        {
+          "level": 8,
+          "points": 130
+        },
+        {
+          "level": 9,
+          "points": 160
+        },
+        {
+          "level": 10,
+          "points": 180
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "name": "Wander",
+      "item_id": null,
+      "item_name": null,
+      "animal_type": 3,
+      "type_label": "Aardwolf",
+      "can_be_decorated": true,
+      "food_items": [],
+      "food_tags": [
+        {
+          "id": 10003,
+          "label": "Meat"
+        },
+        {
+          "id": 3031,
+          "label": "Dish"
+        },
+        {
+          "id": 3033,
+          "label": "AnimalFood"
+        }
+      ],
+      "sleep_time": [
+        8,
+        18
+      ],
+      "hunger_decrease_velocity": 1,
+      "material_group": "WorldAardwolf1_6",
+      "relationship_levels": [
+        {
+          "level": 1,
+          "points": 10
+        },
+        {
+          "level": 2,
+          "points": 30
+        },
+        {
+          "level": 3,
+          "points": 40
+        },
+        {
+          "level": 4,
+          "points": 50
+        },
+        {
+          "level": 5,
+          "points": 70
+        },
+        {
+          "level": 6,
+          "points": 90
+        },
+        {
+          "level": 7,
+          "points": 110
+        },
+        {
+          "level": 8,
+          "points": 130
+        },
+        {
+          "level": 9,
+          "points": 160
+        },
+        {
+          "level": 10,
+          "points": 180
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "name": "Umi",
+      "item_id": null,
+      "item_name": null,
+      "animal_type": 3,
+      "type_label": "Aardwolf",
+      "can_be_decorated": true,
+      "food_items": [],
+      "food_tags": [
+        {
+          "id": 10003,
+          "label": "Meat"
+        },
+        {
+          "id": 3031,
+          "label": "Dish"
+        },
+        {
+          "id": 3033,
+          "label": "AnimalFood"
+        }
+      ],
+      "sleep_time": [
+        8,
+        18
+      ],
+      "hunger_decrease_velocity": 1,
+      "material_group": "WorldAardwolf1_7",
+      "relationship_levels": [
+        {
+          "level": 1,
+          "points": 10
+        },
+        {
+          "level": 2,
+          "points": 30
+        },
+        {
+          "level": 3,
+          "points": 40
+        },
+        {
+          "level": 4,
+          "points": 50
+        },
+        {
+          "level": 5,
+          "points": 70
+        },
+        {
+          "level": 6,
+          "points": 90
+        },
+        {
+          "level": 7,
+          "points": 110
+        },
+        {
+          "level": 8,
+          "points": 130
+        },
+        {
+          "level": 9,
+          "points": 160
+        },
+        {
+          "level": 10,
+          "points": 180
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "name": "Black",
+      "item_id": null,
+      "item_name": null,
+      "animal_type": 3,
+      "type_label": "Aardwolf",
+      "can_be_decorated": true,
+      "food_items": [],
+      "food_tags": [
+        {
+          "id": 10003,
+          "label": "Meat"
+        },
+        {
+          "id": 3031,
+          "label": "Dish"
+        },
+        {
+          "id": 3033,
+          "label": "AnimalFood"
+        }
+      ],
+      "sleep_time": [
+        8,
+        18
+      ],
+      "hunger_decrease_velocity": 1,
+      "material_group": "WorldAardwolf1_8",
+      "relationship_levels": [
+        {
+          "level": 1,
+          "points": 10
+        },
+        {
+          "level": 2,
+          "points": 30
+        },
+        {
+          "level": 3,
+          "points": 40
+        },
+        {
+          "level": 4,
+          "points": 50
+        },
+        {
+          "level": 5,
+          "points": 70
+        },
+        {
+          "level": 6,
+          "points": 90
+        },
+        {
+          "level": 7,
+          "points": 110
+        },
+        {
+          "level": 8,
+          "points": 130
+        },
+        {
+          "level": 9,
+          "points": 160
+        },
+        {
+          "level": 10,
+          "points": 180
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "name": "Lapis",
+      "item_id": null,
+      "item_name": null,
+      "animal_type": 3,
+      "type_label": "Aardwolf",
+      "can_be_decorated": true,
+      "food_items": [],
+      "food_tags": [
+        {
+          "id": 10003,
+          "label": "Meat"
+        },
+        {
+          "id": 3031,
+          "label": "Dish"
+        },
+        {
+          "id": 3033,
+          "label": "AnimalFood"
+        }
+      ],
+      "sleep_time": [
+        8,
+        18
+      ],
+      "hunger_decrease_velocity": 1,
+      "material_group": "WorldAardwolf1_9",
+      "relationship_levels": [
+        {
+          "level": 1,
+          "points": 10
+        },
+        {
+          "level": 2,
+          "points": 30
+        },
+        {
+          "level": 3,
+          "points": 40
+        },
+        {
+          "level": 4,
+          "points": 50
+        },
+        {
+          "level": 5,
+          "points": 70
+        },
+        {
+          "level": 6,
+          "points": 90
+        },
+        {
+          "level": 7,
+          "points": 110
+        },
+        {
+          "level": 8,
+          "points": 130
+        },
+        {
+          "level": 9,
+          "points": 160
+        },
+        {
+          "level": 10,
+          "points": 180
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "name": "Slinky",
+      "item_id": null,
+      "item_name": null,
+      "animal_type": 3,
+      "type_label": "Aardwolf",
+      "can_be_decorated": true,
+      "food_items": [],
+      "food_tags": [
+        {
+          "id": 10003,
+          "label": "Meat"
+        },
+        {
+          "id": 3031,
+          "label": "Dish"
+        },
+        {
+          "id": 3033,
+          "label": "AnimalFood"
+        }
+      ],
+      "sleep_time": [
+        8,
+        18
+      ],
+      "hunger_decrease_velocity": 1,
+      "material_group": "WorldAardwolf1_10",
+      "relationship_levels": [
+        {
+          "level": 1,
+          "points": 10
+        },
+        {
+          "level": 2,
+          "points": 30
+        },
+        {
+          "level": 3,
+          "points": 40
+        },
+        {
+          "level": 4,
+          "points": 50
+        },
+        {
+          "level": 5,
+          "points": 70
+        },
+        {
+          "level": 6,
+          "points": 90
+        },
+        {
+          "level": 7,
+          "points": 110
+        },
+        {
+          "level": 8,
+          "points": 130
+        },
+        {
+          "level": 9,
+          "points": 160
+        },
+        {
+          "level": 10,
+          "points": 180
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "name": "Wild Gulubo",
+      "item_id": null,
+      "item_name": null,
+      "animal_type": 5,
+      "type_label": "Gulubo",
+      "can_be_decorated": true,
+      "food_items": [],
+      "food_tags": [
+        {
+          "id": 10003,
+          "label": "Meat"
+        },
+        {
+          "id": 3031,
+          "label": "Dish"
+        },
+        {
+          "id": 3033,
+          "label": "AnimalFood"
+        }
+      ],
+      "sleep_time": [
+        21,
+        6
+      ],
+      "hunger_decrease_velocity": 1,
+      "material_group": "WorldGLB1",
+      "relationship_levels": [
+        {
+          "level": 1,
+          "points": 10
+        },
+        {
+          "level": 2,
+          "points": 30
+        },
+        {
+          "level": 3,
+          "points": 40
+        },
+        {
+          "level": 4,
+          "points": 50
+        },
+        {
+          "level": 5,
+          "points": 70
+        },
+        {
+          "level": 6,
+          "points": 90
+        },
+        {
+          "level": 7,
+          "points": 110
+        },
+        {
+          "level": 8,
+          "points": 140
+        },
+        {
+          "level": 9,
+          "points": 180
+        },
+        {
+          "level": 10,
+          "points": 200
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "name": "Wild Gulubo",
+      "item_id": null,
+      "item_name": null,
+      "animal_type": 5,
+      "type_label": "Gulubo",
+      "can_be_decorated": true,
+      "food_items": [],
+      "food_tags": [
+        {
+          "id": 10003,
+          "label": "Meat"
+        },
+        {
+          "id": 3031,
+          "label": "Dish"
+        },
+        {
+          "id": 3033,
+          "label": "AnimalFood"
+        }
+      ],
+      "sleep_time": [
+        21,
+        6
+      ],
+      "hunger_decrease_velocity": 1,
+      "material_group": "WorldGLB1",
+      "relationship_levels": [
+        {
+          "level": 1,
+          "points": 10
+        },
+        {
+          "level": 2,
+          "points": 30
+        },
+        {
+          "level": 3,
+          "points": 40
+        },
+        {
+          "level": 4,
+          "points": 50
+        },
+        {
+          "level": 5,
+          "points": 70
+        },
+        {
+          "level": 6,
+          "points": 90
+        },
+        {
+          "level": 7,
+          "points": 110
+        },
+        {
+          "level": 8,
+          "points": 140
+        },
+        {
+          "level": 9,
+          "points": 180
+        },
+        {
+          "level": 10,
+          "points": 200
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "name": "Wild Gulubo",
+      "item_id": null,
+      "item_name": null,
+      "animal_type": 5,
+      "type_label": "Gulubo",
+      "can_be_decorated": true,
+      "food_items": [],
+      "food_tags": [
+        {
+          "id": 10003,
+          "label": "Meat"
+        },
+        {
+          "id": 3031,
+          "label": "Dish"
+        },
+        {
+          "id": 3033,
+          "label": "AnimalFood"
+        }
+      ],
+      "sleep_time": [
+        21,
+        6
+      ],
+      "hunger_decrease_velocity": 1,
+      "material_group": "WorldGLB1",
+      "relationship_levels": [
+        {
+          "level": 1,
+          "points": 10
+        },
+        {
+          "level": 2,
+          "points": 30
+        },
+        {
+          "level": 3,
+          "points": 40
+        },
+        {
+          "level": 4,
+          "points": 50
+        },
+        {
+          "level": 5,
+          "points": 70
+        },
+        {
+          "level": 6,
+          "points": 90
+        },
+        {
+          "level": 7,
+          "points": 110
+        },
+        {
+          "level": 8,
+          "points": 140
+        },
+        {
+          "level": 9,
+          "points": 180
+        },
+        {
+          "level": 10,
+          "points": 200
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "name": "Wild Gulubo",
+      "item_id": null,
+      "item_name": null,
+      "animal_type": 5,
+      "type_label": "Gulubo",
+      "can_be_decorated": true,
+      "food_items": [],
+      "food_tags": [
+        {
+          "id": 10003,
+          "label": "Meat"
+        },
+        {
+          "id": 3031,
+          "label": "Dish"
+        },
+        {
+          "id": 3033,
+          "label": "AnimalFood"
+        }
+      ],
+      "sleep_time": [
+        21,
+        6
+      ],
+      "hunger_decrease_velocity": 1,
+      "material_group": "WorldGLB1",
+      "relationship_levels": [
+        {
+          "level": 1,
+          "points": 10
+        },
+        {
+          "level": 2,
+          "points": 30
+        },
+        {
+          "level": 3,
+          "points": 40
+        },
+        {
+          "level": 4,
+          "points": 50
+        },
+        {
+          "level": 5,
+          "points": 70
+        },
+        {
+          "level": 6,
+          "points": 90
+        },
+        {
+          "level": 7,
+          "points": 110
+        },
+        {
+          "level": 8,
+          "points": 140
+        },
+        {
+          "level": 9,
+          "points": 180
+        },
+        {
+          "level": 10,
+          "points": 200
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "name": "Wild Gulubo",
+      "item_id": null,
+      "item_name": null,
+      "animal_type": 5,
+      "type_label": "Gulubo",
+      "can_be_decorated": true,
+      "food_items": [],
+      "food_tags": [
+        {
+          "id": 10003,
+          "label": "Meat"
+        },
+        {
+          "id": 3031,
+          "label": "Dish"
+        },
+        {
+          "id": 3033,
+          "label": "AnimalFood"
+        }
+      ],
+      "sleep_time": [
+        21,
+        6
+      ],
+      "hunger_decrease_velocity": 1,
+      "material_group": "WorldGLB1",
+      "relationship_levels": [
+        {
+          "level": 1,
+          "points": 10
+        },
+        {
+          "level": 2,
+          "points": 30
+        },
+        {
+          "level": 3,
+          "points": 40
+        },
+        {
+          "level": 4,
+          "points": 50
+        },
+        {
+          "level": 5,
+          "points": 70
+        },
+        {
+          "level": 6,
+          "points": 90
+        },
+        {
+          "level": 7,
+          "points": 110
+        },
+        {
+          "level": 8,
+          "points": 140
+        },
+        {
+          "level": 9,
+          "points": 180
+        },
+        {
+          "level": 10,
+          "points": 200
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "name": "Wild Gulubo",
+      "item_id": null,
+      "item_name": null,
+      "animal_type": 5,
+      "type_label": "Gulubo",
+      "can_be_decorated": true,
+      "food_items": [],
+      "food_tags": [
+        {
+          "id": 10003,
+          "label": "Meat"
+        },
+        {
+          "id": 3031,
+          "label": "Dish"
+        },
+        {
+          "id": 3033,
+          "label": "AnimalFood"
+        }
+      ],
+      "sleep_time": [
+        21,
+        6
+      ],
+      "hunger_decrease_velocity": 1,
+      "material_group": "WorldGLB1",
+      "relationship_levels": [
+        {
+          "level": 1,
+          "points": 10
+        },
+        {
+          "level": 2,
+          "points": 30
+        },
+        {
+          "level": 3,
+          "points": 40
+        },
+        {
+          "level": 4,
+          "points": 50
+        },
+        {
+          "level": 5,
+          "points": 70
+        },
+        {
+          "level": 6,
+          "points": 90
+        },
+        {
+          "level": 7,
+          "points": 110
+        },
+        {
+          "level": 8,
+          "points": 140
+        },
+        {
+          "level": 9,
+          "points": 180
+        },
+        {
+          "level": 10,
+          "points": 200
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "name": "Wild Gulubo",
+      "item_id": null,
+      "item_name": null,
+      "animal_type": 5,
+      "type_label": "Gulubo",
+      "can_be_decorated": true,
+      "food_items": [],
+      "food_tags": [
+        {
+          "id": 10003,
+          "label": "Meat"
+        },
+        {
+          "id": 3031,
+          "label": "Dish"
+        },
+        {
+          "id": 3033,
+          "label": "AnimalFood"
+        }
+      ],
+      "sleep_time": [
+        21,
+        6
+      ],
+      "hunger_decrease_velocity": 1,
+      "material_group": "WorldGLB1",
+      "relationship_levels": [
+        {
+          "level": 1,
+          "points": 10
+        },
+        {
+          "level": 2,
+          "points": 30
+        },
+        {
+          "level": 3,
+          "points": 40
+        },
+        {
+          "level": 4,
+          "points": 50
+        },
+        {
+          "level": 5,
+          "points": 70
+        },
+        {
+          "level": 6,
+          "points": 90
+        },
+        {
+          "level": 7,
+          "points": 110
+        },
+        {
+          "level": 8,
+          "points": 140
+        },
+        {
+          "level": 9,
+          "points": 180
+        },
+        {
+          "level": 10,
+          "points": 200
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "name": "Wild Gulubo",
+      "item_id": null,
+      "item_name": null,
+      "animal_type": 5,
+      "type_label": "Gulubo",
+      "can_be_decorated": true,
+      "food_items": [],
+      "food_tags": [
+        {
+          "id": 10003,
+          "label": "Meat"
+        },
+        {
+          "id": 3031,
+          "label": "Dish"
+        },
+        {
+          "id": 3033,
+          "label": "AnimalFood"
+        }
+      ],
+      "sleep_time": [
+        21,
+        6
+      ],
+      "hunger_decrease_velocity": 1,
+      "material_group": "WorldGLB1",
+      "relationship_levels": [
+        {
+          "level": 1,
+          "points": 10
+        },
+        {
+          "level": 2,
+          "points": 30
+        },
+        {
+          "level": 3,
+          "points": 40
+        },
+        {
+          "level": 4,
+          "points": 50
+        },
+        {
+          "level": 5,
+          "points": 70
+        },
+        {
+          "level": 6,
+          "points": 90
+        },
+        {
+          "level": 7,
+          "points": 110
+        },
+        {
+          "level": 8,
+          "points": 140
+        },
+        {
+          "level": 9,
+          "points": 180
+        },
+        {
+          "level": 10,
+          "points": 200
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "name": "Wild Gulubo",
+      "item_id": null,
+      "item_name": null,
+      "animal_type": 5,
+      "type_label": "Gulubo",
+      "can_be_decorated": true,
+      "food_items": [],
+      "food_tags": [
+        {
+          "id": 10003,
+          "label": "Meat"
+        },
+        {
+          "id": 3031,
+          "label": "Dish"
+        },
+        {
+          "id": 3033,
+          "label": "AnimalFood"
+        }
+      ],
+      "sleep_time": [
+        21,
+        6
+      ],
+      "hunger_decrease_velocity": 1,
+      "material_group": "WorldGLB1",
+      "relationship_levels": [
+        {
+          "level": 1,
+          "points": 10
+        },
+        {
+          "level": 2,
+          "points": 30
+        },
+        {
+          "level": 3,
+          "points": 40
+        },
+        {
+          "level": 4,
+          "points": 50
+        },
+        {
+          "level": 5,
+          "points": 70
+        },
+        {
+          "level": 6,
+          "points": 90
+        },
+        {
+          "level": 7,
+          "points": 110
+        },
+        {
+          "level": 8,
+          "points": 140
+        },
+        {
+          "level": 9,
+          "points": 180
+        },
+        {
+          "level": 10,
+          "points": 200
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "name": "Wild Gulubo",
+      "item_id": null,
+      "item_name": null,
+      "animal_type": 5,
+      "type_label": "Gulubo",
+      "can_be_decorated": true,
+      "food_items": [],
+      "food_tags": [
+        {
+          "id": 10003,
+          "label": "Meat"
+        },
+        {
+          "id": 3031,
+          "label": "Dish"
+        },
+        {
+          "id": 3033,
+          "label": "AnimalFood"
+        }
+      ],
+      "sleep_time": [
+        21,
+        6
+      ],
+      "hunger_decrease_velocity": 1,
+      "material_group": "WorldGLB1",
+      "relationship_levels": [
+        {
+          "level": 1,
+          "points": 10
+        },
+        {
+          "level": 2,
+          "points": 30
+        },
+        {
+          "level": 3,
+          "points": 40
+        },
+        {
+          "level": 4,
+          "points": 50
+        },
+        {
+          "level": 5,
+          "points": 70
+        },
+        {
+          "level": 6,
+          "points": 90
+        },
+        {
+          "level": 7,
+          "points": 110
+        },
+        {
+          "level": 8,
+          "points": 140
+        },
+        {
+          "level": 9,
+          "points": 180
+        },
+        {
+          "level": 10,
+          "points": 200
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "name": "Bao",
+      "item_id": 8107,
+      "item_name": "Bao",
+      "animal_type": 1,
+      "type_label": "Dog",
+      "can_be_decorated": true,
+      "food_items": [
+        {
+          "id": 2534,
+          "name": "Manure"
+        }
+      ],
+      "food_tags": [
+        {
+          "id": 3030,
+          "label": "CookingIngredient"
+        },
+        {
+          "id": 3031,
+          "label": "Dish"
+        },
+        {
+          "id": 3033,
+          "label": "AnimalFood"
+        }
+      ],
+      "sleep_time": [
+        24,
+        10
+      ],
+      "hunger_decrease_velocity": 1,
+      "material_group": "WorldDog1_11",
+      "relationship_levels": [
+        {
+          "level": 1,
+          "points": 10
+        },
+        {
+          "level": 2,
+          "points": 30
+        },
+        {
+          "level": 3,
+          "points": 40
+        },
+        {
+          "level": 4,
+          "points": 50
+        },
+        {
+          "level": 5,
+          "points": 60
+        },
+        {
+          "level": 6,
+          "points": 70
+        },
+        {
+          "level": 7,
+          "points": 80
+        },
+        {
+          "level": 8,
+          "points": 100
+        },
+        {
+          "level": 9,
+          "points": 120
+        },
+        {
+          "level": 10,
+          "points": 140
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "name": "Marbles",
+      "item_id": 8108,
+      "item_name": "Marbles",
+      "animal_type": 2,
+      "type_label": "Cat",
+      "can_be_decorated": true,
+      "food_items": [],
+      "food_tags": [
+        {
+          "id": 10001,
+          "label": "Fish"
+        },
+        {
+          "id": 3031,
+          "label": "Dish"
+        },
+        {
+          "id": 10003,
+          "label": "Meat"
+        },
+        {
+          "id": 3033,
+          "label": "AnimalFood"
+        }
+      ],
+      "sleep_time": [
+        9,
+        17
+      ],
+      "hunger_decrease_velocity": 1,
+      "material_group": "WorldCat1_6",
+      "relationship_levels": [
+        {
+          "level": 1,
+          "points": 10
+        },
+        {
+          "level": 2,
+          "points": 30
+        },
+        {
+          "level": 3,
+          "points": 40
+        },
+        {
+          "level": 4,
+          "points": 50
+        },
+        {
+          "level": 5,
+          "points": 60
+        },
+        {
+          "level": 6,
+          "points": 80
+        },
+        {
+          "level": 7,
+          "points": 100
+        },
+        {
+          "level": 8,
+          "points": 120
+        },
+        {
+          "level": 9,
+          "points": 140
+        },
+        {
+          "level": 10,
+          "points": 160
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "name": "Torg",
+      "item_id": 8109,
+      "item_name": "Torg",
+      "animal_type": 2,
+      "type_label": "Cat",
+      "can_be_decorated": true,
+      "food_items": [],
+      "food_tags": [
+        {
+          "id": 10001,
+          "label": "Fish"
+        },
+        {
+          "id": 3031,
+          "label": "Dish"
+        },
+        {
+          "id": 10003,
+          "label": "Meat"
+        },
+        {
+          "id": 3033,
+          "label": "AnimalFood"
+        }
+      ],
+      "sleep_time": [
+        9,
+        17
+      ],
+      "hunger_decrease_velocity": 1,
+      "material_group": "WorldCat1_7",
+      "relationship_levels": [
+        {
+          "level": 1,
+          "points": 10
+        },
+        {
+          "level": 2,
+          "points": 30
+        },
+        {
+          "level": 3,
+          "points": 40
+        },
+        {
+          "level": 4,
+          "points": 50
+        },
+        {
+          "level": 5,
+          "points": 60
+        },
+        {
+          "level": 6,
+          "points": 80
+        },
+        {
+          "level": 7,
+          "points": 100
+        },
+        {
+          "level": 8,
+          "points": 120
+        },
+        {
+          "level": 9,
+          "points": 140
+        },
+        {
+          "level": 10,
+          "points": 160
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "name": "Pillow",
+      "item_id": 8110,
+      "item_name": "Pillow",
+      "animal_type": 2,
+      "type_label": "Cat",
+      "can_be_decorated": true,
+      "food_items": [],
+      "food_tags": [
+        {
+          "id": 3030,
+          "label": "CookingIngredient"
+        },
+        {
+          "id": 3031,
+          "label": "Dish"
+        },
+        {
+          "id": 3033,
+          "label": "AnimalFood"
+        }
+      ],
+      "sleep_time": [
+        24,
+        10
+      ],
+      "hunger_decrease_velocity": 1,
+      "material_group": "",
+      "relationship_levels": [
+        {
+          "level": 1,
+          "points": 10
+        },
+        {
+          "level": 2,
+          "points": 30
+        },
+        {
+          "level": 3,
+          "points": 40
+        },
+        {
+          "level": 4,
+          "points": 50
+        },
+        {
+          "level": 5,
+          "points": 60
+        },
+        {
+          "level": 6,
+          "points": 80
+        },
+        {
+          "level": 7,
+          "points": 100
+        },
+        {
+          "level": 8,
+          "points": 120
+        },
+        {
+          "level": 9,
+          "points": 140
+        },
+        {
+          "level": 10,
+          "points": 160
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "name": "Tusser",
+      "item_id": 8111,
+      "item_name": "Tusser",
+      "animal_type": 2,
+      "type_label": "Cat",
+      "can_be_decorated": true,
+      "food_items": [],
+      "food_tags": [
+        {
+          "id": 3030,
+          "label": "CookingIngredient"
+        },
+        {
+          "id": 3031,
+          "label": "Dish"
+        },
+        {
+          "id": 3033,
+          "label": "AnimalFood"
+        }
+      ],
+      "sleep_time": [
+        24,
+        10
+      ],
+      "hunger_decrease_velocity": 1,
+      "material_group": "",
+      "relationship_levels": [
+        {
+          "level": 1,
+          "points": 10
+        },
+        {
+          "level": 2,
+          "points": 30
+        },
+        {
+          "level": 3,
+          "points": 40
+        },
+        {
+          "level": 4,
+          "points": 50
+        },
+        {
+          "level": 5,
+          "points": 60
+        },
+        {
+          "level": 6,
+          "points": 80
+        },
+        {
+          "level": 7,
+          "points": 100
+        },
+        {
+          "level": 8,
+          "points": 120
+        },
+        {
+          "level": 9,
+          "points": 140
+        },
+        {
+          "level": 10,
+          "points": 160
+        }
+      ]
+    }
+  ],
+  "global": {
+    "id": 0,
+    "max_hunger_point": 100,
+    "hungry_threshold": 10,
+    "increased_relation_from_food": 10,
+    "increased_hunger_point_per_food": 50,
+    "follow_relation_level": 7,
+    "adopt_relation_level": 5,
+    "gift_relation_level": 9,
+    "decorate_relation_level": 5,
+    "moveable_area_radius": 100,
+    "escape_relation_level": 1,
+    "touch_relation_level": 2,
+    "touch_increase_relation": 10,
+    "hold_relation_level": 3,
+    "hold_increase_relation": 0,
+    "adopt_increase_relation": 0,
+    "gift_increase_relation": 0,
+    "gift_cooling": 3,
+    "gift_bt_key": "Configs/BT/Pet/Adopt/PetGift.asset",
+    "flute_work_range": 30,
+    "ask_food_relation_level": 6,
+    "hear_flute_increase_relation": 0,
+    "hear_flute_level": 0,
+    "pet_name_length": 12,
+    "flute_follow_relation_level": 0,
+    "welcome_duration": 10,
+    "welcome_cooling_time": 1
+  },
+  "special_food": [
+    {
+      "id": 3401,
+      "name": "Crafting Table",
+      "points": 1000000
+    },
+    {
+      "id": 8307,
+      "name": "Pet Super Treat",
+      "points": 70
+    }
+  ],
+  "relationship_levels": [
+    {
+      "level": 1,
+      "dog_point": 10,
+      "cat_point": 10,
+      "aardwolf_point": 10,
+      "lizard_point": 10,
+      "Gulubo_point": 10,
+      "yokaipet_point": 1
+    },
+    {
+      "level": 2,
+      "dog_point": 30,
+      "cat_point": 30,
+      "aardwolf_point": 30,
+      "lizard_point": 30,
+      "Gulubo_point": 30,
+      "yokaipet_point": 1
+    },
+    {
+      "level": 3,
+      "dog_point": 40,
+      "cat_point": 40,
+      "aardwolf_point": 40,
+      "lizard_point": 40,
+      "Gulubo_point": 40,
+      "yokaipet_point": 1
+    },
+    {
+      "level": 4,
+      "dog_point": 50,
+      "cat_point": 50,
+      "aardwolf_point": 50,
+      "lizard_point": 50,
+      "Gulubo_point": 50,
+      "yokaipet_point": 1
+    },
+    {
+      "level": 5,
+      "dog_point": 60,
+      "cat_point": 60,
+      "aardwolf_point": 70,
+      "lizard_point": 70,
+      "Gulubo_point": 70,
+      "yokaipet_point": 1
+    },
+    {
+      "level": 6,
+      "dog_point": 70,
+      "cat_point": 80,
+      "aardwolf_point": 90,
+      "lizard_point": 90,
+      "Gulubo_point": 90,
+      "yokaipet_point": 10
+    },
+    {
+      "level": 7,
+      "dog_point": 80,
+      "cat_point": 100,
+      "aardwolf_point": 110,
+      "lizard_point": 110,
+      "Gulubo_point": 110,
+      "yokaipet_point": 30
+    },
+    {
+      "level": 8,
+      "dog_point": 100,
+      "cat_point": 120,
+      "aardwolf_point": 130,
+      "lizard_point": 140,
+      "Gulubo_point": 140,
+      "yokaipet_point": 40
+    },
+    {
+      "level": 9,
+      "dog_point": 120,
+      "cat_point": 140,
+      "aardwolf_point": 160,
+      "lizard_point": 180,
+      "Gulubo_point": 180,
+      "yokaipet_point": 50
+    },
+    {
+      "level": 10,
+      "dog_point": 140,
+      "cat_point": 160,
+      "aardwolf_point": 180,
+      "lizard_point": 200,
+      "Gulubo_point": 200,
+      "yokaipet_point": 70
+    }
+  ],
+  "types": [
+    {
+      "id": 1,
+      "label": "Dog",
+      "can_be_decorated": true
+    },
+    {
+      "id": 2,
+      "label": "Cat",
+      "can_be_decorated": true
+    },
+    {
+      "id": 3,
+      "label": "Aardwolf",
+      "can_be_decorated": true
+    },
+    {
+      "id": 4,
+      "label": "Lizard",
+      "can_be_decorated": true
+    },
+    {
+      "id": 5,
+      "label": "Gulubo",
+      "can_be_decorated": true
+    },
+    {
+      "id": 6,
+      "label": "Yokai Pet",
+      "can_be_decorated": false
+    },
+    {
+      "id": 7,
+      "label": "Other",
+      "can_be_decorated": false
+    }
+  ]
+}

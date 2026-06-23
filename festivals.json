@@ -1,0 +1,16 @@
+[
+  {
+    "day_abs": 10,
+    "season": "Spring",
+    "day": 10,
+    "name": "Carp Festival",
+    "duration": 1
+  },
+  {
+    "day_abs": 71,
+    "season": "Autumn",
+    "day": 15,
+    "name": "Tsukimi Festival",
+    "duration": 1
+  }
+]

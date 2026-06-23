@@ -1,0 +1,1145 @@
+{
+  "houses": [
+    {
+      "id": 8000,
+      "name": "Small Coop",
+      "house_type": 1,
+      "house_type_label": "Coop",
+      "capacity": 4,
+      "level": 1
+    },
+    {
+      "id": 8001,
+      "name": "Medium Coop",
+      "house_type": 1,
+      "house_type_label": "Coop",
+      "capacity": 8,
+      "level": 2
+    },
+    {
+      "id": 8002,
+      "name": "Large Coop",
+      "house_type": 1,
+      "house_type_label": "Coop",
+      "capacity": 12,
+      "level": 3
+    },
+    {
+      "id": 8010,
+      "name": "Small Barn",
+      "house_type": 2,
+      "house_type_label": "Barn",
+      "capacity": 4,
+      "level": 1
+    },
+    {
+      "id": 8011,
+      "name": "Medium Barn",
+      "house_type": 2,
+      "house_type_label": "Barn",
+      "capacity": 8,
+      "level": 2
+    },
+    {
+      "id": 8012,
+      "name": "Large Barn",
+      "house_type": 2,
+      "house_type_label": "Barn",
+      "capacity": 12,
+      "level": 3
+    },
+    {
+      "id": 8020,
+      "name": "Small Animal Den",
+      "house_type": 3,
+      "house_type_label": "Animal Den",
+      "capacity": 4,
+      "level": 1
+    },
+    {
+      "id": 8021,
+      "name": "Medium Animal Den",
+      "house_type": 3,
+      "house_type_label": "Animal Den",
+      "capacity": 8,
+      "level": 2
+    },
+    {
+      "id": 8022,
+      "name": "Large Animal Den",
+      "house_type": 3,
+      "house_type_label": "Animal Den",
+      "capacity": 12,
+      "level": 3
+    },
+    {
+      "id": 8030,
+      "name": "Silo",
+      "house_type": 4,
+      "house_type_label": "Silo",
+      "capacity": 1000,
+      "level": 0
+    },
+    {
+      "id": 8040,
+      "name": "Monster House",
+      "house_type": 5,
+      "house_type_label": "Monster House",
+      "capacity": 8,
+      "level": 1
+    }
+  ],
+  "buildings": [
+    {
+      "id": 8201,
+      "name": "Small Coop Construction Kit",
+      "old_id": 8201,
+      "old_name": "Small Coop Construction Kit",
+      "new_id": 8000,
+      "new_name": "Small Coop",
+      "house_type": 1,
+      "house_type_label": "Coop",
+      "level": 1,
+      "capacity": 4,
+      "build_days": 1,
+      "unlock_check_item": 0,
+      "has_auto_petting": false,
+      "recipe": {
+        "result_id": 8201,
+        "result_name": "Small Coop Construction Kit",
+        "gold": 1000,
+        "station": "Sasaki's Furniture Studio",
+        "ingredients": [
+          {
+            "id": 2501,
+            "name": "Wood",
+            "qty": 20
+          },
+          {
+            "id": 25102,
+            "name": "Iron Ingot",
+            "qty": 3
+          },
+          {
+            "id": 25101,
+            "name": "Copper Ingot",
+            "qty": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": 8202,
+      "name": "Medium Coop Upgrade Kit",
+      "old_id": 8000,
+      "old_name": "Small Coop",
+      "new_id": 8001,
+      "new_name": "Medium Coop",
+      "house_type": 1,
+      "house_type_label": "Coop",
+      "level": 2,
+      "capacity": 8,
+      "build_days": 2,
+      "unlock_check_item": 8000,
+      "has_auto_petting": false,
+      "recipe": {
+        "result_id": 8202,
+        "result_name": "Medium Coop Upgrade Kit",
+        "gold": 3000,
+        "station": "Sasaki's Furniture Studio",
+        "ingredients": [
+          {
+            "id": 25102,
+            "name": "Iron Ingot",
+            "qty": 5
+          },
+          {
+            "id": 2660,
+            "name": "Oak Wood",
+            "qty": 25
+          },
+          {
+            "id": 2516,
+            "name": "Slime Sludge",
+            "qty": 20
+          }
+        ]
+      }
+    },
+    {
+      "id": 8203,
+      "name": "Large Coop Upgrade Kit",
+      "old_id": 8001,
+      "old_name": "Medium Coop",
+      "new_id": 8002,
+      "new_name": "Large Coop",
+      "house_type": 1,
+      "house_type_label": "Coop",
+      "level": 3,
+      "capacity": 12,
+      "build_days": 3,
+      "unlock_check_item": 8001,
+      "has_auto_petting": true,
+      "recipe": {
+        "result_id": 8203,
+        "result_name": "Large Coop Upgrade Kit",
+        "gold": 9000,
+        "station": "Sasaki's Furniture Studio",
+        "ingredients": [
+          {
+            "id": 25103,
+            "name": "Gold Ingot",
+            "qty": 5
+          },
+          {
+            "id": 2659,
+            "name": "Cherry Wood",
+            "qty": 25
+          },
+          {
+            "id": 2525,
+            "name": "Pearl",
+            "qty": 20
+          },
+          {
+            "id": 2535,
+            "name": "Chicken Feather",
+            "qty": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": 8204,
+      "name": "Small Barn Construction Kit",
+      "old_id": 8204,
+      "old_name": "Small Barn Construction Kit",
+      "new_id": 8010,
+      "new_name": "Small Barn",
+      "house_type": 2,
+      "house_type_label": "Barn",
+      "level": 1,
+      "capacity": 4,
+      "build_days": 1,
+      "unlock_check_item": 0,
+      "has_auto_petting": false,
+      "recipe": {
+        "result_id": 8204,
+        "result_name": "Small Barn Construction Kit",
+        "gold": 2000,
+        "station": "Sasaki's Furniture Studio",
+        "ingredients": [
+          {
+            "id": 25101,
+            "name": "Copper Ingot",
+            "qty": 4
+          },
+          {
+            "id": 2501,
+            "name": "Wood",
+            "qty": 20
+          },
+          {
+            "id": 2502,
+            "name": "Stone",
+            "qty": 20
+          }
+        ]
+      }
+    },
+    {
+      "id": 8205,
+      "name": "Medium Barn Upgrade Kit",
+      "old_id": 8010,
+      "old_name": "Small Barn",
+      "new_id": 8011,
+      "new_name": "Medium Barn",
+      "house_type": 2,
+      "house_type_label": "Barn",
+      "level": 2,
+      "capacity": 8,
+      "build_days": 2,
+      "unlock_check_item": 8010,
+      "has_auto_petting": false,
+      "recipe": {
+        "result_id": 8205,
+        "result_name": "Medium Barn Upgrade Kit",
+        "gold": 5000,
+        "station": "Sasaki's Furniture Studio",
+        "ingredients": [
+          {
+            "id": 25102,
+            "name": "Iron Ingot",
+            "qty": 4
+          },
+          {
+            "id": 2514,
+            "name": "Hardwood",
+            "qty": 20
+          },
+          {
+            "id": 2513,
+            "name": "Man-Eating Plant Leaf",
+            "qty": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": 8206,
+      "name": "Large Barn Upgrade Kit",
+      "old_id": 8011,
+      "old_name": "Medium Barn",
+      "new_id": 8012,
+      "new_name": "Large Barn",
+      "house_type": 2,
+      "house_type_label": "Barn",
+      "level": 3,
+      "capacity": 12,
+      "build_days": 3,
+      "unlock_check_item": 8011,
+      "has_auto_petting": true,
+      "recipe": {
+        "result_id": 8206,
+        "result_name": "Large Barn Upgrade Kit",
+        "gold": 12000,
+        "station": "Sasaki's Furniture Studio",
+        "ingredients": [
+          {
+            "id": 25103,
+            "name": "Gold Ingot",
+            "qty": 4
+          },
+          {
+            "id": 2660,
+            "name": "Oak Wood",
+            "qty": 20
+          },
+          {
+            "id": 2522,
+            "name": "Stone Golem Core",
+            "qty": 2
+          },
+          {
+            "id": 2537,
+            "name": "Goat Horn",
+            "qty": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": 8207,
+      "name": "Small Animal Den Construction Kit",
+      "old_id": 8207,
+      "old_name": "Small Animal Den Construction Kit",
+      "new_id": 8020,
+      "new_name": "Small Animal Den",
+      "house_type": 3,
+      "house_type_label": "Animal Den",
+      "level": 1,
+      "capacity": 4,
+      "build_days": 1,
+      "unlock_check_item": 0,
+      "has_auto_petting": false,
+      "recipe": {
+        "result_id": 8207,
+        "result_name": "Small Animal Den Construction Kit",
+        "gold": 3000,
+        "station": "Sasaki's Furniture Studio",
+        "ingredients": [
+          {
+            "id": 25101,
+            "name": "Copper Ingot",
+            "qty": 4
+          },
+          {
+            "id": 2501,
+            "name": "Wood",
+            "qty": 20
+          },
+          {
+            "id": 2512,
+            "name": "Flint",
+            "qty": 20
+          }
+        ]
+      }
+    },
+    {
+      "id": 8208,
+      "name": "Medium Animal Den Upgrade Kit",
+      "old_id": 8020,
+      "old_name": "Small Animal Den",
+      "new_id": 8021,
+      "new_name": "Medium Animal Den",
+      "house_type": 3,
+      "house_type_label": "Animal Den",
+      "level": 2,
+      "capacity": 8,
+      "build_days": 2,
+      "unlock_check_item": 8020,
+      "has_auto_petting": false,
+      "recipe": {
+        "result_id": 8208,
+        "result_name": "Medium Animal Den Upgrade Kit",
+        "gold": 5000,
+        "station": "Sasaki's Furniture Studio",
+        "ingredients": [
+          {
+            "id": 25102,
+            "name": "Iron Ingot",
+            "qty": 5
+          },
+          {
+            "id": 2660,
+            "name": "Oak Wood",
+            "qty": 25
+          },
+          {
+            "id": 2523,
+            "name": "Bobo Pearl",
+            "qty": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": 8209,
+      "name": "Large Animal Den Upgrade Kit",
+      "old_id": 8021,
+      "old_name": "Medium Animal Den",
+      "new_id": 8022,
+      "new_name": "Large Animal Den",
+      "house_type": 3,
+      "house_type_label": "Animal Den",
+      "level": 3,
+      "capacity": 12,
+      "build_days": 3,
+      "unlock_check_item": 8021,
+      "has_auto_petting": true,
+      "recipe": {
+        "result_id": 8209,
+        "result_name": "Large Animal Den Upgrade Kit",
+        "gold": 15000,
+        "station": "Sasaki's Furniture Studio",
+        "ingredients": [
+          {
+            "id": 25103,
+            "name": "Gold Ingot",
+            "qty": 5
+          },
+          {
+            "id": 2659,
+            "name": "Cherry Wood",
+            "qty": 25
+          },
+          {
+            "id": 2541,
+            "name": "Evil Fang",
+            "qty": 5
+          },
+          {
+            "id": 2536,
+            "name": "Cow Bristles",
+            "qty": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": 8210,
+      "name": "Monster House Tool Kit",
+      "old_id": 8210,
+      "old_name": "Monster House Tool Kit",
+      "new_id": 8040,
+      "new_name": "Monster House",
+      "house_type": 5,
+      "house_type_label": "Monster House",
+      "level": 1,
+      "capacity": 8,
+      "build_days": 1,
+      "unlock_check_item": 0,
+      "has_auto_petting": false,
+      "recipe": {
+        "result_id": 8210,
+        "result_name": "Monster House Tool Kit",
+        "gold": 100,
+        "station": "Sasaki's Furniture Studio",
+        "ingredients": [
+          {
+            "id": 25101,
+            "name": "Copper Ingot",
+            "qty": 4
+          },
+          {
+            "id": 2501,
+            "name": "Wood",
+            "qty": 20
+          },
+          {
+            "id": 2503,
+            "name": "Clay",
+            "qty": 20
+          }
+        ]
+      }
+    }
+  ],
+  "animals": [
+    {
+      "id": 8101,
+      "name": "Chicken",
+      "description": "A unique breed of poultry from Seikyu. With care, it provides endless eggs.",
+      "house_types": [
+        {
+          "id": 1,
+          "label": "Coop"
+        }
+      ],
+      "pre_baby_days": 3,
+      "baby_days": 3,
+      "young_days": 0,
+      "baby_price": 500,
+      "adult_price": 1000,
+      "normal_output": {
+        "id": 2533,
+        "name": "Chicken Egg",
+        "qty": 1,
+        "every_days": 1
+      },
+      "rare_output": {
+        "id": 2535,
+        "name": "Chicken Feather",
+        "qty": 1,
+        "every_days": 4
+      },
+      "interact_weight": 0.30000001192092896,
+      "monster_id": 0
+    },
+    {
+      "id": 8102,
+      "name": "Goat",
+      "description": "Unique breed of livestock from Seikyu. With care, it provides endless wool.",
+      "house_types": [
+        {
+          "id": 2,
+          "label": "Barn"
+        }
+      ],
+      "pre_baby_days": 3,
+      "baby_days": 4,
+      "young_days": 0,
+      "baby_price": 1000,
+      "adult_price": 2000,
+      "normal_output": {
+        "id": 2530,
+        "name": "Wool",
+        "qty": 1,
+        "every_days": 2
+      },
+      "rare_output": {
+        "id": 2537,
+        "name": "Goat Horn",
+        "qty": 1,
+        "every_days": 5
+      },
+      "interact_weight": 0.30000001192092896,
+      "monster_id": 0
+    },
+    {
+      "id": 8103,
+      "name": "Cow",
+      "description": "Unique breed of livestock from Seikyu. With care, it provides endless milk.",
+      "house_types": [
+        {
+          "id": 2,
+          "label": "Barn"
+        }
+      ],
+      "pre_baby_days": 5,
+      "baby_days": 5,
+      "young_days": 0,
+      "baby_price": 2000,
+      "adult_price": 4000,
+      "normal_output": {
+        "id": 2528,
+        "name": "Milk",
+        "qty": 1,
+        "every_days": 1
+      },
+      "rare_output": {
+        "id": 2536,
+        "name": "Cow Bristles",
+        "qty": 1,
+        "every_days": 4
+      },
+      "interact_weight": 0.30000001192092896,
+      "monster_id": 0
+    },
+    {
+      "id": 8105,
+      "name": "Ibis",
+      "description": "A unique breed of livestock from Seikyu. With careful care, it can provide a steady supply of ibis eggs.",
+      "house_types": [
+        {
+          "id": 1,
+          "label": "Coop"
+        }
+      ],
+      "pre_baby_days": 5,
+      "baby_days": 8,
+      "young_days": 0,
+      "baby_price": 5000,
+      "adult_price": 9000,
+      "normal_output": {
+        "id": 2538,
+        "name": "Ibis Feather",
+        "qty": 1,
+        "every_days": 2
+      },
+      "rare_output": {
+        "id": 2532,
+        "name": "Ibis Egg",
+        "qty": 1,
+        "every_days": 4
+      },
+      "interact_weight": 0.30000001192092896,
+      "monster_id": 0
+    },
+    {
+      "id": 8104,
+      "name": "Capybara",
+      "description": "A unique breed of livestock from Seikyu. With careful care, it can provide a steady supply of golden droppings.",
+      "house_types": [
+        {
+          "id": 3,
+          "label": "Animal Den"
+        }
+      ],
+      "pre_baby_days": 7,
+      "baby_days": 7,
+      "young_days": 0,
+      "baby_price": 3300,
+      "adult_price": 6500,
+      "normal_output": {
+        "id": 2531,
+        "name": "Golden Poop",
+        "qty": 1,
+        "every_days": 1
+      },
+      "rare_output": {
+        "id": 2539,
+        "name": "Sparkling Golden Droppings",
+        "qty": 1,
+        "every_days": 4
+      },
+      "interact_weight": 0.30000001192092896,
+      "monster_id": 0
+    },
+    {
+      "id": 8150,
+      "name": "Oni",
+      "description": "A common monster which roams Seikyu and beyond, oni are fierce fighters. They're not the brightest, however... charm them and keep them on your farm.",
+      "house_types": [
+        {
+          "id": 5,
+          "label": "Monster House"
+        }
+      ],
+      "pre_baby_days": 0,
+      "baby_days": 0,
+      "young_days": 0,
+      "baby_price": 45,
+      "adult_price": 45,
+      "normal_output": null,
+      "rare_output": null,
+      "interact_weight": 0.30000001192092896,
+      "monster_id": 10001
+    },
+    {
+      "id": 8151,
+      "name": "Blue Oni",
+      "description": "Blue oni are noted among oni for being exceptional warriors. They like to lurk underground in the ruins and guard treasure.",
+      "house_types": [
+        {
+          "id": 5,
+          "label": "Monster House"
+        }
+      ],
+      "pre_baby_days": 0,
+      "baby_days": 0,
+      "young_days": 0,
+      "baby_price": 225,
+      "adult_price": 225,
+      "normal_output": null,
+      "rare_output": null,
+      "interact_weight": 0.30000001192092896,
+      "monster_id": 10014
+    },
+    {
+      "id": 8152,
+      "name": "Stone Statue",
+      "description": "Stone statues shoot arrows at anyone who gets too close. With some love and affection, maybe they can learn to change their ways.",
+      "house_types": [
+        {
+          "id": 5,
+          "label": "Monster House"
+        }
+      ],
+      "pre_baby_days": 0,
+      "baby_days": 0,
+      "young_days": 0,
+      "baby_price": 150,
+      "adult_price": 150,
+      "normal_output": null,
+      "rare_output": null,
+      "interact_weight": 0.30000001192092896,
+      "monster_id": 10013
+    },
+    {
+      "id": 8153,
+      "name": "Puppet Oni",
+      "description": "Surprisingly lethal, puppet oni were created to cause chaos with their timed strikes. With someone else pulling their strings, they might learn new skills instead.",
+      "house_types": [
+        {
+          "id": 5,
+          "label": "Monster House"
+        }
+      ],
+      "pre_baby_days": 0,
+      "baby_days": 0,
+      "young_days": 0,
+      "baby_price": 105,
+      "adult_price": 105,
+      "normal_output": null,
+      "rare_output": null,
+      "interact_weight": 0.30000001192092896,
+      "monster_id": 10010
+    },
+    {
+      "id": 8154,
+      "name": "Slime",
+      "description": "Deceptively round and cute, slimes are common sights near water sources. With time, perhaps the slime can be tamed to be as sweet as the teardrop cake it resembles.",
+      "house_types": [
+        {
+          "id": 5,
+          "label": "Monster House"
+        }
+      ],
+      "pre_baby_days": 0,
+      "baby_days": 0,
+      "young_days": 0,
+      "baby_price": 45,
+      "adult_price": 45,
+      "normal_output": null,
+      "rare_output": null,
+      "interact_weight": 0.30000001192092896,
+      "monster_id": 10008
+    },
+    {
+      "id": 8155,
+      "name": "Man-Eating Plant",
+      "description": "A different kind of monster, these plants lash out at anyone who comes near. Not to be confused for ordinary crops and plants!",
+      "house_types": [
+        {
+          "id": 5,
+          "label": "Monster House"
+        }
+      ],
+      "pre_baby_days": 0,
+      "baby_days": 0,
+      "young_days": 0,
+      "baby_price": 90,
+      "adult_price": 90,
+      "normal_output": null,
+      "rare_output": null,
+      "interact_weight": 0.30000001192092896,
+      "monster_id": 10009
+    },
+    {
+      "id": 8156,
+      "name": "Abura-sumashi",
+      "description": "Known for their fiery tempers and excellent hand-eye coordination, abura-sumashi make great guards. Their tenacity and fearlessness are an asset to those who grow to know them.",
+      "house_types": [
+        {
+          "id": 5,
+          "label": "Monster House"
+        }
+      ],
+      "pre_baby_days": 0,
+      "baby_days": 0,
+      "young_days": 0,
+      "baby_price": 225,
+      "adult_price": 225,
+      "normal_output": null,
+      "rare_output": null,
+      "interact_weight": 0.30000001192092896,
+      "monster_id": 10016
+    },
+    {
+      "id": 8157,
+      "name": "Mekurabe",
+      "description": "A great and fearsome monster composed of many skulls combined into one great head. Don't try to win a staring contest against it!",
+      "house_types": [
+        {
+          "id": 5,
+          "label": "Monster House"
+        }
+      ],
+      "pre_baby_days": 0,
+      "baby_days": 0,
+      "young_days": 0,
+      "baby_price": 150,
+      "adult_price": 150,
+      "normal_output": null,
+      "rare_output": null,
+      "interact_weight": 0.30000001192092896,
+      "monster_id": 10017
+    },
+    {
+      "id": 8158,
+      "name": "Little Skull",
+      "description": "This little skull isn't so bad once it's been tamed. In fact, it's even kind of cute...",
+      "house_types": [
+        {
+          "id": 5,
+          "label": "Monster House"
+        }
+      ],
+      "pre_baby_days": 0,
+      "baby_days": 0,
+      "young_days": 0,
+      "baby_price": 30,
+      "adult_price": 30,
+      "normal_output": null,
+      "rare_output": null,
+      "interact_weight": 0.30000001192092896,
+      "monster_id": 10022
+    },
+    {
+      "id": 8159,
+      "name": "Shadowblade Oni",
+      "description": "A legendary warrior among the oni, the shadowblade oni uses a sword crafted from the darkest of shadows. Ensure they're kept active and entertained.",
+      "house_types": [
+        {
+          "id": 5,
+          "label": "Monster House"
+        }
+      ],
+      "pre_baby_days": 0,
+      "baby_days": 0,
+      "young_days": 0,
+      "baby_price": 120,
+      "adult_price": 120,
+      "normal_output": null,
+      "rare_output": null,
+      "interact_weight": 0.30000001192092896,
+      "monster_id": 10019
+    },
+    {
+      "id": 8160,
+      "name": "Pale Puppet",
+      "description": "This puppet is metallic and cold to the touch. They do warm up once they get close to people. Just watch out for those spinning blades!",
+      "house_types": [
+        {
+          "id": 5,
+          "label": "Monster House"
+        }
+      ],
+      "pre_baby_days": 0,
+      "baby_days": 0,
+      "young_days": 0,
+      "baby_price": 120,
+      "adult_price": 120,
+      "normal_output": null,
+      "rare_output": null,
+      "interact_weight": 0.30000001192092896,
+      "monster_id": 10020
+    },
+    {
+      "id": 8161,
+      "name": "Mud Slime",
+      "description": "The mud slime is often found near underground water sources. Don't underestimate this unique type of slime!",
+      "house_types": [
+        {
+          "id": 5,
+          "label": "Monster House"
+        }
+      ],
+      "pre_baby_days": 0,
+      "baby_days": 0,
+      "young_days": 0,
+      "baby_price": 90,
+      "adult_price": 90,
+      "normal_output": null,
+      "rare_output": null,
+      "interact_weight": 0.30000001192092896,
+      "monster_id": 10025
+    },
+    {
+      "id": 8162,
+      "name": "Sword Oni",
+      "description": "A particularly cutting rank of oni, the sword oni lives and breathes weapons. Make sure it has plenty of toys to play with.",
+      "house_types": [
+        {
+          "id": 5,
+          "label": "Monster House"
+        }
+      ],
+      "pre_baby_days": 0,
+      "baby_days": 0,
+      "young_days": 0,
+      "baby_price": 135,
+      "adult_price": 135,
+      "normal_output": null,
+      "rare_output": null,
+      "interact_weight": 0.30000001192092896,
+      "monster_id": 10027
+    },
+    {
+      "id": 8163,
+      "name": "Nioh",
+      "description": "This powerful monster hides its face behind a decorated mask. It enjoys walks through bamboo and trees, and is a strong guardian.",
+      "house_types": [
+        {
+          "id": 5,
+          "label": "Monster House"
+        }
+      ],
+      "pre_baby_days": 0,
+      "baby_days": 0,
+      "young_days": 0,
+      "baby_price": 180,
+      "adult_price": 180,
+      "normal_output": null,
+      "rare_output": null,
+      "interact_weight": 0.30000001192092896,
+      "monster_id": 10004
+    },
+    {
+      "id": 8164,
+      "name": "Withered Stone Golem",
+      "description": "These ancient stone golems are bad-tempered and strong as mountains. Treat them well, and they'll be loyal for life.",
+      "house_types": [
+        {
+          "id": 5,
+          "label": "Monster House"
+        }
+      ],
+      "pre_baby_days": 0,
+      "baby_days": 0,
+      "young_days": 0,
+      "baby_price": 225,
+      "adult_price": 225,
+      "normal_output": null,
+      "rare_output": null,
+      "interact_weight": 0.30000001192092896,
+      "monster_id": 10021
+    },
+    {
+      "id": 8165,
+      "name": "Wild Boar",
+      "description": "A famous and feared wild animal, wild boars are known for their strong and swift attacks. Stay clear of their tusks!",
+      "house_types": [
+        {
+          "id": 5,
+          "label": "Monster House"
+        }
+      ],
+      "pre_baby_days": 0,
+      "baby_days": 0,
+      "young_days": 0,
+      "baby_price": 60,
+      "adult_price": 60,
+      "normal_output": null,
+      "rare_output": null,
+      "interact_weight": 0.30000001192092896,
+      "monster_id": 10003
+    },
+    {
+      "id": 8166,
+      "name": "Stone Golem",
+      "description": "Golems are heavy-hitting monsters, large and ferocious. Their precious golem cores glisten in their chests, and have myriad uses beyond powering them.",
+      "house_types": [
+        {
+          "id": 5,
+          "label": "Monster House"
+        }
+      ],
+      "pre_baby_days": 0,
+      "baby_days": 0,
+      "young_days": 0,
+      "baby_price": 150,
+      "adult_price": 150,
+      "normal_output": null,
+      "rare_output": null,
+      "interact_weight": 0.30000001192092896,
+      "monster_id": 10002
+    },
+    {
+      "id": 8167,
+      "name": "Spear-Wielding Oni",
+      "description": "These oni are quite common and known for their spear attacks. Watch out for the pointy end!",
+      "house_types": [
+        {
+          "id": 5,
+          "label": "Monster House"
+        }
+      ],
+      "pre_baby_days": 0,
+      "baby_days": 0,
+      "young_days": 0,
+      "baby_price": 150,
+      "adult_price": 150,
+      "normal_output": null,
+      "rare_output": null,
+      "interact_weight": 0.30000001192092896,
+      "monster_id": 10029
+    },
+    {
+      "id": 8168,
+      "name": "Walking Man-Eating Plant",
+      "description": "Uh-oh! This type of carnivorous plant can uproot itself and move around. Keep an eye on those chompers.",
+      "house_types": [
+        {
+          "id": 5,
+          "label": "Monster House"
+        }
+      ],
+      "pre_baby_days": 0,
+      "baby_days": 0,
+      "young_days": 0,
+      "baby_price": 150,
+      "adult_price": 150,
+      "normal_output": null,
+      "rare_output": null,
+      "interact_weight": 0.30000001192092896,
+      "monster_id": 10030
+    },
+    {
+      "id": 8169,
+      "name": "Dark Fox Wraith",
+      "description": "Formed from the condensed evil power of the Dark Fox, this wraith can claw you at close range and launch a dark fireball from far away.",
+      "house_types": [
+        {
+          "id": 5,
+          "label": "Monster House"
+        }
+      ],
+      "pre_baby_days": 0,
+      "baby_days": 0,
+      "young_days": 0,
+      "baby_price": 225,
+      "adult_price": 225,
+      "normal_output": null,
+      "rare_output": null,
+      "interact_weight": 0.30000001192092896,
+      "monster_id": 10031
+    },
+    {
+      "id": 8106,
+      "name": "Red Panda",
+      "description": "Everyone loves the red panda, with its fluffy reddish-brown fur and gentle nature. It lives together with the capybara and knows how to enjoy the slow, everyday moments in life.",
+      "house_types": [
+        {
+          "id": 3,
+          "label": "Animal Den"
+        }
+      ],
+      "pre_baby_days": 5,
+      "baby_days": 5,
+      "young_days": 0,
+      "baby_price": 1500,
+      "adult_price": 3000,
+      "normal_output": {
+        "id": 2544,
+        "name": "Red Panda Fur",
+        "qty": 1,
+        "every_days": 1
+      },
+      "rare_output": {
+        "id": 2545,
+        "name": "Preserved Apple",
+        "qty": 1,
+        "every_days": 2
+      },
+      "interact_weight": 0.30000001192092896,
+      "monster_id": 0
+    }
+  ],
+  "rules": {
+    "general": {
+      "id": 0,
+      "birth_info": "husbandry__general/birth_info_5834893dafac14064176462c19e0a177",
+      "pet_baby_desc": "husbandry__general/pet_baby_desc_91e10022536835e470c88b4c513064b1",
+      "pet_young_desc": "husbandry__general/pet_young_desc_7528a810921637d0f1edb8fda13979ac",
+      "pet_adult_desc": "husbandry__general/pet_adult_desc_8ef905bd8ea5512645487d0615e1c9e0",
+      "sell_info": "husbandry__general/sell_info_39f02a8879083b1c59e6f098847edcb9",
+      "go_home_hour": 18,
+      "penalty_outhome_hour": 19,
+      "treats_id": 8301,
+      "pregnancy_ratio": 0.009999999776482582,
+      "supported_item_in_silo": 2527,
+      "silo_id": 8030,
+      "Feeding_desc": "husbandry__general/Feeding_desc_7739de59832ae87330fd624be73ecdf9",
+      "Hatchery_Desc": "husbandry__general/Hatchery_Desc_dbd98f446fe5ed526d12292fadab920b"
+    },
+    "friendship": {
+      "id": 0,
+      "max_friendship": 200,
+      "touch_add": 3,
+      "not_touch_sub": -2,
+      "night_out": -4,
+      "eat_out": 2,
+      "eat": 1,
+      "not_eat": -4,
+      "cut_oo_milk": 1,
+      "treats_eat": 5
+    },
+    "moods": {
+      "id": 0,
+      "max_moods": 255,
+      "moods_sad_value": 30,
+      "moods_happy_value": 200,
+      "moods_best": "husbandry__moods/moods_best_22deaa2e7c7ba2c628f00247f956759e",
+      "moods_happy": "husbandry__moods/moods_happy_5f9d669a4ba7e38bb8d46d3ee8a08a5f",
+      "moods_sad": "husbandry__moods/moods_sad_5e97401f48d2d01ce47a39819b63fb42",
+      "touch_add": 30,
+      "not_touch_sub": 10,
+      "eat_out": 20,
+      "eat": 10,
+      "not_eat": 100,
+      "bad_weather_out": 10,
+      "night_out": 0.5,
+      "pm19_weather_out": 6,
+      "follow_mood_value": 160,
+      "treats_eat": 255
+    },
+    "output": {
+      "id": 0,
+      "min_moods_output": 70,
+      "moods_rare_value": 200,
+      "moods_rare_factor1": 2,
+      "moods_rare_factor2": -2,
+      "friendship_factor": 5,
+      "output_factor": 5000,
+      "quality_friendship_value": 200,
+      "quality_moods_value": 255,
+      "sell_friendship_fator": 1000,
+      "sell_factor": 0.30000001192092896
+    },
+    "treats": {
+      "id": 8301,
+      "name": "Animal Treats"
+    },
+    "silo_item": {
+      "id": 2527,
+      "name": "Thatch"
+    },
+    "silo": {
+      "id": 8030,
+      "name": "Silo"
+    }
+  }
+}

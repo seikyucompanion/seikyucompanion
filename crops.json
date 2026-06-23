@@ -1,0 +1,503 @@
+[
+  {
+    "seed_id": 2701,
+    "seed_name": "Turnip Seeds",
+    "crop_id": 2601,
+    "crop_name": "Turnip",
+    "crop_value": 30,
+    "yield": 4,
+    "seasons": [
+      "Spring"
+    ],
+    "grow_days": 3,
+    "big_crop_name": "Giant Turnip"
+  },
+  {
+    "seed_id": 2702,
+    "seed_name": "Potato Seeds",
+    "crop_id": 2602,
+    "crop_name": "Potato",
+    "crop_value": 25,
+    "yield": 4,
+    "seasons": [
+      "Spring"
+    ],
+    "grow_days": 4,
+    "big_crop_name": "Giant Potato"
+  },
+  {
+    "seed_id": 2703,
+    "seed_name": "Celery Seeds",
+    "crop_id": 2603,
+    "crop_name": "Celery",
+    "crop_value": 14,
+    "yield": 4,
+    "seasons": [
+      "Spring"
+    ],
+    "grow_days": 3,
+    "big_crop_name": "Giant Celery"
+  },
+  {
+    "seed_id": 2704,
+    "seed_name": "Garlic Seeds",
+    "crop_id": 2604,
+    "crop_name": "Garlic",
+    "crop_value": 12,
+    "yield": 4,
+    "seasons": [
+      "Spring"
+    ],
+    "grow_days": 3,
+    "big_crop_name": "Giant Garlic"
+  },
+  {
+    "seed_id": 2705,
+    "seed_name": "Cabbage Seeds",
+    "crop_id": 2605,
+    "crop_name": "Cabbage",
+    "crop_value": 50,
+    "yield": 4,
+    "seasons": [
+      "Spring",
+      "Autumn"
+    ],
+    "grow_days": 5,
+    "big_crop_name": "Giant Cabbage"
+  },
+  {
+    "seed_id": 2706,
+    "seed_name": "Red Bean Seeds",
+    "crop_id": 2606,
+    "crop_name": "Red Bean",
+    "crop_value": 15,
+    "yield": 4,
+    "seasons": [
+      "Spring"
+    ],
+    "grow_days": 9,
+    "big_crop_name": "Giant Red Bean"
+  },
+  {
+    "seed_id": 2707,
+    "seed_name": "Rose Seeds",
+    "crop_id": 2607,
+    "crop_name": "Rose",
+    "crop_value": 75,
+    "yield": 4,
+    "seasons": [
+      "Spring"
+    ],
+    "grow_days": 7,
+    "big_crop_name": "Giant Rose"
+  },
+  {
+    "seed_id": 2708,
+    "seed_name": "Chinese Toon Seeds",
+    "crop_id": 2608,
+    "crop_name": "Chinese Toon",
+    "crop_value": 12,
+    "yield": 4,
+    "seasons": [
+      "Spring"
+    ],
+    "grow_days": 3,
+    "big_crop_name": "Giant Chinese Toon"
+  },
+  {
+    "seed_id": 2709,
+    "seed_name": "Strawberry Seeds",
+    "crop_id": 2609,
+    "crop_name": "Strawberry",
+    "crop_value": 15,
+    "yield": 4,
+    "seasons": [
+      "Spring"
+    ],
+    "grow_days": 8,
+    "big_crop_name": "Giant Strawberry"
+  },
+  {
+    "seed_id": 2710,
+    "seed_name": "Green Tea Seeds",
+    "crop_id": 2610,
+    "crop_name": "Green Tea",
+    "crop_value": 50,
+    "yield": 4,
+    "seasons": [
+      "Summer"
+    ],
+    "grow_days": 9,
+    "big_crop_name": "Giant Green Tea"
+  },
+  {
+    "seed_id": 2711,
+    "seed_name": "Soybean Seeds",
+    "crop_id": 2611,
+    "crop_name": "Soybean",
+    "crop_value": 15,
+    "yield": 4,
+    "seasons": [
+      "Spring",
+      "Autumn"
+    ],
+    "grow_days": 7,
+    "big_crop_name": "Giant Soybean"
+  },
+  {
+    "seed_id": 2712,
+    "seed_name": "Wheat Seeds",
+    "crop_id": 2612,
+    "crop_name": "Wheat",
+    "crop_value": 25,
+    "yield": 4,
+    "seasons": [
+      "Spring",
+      "Summer"
+    ],
+    "grow_days": 3,
+    "big_crop_name": "Giant Wheat"
+  },
+  {
+    "seed_id": 2713,
+    "seed_name": "Sugarcane Seeds",
+    "crop_id": 2613,
+    "crop_name": "Sugarcane",
+    "crop_value": 16,
+    "yield": 4,
+    "seasons": [
+      "Summer",
+      "Autumn"
+    ],
+    "grow_days": 4,
+    "big_crop_name": "Giant Sugarcane"
+  },
+  {
+    "seed_id": 2714,
+    "seed_name": "Daylily Seeds",
+    "crop_id": 2614,
+    "crop_name": "Daylily",
+    "crop_value": 12,
+    "yield": 4,
+    "seasons": [
+      "Summer"
+    ],
+    "grow_days": 3,
+    "big_crop_name": "Giant Daylily"
+  },
+  {
+    "seed_id": 2715,
+    "seed_name": "Pineapple Seeds",
+    "crop_id": 2615,
+    "crop_name": "Pineapple",
+    "crop_value": 50,
+    "yield": 4,
+    "seasons": [
+      "Summer"
+    ],
+    "grow_days": 4,
+    "big_crop_name": "Giant Pineapple"
+  },
+  {
+    "seed_id": 2716,
+    "seed_name": "Hydrangea Seeds",
+    "crop_id": 2616,
+    "crop_name": "Hydrangea",
+    "crop_value": 50,
+    "yield": 4,
+    "seasons": [
+      "Summer"
+    ],
+    "grow_days": 8,
+    "big_crop_name": "Giant Hydrangea"
+  },
+  {
+    "seed_id": 2717,
+    "seed_name": "Peach Seeds",
+    "crop_id": 2617,
+    "crop_name": "Peach",
+    "crop_value": 20,
+    "yield": 4,
+    "seasons": [
+      "Summer"
+    ],
+    "grow_days": 9,
+    "big_crop_name": "Giant Peach"
+  },
+  {
+    "seed_id": 2718,
+    "seed_name": "Lemon Seeds",
+    "crop_id": 2618,
+    "crop_name": "Lemon",
+    "crop_value": 60,
+    "yield": 4,
+    "seasons": [
+      "Summer"
+    ],
+    "grow_days": 10,
+    "big_crop_name": "Giant Lemon"
+  },
+  {
+    "seed_id": 2719,
+    "seed_name": "Watermelon Seeds",
+    "crop_id": 2619,
+    "crop_name": "Watermelon",
+    "crop_value": 150,
+    "yield": 4,
+    "seasons": [
+      "Summer"
+    ],
+    "grow_days": 4,
+    "big_crop_name": "Giant Watermelon"
+  },
+  {
+    "seed_id": 2720,
+    "seed_name": "Tomato Seeds",
+    "crop_id": 2620,
+    "crop_name": "Tomato",
+    "crop_value": 40,
+    "yield": 4,
+    "seasons": [
+      "Summer"
+    ],
+    "grow_days": 3,
+    "big_crop_name": "Giant Tomato"
+  },
+  {
+    "seed_id": 2721,
+    "seed_name": "Raspberry Seeds",
+    "crop_id": 2621,
+    "crop_name": "Raspberry",
+    "crop_value": 5,
+    "yield": 4,
+    "seasons": [
+      "Summer"
+    ],
+    "grow_days": 8,
+    "big_crop_name": "Giant Raspberry"
+  },
+  {
+    "seed_id": 2722,
+    "seed_name": "Cucumber Seeds",
+    "crop_id": 2622,
+    "crop_name": "Cucumber",
+    "crop_value": 30,
+    "yield": 4,
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Autumn"
+    ],
+    "grow_days": 10,
+    "big_crop_name": "Giant Cucumber"
+  },
+  {
+    "seed_id": 2723,
+    "seed_name": "Mango Seeds",
+    "crop_id": 2623,
+    "crop_name": "Mango",
+    "crop_value": 22,
+    "yield": 4,
+    "seasons": [
+      "Summer"
+    ],
+    "grow_days": 4,
+    "big_crop_name": "Giant Mango"
+  },
+  {
+    "seed_id": 2724,
+    "seed_name": "Grape Seeds",
+    "crop_id": 2624,
+    "crop_name": "Grape",
+    "crop_value": 30,
+    "yield": 4,
+    "seasons": [
+      "Summer"
+    ],
+    "grow_days": 8,
+    "big_crop_name": "Giant Grape"
+  },
+  {
+    "seed_id": 2725,
+    "seed_name": "Yam Seeds",
+    "crop_id": 2625,
+    "crop_name": "Yam",
+    "crop_value": 12,
+    "yield": 4,
+    "seasons": [
+      "Autumn"
+    ],
+    "grow_days": 3,
+    "big_crop_name": "Giant Yam"
+  },
+  {
+    "seed_id": 2726,
+    "seed_name": "Dandelion Seeds",
+    "crop_id": 2626,
+    "crop_name": "Dandelion",
+    "crop_value": 30,
+    "yield": 4,
+    "seasons": [
+      "Summer"
+    ],
+    "grow_days": 4,
+    "big_crop_name": "Giant Dandelion"
+  },
+  {
+    "seed_id": 2727,
+    "seed_name": "Perilla Seeds",
+    "crop_id": 2627,
+    "crop_name": "Perilla",
+    "crop_value": 150,
+    "yield": 4,
+    "seasons": [
+      "Autumn"
+    ],
+    "grow_days": 4,
+    "big_crop_name": "Giant Perilla"
+  },
+  {
+    "seed_id": 2728,
+    "seed_name": "Onion Seeds",
+    "crop_id": 2628,
+    "crop_name": "Onion",
+    "crop_value": 30,
+    "yield": 4,
+    "seasons": [
+      "Autumn"
+    ],
+    "grow_days": 3,
+    "big_crop_name": "Giant Onion"
+  },
+  {
+    "seed_id": 2729,
+    "seed_name": "Chili Pepper Seeds",
+    "crop_id": 2629,
+    "crop_name": "Chili Pepper",
+    "crop_value": 15,
+    "yield": 4,
+    "seasons": [
+      "Autumn"
+    ],
+    "grow_days": 9,
+    "big_crop_name": "Giant Chili Pepper"
+  },
+  {
+    "seed_id": 2730,
+    "seed_name": "Pumpkin Seeds",
+    "crop_id": 2630,
+    "crop_name": "Pumpkin",
+    "crop_value": 168,
+    "yield": 4,
+    "seasons": [
+      "Autumn"
+    ],
+    "grow_days": 6,
+    "big_crop_name": "Giant Pumpkin"
+  },
+  {
+    "seed_id": 2731,
+    "seed_name": "Sweet Potato Seeds",
+    "crop_id": 2631,
+    "crop_name": "Sweet Potato",
+    "crop_value": 50,
+    "yield": 4,
+    "seasons": [
+      "Autumn"
+    ],
+    "grow_days": 5,
+    "big_crop_name": "Giant Sweet Potato"
+  },
+  {
+    "seed_id": 2732,
+    "seed_name": "Lily of the Valley Seeds",
+    "crop_id": 2632,
+    "crop_name": "Lily of the Valley",
+    "crop_value": 150,
+    "yield": 4,
+    "seasons": [
+      "Autumn"
+    ],
+    "grow_days": 13,
+    "big_crop_name": "Giant Lily of the Valley"
+  },
+  {
+    "seed_id": 2733,
+    "seed_name": "Iris Seeds",
+    "crop_id": 2633,
+    "crop_name": "Iris",
+    "crop_value": 20,
+    "yield": 4,
+    "seasons": [
+      "Autumn"
+    ],
+    "grow_days": 10,
+    "big_crop_name": "Giant Iris"
+  },
+  {
+    "seed_id": 2734,
+    "seed_name": "Swiss Cheese Plant Seeds",
+    "crop_id": 2634,
+    "crop_name": "Swiss Cheese Plant",
+    "crop_value": 20,
+    "yield": 4,
+    "seasons": [
+      "Autumn"
+    ],
+    "grow_days": 4,
+    "big_crop_name": "Giant Swiss Cheese Plant"
+  },
+  {
+    "seed_id": 2735,
+    "seed_name": "Spinach Seeds",
+    "crop_id": 2635,
+    "crop_name": "Spinach",
+    "crop_value": 30,
+    "yield": 4,
+    "seasons": [
+      "Autumn"
+    ],
+    "grow_days": 4,
+    "big_crop_name": "Giant Spinach"
+  },
+  {
+    "seed_id": 2736,
+    "seed_name": "Carrot Seeds",
+    "crop_id": 2636,
+    "crop_name": "Carrot",
+    "crop_value": 64,
+    "yield": 4,
+    "seasons": [
+      "Autumn"
+    ],
+    "grow_days": 5,
+    "big_crop_name": "Giant Carrot"
+  },
+  {
+    "seed_id": 2737,
+    "seed_name": "Taro Seeds",
+    "crop_id": 2637,
+    "crop_name": "Taro",
+    "crop_value": 15,
+    "yield": 4,
+    "seasons": [
+      "Autumn",
+      "Winter"
+    ],
+    "grow_days": 4,
+    "big_crop_name": "Giant Taro"
+  },
+  {
+    "seed_id": 2742,
+    "seed_name": "Rice Seed",
+    "crop_id": 2642,
+    "crop_name": "Rice Plant",
+    "crop_value": 60,
+    "yield": 4,
+    "seasons": [
+      "Autumn"
+    ],
+    "grow_days": 5,
+    "big_crop_name": "Giant Rice Plant"
+  }
+]

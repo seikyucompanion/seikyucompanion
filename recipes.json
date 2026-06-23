@@ -1,0 +1,7618 @@
+[
+  {
+    "type": "cook",
+    "station": "Cooking",
+    "result_id": 26013,
+    "result_name": "Miso Soup",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Any Vegetable",
+        "tag": 10004,
+        "qty": 1
+      },
+      {
+        "name": "Tofu",
+        "id": 25104,
+        "qty": 1
+      },
+      {
+        "name": "Miso",
+        "id": 25105,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Autumn",
+      "Winter"
+    ]
+  },
+  {
+    "type": "cook",
+    "station": "Cooking",
+    "result_id": 26023,
+    "result_name": "Red Bean Soup",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Red Bean",
+        "id": 2606,
+        "qty": 1
+      },
+      {
+        "name": "Red Bean",
+        "id": 2606,
+        "qty": 1
+      },
+      {
+        "name": "Sugar",
+        "id": 25001,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": [
+      "Spring"
+    ]
+  },
+  {
+    "type": "cook",
+    "station": "Cooking",
+    "result_id": 26033,
+    "result_name": "Strawberry Cake",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Strawberry",
+        "id": 2609,
+        "qty": 1
+      },
+      {
+        "name": "Sugar",
+        "id": 25001,
+        "qty": 1
+      },
+      {
+        "name": "Flour",
+        "id": 25106,
+        "qty": 1
+      },
+      {
+        "name": "Milk",
+        "id": 2528,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": [
+      "Spring"
+    ]
+  },
+  {
+    "type": "cook",
+    "station": "Cooking",
+    "result_id": 26043,
+    "result_name": "Grilled Vegetables",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Any Vegetable",
+        "tag": 10004,
+        "qty": 1
+      },
+      {
+        "name": "Any Vegetable",
+        "tag": 10004,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Autumn",
+      "Winter"
+    ]
+  },
+  {
+    "type": "cook",
+    "station": "Cooking",
+    "result_id": 26053,
+    "result_name": "Roasted Tubers",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Any RootVegetable",
+        "tag": 10002,
+        "qty": 1
+      },
+      {
+        "name": "Any RootVegetable",
+        "tag": 10002,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Autumn",
+      "Winter"
+    ]
+  },
+  {
+    "type": "cook",
+    "station": "Cooking",
+    "result_id": 26063,
+    "result_name": "Fruit Medley",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Any Fruit",
+        "tag": 10005,
+        "qty": 1
+      },
+      {
+        "name": "Any Fruit",
+        "tag": 10005,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Autumn",
+      "Winter"
+    ]
+  },
+  {
+    "type": "cook",
+    "station": "Cooking",
+    "result_id": 26073,
+    "result_name": "Root Vegetable Puree",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Any RootVegetable",
+        "tag": 10002,
+        "qty": 1
+      },
+      {
+        "name": "Garlic",
+        "id": 2604,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": [
+      "Spring"
+    ]
+  },
+  {
+    "type": "cook",
+    "station": "Cooking",
+    "result_id": 26083,
+    "result_name": "Potato Stew",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Potato",
+        "id": 2602,
+        "qty": 1
+      },
+      {
+        "name": "Raw Meat",
+        "id": 2507,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": [
+      "Spring"
+    ]
+  },
+  {
+    "type": "cook",
+    "station": "Cooking",
+    "result_id": 26093,
+    "result_name": "Scrambled Eggs",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Chinese Toon",
+        "id": 2608,
+        "qty": 1
+      },
+      {
+        "name": "Any Egg",
+        "tag": 10006,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": [
+      "Spring"
+    ]
+  },
+  {
+    "type": "cook",
+    "station": "Cooking",
+    "result_id": 26103,
+    "result_name": "Matcha Cake",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Matcha",
+        "id": 25107,
+        "qty": 1
+      },
+      {
+        "name": "Sugar",
+        "id": 25001,
+        "qty": 1
+      },
+      {
+        "name": "Flour",
+        "id": 25106,
+        "qty": 1
+      },
+      {
+        "name": "Milk",
+        "id": 2528,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Autumn",
+      "Winter"
+    ]
+  },
+  {
+    "type": "cook",
+    "station": "Cooking",
+    "result_id": 26113,
+    "result_name": "Strong Tea",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Matcha",
+        "id": 25107,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Autumn",
+      "Winter"
+    ]
+  },
+  {
+    "type": "cook",
+    "station": "Cooking",
+    "result_id": 26123,
+    "result_name": "Refined Miso Soup",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Tofu",
+        "id": 25104,
+        "qty": 1
+      },
+      {
+        "name": "Miso",
+        "id": 25105,
+        "qty": 1
+      },
+      {
+        "name": "Turnip",
+        "id": 2601,
+        "qty": 1
+      },
+      {
+        "name": "Any Fish",
+        "tag": 10001,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": [
+      "Spring"
+    ]
+  },
+  {
+    "type": "cook",
+    "station": "Cooking",
+    "result_id": 26133,
+    "result_name": "Okonomiyaki",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Cabbage",
+        "id": 2605,
+        "qty": 1
+      },
+      {
+        "name": "Flour",
+        "id": 25106,
+        "qty": 1
+      },
+      {
+        "name": "Any Egg",
+        "tag": 10006,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": [
+      "Spring",
+      "Autumn"
+    ]
+  },
+  {
+    "type": "cook",
+    "station": "Cooking",
+    "result_id": 26143,
+    "result_name": "Cabbage Rolls",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Cabbage",
+        "id": 2605,
+        "qty": 1
+      },
+      {
+        "name": "Raw Meat",
+        "id": 2507,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": [
+      "Spring",
+      "Autumn"
+    ]
+  },
+  {
+    "type": "cook",
+    "station": "Cooking",
+    "result_id": 26153,
+    "result_name": "Fried Pork Cutlet",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Raw Meat",
+        "id": 2507,
+        "qty": 1
+      },
+      {
+        "name": "Flour",
+        "id": 25106,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Autumn",
+      "Winter"
+    ]
+  },
+  {
+    "type": "cook",
+    "station": "Cooking",
+    "result_id": 26163,
+    "result_name": "Vegetable Tempura",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Any Vegetable",
+        "tag": 10004,
+        "qty": 1
+      },
+      {
+        "name": "Any RootVegetable",
+        "tag": 10002,
+        "qty": 1
+      },
+      {
+        "name": "Flour",
+        "id": 25106,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Autumn",
+      "Winter"
+    ]
+  },
+  {
+    "type": "cook",
+    "station": "Cooking",
+    "result_id": 26173,
+    "result_name": "Grilled Fish",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Any Fish",
+        "tag": 10001,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Autumn",
+      "Winter"
+    ]
+  },
+  {
+    "type": "cook",
+    "station": "Cooking",
+    "result_id": 26183,
+    "result_name": "Char-Grilled Kebabs",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Raw Meat",
+        "id": 2507,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Autumn",
+      "Winter"
+    ]
+  },
+  {
+    "type": "cook",
+    "station": "Cooking",
+    "result_id": 26304,
+    "result_name": "Shrimp Onigiri",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Crystal Shrimp",
+        "id": 42037,
+        "qty": 1
+      },
+      {
+        "name": "Rice",
+        "id": 25108,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Autumn"
+    ]
+  },
+  {
+    "type": "cook",
+    "station": "Cooking",
+    "result_id": 26305,
+    "result_name": "Shawarma",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Raw Meat",
+        "id": 2507,
+        "qty": 1
+      },
+      {
+        "name": "Any Vegetable",
+        "tag": 10004,
+        "qty": 1
+      },
+      {
+        "name": "Flour",
+        "id": 25106,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Autumn",
+      "Winter"
+    ]
+  },
+  {
+    "type": "cook",
+    "station": "Cooking",
+    "result_id": 26306,
+    "result_name": "Confit Lamb Stew",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Raw Meat",
+        "id": 2507,
+        "qty": 1
+      },
+      {
+        "name": "Any RootVegetable",
+        "tag": 10002,
+        "qty": 1
+      },
+      {
+        "name": "Tomato",
+        "id": 2620,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": [
+      "Summer"
+    ]
+  },
+  {
+    "type": "cook",
+    "station": "Cooking",
+    "result_id": 26307,
+    "result_name": "Raclette Cheese",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Raw Meat",
+        "id": 2507,
+        "qty": 1
+      },
+      {
+        "name": "Cheese",
+        "id": 2639,
+        "qty": 1
+      },
+      {
+        "name": "Any Mushroom",
+        "tag": 10008,
+        "qty": 1
+      },
+      {
+        "name": "Potato",
+        "id": 2602,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": [
+      "Spring"
+    ]
+  },
+  {
+    "type": "cook",
+    "station": "Cooking",
+    "result_id": 26308,
+    "result_name": "Chicken Dumpling Soup",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Raw Meat",
+        "id": 2507,
+        "qty": 1
+      },
+      {
+        "name": "Flour",
+        "id": 25106,
+        "qty": 1
+      },
+      {
+        "name": "Tomato",
+        "id": 2620,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": [
+      "Summer"
+    ]
+  },
+  {
+    "type": "cook",
+    "station": "Cooking",
+    "result_id": 26309,
+    "result_name": "Multi-Flavored Scone",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Flour",
+        "id": 25106,
+        "qty": 1
+      },
+      {
+        "name": "Any Fruit",
+        "tag": 10005,
+        "qty": 1
+      },
+      {
+        "name": "Sugar",
+        "id": 25001,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Autumn",
+      "Winter"
+    ]
+  },
+  {
+    "type": "cook",
+    "station": "Cooking",
+    "result_id": 26310,
+    "result_name": "Potato Pancake",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Potato",
+        "id": 2602,
+        "qty": 1
+      },
+      {
+        "name": "Flour",
+        "id": 25106,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": [
+      "Spring"
+    ]
+  },
+  {
+    "type": "cook",
+    "station": "Cooking",
+    "result_id": 26311,
+    "result_name": "Rice Burger",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Raw Meat",
+        "id": 2507,
+        "qty": 1
+      },
+      {
+        "name": "Any Vegetable",
+        "tag": 10004,
+        "qty": 1
+      },
+      {
+        "name": "Rice",
+        "id": 25108,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Autumn",
+      "Winter"
+    ]
+  },
+  {
+    "type": "cook",
+    "station": "Cooking",
+    "result_id": 26312,
+    "result_name": "Tapioca Pudding",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Any RootVegetable",
+        "tag": 10002,
+        "qty": 1
+      },
+      {
+        "name": "Milk",
+        "id": 2528,
+        "qty": 1
+      },
+      {
+        "name": "Sugar",
+        "id": 25001,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Autumn",
+      "Winter"
+    ]
+  },
+  {
+    "type": "cook",
+    "station": "Cooking",
+    "result_id": 26313,
+    "result_name": "Tella-Obachan's Fried Bread",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Flour",
+        "id": 25106,
+        "qty": 1
+      },
+      {
+        "name": "Milk",
+        "id": 2528,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Autumn",
+      "Winter"
+    ]
+  },
+  {
+    "type": "cook",
+    "station": "Cooking",
+    "result_id": 26314,
+    "result_name": "Nimu Chicken",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Raw Meat",
+        "id": 2507,
+        "qty": 1
+      },
+      {
+        "name": "Any Fruit",
+        "tag": 10005,
+        "qty": 1
+      },
+      {
+        "name": "Rice",
+        "id": 25108,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Autumn",
+      "Winter"
+    ]
+  },
+  {
+    "type": "cook",
+    "station": "Cooking",
+    "result_id": 26315,
+    "result_name": "Strawberry Milkshake",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Strawberry",
+        "id": 2609,
+        "qty": 1
+      },
+      {
+        "name": "Milk",
+        "id": 2528,
+        "qty": 1
+      },
+      {
+        "name": "Sugar",
+        "id": 25001,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": [
+      "Spring"
+    ]
+  },
+  {
+    "type": "cook",
+    "station": "Cooking",
+    "result_id": 26316,
+    "result_name": "Poutine",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Potato",
+        "id": 2602,
+        "qty": 1
+      },
+      {
+        "name": "Raw Meat",
+        "id": 2507,
+        "qty": 1
+      },
+      {
+        "name": "Cheese",
+        "id": 2639,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": [
+      "Spring"
+    ]
+  },
+  {
+    "type": "cook",
+    "station": "Cooking",
+    "result_id": 26317,
+    "result_name": "Inarizushi",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Tofu",
+        "id": 25104,
+        "qty": 1
+      },
+      {
+        "name": "Rice",
+        "id": 25108,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Autumn",
+      "Winter"
+    ]
+  },
+  {
+    "type": "cook",
+    "station": "Cooking",
+    "result_id": 26318,
+    "result_name": "Elva's Beef Curry with Rice",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Raw Meat",
+        "id": 2507,
+        "qty": 1
+      },
+      {
+        "name": "Onion",
+        "id": 2628,
+        "qty": 1
+      },
+      {
+        "name": "Rice",
+        "id": 25108,
+        "qty": 1
+      },
+      {
+        "name": "Carrot",
+        "id": 2636,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": [
+      "Autumn"
+    ]
+  },
+  {
+    "type": "cook",
+    "station": "Cooking",
+    "result_id": 26319,
+    "result_name": "Red-Braised Chicken with Rice",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Raw Meat",
+        "id": 2507,
+        "qty": 1
+      },
+      {
+        "name": "Any Egg",
+        "tag": 10006,
+        "qty": 1
+      },
+      {
+        "name": "Rice",
+        "id": 25108,
+        "qty": 1
+      },
+      {
+        "name": "Chili Pepper",
+        "id": 2629,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": [
+      "Autumn"
+    ]
+  },
+  {
+    "type": "cook",
+    "station": "Cooking",
+    "result_id": 26320,
+    "result_name": "Lun's Beef Stew",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Carrot",
+        "id": 2636,
+        "qty": 1
+      },
+      {
+        "name": "Raw Meat",
+        "id": 2507,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": [
+      "Autumn"
+    ]
+  },
+  {
+    "type": "cook",
+    "station": "Cooking",
+    "result_id": 26321,
+    "result_name": "Omurice",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Any Egg",
+        "tag": 10006,
+        "qty": 1
+      },
+      {
+        "name": "Rice",
+        "id": 25108,
+        "qty": 1
+      },
+      {
+        "name": "Tomato",
+        "id": 2620,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": [
+      "Summer"
+    ]
+  },
+  {
+    "type": "cook",
+    "station": "Cooking",
+    "result_id": 26322,
+    "result_name": "Extra-Cold Ice Cream",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Milk",
+        "id": 2528,
+        "qty": 1
+      },
+      {
+        "name": "Any Fruit",
+        "tag": 10005,
+        "qty": 1
+      },
+      {
+        "name": "Any Fruit",
+        "tag": 10005,
+        "qty": 1
+      },
+      {
+        "name": "Sugar",
+        "id": 25001,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Autumn",
+      "Winter"
+    ]
+  },
+  {
+    "type": "cook",
+    "station": "Cooking",
+    "result_id": 26323,
+    "result_name": "Imoni",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Any RootVegetable",
+        "tag": 10002,
+        "qty": 1
+      },
+      {
+        "name": "Raw Meat",
+        "id": 2507,
+        "qty": 1
+      },
+      {
+        "name": "Miso",
+        "id": 25105,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Autumn",
+      "Winter"
+    ]
+  },
+  {
+    "type": "cook",
+    "station": "Cooking",
+    "result_id": 26324,
+    "result_name": "Yaki Onigiri Chazuke",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Rice",
+        "id": 25108,
+        "qty": 1
+      },
+      {
+        "name": "Green Tea",
+        "id": 2610,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": [
+      "Summer"
+    ]
+  },
+  {
+    "type": "cook",
+    "station": "Cooking",
+    "result_id": 26325,
+    "result_name": "Candy Apple",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Apple",
+        "id": 2643,
+        "qty": 1
+      },
+      {
+        "name": "Sugar",
+        "id": 25001,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": [
+      "Summer"
+    ]
+  },
+  {
+    "type": "cook",
+    "station": "Cooking",
+    "result_id": 26326,
+    "result_name": "Sakura Cookie",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Cherry Blossom",
+        "id": 2644,
+        "qty": 1
+      },
+      {
+        "name": "Flour",
+        "id": 25106,
+        "qty": 1
+      },
+      {
+        "name": "Milk",
+        "id": 2528,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": [
+      "Spring"
+    ]
+  },
+  {
+    "type": "cook",
+    "station": "Cooking",
+    "result_id": 26327,
+    "result_name": "Sakura Milk Pudding",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Cherry Blossom",
+        "id": 2644,
+        "qty": 1
+      },
+      {
+        "name": "Milk",
+        "id": 2528,
+        "qty": 1
+      },
+      {
+        "name": "Sugar",
+        "id": 25001,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": [
+      "Spring"
+    ]
+  },
+  {
+    "type": "cook",
+    "station": "Cooking",
+    "result_id": 26328,
+    "result_name": "Milla's Choice",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Raw Meat",
+        "id": 2507,
+        "qty": 1
+      },
+      {
+        "name": "Rice",
+        "id": 25108,
+        "qty": 1
+      },
+      {
+        "name": "Soybean",
+        "id": 2611,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": [
+      "Spring",
+      "Autumn"
+    ]
+  },
+  {
+    "type": "cook",
+    "station": "Cooking",
+    "result_id": 26329,
+    "result_name": "Pot-Fried Pork",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Raw Meat",
+        "id": 2507,
+        "qty": 1
+      },
+      {
+        "name": "Flour",
+        "id": 25106,
+        "qty": 1
+      },
+      {
+        "name": "Sugar",
+        "id": 25001,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Autumn",
+      "Winter"
+    ]
+  },
+  {
+    "type": "cook",
+    "station": "Cooking",
+    "result_id": 26337,
+    "result_name": "Coffee-Flavored Cake",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Coffee Bean",
+        "id": 2645,
+        "qty": 1
+      },
+      {
+        "name": "Sugar",
+        "id": 25001,
+        "qty": 1
+      },
+      {
+        "name": "Flour",
+        "id": 25106,
+        "qty": 1
+      },
+      {
+        "name": "Milk",
+        "id": 2528,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": [
+      "Spring"
+    ]
+  },
+  {
+    "type": "craft",
+    "station": "Backpack",
+    "result_id": 3401,
+    "result_name": "Crafting Table",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Wood",
+        "id": 2501,
+        "qty": 10
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Backpack",
+    "result_id": 3415,
+    "result_name": "Wooden Sign",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Wood",
+        "id": 2501,
+        "qty": 3
+      },
+      {
+        "name": "Resin",
+        "id": 2515,
+        "qty": 2
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Backpack",
+    "result_id": 3416,
+    "result_name": "Stone Lantern",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Stone",
+        "id": 2502,
+        "qty": 4
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Backpack",
+    "result_id": 3417,
+    "result_name": "Wooden Gate",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Wood",
+        "id": 2501,
+        "qty": 20
+      },
+      {
+        "name": "Resin",
+        "id": 2515,
+        "qty": 10
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Backpack",
+    "result_id": 3418,
+    "result_name": "Lantern",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Wood",
+        "id": 2501,
+        "qty": 10
+      },
+      {
+        "name": "Resin",
+        "id": 2515,
+        "qty": 2
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Backpack",
+    "result_id": 3419,
+    "result_name": "Wooden Fence",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Wood",
+        "id": 2501,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Backpack",
+    "result_id": 2907,
+    "result_name": "Basic Fertilizer",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Resin",
+        "id": 2515,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Backpack",
+    "result_id": 2100,
+    "result_name": "Watering Can",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Clay",
+        "id": 2503,
+        "qty": 3
+      },
+      {
+        "name": "Resin",
+        "id": 2515,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Backpack",
+    "result_id": 3429,
+    "result_name": "Wooden Flooring",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Wood",
+        "id": 2501,
+        "qty": 2
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Backpack",
+    "result_id": 3430,
+    "result_name": "Outdoor Bonfire",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Stone",
+        "id": 2502,
+        "qty": 10
+      },
+      {
+        "name": "Wood",
+        "id": 2501,
+        "qty": 10
+      },
+      {
+        "name": "Flint",
+        "id": 2512,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Sasaki's Furniture Studio",
+    "result_id": 3431,
+    "result_name": "Thatched Shelter",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Thatch",
+        "id": 2527,
+        "qty": 50
+      },
+      {
+        "name": "Clay",
+        "id": 2503,
+        "qty": 10
+      },
+      {
+        "name": "Oak Wood",
+        "id": 2660,
+        "qty": 5
+      }
+    ],
+    "gold": 100,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Sasaki's Furniture Studio",
+    "result_id": 3432,
+    "result_name": "Thatched Fishing Hut",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Thatch",
+        "id": 2527,
+        "qty": 50
+      },
+      {
+        "name": "Stone",
+        "id": 2502,
+        "qty": 10
+      },
+      {
+        "name": "Cherry Wood",
+        "id": 2659,
+        "qty": 5
+      }
+    ],
+    "gold": 100,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Backpack",
+    "result_id": 3420,
+    "result_name": "Thatched Bed",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Thatch",
+        "id": 2527,
+        "qty": 10
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Crafting Table Recipes",
+    "result_id": 3405,
+    "result_name": "Scarecrow Yokai",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Straw Doll",
+        "id": 2520,
+        "qty": 1
+      },
+      {
+        "name": "Iron Ingot",
+        "id": 25102,
+        "qty": 3
+      },
+      {
+        "name": "Hardwood",
+        "id": 2514,
+        "qty": 30
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Crafting Table Recipes",
+    "result_id": 34001,
+    "result_name": "Storage Yokai",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Copper Ingot",
+        "id": 25101,
+        "qty": 3
+      },
+      {
+        "name": "Iron Ingot",
+        "id": 25102,
+        "qty": 3
+      },
+      {
+        "name": "Hardwood",
+        "id": 2514,
+        "qty": 10
+      },
+      {
+        "name": "Charcoal",
+        "id": 25111,
+        "qty": 20
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Crafting Table Recipes",
+    "result_id": 3421,
+    "result_name": "Charcoal Kiln",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Copper Ore",
+        "id": 2504,
+        "qty": 10
+      },
+      {
+        "name": "Flint",
+        "id": 2512,
+        "qty": 5
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Crafting Table Recipes",
+    "result_id": 3403,
+    "result_name": "Yokai Cauldron",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Red Panda Fur",
+        "id": 2544,
+        "qty": 2
+      },
+      {
+        "name": "Evil Fang",
+        "id": 2541,
+        "qty": 20
+      },
+      {
+        "name": "Man-Eating Plant Leaf",
+        "id": 2513,
+        "qty": 5
+      },
+      {
+        "name": "Copper Ingot",
+        "id": 25101,
+        "qty": 16
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Crafting Table Recipes",
+    "result_id": 3404,
+    "result_name": "Stove",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Wood",
+        "id": 2501,
+        "qty": 10
+      },
+      {
+        "name": "Stone",
+        "id": 2502,
+        "qty": 10
+      },
+      {
+        "name": "Flint",
+        "id": 2512,
+        "qty": 2
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Crafting Table Recipes",
+    "result_id": 3407,
+    "result_name": "Smelting Furnace",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Copper Ore",
+        "id": 2504,
+        "qty": 20
+      },
+      {
+        "name": "Clay",
+        "id": 2503,
+        "qty": 10
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Crafting Table Recipes",
+    "result_id": 3409,
+    "result_name": "Stone Mill",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Wood",
+        "id": 2501,
+        "qty": 20
+      },
+      {
+        "name": "Stone",
+        "id": 2502,
+        "qty": 30
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Crafting Table Recipes",
+    "result_id": 3422,
+    "result_name": "Drying Rack",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Copper Ingot",
+        "id": 25101,
+        "qty": 1
+      },
+      {
+        "name": "Bamboo",
+        "id": 2517,
+        "qty": 20
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Crafting Table Recipes",
+    "result_id": 3424,
+    "result_name": "Pickling Barrel",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Resin",
+        "id": 2515,
+        "qty": 15
+      },
+      {
+        "name": "Wood",
+        "id": 2501,
+        "qty": 20
+      },
+      {
+        "name": "Clay",
+        "id": 2503,
+        "qty": 15
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Crafting Table Recipes",
+    "result_id": 3425,
+    "result_name": "Exquisite Wooden Chest",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Wood",
+        "id": 2501,
+        "qty": 10
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Crafting Table Recipes",
+    "result_id": 3426,
+    "result_name": "Mayonnaise Maker",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Copper Ingot",
+        "id": 25101,
+        "qty": 2
+      },
+      {
+        "name": "Hardwood",
+        "id": 2514,
+        "qty": 15
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Crafting Table Recipes",
+    "result_id": 3444,
+    "result_name": "Dye Bath",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Clay",
+        "id": 2503,
+        "qty": 30
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Crafting Table Recipes",
+    "result_id": 3446,
+    "result_name": "Stone Mortar",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Iron Ingot",
+        "id": 25102,
+        "qty": 3
+      },
+      {
+        "name": "Stone",
+        "id": 2502,
+        "qty": 15
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Crafting Table Recipes",
+    "result_id": 3442,
+    "result_name": "Dyeing Station",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Copper Ingot",
+        "id": 25101,
+        "qty": 4
+      },
+      {
+        "name": "Iron Ingot",
+        "id": 25102,
+        "qty": 4
+      },
+      {
+        "name": "Hardwood",
+        "id": 2514,
+        "qty": 20
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Backpack",
+    "result_id": 2903,
+    "result_name": "Basic Explosive Barrel",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Copper Ore",
+        "id": 2504,
+        "qty": 3
+      },
+      {
+        "name": "Charcoal",
+        "id": 25111,
+        "qty": 2
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 25114,
+    "result_name": "Scarlet Dye",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Cinnabar",
+        "id": 25130,
+        "qty": 2
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 25116,
+    "result_name": "Vermilion Dye",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Realgar",
+        "id": 25127,
+        "qty": 2
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 25118,
+    "result_name": "Ochre Dye",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Ochre",
+        "id": 25131,
+        "qty": 2
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 25119,
+    "result_name": "Malachite Green Dye",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Azurite",
+        "id": 25128,
+        "qty": 2
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 25120,
+    "result_name": "Peacock Green Dye",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Malachite",
+        "id": 25129,
+        "qty": 2
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 25122,
+    "result_name": "Dark Blue Dye",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Lapis Lazuli",
+        "id": 25126,
+        "qty": 2
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 25113,
+    "result_name": "Pink Dye",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Rose",
+        "id": 2607,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 25115,
+    "result_name": "Gamboge Dye",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Mango",
+        "id": 2623,
+        "qty": 4
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 25117,
+    "result_name": "Copper Rust Dye",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Strawberry",
+        "id": 2609,
+        "qty": 4
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 25121,
+    "result_name": "Pale Blue Dye",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Iris",
+        "id": 2633,
+        "qty": 4
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 25123,
+    "result_name": "Light Purple Dye",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Perilla",
+        "id": 2627,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 25124,
+    "result_name": "Lilac Dye",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Grape",
+        "id": 2624,
+        "qty": 4
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 25125,
+    "result_name": "Universal Dye",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "White Crystal",
+        "id": 25132,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 2521,
+    "result_name": "Spice Rock",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Stone",
+        "id": 2502,
+        "qty": 4
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 25101,
+    "result_name": "Copper Ingot",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Copper Ore",
+        "id": 2504,
+        "qty": 4
+      },
+      {
+        "name": "Charcoal",
+        "id": 25111,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 25102,
+    "result_name": "Iron Ingot",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Iron Ore",
+        "id": 2505,
+        "qty": 4
+      },
+      {
+        "name": "Charcoal",
+        "id": 25111,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 25103,
+    "result_name": "Gold Ingot",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Gold Ore",
+        "id": 2506,
+        "qty": 4
+      },
+      {
+        "name": "Charcoal",
+        "id": 25111,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 25104,
+    "result_name": "Tofu",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Soybean",
+        "id": 2611,
+        "qty": 4
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 25105,
+    "result_name": "Miso",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Soybean",
+        "id": 2611,
+        "qty": 4
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 25106,
+    "result_name": "Flour",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Wheat",
+        "id": 2612,
+        "qty": 4
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 25107,
+    "result_name": "Matcha",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Green Tea",
+        "id": 2610,
+        "qty": 4
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 25108,
+    "result_name": "Rice",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Rice Plant",
+        "id": 2642,
+        "qty": 2
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 25111,
+    "result_name": "Charcoal",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Wood",
+        "id": 2501,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 25112,
+    "result_name": "Sulfur",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Sulfur Ore",
+        "id": 2526,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Backpack",
+    "result_id": 2901,
+    "result_name": "Shrimp and Crab Trap",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Bamboo",
+        "id": 2517,
+        "qty": 20
+      },
+      {
+        "name": "Slime Sludge",
+        "id": 2516,
+        "qty": 3
+      },
+      {
+        "name": "Raw Meat",
+        "id": 2507,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Backpack",
+    "result_id": 2902,
+    "result_name": "Fishing Trap",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Bamboo",
+        "id": 2517,
+        "qty": 20
+      },
+      {
+        "name": "Raw Meat",
+        "id": 2507,
+        "qty": 3
+      },
+      {
+        "name": "Man-Eating Plant Leaf",
+        "id": 2513,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Backpack",
+    "result_id": 2904,
+    "result_name": "Slime Box",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Slime Sludge",
+        "id": 2516,
+        "qty": 3
+      },
+      {
+        "name": "Wood",
+        "id": 2501,
+        "qty": 2
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Crafting Table Recipes",
+    "result_id": 2905,
+    "result_name": "Animal Trap",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Iron Ingot",
+        "id": 25102,
+        "qty": 3
+      },
+      {
+        "name": "Man-Eating Plant Leaf",
+        "id": 2513,
+        "qty": 2
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Hephaestus's Forge",
+    "result_id": 2106,
+    "result_name": "Massive Ore Crushing Pickaxe",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Stone",
+        "id": 2502,
+        "qty": 40
+      },
+      {
+        "name": "Wood",
+        "id": 2501,
+        "qty": 40
+      },
+      {
+        "name": "Clay",
+        "id": 2503,
+        "qty": 40
+      }
+    ],
+    "gold": 2000,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Hephaestus's Forge",
+    "result_id": 2120,
+    "result_name": "Tear Swallower",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Iron Ingot",
+        "id": 25102,
+        "qty": 6
+      },
+      {
+        "name": "Oak Wood",
+        "id": 2660,
+        "qty": 30
+      },
+      {
+        "name": "Malachite",
+        "id": 25129,
+        "qty": 30
+      }
+    ],
+    "gold": 4000,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 2640,
+    "result_name": "Mixed Pickled Vegetables",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Any Vegetable",
+        "tag": 10004,
+        "qty": 2
+      },
+      {
+        "name": "Spice Rock",
+        "id": 2521,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 2638,
+    "result_name": "Mayonnaise",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Any Egg",
+        "tag": 10006,
+        "qty": 3
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 25001,
+    "result_name": "Sugar",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Sugarcane",
+        "id": 2613,
+        "qty": 2
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Sasaki's Furniture Studio",
+    "result_id": 8201,
+    "result_name": "Small Coop Construction Kit",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Wood",
+        "id": 2501,
+        "qty": 20
+      },
+      {
+        "name": "Iron Ingot",
+        "id": 25102,
+        "qty": 3
+      },
+      {
+        "name": "Copper Ingot",
+        "id": 25101,
+        "qty": 5
+      }
+    ],
+    "gold": 1000,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Sasaki's Furniture Studio",
+    "result_id": 8202,
+    "result_name": "Medium Coop Upgrade Kit",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Iron Ingot",
+        "id": 25102,
+        "qty": 5
+      },
+      {
+        "name": "Oak Wood",
+        "id": 2660,
+        "qty": 25
+      },
+      {
+        "name": "Slime Sludge",
+        "id": 2516,
+        "qty": 20
+      }
+    ],
+    "gold": 3000,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Sasaki's Furniture Studio",
+    "result_id": 8203,
+    "result_name": "Large Coop Upgrade Kit",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Gold Ingot",
+        "id": 25103,
+        "qty": 5
+      },
+      {
+        "name": "Cherry Wood",
+        "id": 2659,
+        "qty": 25
+      },
+      {
+        "name": "Pearl",
+        "id": 2525,
+        "qty": 20
+      },
+      {
+        "name": "Chicken Feather",
+        "id": 2535,
+        "qty": 2
+      }
+    ],
+    "gold": 9000,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Sasaki's Furniture Studio",
+    "result_id": 8204,
+    "result_name": "Small Barn Construction Kit",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Copper Ingot",
+        "id": 25101,
+        "qty": 4
+      },
+      {
+        "name": "Wood",
+        "id": 2501,
+        "qty": 20
+      },
+      {
+        "name": "Stone",
+        "id": 2502,
+        "qty": 20
+      }
+    ],
+    "gold": 2000,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Sasaki's Furniture Studio",
+    "result_id": 8205,
+    "result_name": "Medium Barn Upgrade Kit",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Iron Ingot",
+        "id": 25102,
+        "qty": 4
+      },
+      {
+        "name": "Hardwood",
+        "id": 2514,
+        "qty": 20
+      },
+      {
+        "name": "Man-Eating Plant Leaf",
+        "id": 2513,
+        "qty": 10
+      }
+    ],
+    "gold": 5000,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Sasaki's Furniture Studio",
+    "result_id": 8206,
+    "result_name": "Large Barn Upgrade Kit",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Gold Ingot",
+        "id": 25103,
+        "qty": 4
+      },
+      {
+        "name": "Oak Wood",
+        "id": 2660,
+        "qty": 20
+      },
+      {
+        "name": "Stone Golem Core",
+        "id": 2522,
+        "qty": 2
+      },
+      {
+        "name": "Goat Horn",
+        "id": 2537,
+        "qty": 2
+      }
+    ],
+    "gold": 12000,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Sasaki's Furniture Studio",
+    "result_id": 8207,
+    "result_name": "Small Animal Den Construction Kit",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Copper Ingot",
+        "id": 25101,
+        "qty": 4
+      },
+      {
+        "name": "Wood",
+        "id": 2501,
+        "qty": 20
+      },
+      {
+        "name": "Flint",
+        "id": 2512,
+        "qty": 20
+      }
+    ],
+    "gold": 3000,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Sasaki's Furniture Studio",
+    "result_id": 8208,
+    "result_name": "Medium Animal Den Upgrade Kit",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Iron Ingot",
+        "id": 25102,
+        "qty": 5
+      },
+      {
+        "name": "Oak Wood",
+        "id": 2660,
+        "qty": 25
+      },
+      {
+        "name": "Bobo Pearl",
+        "id": 2523,
+        "qty": 10
+      }
+    ],
+    "gold": 5000,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Sasaki's Furniture Studio",
+    "result_id": 8209,
+    "result_name": "Large Animal Den Upgrade Kit",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Gold Ingot",
+        "id": 25103,
+        "qty": 5
+      },
+      {
+        "name": "Cherry Wood",
+        "id": 2659,
+        "qty": 25
+      },
+      {
+        "name": "Evil Fang",
+        "id": 2541,
+        "qty": 5
+      },
+      {
+        "name": "Cow Bristles",
+        "id": 2536,
+        "qty": 2
+      }
+    ],
+    "gold": 15000,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Sasaki's Furniture Studio",
+    "result_id": 8030,
+    "result_name": "Silo",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Stone",
+        "id": 2502,
+        "qty": 30
+      },
+      {
+        "name": "Wood",
+        "id": 2501,
+        "qty": 30
+      },
+      {
+        "name": "Clay",
+        "id": 2503,
+        "qty": 30
+      }
+    ],
+    "gold": 300,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Sasaki's Furniture Studio",
+    "result_id": 8023,
+    "result_name": "Capybara Hot Springs",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Golden Poop",
+        "id": 2531,
+        "qty": 20
+      },
+      {
+        "name": "Cherry Wood",
+        "id": 2659,
+        "qty": 20
+      },
+      {
+        "name": "Pearl",
+        "id": 2525,
+        "qty": 25
+      },
+      {
+        "name": "Oil Lamp Wick",
+        "id": 2542,
+        "qty": 10
+      }
+    ],
+    "gold": 3000,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Crafting Table Recipes",
+    "result_id": 25140,
+    "result_name": "Tabletop Game Figurine (Copper)",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Copper Ingot",
+        "id": 25101,
+        "qty": 2
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Crafting Table Recipes",
+    "result_id": 25141,
+    "result_name": "Tabletop Game Figurine (Iron)",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Iron Ingot",
+        "id": 25102,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Crafting Table Recipes",
+    "result_id": 25142,
+    "result_name": "Tabletop Game Figurine (Gold)",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Gold Ingot",
+        "id": 25103,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Crafting Table Recipes",
+    "result_id": 3505,
+    "result_name": "Wooden Mirror",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Copper Ingot",
+        "id": 25101,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Crafting Table Recipes",
+    "result_id": 3806,
+    "result_name": "Wall Mirror",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Copper Ingot",
+        "id": 25101,
+        "qty": 1
+      },
+      {
+        "name": "Wood",
+        "id": 2501,
+        "qty": 3
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Backpack",
+    "result_id": 2909,
+    "result_name": "Organic Fertilizer",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Manure",
+        "id": 2534,
+        "qty": 3
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 2639,
+    "result_name": "Cheese",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Milk",
+        "id": 2528,
+        "qty": 2
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 2641,
+    "result_name": "Dried Fish",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Any Fish",
+        "tag": 10001,
+        "qty": 1
+      },
+      {
+        "name": "Salt",
+        "id": 25002,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Hephaestus's Forge",
+    "result_id": 2134,
+    "result_name": "Crystal Sword",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Iron Ingot",
+        "id": 25102,
+        "qty": 4
+      },
+      {
+        "name": "Oak Wood",
+        "id": 2660,
+        "qty": 20
+      },
+      {
+        "name": "Azurite",
+        "id": 25128,
+        "qty": 20
+      }
+    ],
+    "gold": 1000,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Hephaestus's Forge",
+    "result_id": 2135,
+    "result_name": "Sword in the Stone",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Copper Ingot",
+        "id": 25101,
+        "qty": 4
+      },
+      {
+        "name": "Hardwood",
+        "id": 2514,
+        "qty": 20
+      },
+      {
+        "name": "Lapis Lazuli",
+        "id": 25126,
+        "qty": 20
+      }
+    ],
+    "gold": 500,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Hephaestus's Forge",
+    "result_id": 2113,
+    "result_name": "Fine Iron Axe",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Iron Ingot",
+        "id": 25102,
+        "qty": 4
+      },
+      {
+        "name": "Oak Wood",
+        "id": 2660,
+        "qty": 20
+      },
+      {
+        "name": "Malachite",
+        "id": 25129,
+        "qty": 20
+      }
+    ],
+    "gold": 1000,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Hephaestus's Forge",
+    "result_id": 2115,
+    "result_name": "Ani",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Iron Ingot",
+        "id": 25102,
+        "qty": 4
+      },
+      {
+        "name": "Oak Wood",
+        "id": 2660,
+        "qty": 20
+      },
+      {
+        "name": "Azurite",
+        "id": 25128,
+        "qty": 20
+      }
+    ],
+    "gold": 1000,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Hephaestus's Forge",
+    "result_id": 2122,
+    "result_name": "Nodachi",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Iron Ingot",
+        "id": 25102,
+        "qty": 4
+      },
+      {
+        "name": "Oak Wood",
+        "id": 2660,
+        "qty": 20
+      },
+      {
+        "name": "Malachite",
+        "id": 25129,
+        "qty": 20
+      }
+    ],
+    "gold": 1000,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 25103,
+    "result_name": "Gold Ingot",
+    "result_count": 2,
+    "ingredients": [
+      {
+        "name": "Golden Poop",
+        "id": 2531,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Crafting Table Recipes",
+    "result_id": 3445,
+    "result_name": "Spray Station",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Iron Ingot",
+        "id": 25102,
+        "qty": 5
+      },
+      {
+        "name": "Hardwood",
+        "id": 2514,
+        "qty": 20
+      },
+      {
+        "name": "Realgar",
+        "id": 25127,
+        "qty": 5
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Hephaestus's Forge",
+    "result_id": 2116,
+    "result_name": "Phantom, the Yokai Blade",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Gold Ingot",
+        "id": 25103,
+        "qty": 6
+      },
+      {
+        "name": "Cherry Wood",
+        "id": 2659,
+        "qty": 30
+      },
+      {
+        "name": "Cinnabar",
+        "id": 25130,
+        "qty": 20
+      }
+    ],
+    "gold": 2000,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Hephaestus's Forge",
+    "result_id": 2117,
+    "result_name": "Giant Deep Sea Anchor",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Gold Ingot",
+        "id": 25103,
+        "qty": 6
+      },
+      {
+        "name": "Cherry Wood",
+        "id": 2659,
+        "qty": 30
+      },
+      {
+        "name": "Cinnabar",
+        "id": 25130,
+        "qty": 20
+      }
+    ],
+    "gold": 2000,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Hephaestus's Forge",
+    "result_id": 2123,
+    "result_name": "Kikuichimonji Blade",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Gold Ingot",
+        "id": 25103,
+        "qty": 6
+      },
+      {
+        "name": "Cherry Wood",
+        "id": 2659,
+        "qty": 30
+      },
+      {
+        "name": "Cinnabar",
+        "id": 25130,
+        "qty": 20
+      }
+    ],
+    "gold": 2000,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Hephaestus's Forge",
+    "result_id": 2124,
+    "result_name": "Grand Drum Mallet",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Gold Ingot",
+        "id": 25103,
+        "qty": 6
+      },
+      {
+        "name": "Cherry Wood",
+        "id": 2659,
+        "qty": 30
+      },
+      {
+        "name": "Ochre",
+        "id": 25131,
+        "qty": 20
+      }
+    ],
+    "gold": 2000,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Hephaestus's Forge",
+    "result_id": 2125,
+    "result_name": "Lumberjack Axe",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Gold Ingot",
+        "id": 25103,
+        "qty": 6
+      },
+      {
+        "name": "Cherry Wood",
+        "id": 2659,
+        "qty": 30
+      },
+      {
+        "name": "Ochre",
+        "id": 25131,
+        "qty": 20
+      }
+    ],
+    "gold": 2000,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Hephaestus's Forge",
+    "result_id": 2130,
+    "result_name": "Breath of Water",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Gold Ingot",
+        "id": 25103,
+        "qty": 6
+      },
+      {
+        "name": "Cherry Wood",
+        "id": 2659,
+        "qty": 30
+      },
+      {
+        "name": "Cinnabar",
+        "id": 25130,
+        "qty": 20
+      }
+    ],
+    "gold": 2000,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Hephaestus's Forge",
+    "result_id": 2132,
+    "result_name": "Flaming Sword",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Gold Ingot",
+        "id": 25103,
+        "qty": 6
+      },
+      {
+        "name": "Cherry Wood",
+        "id": 2659,
+        "qty": 30
+      },
+      {
+        "name": "Cinnabar",
+        "id": 25130,
+        "qty": 20
+      }
+    ],
+    "gold": 2000,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Hephaestus's Forge",
+    "result_id": 2127,
+    "result_name": "Chuunin Sickle",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Gold Ingot",
+        "id": 25103,
+        "qty": 8
+      },
+      {
+        "name": "Kamishiro",
+        "id": 2662,
+        "qty": 1
+      },
+      {
+        "name": "Ochre",
+        "id": 25131,
+        "qty": 30
+      },
+      {
+        "name": "Evil Fang",
+        "id": 2541,
+        "qty": 10
+      }
+    ],
+    "gold": 4000,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Hephaestus's Forge",
+    "result_id": 2129,
+    "result_name": "Chained Teeth",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Gold Ingot",
+        "id": 25103,
+        "qty": 8
+      },
+      {
+        "name": "Kamishiro",
+        "id": 2662,
+        "qty": 1
+      },
+      {
+        "name": "Cinnabar",
+        "id": 25130,
+        "qty": 30
+      },
+      {
+        "name": "Stone Golem Core",
+        "id": 2522,
+        "qty": 5
+      }
+    ],
+    "gold": 4000,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Hephaestus's Forge",
+    "result_id": 2131,
+    "result_name": "Breath of Fire",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Gold Ingot",
+        "id": 25103,
+        "qty": 8
+      },
+      {
+        "name": "Kamishiro",
+        "id": 2662,
+        "qty": 1
+      },
+      {
+        "name": "Cinnabar",
+        "id": 25130,
+        "qty": 30
+      },
+      {
+        "name": "Oil Lamp Wick",
+        "id": 2542,
+        "qty": 5
+      }
+    ],
+    "gold": 4000,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 25150,
+    "result_name": "Straw Rope",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Cattail",
+        "id": 2650,
+        "qty": 3
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 25151,
+    "result_name": "Silk",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Silkworm Ice Cocoon",
+        "id": 2649,
+        "qty": 3
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 25152,
+    "result_name": "Lotus Fiber",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Cloud Lotus",
+        "id": 2651,
+        "qty": 3
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 25153,
+    "result_name": "Cat Moss Fleece",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Cat Spirit Moss",
+        "id": 2657,
+        "qty": 3
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 25154,
+    "result_name": "Wool Felt",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Wool",
+        "id": 2530,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Miss Ama's Tailor Shop",
+    "result_id": 2249,
+    "result_name": "Cat-O'-Lantern Hat (Head)",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Pumpkin",
+        "id": 2630,
+        "qty": 4
+      },
+      {
+        "name": "Wool",
+        "id": 2530,
+        "qty": 3
+      }
+    ],
+    "gold": 500,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Miss Ama's Tailor Shop",
+    "result_id": 2253,
+    "result_name": "Lantern Spirit Hat (Head)",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Oil Lamp Wick",
+        "id": 2542,
+        "qty": 6
+      },
+      {
+        "name": "Ibis Feather",
+        "id": 2538,
+        "qty": 1
+      }
+    ],
+    "gold": 500,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Miss Ama's Tailor Shop",
+    "result_id": 2250,
+    "result_name": "Pumpkin Vine Tail (Tail)",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Pumpkin",
+        "id": 2630,
+        "qty": 4
+      },
+      {
+        "name": "Wool",
+        "id": 2530,
+        "qty": 3
+      }
+    ],
+    "gold": 500,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Miss Ama's Tailor Shop",
+    "result_id": 2254,
+    "result_name": "Spirit Ribbon Tail (Tail)",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Oil Lamp Wick",
+        "id": 2542,
+        "qty": 6
+      },
+      {
+        "name": "Ibis Feather",
+        "id": 2538,
+        "qty": 1
+      }
+    ],
+    "gold": 500,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Crafting Table Recipes",
+    "result_id": 3450,
+    "result_name": "Spinning Wheel",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Wood",
+        "id": 2501,
+        "qty": 60
+      },
+      {
+        "name": "Azurite",
+        "id": 25128,
+        "qty": 5
+      },
+      {
+        "name": "Cattail",
+        "id": 2650,
+        "qty": 10
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Crafting Table Recipes",
+    "result_id": 3451,
+    "result_name": "Loom",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Wood",
+        "id": 2501,
+        "qty": 60
+      },
+      {
+        "name": "Lapis Lazuli",
+        "id": 25126,
+        "qty": 5
+      },
+      {
+        "name": "Wool",
+        "id": 2530,
+        "qty": 10
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 26330,
+    "result_name": "Beer",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Wheat",
+        "id": 2612,
+        "qty": 2
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 26331,
+    "result_name": "Sake",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Rice",
+        "id": 25108,
+        "qty": 2
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 25110,
+    "result_name": "Sakura Wine",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Cherry Blossom",
+        "id": 2644,
+        "qty": 2
+      },
+      {
+        "name": "Sake",
+        "id": 26331,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 26338,
+    "result_name": "Fruit Wine",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Any Fruit",
+        "tag": 10005,
+        "qty": 2
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Crafting Table Recipes",
+    "result_id": 3406,
+    "result_name": "Sake Brewer",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Gold Ingot",
+        "id": 25103,
+        "qty": 3
+      },
+      {
+        "name": "Iron Ingot",
+        "id": 25102,
+        "qty": 5
+      },
+      {
+        "name": "Oak Wood",
+        "id": 2660,
+        "qty": 20
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Crafting Table Recipes",
+    "result_id": 3443,
+    "result_name": "Beer Keg",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Hardwood",
+        "id": 2514,
+        "qty": 20
+      },
+      {
+        "name": "Resin",
+        "id": 2515,
+        "qty": 15
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Crafting Table Recipes",
+    "result_id": 3456,
+    "result_name": "Seed Separator",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Gold Ingot",
+        "id": 25103,
+        "qty": 3
+      },
+      {
+        "name": "Copper Ingot",
+        "id": 25101,
+        "qty": 8
+      },
+      {
+        "name": "Wood",
+        "id": 2501,
+        "qty": 80
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Crafting Table Recipes",
+    "result_id": 3427,
+    "result_name": "Cheese Press",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Iron Ingot",
+        "id": 25102,
+        "qty": 2
+      },
+      {
+        "name": "Cherry Wood",
+        "id": 2659,
+        "qty": 10
+      },
+      {
+        "name": "Evil Fang",
+        "id": 2541,
+        "qty": 20
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 26336,
+    "result_name": "Coffee",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Coffee Bean",
+        "id": 2645,
+        "qty": 2
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Sasaki's Furniture Studio",
+    "result_id": 3818,
+    "result_name": "Wooden Wine Cabinet",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Oak Wood",
+        "id": 2660,
+        "qty": 20
+      },
+      {
+        "name": "Stone Golem Core",
+        "id": 2522,
+        "qty": 10
+      }
+    ],
+    "gold": 100,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Sasaki's Furniture Studio",
+    "result_id": 3819,
+    "result_name": "Goza Target",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Bamboo",
+        "id": 2517,
+        "qty": 20
+      },
+      {
+        "name": "Straw Rope",
+        "id": 25150,
+        "qty": 12
+      }
+    ],
+    "gold": 100,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Sasaki's Furniture Studio",
+    "result_id": 3820,
+    "result_name": "Calligraphy Art",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Lotus Fiber",
+        "id": 25152,
+        "qty": 12
+      },
+      {
+        "name": "Slime Sludge",
+        "id": 2516,
+        "qty": 10
+      },
+      {
+        "name": "Evil Fang",
+        "id": 2541,
+        "qty": 5
+      }
+    ],
+    "gold": 100,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Sasaki's Furniture Studio",
+    "result_id": 3821,
+    "result_name": "Katana Rack",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Iron Ingot",
+        "id": 25102,
+        "qty": 3
+      },
+      {
+        "name": "Stone Golem Core",
+        "id": 2522,
+        "qty": 10
+      },
+      {
+        "name": "Bamboo",
+        "id": 2517,
+        "qty": 10
+      }
+    ],
+    "gold": 600,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Sasaki's Furniture Studio",
+    "result_id": 3822,
+    "result_name": "Drum-Style Armor",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Iron Ingot",
+        "id": 25102,
+        "qty": 3
+      },
+      {
+        "name": "Cow Bristles",
+        "id": 2536,
+        "qty": 5
+      },
+      {
+        "name": "Evil Fang",
+        "id": 2541,
+        "qty": 5
+      }
+    ],
+    "gold": 800,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Sasaki's Furniture Studio",
+    "result_id": 3823,
+    "result_name": "Mountain Landscape Painting",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Lotus Fiber",
+        "id": 25152,
+        "qty": 10
+      },
+      {
+        "name": "Slime Sludge",
+        "id": 2516,
+        "qty": 10
+      },
+      {
+        "name": "Goat Horn",
+        "id": 2537,
+        "qty": 2
+      }
+    ],
+    "gold": 100,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Sasaki's Furniture Studio",
+    "result_id": 3824,
+    "result_name": "Bamboo Branch Vase",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Bamboo",
+        "id": 2517,
+        "qty": 20
+      },
+      {
+        "name": "Man-Eating Plant Leaf",
+        "id": 2513,
+        "qty": 10
+      }
+    ],
+    "gold": 200,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Sasaki's Furniture Studio",
+    "result_id": 3825,
+    "result_name": "Kitchen Counter",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Oak Wood",
+        "id": 2660,
+        "qty": 30
+      },
+      {
+        "name": "Evil Fang",
+        "id": 2541,
+        "qty": 10
+      },
+      {
+        "name": "Slime Sludge",
+        "id": 2516,
+        "qty": 10
+      }
+    ],
+    "gold": 600,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Sasaki's Furniture Studio",
+    "result_id": 3826,
+    "result_name": "Vintage Wooden Cabinet",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Cherry Wood",
+        "id": 2659,
+        "qty": 20
+      },
+      {
+        "name": "Copper Ingot",
+        "id": 25101,
+        "qty": 4
+      },
+      {
+        "name": "Slime Sludge",
+        "id": 2516,
+        "qty": 10
+      }
+    ],
+    "gold": 300,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Sasaki's Furniture Studio",
+    "result_id": 3827,
+    "result_name": "Pink Pattern Bed",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Oak Wood",
+        "id": 2660,
+        "qty": 20
+      },
+      {
+        "name": "Wool Felt",
+        "id": 25154,
+        "qty": 3
+      },
+      {
+        "name": "Ibis Feather",
+        "id": 2538,
+        "qty": 5
+      }
+    ],
+    "gold": 100,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Sasaki's Furniture Studio",
+    "result_id": 3828,
+    "result_name": "Standing Wooden Cabinet",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Cherry Wood",
+        "id": 2659,
+        "qty": 20
+      },
+      {
+        "name": "Copper Ingot",
+        "id": 25101,
+        "qty": 4
+      },
+      {
+        "name": "Goat Horn",
+        "id": 2537,
+        "qty": 2
+      }
+    ],
+    "gold": 200,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Sasaki's Furniture Studio",
+    "result_id": 3829,
+    "result_name": "Retro Refrigerator",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Iron Ingot",
+        "id": 25102,
+        "qty": 6
+      },
+      {
+        "name": "Evil Fang",
+        "id": 2541,
+        "qty": 20
+      },
+      {
+        "name": "Eye Core",
+        "id": 2543,
+        "qty": 2
+      }
+    ],
+    "gold": 750,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Sasaki's Furniture Studio",
+    "result_id": 3830,
+    "result_name": "Household Oven",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Iron Ingot",
+        "id": 25102,
+        "qty": 6
+      },
+      {
+        "name": "Evil Fang",
+        "id": 2541,
+        "qty": 20
+      },
+      {
+        "name": "Oil Lamp Wick",
+        "id": 2542,
+        "qty": 3
+      }
+    ],
+    "gold": 750,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Sasaki's Furniture Studio",
+    "result_id": 3831,
+    "result_name": "Double Gas Stove",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Iron Ingot",
+        "id": 25102,
+        "qty": 6
+      },
+      {
+        "name": "Evil Fang",
+        "id": 2541,
+        "qty": 20
+      },
+      {
+        "name": "Oil Lamp Wick",
+        "id": 2542,
+        "qty": 3
+      }
+    ],
+    "gold": 750,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Sasaki's Furniture Studio",
+    "result_id": 3832,
+    "result_name": "Warm Glow Chandelier",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Iron Ingot",
+        "id": 25102,
+        "qty": 6
+      },
+      {
+        "name": "Evil Fang",
+        "id": 2541,
+        "qty": 20
+      },
+      {
+        "name": "Oil Lamp Wick",
+        "id": 2542,
+        "qty": 3
+      }
+    ],
+    "gold": 750,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Sasaki's Furniture Studio",
+    "result_id": 3833,
+    "result_name": "Ladle Rack",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Iron Ingot",
+        "id": 25102,
+        "qty": 2
+      },
+      {
+        "name": "Slime Sludge",
+        "id": 2516,
+        "qty": 10
+      }
+    ],
+    "gold": 100,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Sasaki's Furniture Studio",
+    "result_id": 3834,
+    "result_name": "Baking Basket",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Bamboo",
+        "id": 2517,
+        "qty": 20
+      },
+      {
+        "name": "Iron Ingot",
+        "id": 25102,
+        "qty": 10
+      },
+      {
+        "name": "Slime Sludge",
+        "id": 2516,
+        "qty": 5
+      }
+    ],
+    "gold": 100,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Sasaki's Furniture Studio",
+    "result_id": 3835,
+    "result_name": "Fruit Cake",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Chicken Egg",
+        "id": 2533,
+        "qty": 20
+      },
+      {
+        "name": "Evil Fang",
+        "id": 2541,
+        "qty": 10
+      },
+      {
+        "name": "Flour",
+        "id": 25106,
+        "qty": 5
+      }
+    ],
+    "gold": 100,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Sasaki's Furniture Studio",
+    "result_id": 3836,
+    "result_name": "Berry Cream Cake",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Strawberry",
+        "id": 2609,
+        "qty": 10
+      },
+      {
+        "name": "Evil Fang",
+        "id": 2541,
+        "qty": 10
+      },
+      {
+        "name": "Flour",
+        "id": 25106,
+        "qty": 5
+      }
+    ],
+    "gold": 100,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Sasaki's Furniture Studio",
+    "result_id": 3837,
+    "result_name": "Assorted Cupcakes",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Chicken Egg",
+        "id": 2533,
+        "qty": 20
+      },
+      {
+        "name": "Evil Fang",
+        "id": 2541,
+        "qty": 10
+      },
+      {
+        "name": "Flour",
+        "id": 25106,
+        "qty": 5
+      }
+    ],
+    "gold": 100,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Sasaki's Furniture Studio",
+    "result_id": 3838,
+    "result_name": "Sunflower Arrangement",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Bamboo",
+        "id": 2517,
+        "qty": 20
+      },
+      {
+        "name": "Man-Eating Plant Leaf",
+        "id": 2513,
+        "qty": 10
+      }
+    ],
+    "gold": 100,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Sasaki's Furniture Studio",
+    "result_id": 3839,
+    "result_name": "Wooden-Frame Lantern",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Cherry Wood",
+        "id": 2659,
+        "qty": 20
+      },
+      {
+        "name": "Evil Fang",
+        "id": 2541,
+        "qty": 10
+      },
+      {
+        "name": "Oil Lamp Wick",
+        "id": 2542,
+        "qty": 4
+      }
+    ],
+    "gold": 1500,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Sasaki's Furniture Studio",
+    "result_id": 3840,
+    "result_name": "Step Cabinet",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Cherry Wood",
+        "id": 2659,
+        "qty": 30
+      },
+      {
+        "name": "Copper Ingot",
+        "id": 25101,
+        "qty": 4
+      },
+      {
+        "name": "Slime Sludge",
+        "id": 2516,
+        "qty": 5
+      }
+    ],
+    "gold": 200,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Sasaki's Furniture Studio",
+    "result_id": 3841,
+    "result_name": "Metal Safe",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Iron Ingot",
+        "id": 25102,
+        "qty": 4
+      },
+      {
+        "name": "Evil Fang",
+        "id": 2541,
+        "qty": 10
+      },
+      {
+        "name": "Eye Core",
+        "id": 2543,
+        "qty": 2
+      }
+    ],
+    "gold": 100,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Sasaki's Furniture Studio",
+    "result_id": 3842,
+    "result_name": "Glazed Flower Plate",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Iron Ingot",
+        "id": 25102,
+        "qty": 5
+      },
+      {
+        "name": "Evil Fang",
+        "id": 2541,
+        "qty": 10
+      },
+      {
+        "name": "Clay",
+        "id": 2503,
+        "qty": 5
+      }
+    ],
+    "gold": 100,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Sasaki's Furniture Studio",
+    "result_id": 3843,
+    "result_name": "Integrated Kitchen Counter",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Oak Wood",
+        "id": 2660,
+        "qty": 30
+      },
+      {
+        "name": "Evil Fang",
+        "id": 2541,
+        "qty": 10
+      },
+      {
+        "name": "Slime Sludge",
+        "id": 2516,
+        "qty": 5
+      }
+    ],
+    "gold": 750,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Sasaki's Furniture Studio",
+    "result_id": 3844,
+    "result_name": "Tomato Basket",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Tomato",
+        "id": 2620,
+        "qty": 20
+      },
+      {
+        "name": "Bamboo",
+        "id": 2517,
+        "qty": 10
+      }
+    ],
+    "gold": 100,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Sasaki's Furniture Studio",
+    "result_id": 3845,
+    "result_name": "Lounge Chair Set",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Oak Wood",
+        "id": 2660,
+        "qty": 20
+      },
+      {
+        "name": "Cat Moss Fleece",
+        "id": 25153,
+        "qty": 5
+      },
+      {
+        "name": "Straw Rope",
+        "id": 25150,
+        "qty": 5
+      }
+    ],
+    "gold": 100,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Sasaki's Furniture Studio",
+    "result_id": 3846,
+    "result_name": "Standing Lantern",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Cherry Wood",
+        "id": 2659,
+        "qty": 20
+      },
+      {
+        "name": "Evil Fang",
+        "id": 2541,
+        "qty": 10
+      },
+      {
+        "name": "Oil Lamp Wick",
+        "id": 2542,
+        "qty": 3
+      }
+    ],
+    "gold": 1500,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Sasaki's Furniture Studio",
+    "result_id": 3847,
+    "result_name": "Sleek Minimalist Sofa",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Cherry Wood",
+        "id": 2659,
+        "qty": 15
+      },
+      {
+        "name": "Cat Moss Fleece",
+        "id": 25153,
+        "qty": 5
+      },
+      {
+        "name": "Straw Rope",
+        "id": 25150,
+        "qty": 5
+      }
+    ],
+    "gold": 100,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Sasaki's Furniture Studio",
+    "result_id": 3848,
+    "result_name": "Fish Display",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Golden Arowana",
+        "id": 42030,
+        "qty": 2
+      },
+      {
+        "name": "Evil Fang",
+        "id": 2541,
+        "qty": 10
+      },
+      {
+        "name": "Lotus Fiber",
+        "id": 25152,
+        "qty": 5
+      }
+    ],
+    "gold": 5000,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Sasaki's Furniture Studio",
+    "result_id": 3849,
+    "result_name": "Paper Globe Lamp",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Cherry Wood",
+        "id": 2659,
+        "qty": 20
+      },
+      {
+        "name": "Evil Fang",
+        "id": 2541,
+        "qty": 10
+      },
+      {
+        "name": "Oil Lamp Wick",
+        "id": 2542,
+        "qty": 2
+      }
+    ],
+    "gold": 100,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Sasaki's Furniture Studio",
+    "result_id": 3850,
+    "result_name": "Monstera Potted Plant",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Bamboo",
+        "id": 2517,
+        "qty": 20
+      },
+      {
+        "name": "Evil Fang",
+        "id": 2541,
+        "qty": 10
+      },
+      {
+        "name": "Swiss Cheese Plant",
+        "id": 2634,
+        "qty": 5
+      }
+    ],
+    "gold": 400,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Sasaki's Furniture Studio",
+    "result_id": 3851,
+    "result_name": "Drawing Workbench",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Lotus Fiber",
+        "id": 25152,
+        "qty": 20
+      },
+      {
+        "name": "Evil Fang",
+        "id": 2541,
+        "qty": 10
+      },
+      {
+        "name": "Slime Sludge",
+        "id": 2516,
+        "qty": 5
+      }
+    ],
+    "gold": 800,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Sasaki's Furniture Studio",
+    "result_id": 3852,
+    "result_name": "Portable Game Console",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Iron Ingot",
+        "id": 25102,
+        "qty": 1
+      },
+      {
+        "name": "Evil Fang",
+        "id": 2541,
+        "qty": 10
+      },
+      {
+        "name": "Eye Core",
+        "id": 2543,
+        "qty": 2
+      }
+    ],
+    "gold": 1200,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Sasaki's Furniture Studio",
+    "result_id": 3853,
+    "result_name": "Bean Bag Chair",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Slime Sludge",
+        "id": 2516,
+        "qty": 5
+      },
+      {
+        "name": "Cat Moss Fleece",
+        "id": 25153,
+        "qty": 8
+      },
+      {
+        "name": "Straw Rope",
+        "id": 25150,
+        "qty": 5
+      }
+    ],
+    "gold": 100,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Sasaki's Furniture Studio",
+    "result_id": 3854,
+    "result_name": "Video Game Console",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Gold Ingot",
+        "id": 25103,
+        "qty": 2
+      },
+      {
+        "name": "Evil Fang",
+        "id": 2541,
+        "qty": 20
+      },
+      {
+        "name": "Eye Core",
+        "id": 2543,
+        "qty": 2
+      }
+    ],
+    "gold": 5000,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Sasaki's Furniture Studio",
+    "result_id": 3855,
+    "result_name": "Television",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Gold Ingot",
+        "id": 25103,
+        "qty": 2
+      },
+      {
+        "name": "Evil Fang",
+        "id": 2541,
+        "qty": 20
+      },
+      {
+        "name": "Eye Core",
+        "id": 2543,
+        "qty": 2
+      }
+    ],
+    "gold": 5000,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Sasaki's Furniture Studio",
+    "result_id": 3856,
+    "result_name": "Arcade Machine",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Gold Ingot",
+        "id": 25103,
+        "qty": 2
+      },
+      {
+        "name": "Evil Fang",
+        "id": 2541,
+        "qty": 20
+      },
+      {
+        "name": "Eye Core",
+        "id": 2543,
+        "qty": 2
+      }
+    ],
+    "gold": 5000,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Sasaki's Furniture Studio",
+    "result_id": 3857,
+    "result_name": "Training Dummy",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Bamboo",
+        "id": 2517,
+        "qty": 20
+      },
+      {
+        "name": "Cat Moss Fleece",
+        "id": 25153,
+        "qty": 10
+      },
+      {
+        "name": "Evil Fang",
+        "id": 2541,
+        "qty": 5
+      }
+    ],
+    "gold": 100,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Sasaki's Furniture Studio",
+    "result_id": 3858,
+    "result_name": "Wooden Double Bed",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Oak Wood",
+        "id": 2660,
+        "qty": 20
+      },
+      {
+        "name": "Cat Moss Fleece",
+        "id": 25153,
+        "qty": 10
+      },
+      {
+        "name": "Straw Rope",
+        "id": 25150,
+        "qty": 5
+      }
+    ],
+    "gold": 1000,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Sasaki's Furniture Studio",
+    "result_id": 3859,
+    "result_name": "Two-Tier Bookshelf",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Cherry Wood",
+        "id": 2659,
+        "qty": 20
+      },
+      {
+        "name": "Cat Moss Fleece",
+        "id": 25153,
+        "qty": 10
+      },
+      {
+        "name": "Evil Fang",
+        "id": 2541,
+        "qty": 5
+      }
+    ],
+    "gold": 1000,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Sasaki's Furniture Studio",
+    "result_id": 3860,
+    "result_name": "Dye Shelf",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Cherry Wood",
+        "id": 2659,
+        "qty": 20
+      },
+      {
+        "name": "Evil Fang",
+        "id": 2541,
+        "qty": 10
+      },
+      {
+        "name": "Clay",
+        "id": 2503,
+        "qty": 5
+      }
+    ],
+    "gold": 2000,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Sasaki's Furniture Studio",
+    "result_id": 3861,
+    "result_name": "Art Tray",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Cherry Wood",
+        "id": 2659,
+        "qty": 20
+      },
+      {
+        "name": "Evil Fang",
+        "id": 2541,
+        "qty": 10
+      },
+      {
+        "name": "Clay",
+        "id": 2503,
+        "qty": 5
+      }
+    ],
+    "gold": 2000,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Sasaki's Furniture Studio",
+    "result_id": 3862,
+    "result_name": "Dome Floor Lamp",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Oak Wood",
+        "id": 2660,
+        "qty": 20
+      },
+      {
+        "name": "Cow Bristles",
+        "id": 2536,
+        "qty": 2
+      },
+      {
+        "name": "Oil Lamp Wick",
+        "id": 2542,
+        "qty": 2
+      }
+    ],
+    "gold": 500,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Sasaki's Furniture Studio",
+    "result_id": 3863,
+    "result_name": "Fireplace",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Oak Wood",
+        "id": 2660,
+        "qty": 20
+      },
+      {
+        "name": "Cow Bristles",
+        "id": 2536,
+        "qty": 2
+      },
+      {
+        "name": "Oil Lamp Wick",
+        "id": 2542,
+        "qty": 2
+      }
+    ],
+    "gold": 700,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Sasaki's Furniture Studio",
+    "result_id": 3864,
+    "result_name": "Wooden Altar",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Oak Wood",
+        "id": 2660,
+        "qty": 20
+      },
+      {
+        "name": "Cow Bristles",
+        "id": 2536,
+        "qty": 10
+      },
+      {
+        "name": "Oil Lamp Wick",
+        "id": 2542,
+        "qty": 5
+      }
+    ],
+    "gold": 5000,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Sasaki's Furniture Studio",
+    "result_id": 3865,
+    "result_name": "Typewriter",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Gold Ingot",
+        "id": 25103,
+        "qty": 2
+      },
+      {
+        "name": "Goat Horn",
+        "id": 2537,
+        "qty": 2
+      },
+      {
+        "name": "Stone Golem Core",
+        "id": 2522,
+        "qty": 5
+      }
+    ],
+    "gold": 2500,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Sasaki's Furniture Studio",
+    "result_id": 3866,
+    "result_name": "Chessboard",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Gold Ingot",
+        "id": 25103,
+        "qty": 2
+      },
+      {
+        "name": "Goat Horn",
+        "id": 2537,
+        "qty": 2
+      },
+      {
+        "name": "Stone Golem Core",
+        "id": 2522,
+        "qty": 5
+      }
+    ],
+    "gold": 2500,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Sasaki's Furniture Studio",
+    "result_id": 3867,
+    "result_name": "Wave-Pattern Carpet",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Ibis Feather",
+        "id": 2538,
+        "qty": 20
+      },
+      {
+        "name": "Cat Moss Fleece",
+        "id": 25153,
+        "qty": 10
+      },
+      {
+        "name": "Chicken Feather",
+        "id": 2535,
+        "qty": 2
+      }
+    ],
+    "gold": 5000,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Sasaki's Furniture Studio",
+    "result_id": 3868,
+    "result_name": "Decorative Ship's Wheel",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Cherry Wood",
+        "id": 2659,
+        "qty": 20
+      },
+      {
+        "name": "Evil Fang",
+        "id": 2541,
+        "qty": 10
+      },
+      {
+        "name": "Stone Golem Core",
+        "id": 2522,
+        "qty": 5
+      }
+    ],
+    "gold": 1500,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 2701,
+    "result_name": "Turnip Seeds",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Turnip",
+        "id": 2601,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 2702,
+    "result_name": "Potato Seeds",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Potato",
+        "id": 2602,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 2703,
+    "result_name": "Celery Seeds",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Celery",
+        "id": 2603,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 2704,
+    "result_name": "Garlic Seeds",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Garlic",
+        "id": 2604,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 2705,
+    "result_name": "Cabbage Seeds",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Cabbage",
+        "id": 2605,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 2706,
+    "result_name": "Red Bean Seeds",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Red Bean",
+        "id": 2606,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 2707,
+    "result_name": "Rose Seeds",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Rose",
+        "id": 2607,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 2708,
+    "result_name": "Chinese Toon Seeds",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Chinese Toon",
+        "id": 2608,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 2709,
+    "result_name": "Strawberry Seeds",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Strawberry",
+        "id": 2609,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 2710,
+    "result_name": "Green Tea Seeds",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Green Tea",
+        "id": 2610,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 2711,
+    "result_name": "Soybean Seeds",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Soybean",
+        "id": 2611,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 2712,
+    "result_name": "Wheat Seeds",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Wheat",
+        "id": 2612,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 2713,
+    "result_name": "Sugarcane Seeds",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Sugarcane",
+        "id": 2613,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 2714,
+    "result_name": "Daylily Seeds",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Daylily",
+        "id": 2614,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 2715,
+    "result_name": "Pineapple Seeds",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Pineapple",
+        "id": 2615,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 2716,
+    "result_name": "Hydrangea Seeds",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Hydrangea",
+        "id": 2616,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 2717,
+    "result_name": "Peach Seeds",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Peach",
+        "id": 2617,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 2718,
+    "result_name": "Lemon Seeds",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Lemon",
+        "id": 2618,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 2719,
+    "result_name": "Watermelon Seeds",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Watermelon",
+        "id": 2619,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 2720,
+    "result_name": "Tomato Seeds",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Tomato",
+        "id": 2620,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 2721,
+    "result_name": "Raspberry Seeds",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Raspberry",
+        "id": 2621,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 2722,
+    "result_name": "Cucumber Seeds",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Cucumber",
+        "id": 2622,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 2723,
+    "result_name": "Mango Seeds",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Mango",
+        "id": 2623,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 2724,
+    "result_name": "Grape Seeds",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Grape",
+        "id": 2624,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 2725,
+    "result_name": "Yam Seeds",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Yam",
+        "id": 2625,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 2726,
+    "result_name": "Dandelion Seeds",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Dandelion",
+        "id": 2626,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 2727,
+    "result_name": "Perilla Seeds",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Perilla",
+        "id": 2627,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 2728,
+    "result_name": "Onion Seeds",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Onion",
+        "id": 2628,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 2729,
+    "result_name": "Chili Pepper Seeds",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Chili Pepper",
+        "id": 2629,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 2730,
+    "result_name": "Pumpkin Seeds",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Pumpkin",
+        "id": 2630,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 2731,
+    "result_name": "Sweet Potato Seeds",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Sweet Potato",
+        "id": 2631,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 2732,
+    "result_name": "Lily of the Valley Seeds",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Lily of the Valley",
+        "id": 2632,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 2733,
+    "result_name": "Iris Seeds",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Iris",
+        "id": 2633,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 2734,
+    "result_name": "Swiss Cheese Plant Seeds",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Swiss Cheese Plant",
+        "id": 2634,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 2735,
+    "result_name": "Spinach Seeds",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Spinach",
+        "id": 2635,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 2736,
+    "result_name": "Carrot Seeds",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Carrot",
+        "id": 2636,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 2737,
+    "result_name": "Taro Seeds",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Taro",
+        "id": 2637,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 2742,
+    "result_name": "Rice Seed",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Rice Plant",
+        "id": 2642,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Miss Ama's Tailor Shop",
+    "result_id": 2257,
+    "result_name": "Special Santa Hat (Head)",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Wool",
+        "id": 2530,
+        "qty": 5
+      },
+      {
+        "name": "Gold Ingot",
+        "id": 25103,
+        "qty": 1
+      },
+      {
+        "name": "Cat Moss Fleece",
+        "id": 25153,
+        "qty": 2
+      }
+    ],
+    "gold": 500,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Miss Ama's Tailor Shop",
+    "result_id": 2258,
+    "result_name": "Christmas Ribbon Tail (Tail)",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Wool",
+        "id": 2530,
+        "qty": 5
+      },
+      {
+        "name": "Gold Ingot",
+        "id": 25103,
+        "qty": 1
+      },
+      {
+        "name": "Cat Moss Fleece",
+        "id": 25153,
+        "qty": 2
+      }
+    ],
+    "gold": 500,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Miss Ama's Tailor Shop",
+    "result_id": 2263,
+    "result_name": "Christmas Tree Hat (Head)",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Ibis Feather",
+        "id": 2538,
+        "qty": 1
+      },
+      {
+        "name": "Gold Ingot",
+        "id": 25103,
+        "qty": 1
+      },
+      {
+        "name": "Wool Felt",
+        "id": 25154,
+        "qty": 1
+      }
+    ],
+    "gold": 500,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Miss Ama's Tailor Shop",
+    "result_id": 2264,
+    "result_name": "Festive Fir Tail (Tail)",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Ibis Feather",
+        "id": 2538,
+        "qty": 1
+      },
+      {
+        "name": "Gold Ingot",
+        "id": 25103,
+        "qty": 1
+      },
+      {
+        "name": "Wool Felt",
+        "id": 25154,
+        "qty": 1
+      }
+    ],
+    "gold": 500,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Backpack",
+    "result_id": 2915,
+    "result_name": "Intermediate Explosive Barrel",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Iron Ore",
+        "id": 2505,
+        "qty": 3
+      },
+      {
+        "name": "Charcoal",
+        "id": 25111,
+        "qty": 3
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Backpack",
+    "result_id": 2916,
+    "result_name": "Advanced Explosive Barrel",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Gold Ore",
+        "id": 2506,
+        "qty": 3
+      },
+      {
+        "name": "Sulfur",
+        "id": 25112,
+        "qty": 3
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Backpack",
+    "result_id": 2917,
+    "result_name": "User-Friendly Explosive Barrel",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Cinnabar",
+        "id": 25130,
+        "qty": 2
+      },
+      {
+        "name": "Evil Fang",
+        "id": 2541,
+        "qty": 6
+      },
+      {
+        "name": "Sulfur",
+        "id": 25112,
+        "qty": 6
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Crafting Table Recipes",
+    "result_id": 3458,
+    "result_name": "Ore Replication Machine",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Gold Ingot",
+        "id": 25103,
+        "qty": 8
+      },
+      {
+        "name": "Red Panda Fur",
+        "id": 2544,
+        "qty": 3
+      },
+      {
+        "name": "Stone",
+        "id": 2502,
+        "qty": 99
+      },
+      {
+        "name": "Oil Lamp Wick",
+        "id": 2542,
+        "qty": 5
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Crafting Table Recipes",
+    "result_id": 3459,
+    "result_name": "Crystal Replication Machine",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Gold Ingot",
+        "id": 25103,
+        "qty": 8
+      },
+      {
+        "name": "Red Panda Fur",
+        "id": 2544,
+        "qty": 3
+      },
+      {
+        "name": "Stone",
+        "id": 2502,
+        "qty": 99
+      },
+      {
+        "name": "Eye Core",
+        "id": 2543,
+        "qty": 5
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Crafting Table Recipes",
+    "result_id": 3460,
+    "result_name": "Chip Production Machine",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Red Panda Fur",
+        "id": 2544,
+        "qty": 5
+      },
+      {
+        "name": "Stone",
+        "id": 2502,
+        "qty": 99
+      },
+      {
+        "name": "Stone Golem Core",
+        "id": 2522,
+        "qty": 5
+      },
+      {
+        "name": "Evil Fang",
+        "id": 2541,
+        "qty": 20
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 2502,
+    "result_name": "Stone",
+    "result_count": 2,
+    "ingredients": [
+      {
+        "name": "Stone",
+        "id": 2502,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 2503,
+    "result_name": "Clay",
+    "result_count": 2,
+    "ingredients": [
+      {
+        "name": "Clay",
+        "id": 2503,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 2504,
+    "result_name": "Copper Ore",
+    "result_count": 2,
+    "ingredients": [
+      {
+        "name": "Copper Ore",
+        "id": 2504,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 2505,
+    "result_name": "Iron Ore",
+    "result_count": 2,
+    "ingredients": [
+      {
+        "name": "Iron Ore",
+        "id": 2505,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 2506,
+    "result_name": "Gold Ore",
+    "result_count": 2,
+    "ingredients": [
+      {
+        "name": "Gold Ore",
+        "id": 2506,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 2544,
+    "result_name": "Red Panda Fur",
+    "result_count": 2,
+    "ingredients": [
+      {
+        "name": "Red Panda Fur",
+        "id": 2544,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 25126,
+    "result_name": "Lapis Lazuli",
+    "result_count": 2,
+    "ingredients": [
+      {
+        "name": "Lapis Lazuli",
+        "id": 25126,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 25127,
+    "result_name": "Realgar",
+    "result_count": 2,
+    "ingredients": [
+      {
+        "name": "Realgar",
+        "id": 25127,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 25128,
+    "result_name": "Azurite",
+    "result_count": 2,
+    "ingredients": [
+      {
+        "name": "Azurite",
+        "id": 25128,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 25129,
+    "result_name": "Malachite",
+    "result_count": 2,
+    "ingredients": [
+      {
+        "name": "Malachite",
+        "id": 25129,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 25130,
+    "result_name": "Cinnabar",
+    "result_count": 2,
+    "ingredients": [
+      {
+        "name": "Cinnabar",
+        "id": 25130,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 25131,
+    "result_name": "Ochre",
+    "result_count": 2,
+    "ingredients": [
+      {
+        "name": "Ochre",
+        "id": 25131,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 25132,
+    "result_name": "White Crystal",
+    "result_count": 2,
+    "ingredients": [
+      {
+        "name": "White Crystal",
+        "id": 25132,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Crafting Table Recipes",
+    "result_id": 3461,
+    "result_name": "Bug Bait Box",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Copper Ingot",
+        "id": 25101,
+        "qty": 3
+      },
+      {
+        "name": "Thatch",
+        "id": 2527,
+        "qty": 20
+      },
+      {
+        "name": "Raw Meat",
+        "id": 2507,
+        "qty": 10
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Crafting Table Recipes",
+    "result_id": 3462,
+    "result_name": "Thatch Spirit",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Oak Wood",
+        "id": 2660,
+        "qty": 15
+      },
+      {
+        "name": "Gold Ingot",
+        "id": 25103,
+        "qty": 4
+      },
+      {
+        "name": "Evil Fang",
+        "id": 2541,
+        "qty": 20
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Backpack",
+    "result_id": 2147,
+    "result_name": "Basic Fish Bait",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Raw Meat",
+        "id": 2507,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Backpack",
+    "result_id": 2139,
+    "result_name": "Special Fish Bait",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Raw Meat",
+        "id": 2507,
+        "qty": 1
+      },
+      {
+        "name": "Evil Fang",
+        "id": 2541,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Backpack",
+    "result_id": 2140,
+    "result_name": "Rare Fish Bait",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Raw Meat",
+        "id": 2507,
+        "qty": 3
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Backpack",
+    "result_id": 2141,
+    "result_name": "Bountiful Catch Bait",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Iron Ingot",
+        "id": 25102,
+        "qty": 2
+      },
+      {
+        "name": "Evil Fang",
+        "id": 2541,
+        "qty": 10
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Backpack",
+    "result_id": 2142,
+    "result_name": "Super Bountiful Catch Bait",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Red Panda Fur",
+        "id": 2544,
+        "qty": 1
+      },
+      {
+        "name": "Eye Core",
+        "id": 2543,
+        "qty": 2
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Backpack",
+    "result_id": 2143,
+    "result_name": "Rainy Day Bait",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Copper Ingot",
+        "id": 25101,
+        "qty": 1
+      },
+      {
+        "name": "Man-Eating Plant Leaf",
+        "id": 2513,
+        "qty": 2
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Backpack",
+    "result_id": 2145,
+    "result_name": "Treasure Chest Bait",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Iron Ore",
+        "id": 2505,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Backpack",
+    "result_id": 2911,
+    "result_name": "Yield Boost Fertilizer",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Gold Ingot",
+        "id": 25103,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Backpack",
+    "result_id": 2912,
+    "result_name": "Giant Growth Fertilizer",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Yokai Shroom",
+        "id": 2510,
+        "qty": 3
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Backpack",
+    "result_id": 2913,
+    "result_name": "Lightning Growth Fertilizer",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Red Panda Fur",
+        "id": 2544,
+        "qty": 1
+      },
+      {
+        "name": "Resin",
+        "id": 2515,
+        "qty": 2
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Backpack",
+    "result_id": 2914,
+    "result_name": "Hydrating Fertilizer",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Slime Sludge",
+        "id": 2516,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Backpack",
+    "result_id": 2919,
+    "result_name": "Doubled Yield Boost Fertilizer",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Red Panda Fur",
+        "id": 2544,
+        "qty": 1
+      },
+      {
+        "name": "Resin",
+        "id": 2515,
+        "qty": 2
+      },
+      {
+        "name": "Manure",
+        "id": 2534,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Backpack",
+    "result_id": 2910,
+    "result_name": "Ice Orb",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Slime Sludge",
+        "id": 2516,
+        "qty": 5
+      },
+      {
+        "name": "Jade Radish",
+        "id": 2656,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Backpack",
+    "result_id": 2921,
+    "result_name": "One Strike Victory",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Man-Eating Plant Leaf",
+        "id": 2513,
+        "qty": 3
+      },
+      {
+        "name": "Pearl",
+        "id": 2525,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Backpack",
+    "result_id": 2922,
+    "result_name": "Maple Leaf Burial",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Evil Fang",
+        "id": 2541,
+        "qty": 10
+      },
+      {
+        "name": "Cloud Lotus",
+        "id": 2651,
+        "qty": 2
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Backpack",
+    "result_id": 2923,
+    "result_name": "Giant Rock Breaker",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Stone Golem Core",
+        "id": 2522,
+        "qty": 1
+      },
+      {
+        "name": "Oil Lamp Wick",
+        "id": 2542,
+        "qty": 2
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Backpack",
+    "result_id": 2924,
+    "result_name": "Hellfire",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Oil Lamp Wick",
+        "id": 2542,
+        "qty": 1
+      },
+      {
+        "name": "Cat Spirit Moss",
+        "id": 2657,
+        "qty": 2
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Sasaki's Furniture Studio",
+    "result_id": 8210,
+    "result_name": "Monster House Tool Kit",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Copper Ingot",
+        "id": 25101,
+        "qty": 4
+      },
+      {
+        "name": "Wood",
+        "id": 2501,
+        "qty": 20
+      },
+      {
+        "name": "Clay",
+        "id": 2503,
+        "qty": 20
+      }
+    ],
+    "gold": 100,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 2,
+    "result_name": "Chip",
+    "result_count": 10,
+    "ingredients": [
+      {
+        "name": "Stone",
+        "id": 2502,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Backpack",
+    "result_id": 8307,
+    "result_name": "Pet Super Treat",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Cherry Blossom",
+        "id": 2644,
+        "qty": 1
+      },
+      {
+        "name": "Animal Treats",
+        "id": 8301,
+        "qty": 20
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Crafting Table Recipes",
+    "result_id": 3463,
+    "result_name": "Flower Duplication Box",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Slime Sludge",
+        "id": 2516,
+        "qty": 30
+      },
+      {
+        "name": "Red Spider Lily",
+        "id": 2655,
+        "qty": 2
+      },
+      {
+        "name": "Evil Fang",
+        "id": 2541,
+        "qty": 20
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Crafting Table Recipes",
+    "result_id": 3464,
+    "result_name": "Animal Biscuit Oven",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Resin",
+        "id": 2515,
+        "qty": 30
+      },
+      {
+        "name": "Bamboo",
+        "id": 2517,
+        "qty": 20
+      },
+      {
+        "name": "Copper Ingot",
+        "id": 25101,
+        "qty": 4
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Backpack",
+    "result_id": 3465,
+    "result_name": "Treasure Detector",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Gold Ingot",
+        "id": 25103,
+        "qty": 4
+      },
+      {
+        "name": "Iron Ingot",
+        "id": 25102,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Backpack",
+    "result_id": 3467,
+    "result_name": "Ruins Teleport Point",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Stone Golem Core",
+        "id": 2522,
+        "qty": 1
+      },
+      {
+        "name": "Stone",
+        "id": 2502,
+        "qty": 30
+      },
+      {
+        "name": "Iron Ingot",
+        "id": 25102,
+        "qty": 3
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Backpack",
+    "result_id": 3468,
+    "result_name": "Overground Teleport Point",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Oil Lamp Wick",
+        "id": 2542,
+        "qty": 1
+      },
+      {
+        "name": "Stone",
+        "id": 2502,
+        "qty": 30
+      },
+      {
+        "name": "Iron Ingot",
+        "id": 25102,
+        "qty": 3
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Crafting Table Recipes",
+    "result_id": 3469,
+    "result_name": "Mushroom Stump",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Malachite",
+        "id": 25129,
+        "qty": 5
+      },
+      {
+        "name": "Yokai Shroom",
+        "id": 2510,
+        "qty": 5
+      },
+      {
+        "name": "Hardwood",
+        "id": 2514,
+        "qty": 20
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Crafting Table Recipes",
+    "result_id": 3408,
+    "result_name": "Tofu Press",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Iron Ingot",
+        "id": 25102,
+        "qty": 2
+      },
+      {
+        "name": "Hardwood",
+        "id": 2514,
+        "qty": 10
+      },
+      {
+        "name": "Copper Ingot",
+        "id": 25101,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Crafting Table Recipes",
+    "result_id": 3720,
+    "result_name": "Coffee Machine",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Gold Ingot",
+        "id": 25103,
+        "qty": 4
+      },
+      {
+        "name": "Iron Ingot",
+        "id": 25102,
+        "qty": 4
+      },
+      {
+        "name": "Copper Ingot",
+        "id": 25101,
+        "qty": 4
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Crafting Table Recipes",
+    "result_id": 1100,
+    "result_name": "Pet Flute",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Copper Ingot",
+        "id": 25101,
+        "qty": 2
+      },
+      {
+        "name": "Clay",
+        "id": 2503,
+        "qty": 20
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Crafting Table Recipes",
+    "result_id": 1101,
+    "result_name": "Pet Den",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Thatch",
+        "id": 2527,
+        "qty": 20
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Backpack",
+    "result_id": 2148,
+    "result_name": "Treasure Hunter Bait",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Red Panda Fur",
+        "id": 2544,
+        "qty": 1
+      },
+      {
+        "name": "Evil Fang",
+        "id": 2541,
+        "qty": 20
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 2607,
+    "result_name": "Rose",
+    "result_count": 2,
+    "ingredients": [
+      {
+        "name": "Rose",
+        "id": 2607,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 2614,
+    "result_name": "Daylily",
+    "result_count": 2,
+    "ingredients": [
+      {
+        "name": "Daylily",
+        "id": 2614,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 2616,
+    "result_name": "Hydrangea",
+    "result_count": 2,
+    "ingredients": [
+      {
+        "name": "Hydrangea",
+        "id": 2616,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 2626,
+    "result_name": "Dandelion",
+    "result_count": 2,
+    "ingredients": [
+      {
+        "name": "Dandelion",
+        "id": 2626,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 2632,
+    "result_name": "Lily of the Valley",
+    "result_count": 2,
+    "ingredients": [
+      {
+        "name": "Lily of the Valley",
+        "id": 2632,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 2633,
+    "result_name": "Iris",
+    "result_count": 2,
+    "ingredients": [
+      {
+        "name": "Iris",
+        "id": 2633,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 2634,
+    "result_name": "Swiss Cheese Plant",
+    "result_count": 2,
+    "ingredients": [
+      {
+        "name": "Swiss Cheese Plant",
+        "id": 2634,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 2644,
+    "result_name": "Cherry Blossom",
+    "result_count": 2,
+    "ingredients": [
+      {
+        "name": "Cherry Blossom",
+        "id": 2644,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 2648,
+    "result_name": "Flowering Wisteria",
+    "result_count": 2,
+    "ingredients": [
+      {
+        "name": "Flowering Wisteria",
+        "id": 2648,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 2651,
+    "result_name": "Cloud Lotus",
+    "result_count": 2,
+    "ingredients": [
+      {
+        "name": "Cloud Lotus",
+        "id": 2651,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Crafting Table Recipes",
+    "result_id": 2920,
+    "result_name": "Slime Cultivation Barrel",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Copper Ingot",
+        "id": 25101,
+        "qty": 3
+      },
+      {
+        "name": "Charcoal",
+        "id": 25111,
+        "qty": 20
+      },
+      {
+        "name": "Slime Sludge",
+        "id": 2516,
+        "qty": 20
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 2910,
+    "result_name": "Ice Orb",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Any Fish",
+        "tag": 10001,
+        "qty": 2
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 2921,
+    "result_name": "One Strike Victory",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Any Fish",
+        "tag": 10001,
+        "qty": 4
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 2922,
+    "result_name": "Maple Leaf Burial",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Any Fish",
+        "tag": 10001,
+        "qty": 6
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 2923,
+    "result_name": "Giant Rock Breaker",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Any Fish",
+        "tag": 10001,
+        "qty": 8
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 2924,
+    "result_name": "Hellfire",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Any Fish",
+        "tag": 10001,
+        "qty": 10
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 3911,
+    "result_name": "Clock Yokai",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Any Fruit",
+        "tag": 10005,
+        "qty": 10
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 3915,
+    "result_name": "Dragon-Backed Mirror",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Any Fruit",
+        "tag": 10005,
+        "qty": 10
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 3917,
+    "result_name": "Kasa-obake",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Any Fruit",
+        "tag": 10005,
+        "qty": 20
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 3920,
+    "result_name": "Burabura",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Any Fruit",
+        "tag": 10005,
+        "qty": 20
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 3916,
+    "result_name": "Crane Carpet",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Any Fruit",
+        "tag": 10005,
+        "qty": 30
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Sasaki's Furniture Studio",
+    "result_id": 3905,
+    "result_name": "Half-Tester Bed",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Oak Wood",
+        "id": 2660,
+        "qty": 20
+      },
+      {
+        "name": "Wool Felt",
+        "id": 25154,
+        "qty": 3
+      },
+      {
+        "name": "Ibis Feather",
+        "id": 2538,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Sasaki's Furniture Studio",
+    "result_id": 3936,
+    "result_name": "Spouse's Wardrobe",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Cherry Wood",
+        "id": 2659,
+        "qty": 20
+      },
+      {
+        "name": "Copper Ingot",
+        "id": 25101,
+        "qty": 4
+      },
+      {
+        "name": "Goat Horn",
+        "id": 2537,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Sasaki's Furniture Studio",
+    "result_id": 3882,
+    "result_name": "Elegant Display Case",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Cherry Wood",
+        "id": 2659,
+        "qty": 20
+      },
+      {
+        "name": "Copper Ingot",
+        "id": 25101,
+        "qty": 4
+      },
+      {
+        "name": "Goat Horn",
+        "id": 2537,
+        "qty": 1
+      }
+    ],
+    "gold": 200,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Sasaki's Furniture Studio",
+    "result_id": 3883,
+    "result_name": "Cat Tree",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Cherry Wood",
+        "id": 2659,
+        "qty": 20
+      },
+      {
+        "name": "Ochre",
+        "id": 25131,
+        "qty": 5
+      },
+      {
+        "name": "Straw Rope",
+        "id": 25150,
+        "qty": 1
+      }
+    ],
+    "gold": 200,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Sasaki's Furniture Studio",
+    "result_id": 3935,
+    "result_name": "Bamboo Trident",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Bamboo",
+        "id": 2517,
+        "qty": 20
+      },
+      {
+        "name": "Azurite",
+        "id": 25128,
+        "qty": 5
+      }
+    ],
+    "gold": 200,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Backpack",
+    "result_id": 2149,
+    "result_name": "Nighttime Bait",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Gold Ingot",
+        "id": 25103,
+        "qty": 1
+      },
+      {
+        "name": "Copper Ingot",
+        "id": 25101,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Hephaestus's Forge",
+    "result_id": 2114,
+    "result_name": "Dororo, the Black Sword",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Kamishiro",
+        "id": 2662,
+        "qty": 1
+      },
+      {
+        "name": "Obsidian",
+        "id": 2548,
+        "qty": 1
+      },
+      {
+        "name": "Red Panda Fur",
+        "id": 2544,
+        "qty": 1
+      }
+    ],
+    "gold": 3000,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Hephaestus's Forge",
+    "result_id": 2126,
+    "result_name": "Black Bamboo Scythe",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Kamishiro",
+        "id": 2662,
+        "qty": 1
+      },
+      {
+        "name": "Obsidian",
+        "id": 2548,
+        "qty": 1
+      },
+      {
+        "name": "Red Panda Fur",
+        "id": 2544,
+        "qty": 1
+      }
+    ],
+    "gold": 3000,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Hephaestus's Forge",
+    "result_id": 2128,
+    "result_name": "Viper Fang",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Kamishiro",
+        "id": 2662,
+        "qty": 1
+      },
+      {
+        "name": "Obsidian",
+        "id": 2548,
+        "qty": 1
+      },
+      {
+        "name": "Red Panda Fur",
+        "id": 2544,
+        "qty": 1
+      }
+    ],
+    "gold": 3000,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 26300,
+    "result_name": "\"Ninja Bubble\" (Lemon)",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Sugar",
+        "id": 25001,
+        "qty": 1
+      },
+      {
+        "name": "Lemon",
+        "id": 2618,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 26301,
+    "result_name": "\"Ninja Bubble\" (Strawberry)",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Sugar",
+        "id": 25001,
+        "qty": 1
+      },
+      {
+        "name": "Strawberry",
+        "id": 2609,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 26302,
+    "result_name": "\"Ninja Bubble\" (Pineapple)",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Sugar",
+        "id": 25001,
+        "qty": 1
+      },
+      {
+        "name": "Pineapple",
+        "id": 2615,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Miss Ama's Tailor Shop",
+    "result_id": 2267,
+    "result_name": "Wedding Attire (Head)",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "White Crystal",
+        "id": 25132,
+        "qty": 1
+      },
+      {
+        "name": "Silk",
+        "id": 25151,
+        "qty": 4
+      },
+      {
+        "name": "Wool Felt",
+        "id": 25154,
+        "qty": 1
+      }
+    ],
+    "gold": 1000,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Miss Ama's Tailor Shop",
+    "result_id": 2268,
+    "result_name": "Wedding Attire (Top)",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "White Crystal",
+        "id": 25132,
+        "qty": 1
+      },
+      {
+        "name": "Silk",
+        "id": 25151,
+        "qty": 4
+      },
+      {
+        "name": "Wool Felt",
+        "id": 25154,
+        "qty": 1
+      }
+    ],
+    "gold": 1000,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Miss Ama's Tailor Shop",
+    "result_id": 2269,
+    "result_name": "Wedding Attire (Bottom)",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Bobo Pearl",
+        "id": 2523,
+        "qty": 5
+      },
+      {
+        "name": "Silk",
+        "id": 25151,
+        "qty": 5
+      },
+      {
+        "name": "Wool Felt",
+        "id": 25154,
+        "qty": 1
+      }
+    ],
+    "gold": 2000,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Crafting Table Recipes",
+    "result_id": 23309,
+    "result_name": "True Love Ring",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "White Crystal",
+        "id": 25132,
+        "qty": 2
+      },
+      {
+        "name": "Gold Ore",
+        "id": 2506,
+        "qty": 5
+      }
+    ],
+    "gold": 3000,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Other",
+    "result_id": 2663,
+    "result_name": "Fruit Cheese",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Any Fruit",
+        "tag": 10005,
+        "qty": 2
+      },
+      {
+        "name": "Milk",
+        "id": 2528,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  },
+  {
+    "type": "craft",
+    "station": "Sasaki's Furniture Studio",
+    "result_id": 3722,
+    "result_name": "Torii",
+    "result_count": 1,
+    "ingredients": [
+      {
+        "name": "Cherry Wood",
+        "id": 2659,
+        "qty": 10
+      },
+      {
+        "name": "Cinnabar",
+        "id": 25130,
+        "qty": 2
+      },
+      {
+        "name": "Evil Fang",
+        "id": 2541,
+        "qty": 1
+      }
+    ],
+    "gold": 0,
+    "seasons": []
+  }
+]

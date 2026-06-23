@@ -1,0 +1,524 @@
+{
+  "monsters": [
+    {
+      "name": "Abura-sumashi",
+      "hp": "300",
+      "damage": "15",
+      "drops": [
+        {
+          "name": "Oil Lamp Wick",
+          "item_id": 2542
+        }
+      ],
+      "tameable_as": "Abura-sumashi",
+      "tame_tries": "13"
+    },
+    {
+      "name": "Arrow Stone Statue",
+      "hp": "180",
+      "damage": "9",
+      "drops": [
+        {
+          "name": "Stone",
+          "item_id": 2502
+        },
+        {
+          "name": "Energy Crystal",
+          "item_id": 2519
+        }
+      ],
+      "tameable_as": "Arrow Statue",
+      "tame_tries": "13"
+    },
+    {
+      "name": "Blue Oni",
+      "hp": "100",
+      "damage": "15",
+      "drops": [
+        {
+          "name": "Evil Fang",
+          "item_id": 2541
+        },
+        {
+          "name": "Azurite",
+          "item_id": 25128
+        },
+        {
+          "name": "Malachite",
+          "item_id": 25129
+        }
+      ],
+      "tameable_as": "Blue Oni",
+      "tame_tries": "13"
+    },
+    {
+      "name": "Dark Fox Wraith",
+      "hp": "600",
+      "damage": "30",
+      "drops": [
+        {
+          "name": "Evil Fang",
+          "item_id": 2541
+        },
+        {
+          "name": "Energy Crystal",
+          "item_id": 2519
+        },
+        {
+          "name": "Oil Lamp Wick",
+          "item_id": 2542
+        },
+        {
+          "name": "Eye Core",
+          "item_id": 2543
+        },
+        {
+          "name": "Stone Golem Core",
+          "item_id": 2522
+        }
+      ],
+      "tameable_as": "Dark Fox Wraith",
+      "tame_tries": "18"
+    },
+    {
+      "name": "Little Skeleton",
+      "hp": "50",
+      "damage": "2",
+      "drops": [
+        {
+          "name": "Not listed",
+          "item_id": null
+        }
+      ],
+      "tameable_as": "Little Skull",
+      "tame_tries": "13"
+    },
+    {
+      "name": "Man-Eating Plant",
+      "hp": "80",
+      "damage": "6",
+      "drops": [
+        {
+          "name": "Man-Eating Plant Leaf",
+          "item_id": 2513
+        }
+      ],
+      "tameable_as": "Man-Eating Plant",
+      "tame_tries": "7"
+    },
+    {
+      "name": "Mekurabe",
+      "hp": "500",
+      "damage": "10",
+      "drops": [
+        {
+          "name": "Eye Core",
+          "item_id": 2543
+        }
+      ],
+      "tameable_as": "Mekurabe",
+      "tame_tries": "13"
+    },
+    {
+      "name": "Mud Slime",
+      "hp": "150",
+      "damage": "6",
+      "drops": [
+        {
+          "name": "Cinnabar",
+          "item_id": 25130
+        },
+        {
+          "name": "Ochre",
+          "item_id": 25131
+        },
+        {
+          "name": "Slime Sludge",
+          "item_id": 2516
+        }
+      ],
+      "tameable_as": "Mud Slime",
+      "tame_tries": "13"
+    },
+    {
+      "name": "Nioh",
+      "hp": "350",
+      "damage": "12",
+      "drops": [
+        {
+          "name": "Straw Doll",
+          "item_id": 2520
+        }
+      ],
+      "tameable_as": "Nioh",
+      "tame_tries": "18"
+    },
+    {
+      "name": "Oni",
+      "hp": "40",
+      "damage": "3",
+      "drops": [
+        {
+          "name": "Wood",
+          "item_id": 2501
+        },
+        {
+          "name": "Clay",
+          "item_id": 2503
+        },
+        {
+          "name": "Stone",
+          "item_id": 2502
+        },
+        {
+          "name": "Oni's Club",
+          "item_id": 2103
+        }
+      ],
+      "tameable_as": "Oni",
+      "tame_tries": "7"
+    },
+    {
+      "name": "Pale Puppet",
+      "hp": "150",
+      "damage": "8",
+      "drops": [
+        {
+          "name": "Evil Fang",
+          "item_id": 2541
+        },
+        {
+          "name": "Azurite",
+          "item_id": 25128
+        },
+        {
+          "name": "Malachite",
+          "item_id": 25129
+        }
+      ],
+      "tameable_as": "Pale Puppet",
+      "tame_tries": "13"
+    },
+    {
+      "name": "Puppet Oni",
+      "hp": "100",
+      "damage": "7",
+      "drops": [
+        {
+          "name": "Evil Fang",
+          "item_id": 2541
+        },
+        {
+          "name": "Lapis Lazuli",
+          "item_id": 25126
+        },
+        {
+          "name": "Realgar",
+          "item_id": 25127
+        }
+      ],
+      "tameable_as": "Puppet Oni",
+      "tame_tries": "13"
+    },
+    {
+      "name": "Shadowblade Oni",
+      "hp": "150",
+      "damage": "8",
+      "drops": [
+        {
+          "name": "Evil Fang",
+          "item_id": 2541
+        },
+        {
+          "name": "Azurite",
+          "item_id": 25128
+        },
+        {
+          "name": "Malachite",
+          "item_id": 25129
+        }
+      ],
+      "tameable_as": "Shadowblade Oni",
+      "tame_tries": "13"
+    },
+    {
+      "name": "Slime",
+      "hp": "35",
+      "damage": "3",
+      "drops": [
+        {
+          "name": "Slime Sludge",
+          "item_id": 2516
+        }
+      ],
+      "tameable_as": "Slime",
+      "tame_tries": "7"
+    },
+    {
+      "name": "Spear-Wielding Oni",
+      "hp": "500",
+      "damage": "20",
+      "drops": [
+        {
+          "name": "Evil Fang",
+          "item_id": 2541
+        },
+        {
+          "name": "Azurite",
+          "item_id": 25128
+        },
+        {
+          "name": "Malachite",
+          "item_id": 25129
+        }
+      ],
+      "tameable_as": "Spear-Wielding Oni",
+      "tame_tries": "13"
+    },
+    {
+      "name": "Stone Golem",
+      "hp": "360",
+      "damage": "10",
+      "drops": [
+        {
+          "name": "Stone Golem Core",
+          "item_id": 2522
+        },
+        {
+          "name": "Energy Crystal",
+          "item_id": 2519
+        },
+        {
+          "name": "Stone",
+          "item_id": 2502
+        }
+      ],
+      "tameable_as": "Stone Golem",
+      "tame_tries": "13"
+    },
+    {
+      "name": "Stone Statue",
+      "hp": "100",
+      "damage": "10",
+      "drops": [
+        {
+          "name": "Energy Crystal",
+          "item_id": 2519
+        },
+        {
+          "name": "Stone",
+          "item_id": 2502
+        }
+      ],
+      "tameable_as": "Stone Statue",
+      "tame_tries": "13"
+    },
+    {
+      "name": "Sword Oni",
+      "hp": "250",
+      "damage": "9",
+      "drops": [
+        {
+          "name": "Evil Fang",
+          "item_id": 2541
+        },
+        {
+          "name": "Cinnabar",
+          "item_id": 25130
+        },
+        {
+          "name": "Ochre",
+          "item_id": 25131
+        }
+      ],
+      "tameable_as": "Sword Oni",
+      "tame_tries": "13"
+    },
+    {
+      "name": "Walking Man-Eating Plant",
+      "hp": "500",
+      "damage": "20",
+      "drops": [
+        {
+          "name": "Man-Eating Plant Leaf",
+          "item_id": 2513
+        },
+        {
+          "name": "Evil Fang",
+          "item_id": 2541
+        }
+      ],
+      "tameable_as": "Walking Man-Eating Plant",
+      "tame_tries": "13"
+    },
+    {
+      "name": "Wild Boar",
+      "hp": "60",
+      "damage": "4",
+      "drops": [
+        {
+          "name": "Raw Meat",
+          "item_id": 2507
+        }
+      ],
+      "tameable_as": "Wild Boar",
+      "tame_tries": "7"
+    },
+    {
+      "name": "Withered Stone Golem",
+      "hp": "850",
+      "damage": "15",
+      "drops": [
+        {
+          "name": "Stone Golem Core",
+          "item_id": 2522
+        },
+        {
+          "name": "Energy Crystal",
+          "item_id": 2519
+        },
+        {
+          "name": "Stone",
+          "item_id": 2502
+        }
+      ],
+      "tameable_as": "Withered Stone Golem",
+      "tame_tries": "13"
+    }
+  ],
+  "drop_values": [
+    {
+      "Image": "",
+      "Drop Item": "Straw Doll",
+      "Sell Price": "600 Gold",
+      "Dropped By": "Nioh",
+      "item_id": 2520
+    },
+    {
+      "Image": "",
+      "Drop Item": "Stone Golem Core",
+      "Sell Price": "300 Gold",
+      "Dropped By": "Dark Fox Wraith; Stone Golem; Withered Stone Golem",
+      "item_id": 2522
+    },
+    {
+      "Image": "",
+      "Drop Item": "Energy Crystal",
+      "Sell Price": "200 Gold",
+      "Dropped By": "Arrow Stone Statue; Dark Fox Wraith; Stone Golem; Stone Statue; Withered Stone Golem",
+      "item_id": 2519
+    },
+    {
+      "Image": "",
+      "Drop Item": "Eye Core",
+      "Sell Price": "200 Gold",
+      "Dropped By": "Dark Fox Wraith; Mekurabe",
+      "item_id": 2543
+    },
+    {
+      "Image": "",
+      "Drop Item": "Oil Lamp Wick",
+      "Sell Price": "160 Gold",
+      "Dropped By": "Abura-sumashi; Dark Fox Wraith",
+      "item_id": 2542
+    },
+    {
+      "Image": "",
+      "Drop Item": "Cinnabar",
+      "Sell Price": "100 Gold",
+      "Dropped By": "Mud Slime; Sword Oni",
+      "item_id": 25130
+    },
+    {
+      "Image": "",
+      "Drop Item": "Evil Fang",
+      "Sell Price": "100 Gold",
+      "Dropped By": "Blue Oni; Dark Fox Wraith; Pale Puppet; Puppet Oni; Shadowblade Oni; Spear-Wielding Oni; Sword Oni; Walking Man-Eating Plant",
+      "item_id": 2541
+    },
+    {
+      "Image": "",
+      "Drop Item": "Ochre",
+      "Sell Price": "100 Gold",
+      "Dropped By": "Mud Slime; Sword Oni",
+      "item_id": 25131
+    },
+    {
+      "Image": "",
+      "Drop Item": "Azurite",
+      "Sell Price": "50 Gold",
+      "Dropped By": "Blue Oni; Pale Puppet; Shadowblade Oni; Spear-Wielding Oni",
+      "item_id": 25128
+    },
+    {
+      "Image": "",
+      "Drop Item": "Malachite",
+      "Sell Price": "50 Gold",
+      "Dropped By": "Blue Oni; Pale Puppet; Shadowblade Oni; Spear-Wielding Oni",
+      "item_id": 25129
+    },
+    {
+      "Image": "",
+      "Drop Item": "Man-Eating Plant Leaf",
+      "Sell Price": "30 Gold",
+      "Dropped By": "Man-Eating Plant; Walking Man-Eating Plant",
+      "item_id": 2513
+    },
+    {
+      "Image": "",
+      "Drop Item": "Lapis Lazuli",
+      "Sell Price": "20 Gold",
+      "Dropped By": "Puppet Oni",
+      "item_id": 25126
+    },
+    {
+      "Image": "",
+      "Drop Item": "Realgar",
+      "Sell Price": "20 Gold",
+      "Dropped By": "Puppet Oni",
+      "item_id": 25127
+    },
+    {
+      "Image": "",
+      "Drop Item": "Slime Sludge",
+      "Sell Price": "16 Gold",
+      "Dropped By": "Mud Slime; Slime",
+      "item_id": 2516
+    },
+    {
+      "Image": "",
+      "Drop Item": "Oni's Club",
+      "Sell Price": "12 Gold",
+      "Dropped By": "Oni",
+      "item_id": 2103
+    },
+    {
+      "Image": "",
+      "Drop Item": "Raw Meat",
+      "Sell Price": "8 Gold",
+      "Dropped By": "Wild Boar",
+      "item_id": 2507
+    },
+    {
+      "Image": "",
+      "Drop Item": "Clay",
+      "Sell Price": "1 Gold",
+      "Dropped By": "Oni",
+      "item_id": 2503
+    },
+    {
+      "Image": "",
+      "Drop Item": "Stone",
+      "Sell Price": "1 Gold",
+      "Dropped By": "Arrow Stone Statue; Oni; Stone Golem; Stone Statue; Withered Stone Golem",
+      "item_id": 2502
+    },
+    {
+      "Image": "",
+      "Drop Item": "Wood",
+      "Sell Price": "1 Gold",
+      "Dropped By": "Oni",
+      "item_id": 2501
+    }
+  ]
+}

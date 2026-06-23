@@ -1,0 +1,3078 @@
+{
+  "4228": {
+    "name": "Alin",
+    "source_file": "Tales of Seikyu - Alin's Gifts, Schedule and Heart Events - Neoseeker.htm",
+    "details": {
+      "Birthday": "Autumn 6",
+      "Romance": "Yes",
+      "Interests": "Collection",
+      "Date Invitations": "Hot Spring and Tavern"
+    },
+    "gift_summary": {
+      "Favorites": "Old-Fashioned TV; Exquisite Radio; Portable Game Console; Video Game Console; Television; Arcade Machine; Capybara; Any Headwear",
+      "Likes": "Scarecrow Yokai; Storage Yokai; Clock Yokai; Matcha; Green Tea; Giant Green Tea; Strong Tea; Any Dye; Any Readable; Any Tea",
+      "Dislikes": "Any Eatable; Any Weapons",
+      "Hates": "Garlic; Giant Garlic; Garlic Seeds"
+    },
+    "schedule": [
+      {
+        "Time": "09:00",
+        "Location": "Ranch Shop",
+        "Activity": "Visit",
+        "Conditions": "Sun"
+      },
+      {
+        "Time": "13:00",
+        "Location": "Hot Spring",
+        "Activity": "Visit",
+        "Conditions": "Wed, Fri, or Sun; Before Hot Spring is unlocked"
+      },
+      {
+        "Time": "15:00",
+        "Location": "Library",
+        "Activity": "Visit",
+        "Conditions": "Any day except Wed, Fri, or Sun"
+      },
+      {
+        "Time": "17:00",
+        "Location": "Hot Spring",
+        "Activity": "Visit",
+        "Conditions": "Wed, Fri, or Sun; Before Hot Spring is unlocked"
+      }
+    ],
+    "events": [
+      {
+        "Event": "Hot Spring Date",
+        "Requirement": "3+ hearts / favorability and the date location unlocked",
+        "Location": "Hot Spring (19:00-21:00)",
+        "What Happens": "You spend an evening with Alin at the hot spring."
+      },
+      {
+        "Event": "Tavern Date",
+        "Requirement": "3+ hearts / favorability and the date location unlocked",
+        "Location": "Tavern (19:00-23:00)",
+        "What Happens": "You spend an evening with Alin at the tavern."
+      },
+      {
+        "Event": "Night Date",
+        "Requirement": "8 hearts / favorability and lover status",
+        "Location": "After 22:00",
+        "What Happens": "You share a late-night relationship scene with Alin."
+      },
+      {
+        "Event": "Wedding",
+        "Requirement": "10 hearts / favorability",
+        "Location": "Wedding quest",
+        "What Happens": "Alin joins you for the wedding ceremony."
+      }
+    ]
+  },
+  "4602": {
+    "name": "Anji",
+    "source_file": "Tales of Seikyu - Anji's Gifts, Schedule and Heart Events - Neoseeker.htm",
+    "details": {
+      "Birthday": "Unknown",
+      "Romance": "Yes"
+    },
+    "gift_summary": {
+      "Favorites": "Matcha; Strong Tea; Sun Wheel Ring",
+      "Likes": "Any Vegetable; Any Weapons; Any Fruit",
+      "Dislikes": "Any Meat Dishes; Any Seafood Dishes; Any Fish",
+      "Hates": "Raw Meat; Any Manure"
+    },
+    "schedule": [],
+    "events": [
+      {
+        "Event": "Heart Event 1",
+        "Requirement": "1 heart / favorability",
+        "Location": "Ruins",
+        "What Happens": "Anji returns after a long absence, teases the foxes, and asks whether they found the transformation items he wanted."
+      },
+      {
+        "Event": "Heart Event 2",
+        "Requirement": "3 hearts / favorability",
+        "Location": "Varies by event",
+        "What Happens": "Kon wonders whether Anna might visit and teases you for noticing she was blushing."
+      },
+      {
+        "Event": "Heart Event 3",
+        "Requirement": "5 hearts / favorability",
+        "Location": "Tree of the Mountain Goddess",
+        "What Happens": "Anna checks in on you, says she wants to help after everything you have done, and talks about yokai third eyes."
+      },
+      {
+        "Event": "Heart Event 4",
+        "Requirement": "6 hearts / favorability",
+        "Location": "Varies by event",
+        "What Happens": "Anji explains why the tanuki hide in Seikyu and talks with you about loneliness, history, and whether you can become friends."
+      }
+    ]
+  },
+  "4218": {
+    "name": "Anna",
+    "source_file": "Tales of Seikyu - Anna's Gifts, Schedule and Heart Events - Neoseeker.htm",
+    "details": {
+      "Birthday": "Autumn 19",
+      "Romance": "Yes",
+      "Interests": "Exploration",
+      "Date Invitations": "Hot Spring and Tavern",
+      "Shop": "Casino Bar"
+    },
+    "gift_summary": {
+      "Favorites": "Matcha; Strong Tea; Sun Wheel Ring",
+      "Likes": "Any Vegetable; Any Weapons; Any Fruit",
+      "Dislikes": "Any Meat Dishes; Any Seafood Dishes; Any Fish",
+      "Hates": "Raw Meat; Any Manure"
+    },
+    "schedule": [
+      {
+        "Time": "13:00",
+        "Location": "Casino",
+        "Activity": "Run shop or stall",
+        "Conditions": "Not Rainy; Casino unlocked"
+      },
+      {
+        "Time": "13:00",
+        "Location": "Casino",
+        "Activity": "Run shop or stall",
+        "Conditions": "Rainy; Any day except Wed or Thu; Casino unlocked"
+      },
+      {
+        "Time": "13:00",
+        "Location": "Casino",
+        "Activity": "Run shop or stall",
+        "Conditions": "Rainy; Wed or Thu; Casino unlocked"
+      },
+      {
+        "Time": "13:00",
+        "Location": "Casino",
+        "Activity": "Run shop or stall",
+        "Conditions": "Rainy; Wed; Spring or Autumn; Casino unlocked"
+      }
+    ],
+    "events": [
+      {
+        "Event": "Heart Event 1",
+        "Requirement": "2 hearts / favorability",
+        "Location": "Fox Ruins",
+        "What Happens": "Kon reacts after meeting Anna and remarks that she seems a little strange."
+      },
+      {
+        "Event": "Heart Event 2",
+        "Requirement": "4 hearts / favorability",
+        "Location": "Ruins",
+        "What Happens": "Anna thanks you for helping her, admits she gets distracted, and asks you not to tell anyone she was near the ruins."
+      },
+      {
+        "Event": "Hot Spring Date",
+        "Requirement": "3+ hearts / favorability and the date location unlocked",
+        "Location": "Hot Spring (19:00-21:00)",
+        "What Happens": "You spend an evening with Anna at the hot spring."
+      },
+      {
+        "Event": "Tavern Date",
+        "Requirement": "3+ hearts / favorability and the date location unlocked",
+        "Location": "Tavern (19:00-23:00)",
+        "What Happens": "You spend an evening with Anna at the tavern."
+      },
+      {
+        "Event": "Night Date",
+        "Requirement": "8 hearts / favorability and lover status",
+        "Location": "After 22:00",
+        "What Happens": "You share a late-night relationship scene with Anna."
+      },
+      {
+        "Event": "Wedding",
+        "Requirement": "10 hearts / favorability",
+        "Location": "Wedding quest",
+        "What Happens": "Anna joins you for the wedding ceremony."
+      }
+    ]
+  },
+  "4603": {
+    "name": "Fujiki",
+    "source_file": "Tales of Seikyu - Fuji's Gifts and Schedule - Neoseeker.htm",
+    "details": {
+      "Birthday": "Winter 12",
+      "Romance": "No",
+      "Interests": "Mining",
+      "Shop": "Fujiki's Mineral Shop"
+    },
+    "gift_summary": {
+      "Favorites": "Golden Poop; Sparkling Golden Droppings; Gold Ingot; Any Ores; Any Gem",
+      "Likes": "Any Vegetable; Any Fish",
+      "Dislikes": "Any Meat",
+      "Hates": "Coffee Bean; Coffee; Coffee-Flavored Cake; Coffee Machine; Any Tea"
+    },
+    "schedule": [],
+    "events": []
+  },
+  "4106": {
+    "name": "Hephaestus",
+    "source_file": "Tales of Seikyu - Hephaestus's Gifts, Schedule and Heart Events - Neoseeker.htm",
+    "details": {
+      "Birthday": "Spring 17",
+      "Romance": "Yes",
+      "Interests": "Mining",
+      "Date Invitations": "Hot Spring and Tavern",
+      "Shops": "Hephaestus's Forge; Heph's Basic Weapon Stall; Mask Stall"
+    },
+    "gift_summary": {
+      "Favorites": "Gold Ore; Gold Ingot; Miner's Amulet; Milk; Any Spicy Dishes",
+      "Likes": "Fried Pork Cutlet; Any Whet Stone; Any Ores; Any Gem; Any Exclusive Gem; Any Weapons",
+      "Dislikes": "Any Wood",
+      "Hates": "Tapioca Pudding; Any Wine and Liquor; Any Manure"
+    },
+    "schedule": [
+      {
+        "Time": "09:00",
+        "Location": "Fox Ruins",
+        "Activity": "Visit",
+        "Conditions": "Rainy"
+      },
+      {
+        "Time": "14:30",
+        "Location": "Hot Spring",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Weapon Shop unlocked; Any day except Tue; Hot Spring unlocked; Hot spring bathing unlocked"
+      },
+      {
+        "Time": "17:00",
+        "Location": "Ranch Shop",
+        "Activity": "Visit",
+        "Conditions": "Rainy"
+      },
+      {
+        "Time": "17:30",
+        "Location": "Hot Spring",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Weapon Shop unlocked; Any day except Tue; Hot Spring unlocked; Hot spring bathing unlocked"
+      },
+      {
+        "Time": "20:30",
+        "Location": "Hephaestus's Home",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Before Tavern is unlocked"
+      }
+    ],
+    "events": [
+      {
+        "Event": "Heart Event 1",
+        "Requirement": "2 hearts / favorability",
+        "Location": "Hephaestus's Forge",
+        "What Happens": "Hephaestus's forge is finally open and running! You should pay him a visit soon."
+      },
+      {
+        "Event": "Heart Event 2",
+        "Requirement": "5 hearts / favorability",
+        "Location": "Varies by event",
+        "What Happens": "Hephaestus fights alongside you, knocks an enemy down, and tells you to finish it."
+      },
+      {
+        "Event": "Heart Event 3",
+        "Requirement": "6 hearts / favorability",
+        "Location": "Fox Ruins",
+        "What Happens": "Help Hephaestus get high quality materials."
+      },
+      {
+        "Event": "Heart Event 4",
+        "Requirement": "7 hearts / favorability",
+        "Location": "Varies by event",
+        "What Happens": "Hephaestus arrives after a nightmare to make sure you and Kon are safe."
+      },
+      {
+        "Event": "Heart Event 5",
+        "Requirement": "8 hearts / favorability",
+        "Location": "Hephaestus's Forge",
+        "What Happens": "Hephaestus has something to show you. Come to the forge for a surprise."
+      },
+      {
+        "Event": "Heart Event 6",
+        "Requirement": "9 hearts / favorability",
+        "Location": "Outside your house",
+        "What Happens": "A gulubo ronin warns that the Muramasa blade's curse is harming Hephaestus and helps keep him stable for now."
+      },
+      {
+        "Event": "Heart Event 7",
+        "Requirement": "10 hearts / favorability",
+        "Location": "Scenic Spot",
+        "What Happens": "Hephaestus shows you a scenic spot and celebrates becoming a master smith with fireworks."
+      },
+      {
+        "Event": "Hot Spring Date",
+        "Requirement": "3+ hearts / favorability and the date location unlocked",
+        "Location": "Hot Spring (19:00-21:00)",
+        "What Happens": "You spend an evening with Hephaestus at the hot spring."
+      },
+      {
+        "Event": "Tavern Date",
+        "Requirement": "3+ hearts / favorability and the date location unlocked",
+        "Location": "Tavern (19:00-23:00)",
+        "What Happens": "You spend an evening with Hephaestus at the tavern."
+      },
+      {
+        "Event": "Night Date",
+        "Requirement": "8 hearts / favorability and lover status",
+        "Location": "After 22:00",
+        "What Happens": "You share a late-night relationship scene with Hephaestus."
+      },
+      {
+        "Event": "Wedding",
+        "Requirement": "10 hearts / favorability",
+        "Location": "Wedding quest",
+        "What Happens": "Hephaestus joins you for the wedding ceremony."
+      }
+    ]
+  },
+  "4601": {
+    "name": "Hephaestus",
+    "source_file": "Tales of Seikyu - Hephaestus's Gifts, Schedule and Heart Events - Neoseeker.htm",
+    "details": {
+      "Birthday": "Spring 17",
+      "Romance": "Yes",
+      "Interests": "Mining",
+      "Date Invitations": "Hot Spring and Tavern",
+      "Shops": "Hephaestus's Forge; Heph's Basic Weapon Stall; Mask Stall"
+    },
+    "gift_summary": {
+      "Favorites": "Gold Ore; Gold Ingot; Miner's Amulet; Milk; Any Spicy Dishes",
+      "Likes": "Fried Pork Cutlet; Any Whet Stone; Any Ores; Any Gem; Any Exclusive Gem; Any Weapons",
+      "Dislikes": "Any Wood",
+      "Hates": "Tapioca Pudding; Any Wine and Liquor; Any Manure"
+    },
+    "schedule": [
+      {
+        "Time": "09:00",
+        "Location": "Fox Ruins",
+        "Activity": "Visit",
+        "Conditions": "Rainy"
+      },
+      {
+        "Time": "14:30",
+        "Location": "Hot Spring",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Weapon Shop unlocked; Any day except Tue; Hot Spring unlocked; Hot spring bathing unlocked"
+      },
+      {
+        "Time": "17:00",
+        "Location": "Ranch Shop",
+        "Activity": "Visit",
+        "Conditions": "Rainy"
+      },
+      {
+        "Time": "17:30",
+        "Location": "Hot Spring",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Weapon Shop unlocked; Any day except Tue; Hot Spring unlocked; Hot spring bathing unlocked"
+      },
+      {
+        "Time": "20:30",
+        "Location": "Hephaestus's Home",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Before Tavern is unlocked"
+      }
+    ],
+    "events": [
+      {
+        "Event": "Heart Event 1",
+        "Requirement": "2 hearts / favorability",
+        "Location": "Hephaestus's Forge",
+        "What Happens": "Hephaestus's forge is finally open and running! You should pay him a visit soon."
+      },
+      {
+        "Event": "Heart Event 2",
+        "Requirement": "5 hearts / favorability",
+        "Location": "Varies by event",
+        "What Happens": "Hephaestus fights alongside you, knocks an enemy down, and tells you to finish it."
+      },
+      {
+        "Event": "Heart Event 3",
+        "Requirement": "6 hearts / favorability",
+        "Location": "Fox Ruins",
+        "What Happens": "Help Hephaestus get high quality materials."
+      },
+      {
+        "Event": "Heart Event 4",
+        "Requirement": "7 hearts / favorability",
+        "Location": "Varies by event",
+        "What Happens": "Hephaestus arrives after a nightmare to make sure you and Kon are safe."
+      },
+      {
+        "Event": "Heart Event 5",
+        "Requirement": "8 hearts / favorability",
+        "Location": "Hephaestus's Forge",
+        "What Happens": "Hephaestus has something to show you. Come to the forge for a surprise."
+      },
+      {
+        "Event": "Heart Event 6",
+        "Requirement": "9 hearts / favorability",
+        "Location": "Outside your house",
+        "What Happens": "A gulubo ronin warns that the Muramasa blade's curse is harming Hephaestus and helps keep him stable for now."
+      },
+      {
+        "Event": "Heart Event 7",
+        "Requirement": "10 hearts / favorability",
+        "Location": "Scenic Spot",
+        "What Happens": "Hephaestus shows you a scenic spot and celebrates becoming a master smith with fireworks."
+      },
+      {
+        "Event": "Hot Spring Date",
+        "Requirement": "3+ hearts / favorability and the date location unlocked",
+        "Location": "Hot Spring (19:00-21:00)",
+        "What Happens": "You spend an evening with Hephaestus at the hot spring."
+      },
+      {
+        "Event": "Tavern Date",
+        "Requirement": "3+ hearts / favorability and the date location unlocked",
+        "Location": "Tavern (19:00-23:00)",
+        "What Happens": "You spend an evening with Hephaestus at the tavern."
+      },
+      {
+        "Event": "Night Date",
+        "Requirement": "8 hearts / favorability and lover status",
+        "Location": "After 22:00",
+        "What Happens": "You share a late-night relationship scene with Hephaestus."
+      },
+      {
+        "Event": "Wedding",
+        "Requirement": "10 hearts / favorability",
+        "Location": "Wedding quest",
+        "What Happens": "Hephaestus joins you for the wedding ceremony."
+      }
+    ]
+  },
+  "4215": {
+    "name": "Ivan",
+    "source_file": "Tales of Seikyu - Ivan's Gifts and Schedule - Neoseeker.htm",
+    "details": {
+      "Birthday": "Autumn 11",
+      "Romance": "No",
+      "Interests": "Cooking",
+      "Shop": "Ivan's Dango Stall"
+    },
+    "gift_summary": {
+      "Favorites": "Strawberry Milkshake; Bobo Pearl; Pearl",
+      "Likes": "Chicken Egg; Strawberry Cake; Matcha Cake; Shawarma; Multi-Flavored Scone; Tella-Obachan's Fried Bread; Coffee-Flavored Cake; Any Animals; Any Egg",
+      "Dislikes": "Red Bean Soup; Refined Miso Soup; Chicken Dumpling Soup; Any Spicy Dishes; Any Meat",
+      "Hates": "Miso Soup; Any Weapons; Any Manure"
+    },
+    "schedule": [
+      {
+        "Time": "06:00",
+        "Location": "Theo & Ivan's Home",
+        "Activity": "Visit",
+        "Conditions": "Not Rainy"
+      },
+      {
+        "Time": "06:00",
+        "Location": "Theo & Ivan's Home",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Any day except Tue or Thu"
+      },
+      {
+        "Time": "06:00",
+        "Location": "Theo & Ivan's Home",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Tue"
+      },
+      {
+        "Time": "06:00",
+        "Location": "Theo & Ivan's Home",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Tue or Thu"
+      },
+      {
+        "Time": "17:00",
+        "Location": "Theo & Ivan's Home",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Tue; Before Tavern is unlocked"
+      },
+      {
+        "Time": "18:00",
+        "Location": "Casino",
+        "Activity": "Visit",
+        "Conditions": "Not Rainy; Casino unlocked"
+      },
+      {
+        "Time": "18:00",
+        "Location": "Theo & Ivan's Home",
+        "Activity": "Visit",
+        "Conditions": "Not Rainy; Before Casino is unlocked"
+      },
+      {
+        "Time": "18:00",
+        "Location": "Theo & Ivan's Home",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Any day except Tue or Thu"
+      },
+      {
+        "Time": "20:00",
+        "Location": "Casino",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Tue or Thu; Casino unlocked"
+      },
+      {
+        "Time": "20:00",
+        "Location": "Theo & Ivan's Home",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Tue or Thu; Before Casino is unlocked"
+      },
+      {
+        "Time": "23:00",
+        "Location": "Theo & Ivan's Home",
+        "Activity": "Visit",
+        "Conditions": "Not Rainy"
+      },
+      {
+        "Time": "23:00",
+        "Location": "Theo & Ivan's Home",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Tue"
+      },
+      {
+        "Time": "23:00",
+        "Location": "Theo & Ivan's Home",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Tue or Thu"
+      }
+    ],
+    "events": []
+  },
+  "4223": {
+    "name": "Kababa",
+    "source_file": "Tales of Seikyu - Kababa's Gifts and Schedule - Neoseeker.htm",
+    "details": {
+      "Birthday": "Unknown",
+      "Romance": "No",
+      "Shop": "Lucky Shop"
+    },
+    "gift_summary": {
+      "Favorites": "",
+      "Likes": "",
+      "Dislikes": "",
+      "Hates": "Any Manure"
+    },
+    "schedule": [
+      {
+        "Time": "06:00",
+        "Location": "Casino",
+        "Activity": "Run shop or stall",
+        "Conditions": "Casino unlocked"
+      },
+      {
+        "Time": "13:00",
+        "Location": "Casino",
+        "Activity": "Visit",
+        "Conditions": "Regular schedule"
+      },
+      {
+        "Time": "16:00",
+        "Location": "Casino",
+        "Activity": "Visit",
+        "Conditions": "Regular schedule"
+      },
+      {
+        "Time": "17:00",
+        "Location": "Casino",
+        "Activity": "Visit",
+        "Conditions": "Regular schedule"
+      }
+    ],
+    "events": []
+  },
+  "4609": {
+    "name": "Kincho",
+    "source_file": "Tales of Seikyu - Kincho's Gifts, Schedule and Heart Events - Neoseeker.htm",
+    "details": {
+      "Birthday": "Winter 28",
+      "Romance": "Yes",
+      "Gifts": "Yes",
+      "Interests": "Fighting",
+      "Date Invitations": "Hot Spring and Tavern"
+    },
+    "gift_summary": {
+      "Favorites": "Three-Color Dango; Chicken Egg; Chicken; Any Crop",
+      "Likes": "Wanyūdō Outfit (Head); Wanyūdō Outfit (Upper); Wanyūdō Outfit (Lower); Samurai Outfit (Head); Samurai Outfit (Upper); Samurai Outfit (Lower); Rock Outfit (Head); Rock Outfit (Upper); Rock Outfit (Lower); Worship Attire (Head); Worship Attire (Upper); Worship Attire (Lower); Demon Slayer Outfit (Head); Demon Slayer Outfit (Upper); Demon Slayer Outfit (Lower); Beer; Any Weapons; Any Flowers",
+      "Dislikes": "Any Fish; Any Sweets",
+      "Hates": "Any Furniture; Any Manure"
+    },
+    "schedule": [],
+    "events": [
+      {
+        "Event": "Heart Event 1",
+        "Requirement": "7 hearts / favorability",
+        "Location": "Varies by event",
+        "What Happens": "Kincho admits he cares what you think of him, then weighs his personal feelings against the needs of his clan."
+      },
+      {
+        "Event": "Heart Event 2",
+        "Requirement": "8 hearts / favorability",
+        "Location": "Bell Tower",
+        "What Happens": "Kincho opens up after a kiss, feels a weight lift from him, and imagines carefree days together."
+      },
+      {
+        "Event": "Hot Spring Date",
+        "Requirement": "3+ hearts / favorability and the date location unlocked",
+        "Location": "Hot Spring (19:00-21:00)",
+        "What Happens": "You spend an evening with Kincho at the hot spring."
+      },
+      {
+        "Event": "Tavern Date",
+        "Requirement": "3+ hearts / favorability and the date location unlocked",
+        "Location": "Tavern (19:00-23:00)",
+        "What Happens": "You spend an evening with Kincho at the tavern."
+      },
+      {
+        "Event": "Night Date",
+        "Requirement": "8 hearts / favorability and lover status",
+        "Location": "After 22:00",
+        "What Happens": "You share a late-night relationship scene with Kincho."
+      },
+      {
+        "Event": "Wedding",
+        "Requirement": "10 hearts / favorability",
+        "Location": "Wedding quest",
+        "What Happens": "Kincho joins you for the wedding ceremony."
+      }
+    ]
+  },
+  "4103": {
+    "name": "Kinntarou",
+    "source_file": "Tales of Seikyu - Kinntarou's Gifts, Schedule and Events - Neoseeker.htm",
+    "details": {
+      "Birthday": "Autumn 2",
+      "Romance": "No",
+      "Interests": "Cooking"
+    },
+    "gift_summary": {
+      "Favorites": "Any Sweets",
+      "Likes": "Any Eatable",
+      "Dislikes": "",
+      "Hates": "Celery; Any Furniture; Any Manure"
+    },
+    "schedule": [
+      {
+        "Time": "08:00",
+        "Location": "Mika's Home",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Sat"
+      },
+      {
+        "Time": "12:00",
+        "Location": "Shuten's Tavern",
+        "Activity": "Visit",
+        "Conditions": "Not Rainy; Tavern unlocked"
+      },
+      {
+        "Time": "15:00",
+        "Location": "Hot Spring",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Any day except Mon, Thu, Fri, or Sat; Hot Spring unlocked; Hot spring bathing unlocked"
+      },
+      {
+        "Time": "17:00",
+        "Location": "Shuten's Tavern",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Any day except Mon, Thu, Fri, or Sat; Before Hot Spring is unlocked; Before Hot spring bathing is unlocked; Tavern unlocked"
+      },
+      {
+        "Time": "17:00",
+        "Location": "Shuten's Tavern",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Mon, Thu, Fri, or Sat; Tavern unlocked"
+      },
+      {
+        "Time": "17:00",
+        "Location": "Shuten's Tavern",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Sat; Tavern unlocked"
+      },
+      {
+        "Time": "20:00",
+        "Location": "Hot Spring",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Any day except Mon, Thu, Fri, or Sat; Hot Spring unlocked; Hot spring bathing unlocked"
+      }
+    ],
+    "events": [
+      {
+        "Event": "Heart Event 1",
+        "Requirement": "5 hearts / favorability",
+        "Location": "Varies by event",
+        "What Happens": "Kinntarou wakes from a food dream, thinks his tempura disappeared, and gets nudged to rest."
+      },
+      {
+        "Event": "Heart Event 2",
+        "Requirement": "5 hearts / favorability",
+        "Location": "Food Stall",
+        "What Happens": "The three brothers stage a food stall cook-off with a judge deciding the winner."
+      }
+    ]
+  },
+  "4221": {
+    "name": "Koiwa",
+    "source_file": "Tales of Seikyu - Koiwa's Gifts, Schedule and Events - Neoseeker.htm",
+    "details": {
+      "Birthday": "Winter 20",
+      "Romance": "No",
+      "Interests": "Farming",
+      "Shop": "Koiwa's Ranch Shop"
+    },
+    "gift_summary": {
+      "Favorites": "Wheat; Any Crop Seeds",
+      "Likes": "Any Vegetable; Any Fruit; Any Animal Products; Any Animals",
+      "Dislikes": "Any Meat; Any Fish; Any Sweets",
+      "Hates": "Potato Stew; Strawberry Milkshake; Any Manure"
+    },
+    "schedule": [
+      {
+        "Time": "08:00",
+        "Location": "Ranch Shop",
+        "Activity": "Run shop or stall",
+        "Conditions": "Regular schedule"
+      },
+      {
+        "Time": "18:00",
+        "Location": "Casino",
+        "Activity": "Visit",
+        "Conditions": "Sunny; Tavern unlocked"
+      },
+      {
+        "Time": "18:00",
+        "Location": "Tavern",
+        "Activity": "Visit",
+        "Conditions": "Sunny; Tavern unlocked"
+      }
+    ],
+    "events": [
+      {
+        "Event": "Heart Event",
+        "Requirement": "1 heart / favorability",
+        "Location": "Koiwa's Ranch",
+        "What Happens": "Koiwa has written you a letter, inviting you to consider raising animals on your farm. Head to the ranch to meet Koiwa, where he'll explain the requirements if you'd like to purchase animals. You’ll need to build a Small Coop before he can sell you the respective animals."
+      }
+    ]
+  },
+  "4101": {
+    "name": "Kon",
+    "source_file": "Tales of Seikyu - Kon's Gifts and Events - Neoseeker.htm",
+    "details": {
+      "Birthday": "Spring 12",
+      "Romance": "No",
+      "Gifts": "Yes"
+    },
+    "gift_summary": {
+      "Favorites": "Bobo Pearl; Pearl; Any Sweets",
+      "Likes": "Red Bean Mochi; \"Ninja Bubble\" (Lemon); \"Ninja Bubble\" (Strawberry); \"Ninja Bubble\" (Pineapple); \"Ninja Bubble\" (Melon)",
+      "Dislikes": "Any Egg; Any Wine and Liquor",
+      "Hates": "Blobfish; Any Manure"
+    },
+    "schedule": [],
+    "events": [
+      {
+        "Event": "Heart Event",
+        "Requirement": "5 hearts / favorability",
+        "Location": "Varies by event",
+        "What Happens": "Kon reflects on family, ancestors, and how much your circle has grown."
+      }
+    ]
+  },
+  "4107": {
+    "name": "Kon",
+    "source_file": "Tales of Seikyu - Kon's Gifts and Events - Neoseeker.htm",
+    "details": {
+      "Birthday": "Spring 12",
+      "Romance": "No",
+      "Gifts": "Yes"
+    },
+    "gift_summary": {
+      "Favorites": "Bobo Pearl; Pearl; Any Sweets",
+      "Likes": "Red Bean Mochi; \"Ninja Bubble\" (Lemon); \"Ninja Bubble\" (Strawberry); \"Ninja Bubble\" (Pineapple); \"Ninja Bubble\" (Melon)",
+      "Dislikes": "Any Egg; Any Wine and Liquor",
+      "Hates": "Blobfish; Any Manure"
+    },
+    "schedule": [],
+    "events": [
+      {
+        "Event": "Heart Event",
+        "Requirement": "5 hearts / favorability",
+        "Location": "Varies by event",
+        "What Happens": "Kon reflects on family, ancestors, and how much your circle has grown."
+      }
+    ]
+  },
+  "4220": {
+    "name": "Leon",
+    "source_file": "Tales of Seikyu - Leon's Gifts, Schedule and Heart Events - Neoseeker.htm",
+    "details": {
+      "Birthday": "Autumn 8",
+      "Romance": "Yes",
+      "Interests": "Exploration",
+      "Date Invitations": "Hot Spring and Tavern"
+    },
+    "gift_summary": {
+      "Favorites": "Inarizushi; Inari Amulet; Any Spicy Dishes",
+      "Likes": "Rice Burger; Any Crop Seeds; Any Dye; Any Flowers; Any Crop",
+      "Dislikes": "Any Sweets; Any Fish",
+      "Hates": "\"Ninja Bubble\" (Lemon); \"Ninja Bubble\" (Strawberry); \"Ninja Bubble\" (Pineapple); \"Ninja Bubble\" (Melon); Pineapple; Apple; Any Weapons; Any Manure"
+    },
+    "schedule": [
+      {
+        "Time": "09:00",
+        "Location": "Library",
+        "Activity": "Visit",
+        "Conditions": "Regular schedule"
+      },
+      {
+        "Time": "10:00",
+        "Location": "Library",
+        "Activity": "Visit",
+        "Conditions": "Regular schedule"
+      },
+      {
+        "Time": "13:30",
+        "Location": "Hot Spring",
+        "Activity": "Visit",
+        "Conditions": "Fri; Hot Spring unlocked; Hot spring bathing unlocked"
+      },
+      {
+        "Time": "16:00",
+        "Location": "Hot Spring",
+        "Activity": "Visit",
+        "Conditions": "Fri; Hot Spring unlocked; Hot spring bathing unlocked"
+      }
+    ],
+    "events": [
+      {
+        "Event": "Heart Event 1",
+        "Requirement": "4 hearts / favorability",
+        "Location": "Varies by event",
+        "What Happens": "Leon has asked if his students could talk with your ancestors. Talk to Leon when you’re ready."
+      },
+      {
+        "Event": "Heart Event 2",
+        "Requirement": "5 hearts / favorability",
+        "Location": "Temple",
+        "What Happens": "Leon wants you to grow spicy manticore peppers from his homeland. Bring the peppers to him at the temple and he’ll make you a special dish!"
+      },
+      {
+        "Event": "Heart Event 3",
+        "Requirement": "6 hearts / favorability",
+        "Location": "Temple",
+        "What Happens": "Leon sent you a letter to ask you to visit him at the temple, as he would like to chat about what has been happening around Seikyu. Go visit him."
+      },
+      {
+        "Event": "Hot Spring Date",
+        "Requirement": "3+ hearts / favorability and the date location unlocked",
+        "Location": "Hot Spring (19:00-21:00)",
+        "What Happens": "You spend an evening with Leon at the hot spring."
+      },
+      {
+        "Event": "Tavern Date",
+        "Requirement": "3+ hearts / favorability and the date location unlocked",
+        "Location": "Tavern (19:00-23:00)",
+        "What Happens": "You spend an evening with Leon at the tavern."
+      },
+      {
+        "Event": "Night Date",
+        "Requirement": "8 hearts / favorability and lover status",
+        "Location": "After 22:00",
+        "What Happens": "You share a late-night relationship scene with Leon."
+      },
+      {
+        "Event": "Wedding",
+        "Requirement": "10 hearts / favorability",
+        "Location": "Wedding quest",
+        "What Happens": "Leon joins you for the wedding ceremony."
+      }
+    ]
+  },
+  "4204": {
+    "name": "Liliana",
+    "source_file": "Tales of Seikyu - Liliana's Gifts, Schedule and Heart Events - Neoseeker.htm",
+    "details": {
+      "Birthday": "Winter 9",
+      "Romance": "Yes",
+      "Gifts": "Yes",
+      "Interests": "Mining",
+      "Date Invitations": "Hot Spring and Tavern",
+      "Shop": "Liliana's Gallery"
+    },
+    "gift_summary": {
+      "Favorites": "Three-Color Dango; Any Flowers",
+      "Likes": "Any Tea; Any Dye",
+      "Dislikes": "Any Wine and Liquor; Any Spicy Dishes",
+      "Hates": "\"Ninja Bubble\" (Lemon); \"Ninja Bubble\" (Strawberry); \"Ninja Bubble\" (Pineapple); \"Ninja Bubble\" (Melon); Coffee Bean; Coffee; Coffee-Flavored Cake; Any Manure"
+    },
+    "schedule": [
+      {
+        "Time": "06:00",
+        "Location": "Yohji & Liliana's Home",
+        "Activity": "Visit",
+        "Conditions": "Not Sunny; Any day except Mon, Wed, or Sun"
+      },
+      {
+        "Time": "08:00",
+        "Location": "Yohji & Liliana's Home",
+        "Activity": "Visit",
+        "Conditions": "Not Sunny; Mon"
+      },
+      {
+        "Time": "08:00",
+        "Location": "Yohji & Liliana's Home",
+        "Activity": "Visit",
+        "Conditions": "Not Sunny; Sun"
+      },
+      {
+        "Time": "09:00",
+        "Location": "Yohji & Liliana's Home",
+        "Activity": "Visit",
+        "Conditions": "Not Sunny; Mon"
+      },
+      {
+        "Time": "09:00",
+        "Location": "Yohji & Liliana's Home",
+        "Activity": "Visit",
+        "Conditions": "Not Sunny; Mon, Wed, or Sun"
+      },
+      {
+        "Time": "09:00",
+        "Location": "Yohji & Liliana's Home",
+        "Activity": "Visit",
+        "Conditions": "Sunny"
+      },
+      {
+        "Time": "09:30",
+        "Location": "Yohji & Liliana's Home",
+        "Activity": "Visit",
+        "Conditions": "Not Sunny; Mon, Wed, or Sun"
+      },
+      {
+        "Time": "10:00",
+        "Location": "Yohji & Liliana's Home",
+        "Activity": "Visit",
+        "Conditions": "Sunny"
+      },
+      {
+        "Time": "13:00",
+        "Location": "Hot Spring",
+        "Activity": "Visit",
+        "Conditions": "Not Sunny; Any day except Mon, Wed, or Sun; Hot Spring unlocked; Hot spring bathing unlocked"
+      },
+      {
+        "Time": "18:00",
+        "Location": "Hot Spring",
+        "Activity": "Visit",
+        "Conditions": "Not Sunny; Sun"
+      },
+      {
+        "Time": "18:00",
+        "Location": "Yohji & Liliana's Home",
+        "Activity": "Visit",
+        "Conditions": "Not Sunny; Any day except Mon, Wed, or Sun; Before Hot Spring is unlocked; Before Hot spring bathing is unlocked; Before Tavern is unlocked"
+      },
+      {
+        "Time": "18:00",
+        "Location": "Yohji & Liliana's Home",
+        "Activity": "Visit",
+        "Conditions": "Not Sunny; Mon, Wed, or Sun; Before Tavern is unlocked"
+      },
+      {
+        "Time": "18:00",
+        "Location": "Yohji & Liliana's Home",
+        "Activity": "Visit",
+        "Conditions": "Not Sunny; Mon; Before Tavern is unlocked"
+      },
+      {
+        "Time": "20:00",
+        "Location": "Hot Spring",
+        "Activity": "Visit",
+        "Conditions": "Not Sunny; Any day except Mon, Wed, or Sun; Hot Spring unlocked; Hot spring bathing unlocked"
+      },
+      {
+        "Time": "",
+        "Location": "",
+        "Activity": "",
+        "Conditions": ""
+      },
+      {
+        "Time": "21:30",
+        "Location": "Hot Spring",
+        "Activity": "Visit",
+        "Conditions": "Not Sunny; Sun"
+      }
+    ],
+    "events": [
+      {
+        "Event": "Heart Event 1",
+        "Requirement": "4 hearts / favorability",
+        "Location": "Fox Ruins",
+        "What Happens": "Yohji is troubled by his sister, Liliana, who hasn't returned from her morning walk. He fears she may have hurt herself while exploring the area and needs your help to find her."
+      },
+      {
+        "Event": "Heart Event 2",
+        "Requirement": "5 hearts / favorability",
+        "Location": "Liliana's home",
+        "What Happens": "You've been invited to Liliana's home tomorrow night to watch her special flowers bloom. Be there to experience it together."
+      },
+      {
+        "Event": "Heart Event 3",
+        "Requirement": "6 hearts / favorability",
+        "Location": "Varies by event",
+        "What Happens": "Liliana rushes to show you her finished Ephemera painting and wants you to see it right away."
+      },
+      {
+        "Event": "Heart Event 4",
+        "Requirement": "7 hearts / favorability",
+        "Location": "Temple",
+        "What Happens": "Liliana has invited you to see her Ephemera and Peacock Cactus paintings. Head over to the Inari Temple for the exhibition."
+      },
+      {
+        "Event": "Heart Event 5",
+        "Requirement": "8 hearts / favorability",
+        "Location": "Yoni's garden",
+        "What Happens": "Yoni is worried about Liliana's recent obsession with her garden and has asked you to spend some time with Liliana. Go to Yoni's garden when you’re free."
+      },
+      {
+        "Event": "Heart Event 6",
+        "Requirement": "9 hearts / favorability",
+        "Location": "Temple",
+        "What Happens": "Liliana has planned to show Priest Leon her latest piece of art, but she is very nervous. Go to the temple to accompany her and be her cheerleaders."
+      },
+      {
+        "Event": "Hot Spring Date",
+        "Requirement": "3+ hearts / favorability and the date location unlocked",
+        "Location": "Hot Spring (19:00-21:00)",
+        "What Happens": "You spend an evening with Liliana at the hot spring."
+      },
+      {
+        "Event": "Tavern Date",
+        "Requirement": "3+ hearts / favorability and the date location unlocked",
+        "Location": "Tavern (19:00-23:00)",
+        "What Happens": "You spend an evening with Liliana at the tavern."
+      },
+      {
+        "Event": "Night Date",
+        "Requirement": "8 hearts / favorability and lover status",
+        "Location": "After 22:00",
+        "What Happens": "You share a late-night relationship scene with Liliana."
+      },
+      {
+        "Event": "Wedding",
+        "Requirement": "10 hearts / favorability",
+        "Location": "Wedding quest",
+        "What Happens": "Liliana joins you for the wedding ceremony."
+      }
+    ]
+  },
+  "4219": {
+    "name": "Mika",
+    "source_file": "Tales of Seikyu - Mika's Gifts, Schedule and Heart Events - Neoseeker.htm",
+    "details": {
+      "Birthday": "Winter 12",
+      "Romance": "Yes",
+      "Interests": "Farming",
+      "Date Invitations": "Hot Spring and Tavern",
+      "Shop": "Mika's Hot Spring Shop"
+    },
+    "gift_summary": {
+      "Favorites": "Strawberry; Any Sweets; Any Dye",
+      "Likes": "\"Ninja Bubble\" (Lemon); \"Ninja Bubble\" (Strawberry); \"Ninja Bubble\" (Pineapple); \"Ninja Bubble\" (Melon); Soy Sauce Dango; Three-Color Dango",
+      "Dislikes": "Any Spicy Dishes",
+      "Hates": "Any Fish; Any Wine and Liquor; Any Manure"
+    },
+    "schedule": [
+      {
+        "Time": "10:00",
+        "Location": "Mika's Home",
+        "Activity": "Visit",
+        "Conditions": "Regular schedule"
+      },
+      {
+        "Time": "10:00",
+        "Location": "Mika's Home",
+        "Activity": "Visit",
+        "Conditions": "Spring or Autumn"
+      },
+      {
+        "Time": "13:00",
+        "Location": "Hot Spring",
+        "Activity": "Visit",
+        "Conditions": "Regular schedule"
+      },
+      {
+        "Time": "13:00",
+        "Location": "Hot Spring",
+        "Activity": "Visit the hot spring",
+        "Conditions": "Regular schedule"
+      },
+      {
+        "Time": "15:00",
+        "Location": "Mika's Home",
+        "Activity": "Visit",
+        "Conditions": "Summer or Winter"
+      },
+      {
+        "Time": "17:00",
+        "Location": "Hot Spring",
+        "Activity": "Visit the hot spring",
+        "Conditions": "Regular schedule"
+      },
+      {
+        "Time": "19:00",
+        "Location": "Hot Spring",
+        "Activity": "Visit",
+        "Conditions": "Regular schedule"
+      },
+      {
+        "Time": "20:00",
+        "Location": "Hot Spring",
+        "Activity": "Visit the hot spring",
+        "Conditions": "Regular schedule"
+      },
+      {
+        "Time": "21:00",
+        "Location": "Hot Spring",
+        "Activity": "Visit the hot spring",
+        "Conditions": "Regular schedule"
+      }
+    ],
+    "events": [
+      {
+        "Event": "Heart Event 1",
+        "Requirement": "4 hearts / favorability",
+        "Location": "Mika's place",
+        "What Happens": "Mika invites you and Kon to go over to her place and play games with her."
+      },
+      {
+        "Event": "Heart Event 2",
+        "Requirement": "5 hearts / favorability",
+        "Location": "Mika's Hot Springs",
+        "What Happens": "Mika opens up about her past travels, the hardship she endured, and why Seikyu feels safe to her."
+      },
+      {
+        "Event": "Heart Event 3",
+        "Requirement": "6 hearts / favorability",
+        "Location": "Mika's Hot Springs",
+        "What Happens": "Mika responds to a relationship commitment, says you helped her gain confidence, and confesses her feelings."
+      },
+      {
+        "Event": "Hot Spring Date",
+        "Requirement": "3+ hearts / favorability and the date location unlocked",
+        "Location": "Hot Spring (19:00-21:00)",
+        "What Happens": "You spend an evening with Mika at the hot spring."
+      },
+      {
+        "Event": "Tavern Date",
+        "Requirement": "3+ hearts / favorability and the date location unlocked",
+        "Location": "Tavern (19:00-23:00)",
+        "What Happens": "You spend an evening with Mika at the tavern."
+      },
+      {
+        "Event": "Night Date",
+        "Requirement": "8 hearts / favorability and lover status",
+        "Location": "After 22:00",
+        "What Happens": "You share a late-night relationship scene with Mika."
+      },
+      {
+        "Event": "Wedding",
+        "Requirement": "10 hearts / favorability",
+        "Location": "Wedding quest",
+        "What Happens": "Mika joins you for the wedding ceremony."
+      }
+    ]
+  },
+  "4205": {
+    "name": "Miss Ama",
+    "source_file": "Tales of Seikyu - Miss Ama's Gifts, Schedule and Heart Events - Neoseeker.htm",
+    "details": {
+      "Birthday": "Autumn 17",
+      "Romance": "Yes",
+      "Interests": "Collection",
+      "Date Invitations": "Hot Spring and Tavern",
+      "Shop": "Miss Ama's Tailor Shop"
+    },
+    "gift_summary": {
+      "Favorites": "Bobo Pearl; Pearl; Grilled Fish; Any Seafood Dishes; Any Fish",
+      "Likes": "Kimono Stand; Any Dye",
+      "Dislikes": "Pickling Barrel; Mayonnaise Maker; Cheese Press; Drying Rack; Sake Brewer; Tofu Press; Stone Mill; Stove; Any Meat",
+      "Hates": "Strawberry Milkshake; \"Ninja Bubble\" (Lemon); \"Ninja Bubble\" (Strawberry); \"Ninja Bubble\" (Pineapple); \"Ninja Bubble\" (Melon); Any Manure"
+    },
+    "schedule": [
+      {
+        "Time": "09:00",
+        "Location": "Ama's Home",
+        "Activity": "Visit",
+        "Conditions": "Not Rainy; Sat or Sun"
+      },
+      {
+        "Time": "09:00",
+        "Location": "Ama's Home",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Mon, Sat, or Sun"
+      },
+      {
+        "Time": "09:00",
+        "Location": "Ama's Home",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Sat"
+      },
+      {
+        "Time": "18:00",
+        "Location": "Torleone & Seabert's Home",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Sat; Before Tavern is unlocked"
+      }
+    ],
+    "events": [
+      {
+        "Event": "Heart Event",
+        "Requirement": "1 heart / favorability",
+        "Location": "Varies by event",
+        "What Happens": "Miss Ama struggles to finish a design and spirals through ideas that just will not click."
+      },
+      {
+        "Event": "Hot Spring Date",
+        "Requirement": "3+ hearts / favorability and the date location unlocked",
+        "Location": "Hot Spring (19:00-21:00)",
+        "What Happens": "You spend an evening with Miss Ama at the hot spring."
+      },
+      {
+        "Event": "Tavern Date",
+        "Requirement": "3+ hearts / favorability and the date location unlocked",
+        "Location": "Tavern (19:00-23:00)",
+        "What Happens": "You spend an evening with Miss Ama at the tavern."
+      },
+      {
+        "Event": "Night Date",
+        "Requirement": "8 hearts / favorability and lover status",
+        "Location": "After 22:00",
+        "What Happens": "You share a late-night relationship scene with Miss Ama."
+      },
+      {
+        "Event": "Wedding",
+        "Requirement": "10 hearts / favorability",
+        "Location": "Wedding quest",
+        "What Happens": "Miss Ama joins you for the wedding ceremony."
+      }
+    ]
+  },
+  "4203": {
+    "name": "Musashi",
+    "source_file": "Tales of Seikyu - Musashi's Gifts, Schedule and Heart Events - Neoseeker.htm",
+    "details": {
+      "Birthday": "Spring 6",
+      "Romance": "Yes",
+      "Interests": "Fishing",
+      "Date Invitations": "Hot Spring and Tavern",
+      "Shop": "Musashi's General Store"
+    },
+    "gift_summary": {
+      "Favorites": "Salmon; Cuttlefish; White Ceramic Tea Set; Yaki Onigiri Chazuke; Any Tea",
+      "Likes": "Milk; Takoyaki; Advanced Fishing Rod; Professional Fishing Rod; Any Fish; Any Crop",
+      "Dislikes": "Beer; Grilled Vegetables; Okonomiyaki; Confit Lamb Stew; Nimu Chicken; Elva's Beef Curry with Rice; Red-Braised Chicken with Rice; Lun's Beef Stew; Pot-Fried Pork; Any Clothes; Any Fried Dishes",
+      "Hates": "Cheese; Cucumber; Any Manure"
+    },
+    "schedule": [
+      {
+        "Time": "09:00",
+        "Location": "Musashi's Home",
+        "Activity": "Visit",
+        "Conditions": "Rainy"
+      },
+      {
+        "Time": "13:00",
+        "Location": "Hot Spring",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Hot spring bathing unlocked"
+      },
+      {
+        "Time": "16:00",
+        "Location": "Hot Spring",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Hot spring bathing unlocked"
+      }
+    ],
+    "events": [
+      {
+        "Event": "Heart Event 1",
+        "Requirement": "3 hearts / favorability",
+        "Location": "Musashi's house",
+        "What Happens": "Musashi has invited you and Kon to his house for tea and you heard there will be delicious wagashi. Let's go when you have time!"
+      },
+      {
+        "Event": "Heart Event 2",
+        "Requirement": "5 hearts / favorability; Find the clue hidden where you first met Musashi.",
+        "Location": "Varies by event",
+        "What Happens": "Nine Lives told you that Musashi is hiding something from you. Find the clue hidden where you first met Musashi, and break into the safe and discover the truth."
+      },
+      {
+        "Event": "Heart Event 3",
+        "Requirement": "7 hearts / favorability",
+        "Location": "Umibozu's whirlpool",
+        "What Happens": "Musashi has told you that Umibozu is going to collect his life debt tonight. Maybe you can stop it! Go to Umibozu's whirlpool by 8 pm to stop him."
+      },
+      {
+        "Event": "Hot Spring Date",
+        "Requirement": "3+ hearts / favorability and the date location unlocked",
+        "Location": "Hot Spring (19:00-21:00)",
+        "What Happens": "You spend an evening with Musashi at the hot spring."
+      },
+      {
+        "Event": "Tavern Date",
+        "Requirement": "3+ hearts / favorability and the date location unlocked",
+        "Location": "Tavern (19:00-23:00)",
+        "What Happens": "You spend an evening with Musashi at the tavern."
+      },
+      {
+        "Event": "Night Date",
+        "Requirement": "8 hearts / favorability and lover status",
+        "Location": "After 22:00",
+        "What Happens": "You share a late-night relationship scene with Musashi."
+      },
+      {
+        "Event": "Wedding",
+        "Requirement": "10 hearts / favorability",
+        "Location": "Wedding quest",
+        "What Happens": "Musashi joins you for the wedding ceremony."
+      }
+    ]
+  },
+  "4310": {
+    "name": "Musashi",
+    "source_file": "Tales of Seikyu - Musashi's Gifts, Schedule and Heart Events - Neoseeker.htm",
+    "details": {
+      "Birthday": "Spring 6",
+      "Romance": "Yes",
+      "Interests": "Fishing",
+      "Date Invitations": "Hot Spring and Tavern",
+      "Shop": "Musashi's General Store"
+    },
+    "gift_summary": {
+      "Favorites": "Salmon; Cuttlefish; White Ceramic Tea Set; Yaki Onigiri Chazuke; Any Tea",
+      "Likes": "Milk; Takoyaki; Advanced Fishing Rod; Professional Fishing Rod; Any Fish; Any Crop",
+      "Dislikes": "Beer; Grilled Vegetables; Okonomiyaki; Confit Lamb Stew; Nimu Chicken; Elva's Beef Curry with Rice; Red-Braised Chicken with Rice; Lun's Beef Stew; Pot-Fried Pork; Any Clothes; Any Fried Dishes",
+      "Hates": "Cheese; Cucumber; Any Manure"
+    },
+    "schedule": [
+      {
+        "Time": "09:00",
+        "Location": "Musashi's Home",
+        "Activity": "Visit",
+        "Conditions": "Rainy"
+      },
+      {
+        "Time": "13:00",
+        "Location": "Hot Spring",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Hot spring bathing unlocked"
+      },
+      {
+        "Time": "16:00",
+        "Location": "Hot Spring",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Hot spring bathing unlocked"
+      }
+    ],
+    "events": [
+      {
+        "Event": "Heart Event 1",
+        "Requirement": "3 hearts / favorability",
+        "Location": "Musashi's house",
+        "What Happens": "Musashi has invited you and Kon to his house for tea and you heard there will be delicious wagashi. Let's go when you have time!"
+      },
+      {
+        "Event": "Heart Event 2",
+        "Requirement": "5 hearts / favorability; Find the clue hidden where you first met Musashi.",
+        "Location": "Varies by event",
+        "What Happens": "Nine Lives told you that Musashi is hiding something from you. Find the clue hidden where you first met Musashi, and break into the safe and discover the truth."
+      },
+      {
+        "Event": "Heart Event 3",
+        "Requirement": "7 hearts / favorability",
+        "Location": "Umibozu's whirlpool",
+        "What Happens": "Musashi has told you that Umibozu is going to collect his life debt tonight. Maybe you can stop it! Go to Umibozu's whirlpool by 8 pm to stop him."
+      },
+      {
+        "Event": "Hot Spring Date",
+        "Requirement": "3+ hearts / favorability and the date location unlocked",
+        "Location": "Hot Spring (19:00-21:00)",
+        "What Happens": "You spend an evening with Musashi at the hot spring."
+      },
+      {
+        "Event": "Tavern Date",
+        "Requirement": "3+ hearts / favorability and the date location unlocked",
+        "Location": "Tavern (19:00-23:00)",
+        "What Happens": "You spend an evening with Musashi at the tavern."
+      },
+      {
+        "Event": "Night Date",
+        "Requirement": "8 hearts / favorability and lover status",
+        "Location": "After 22:00",
+        "What Happens": "You share a late-night relationship scene with Musashi."
+      },
+      {
+        "Event": "Wedding",
+        "Requirement": "10 hearts / favorability",
+        "Location": "Wedding quest",
+        "What Happens": "Musashi joins you for the wedding ceremony."
+      }
+    ]
+  },
+  "4605": {
+    "name": "Nine Lives",
+    "source_file": "Tales of Seikyu - Nine Lives's Gifts and Schedule - Neoseeker.htm",
+    "details": {
+      "Birthday": "Unknown",
+      "Romance": "No",
+      "Shops": "Nine Lives Black Market; Merchant Cats - Nine Lives’ Vendors"
+    },
+    "gift_summary": {
+      "Favorites": "Salmon; Cuttlefish; White Ceramic Tea Set; Yaki Onigiri Chazuke; Any Tea",
+      "Likes": "Milk; Takoyaki; Advanced Fishing Rod; Professional Fishing Rod; Any Fish; Any Crop",
+      "Dislikes": "Beer; Grilled Vegetables; Okonomiyaki; Confit Lamb Stew; Nimu Chicken; Elva's Beef Curry with Rice; Red-Braised Chicken with Rice; Lun's Beef Stew; Pot-Fried Pork; Any Clothes; Any Fried Dishes",
+      "Hates": "Cheese; Cucumber; Any Manure"
+    },
+    "schedule": [],
+    "events": []
+  },
+  "4104": {
+    "name": "Nyotengu",
+    "source_file": "Tales of Seikyu - Nyotengu's Gifts, Schedule and Heart Events - Neoseeker.htm",
+    "details": {
+      "Birthday": "Winter 4",
+      "Romance": "Yes",
+      "Interests": "Fighting",
+      "Date Invitations": "Hot Spring and Tavern"
+    },
+    "gift_summary": {
+      "Favorites": "Char-Grilled Kebabs; Soy Sauce Dango; Any Wine and Liquor; Any Equipment",
+      "Likes": "Sakura Wine; Amaterasu Amulet; Inari Amulet; Phoenix Armor (Lower); Yokai Affinity Ring; Undefeated General's Armor (Upper); Dororo, the Black Sword; Any Collectibles",
+      "Dislikes": "Any Fish; Any Sweets; Any Crop",
+      "Hates": "Scrambled Eggs; Any Dye; Any Flowers; Any Manure; Any Egg"
+    },
+    "schedule": [
+      {
+        "Time": "10:00",
+        "Location": "Nyotengu's Home",
+        "Activity": "Visit",
+        "Conditions": "Rainy"
+      },
+      {
+        "Time": "14:00",
+        "Location": "Hot Spring",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Hot Spring unlocked; Hot spring bathing unlocked"
+      },
+      {
+        "Time": "17:30",
+        "Location": "Hot Spring",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Hot Spring unlocked; Hot spring bathing unlocked"
+      }
+    ],
+    "events": [
+      {
+        "Event": "Heart Event 1",
+        "Requirement": "8 hearts / favorability",
+        "Location": "Bamboo Forest",
+        "What Happens": "Kon heard Nyotengu playing her flute in the bamboo forest again. She thinks you should check on her one evening soon."
+      },
+      {
+        "Event": "Heart Event 2",
+        "Requirement": "9 hearts / favorability",
+        "Location": "Mika's Hot Springs",
+        "What Happens": "Talk to Nyotengu about visiting the hot springs again."
+      },
+      {
+        "Event": "Heart Event 3",
+        "Requirement": "5 hearts / favorability",
+        "Location": "Mika's Hot Springs",
+        "What Happens": "Nyotengu invites you to sit with her and says the tanuki's arrival has given her the conflict she wanted."
+      },
+      {
+        "Event": "Hot Spring Date",
+        "Requirement": "3+ hearts / favorability and the date location unlocked",
+        "Location": "Hot Spring (19:00-21:00)",
+        "What Happens": "You spend an evening with Nyotengu at the hot spring."
+      },
+      {
+        "Event": "Tavern Date",
+        "Requirement": "3+ hearts / favorability and the date location unlocked",
+        "Location": "Tavern (19:00-23:00)",
+        "What Happens": "You spend an evening with Nyotengu at the tavern."
+      },
+      {
+        "Event": "Night Date",
+        "Requirement": "8 hearts / favorability and lover status",
+        "Location": "After 22:00",
+        "What Happens": "You share a late-night relationship scene with Nyotengu."
+      },
+      {
+        "Event": "Wedding",
+        "Requirement": "10 hearts / favorability",
+        "Location": "Wedding quest",
+        "What Happens": "Nyotengu joins you for the wedding ceremony."
+      }
+    ]
+  },
+  "4606": {
+    "name": "Nyotengu",
+    "source_file": "Tales of Seikyu - Nyotengu's Gifts, Schedule and Heart Events - Neoseeker.htm",
+    "details": {
+      "Birthday": "Winter 4",
+      "Romance": "Yes",
+      "Interests": "Fighting",
+      "Date Invitations": "Hot Spring and Tavern"
+    },
+    "gift_summary": {
+      "Favorites": "Char-Grilled Kebabs; Soy Sauce Dango; Any Wine and Liquor; Any Equipment",
+      "Likes": "Sakura Wine; Amaterasu Amulet; Inari Amulet; Phoenix Armor (Lower); Yokai Affinity Ring; Undefeated General's Armor (Upper); Dororo, the Black Sword; Any Collectibles",
+      "Dislikes": "Any Fish; Any Sweets; Any Crop",
+      "Hates": "Scrambled Eggs; Any Dye; Any Flowers; Any Manure; Any Egg"
+    },
+    "schedule": [
+      {
+        "Time": "10:00",
+        "Location": "Nyotengu's Home",
+        "Activity": "Visit",
+        "Conditions": "Rainy"
+      },
+      {
+        "Time": "14:00",
+        "Location": "Hot Spring",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Hot Spring unlocked; Hot spring bathing unlocked"
+      },
+      {
+        "Time": "17:30",
+        "Location": "Hot Spring",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Hot Spring unlocked; Hot spring bathing unlocked"
+      }
+    ],
+    "events": [
+      {
+        "Event": "Heart Event 1",
+        "Requirement": "8 hearts / favorability",
+        "Location": "Bamboo Forest",
+        "What Happens": "Kon heard Nyotengu playing her flute in the bamboo forest again. She thinks you should check on her one evening soon."
+      },
+      {
+        "Event": "Heart Event 2",
+        "Requirement": "9 hearts / favorability",
+        "Location": "Mika's Hot Springs",
+        "What Happens": "Talk to Nyotengu about visiting the hot springs again."
+      },
+      {
+        "Event": "Heart Event 3",
+        "Requirement": "5 hearts / favorability",
+        "Location": "Mika's Hot Springs",
+        "What Happens": "Nyotengu invites you to sit with her and says the tanuki's arrival has given her the conflict she wanted."
+      },
+      {
+        "Event": "Hot Spring Date",
+        "Requirement": "3+ hearts / favorability and the date location unlocked",
+        "Location": "Hot Spring (19:00-21:00)",
+        "What Happens": "You spend an evening with Nyotengu at the hot spring."
+      },
+      {
+        "Event": "Tavern Date",
+        "Requirement": "3+ hearts / favorability and the date location unlocked",
+        "Location": "Tavern (19:00-23:00)",
+        "What Happens": "You spend an evening with Nyotengu at the tavern."
+      },
+      {
+        "Event": "Night Date",
+        "Requirement": "8 hearts / favorability and lover status",
+        "Location": "After 22:00",
+        "What Happens": "You share a late-night relationship scene with Nyotengu."
+      },
+      {
+        "Event": "Wedding",
+        "Requirement": "10 hearts / favorability",
+        "Location": "Wedding quest",
+        "What Happens": "Nyotengu joins you for the wedding ceremony."
+      }
+    ]
+  },
+  "4212": {
+    "name": "Prince",
+    "source_file": "Tales of Seikyu - Prince's Gifts and Schedule - Neoseeker.htm",
+    "details": {
+      "Birthday": "Summer 24",
+      "Romance": "No",
+      "Interests": "Fishing"
+    },
+    "gift_summary": {
+      "Favorites": "Cucumber; Bobo Pearl; Pearl; Soy Sauce Dango; Any Vegetable; Any Vegetarian Dishes",
+      "Likes": "Strawberry Milkshake; Any Fish",
+      "Dislikes": "Any Meat Dishes; Any Spicy Dishes; Any Fish",
+      "Hates": "Matcha; Any Manure"
+    },
+    "schedule": [
+      {
+        "Time": "02:24",
+        "Location": "Prince's Home",
+        "Activity": "Visit",
+        "Conditions": "Regular schedule"
+      },
+      {
+        "Time": "06:00",
+        "Location": "Prince's Home",
+        "Activity": "Visit",
+        "Conditions": "Not Sunny"
+      },
+      {
+        "Time": "06:00",
+        "Location": "Prince's Home",
+        "Activity": "Visit",
+        "Conditions": "Sunny; Any day except Fri or Sat"
+      },
+      {
+        "Time": "06:00",
+        "Location": "Prince's Home",
+        "Activity": "Visit",
+        "Conditions": "Sunny; Fri"
+      },
+      {
+        "Time": "06:00",
+        "Location": "Prince's Home",
+        "Activity": "Visit",
+        "Conditions": "Sunny; Fri or Sat"
+      },
+      {
+        "Time": "18:00",
+        "Location": "Torleone & Seabert's Home",
+        "Activity": "Visit",
+        "Conditions": "Sunny; Any day except Fri or Sat; Before Tavern is unlocked"
+      },
+      {
+        "Time": "20:00",
+        "Location": "Prince's Home",
+        "Activity": "Visit",
+        "Conditions": "Sunny; Fri"
+      },
+      {
+        "Time": "21:00",
+        "Location": "Prince's Home",
+        "Activity": "Visit",
+        "Conditions": "Not Sunny"
+      },
+      {
+        "Time": "23:00",
+        "Location": "Prince's Home",
+        "Activity": "Visit",
+        "Conditions": "Sunny; Any day except Fri or Sat"
+      }
+    ],
+    "events": []
+  },
+  "4102": {
+    "name": "Ritsuryo",
+    "source_file": "Tales of Seikyu - Ritsuryo's Gifts, Schedule and Events - Neoseeker.htm",
+    "details": {
+      "Birthday": "Autumn 2",
+      "Romance": "No",
+      "Interests": "Fighting",
+      "Shop": "Ritsuryo's Trinket Stall"
+    },
+    "gift_summary": {
+      "Favorites": "\"Ninja Bubble\" (Melon); Any Weapons; Any Board Game Model",
+      "Likes": "\"Ninja Bubble\" (Melon); Any Fried Dishes; Any Equipment",
+      "Dislikes": "Any Tea; Any Furniture; Any Vegetable",
+      "Hates": "Matcha Cake; Carrot; Any Manure"
+    },
+    "schedule": [
+      {
+        "Time": "12:00",
+        "Location": "Tavern",
+        "Activity": "Visit",
+        "Conditions": "Not Rainy; Tavern unlocked"
+      },
+      {
+        "Time": "13:00",
+        "Location": "Hot Spring",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Any day except Mon, Wed, Fri, or Sat; Hot Spring unlocked; Hot spring bathing unlocked"
+      },
+      {
+        "Time": "16:00",
+        "Location": "Hot Spring",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Any day except Mon, Wed, Fri, or Sat; Hot Spring unlocked; Hot spring bathing unlocked"
+      },
+      {
+        "Time": "17:00",
+        "Location": "Tavern",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Any day except Mon, Wed, Fri, or Sat; Tavern unlocked"
+      },
+      {
+        "Time": "17:00",
+        "Location": "Tavern",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Mon, Wed, Fri, or Sat; Tavern unlocked"
+      }
+    ],
+    "events": [
+      {
+        "Event": "Heart Event",
+        "Requirement": "5 hearts / favorability",
+        "Location": "McDucky's",
+        "What Happens": "Ritsuryo takes the group to McDucky's after they get a car, and everyone heads inside to eat."
+      }
+    ]
+  },
+  "4210": {
+    "name": "Sasaki",
+    "source_file": "Tales of Seikyu - Sasaki's Gifts, Schedule and Heart Events - Neoseeker.htm",
+    "details": {
+      "Birthday": "Winter 20",
+      "Romance": "Yes",
+      "Interests": "Collection",
+      "Date Invitations": "Hot Spring and Tavern",
+      "Shop": "Sasaki's Furniture Studio"
+    },
+    "gift_summary": {
+      "Favorites": "Potato Pancake; Miso Soup; Any Tea",
+      "Likes": "Red Bean Mochi; Any Wood; Any Vegetable",
+      "Dislikes": "Refined Miso Soup; Outdoor Bonfire; Any Fish; Any Seafood Dishes",
+      "Hates": "Basic Explosive Barrel; Shrimp Onigiri; Any Manure"
+    },
+    "schedule": [
+      {
+        "Time": "15:00",
+        "Location": "Hot Spring",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Any day except Wed, Sat, or Sun; Hot Spring unlocked; Hot spring bathing unlocked"
+      },
+      {
+        "Time": "18:00",
+        "Location": "Casino",
+        "Activity": "Visit",
+        "Conditions": "Not Rainy; Casino unlocked"
+      },
+      {
+        "Time": "20:00",
+        "Location": "Casino",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Wed; Casino unlocked"
+      },
+      {
+        "Time": "20:00",
+        "Location": "Hot Spring",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Any day except Wed, Sat, or Sun; Hot Spring unlocked; Hot spring bathing unlocked"
+      },
+      {
+        "Time": "23:00",
+        "Location": "Casino",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Wed; Casino unlocked"
+      }
+    ],
+    "events": [
+      {
+        "Event": "Heart Event 1",
+        "Requirement": "2 hearts / favorability",
+        "Location": "Beach",
+        "What Happens": "Seabert sees a stranger on the beach one morning and comes to you as he needs help investigating. You and Kon decide to help him out."
+      },
+      {
+        "Event": "Heart Event 2",
+        "Requirement": "3 hearts / favorability",
+        "Location": "Shuten's Tavern",
+        "What Happens": "Yoni swings by the farmhouse to tell you that Sasaki has something he wants to talk to you about. Head to the tavern to meet up with him."
+      },
+      {
+        "Event": "Heart Event 3",
+        "Requirement": "4 hearts / favorability",
+        "Location": "Sasaki's Home",
+        "What Happens": "Sasaki hurt himself while chopping wood and needs your help collecting supplies for the shop."
+      },
+      {
+        "Event": "Heart Event 4",
+        "Requirement": "7 hearts / favorability",
+        "Location": "Tree of the Mountain Goddess",
+        "What Happens": "Sasaki has sent you a message that he is finally ready to learn the truth. What secrets will be revealed about his mysterious past? Go and meet him at the Tree of the Mountain Goddess."
+      },
+      {
+        "Event": "Hot Spring Date",
+        "Requirement": "3+ hearts / favorability and the date location unlocked",
+        "Location": "Hot Spring (19:00-21:00)",
+        "What Happens": "You spend an evening with Sasaki at the hot spring."
+      },
+      {
+        "Event": "Tavern Date",
+        "Requirement": "3+ hearts / favorability and the date location unlocked",
+        "Location": "Tavern (19:00-23:00)",
+        "What Happens": "You spend an evening with Sasaki at the tavern."
+      },
+      {
+        "Event": "Night Date",
+        "Requirement": "8 hearts / favorability and lover status",
+        "Location": "After 22:00",
+        "What Happens": "You share a late-night relationship scene with Sasaki."
+      },
+      {
+        "Event": "Wedding",
+        "Requirement": "10 hearts / favorability",
+        "Location": "Wedding quest",
+        "What Happens": "Sasaki joins you for the wedding ceremony."
+      }
+    ]
+  },
+  "4207": {
+    "name": "Seabert",
+    "source_file": "Tales of Seikyu - Seabert's Gifts, Schedule and Events - Neoseeker.htm",
+    "details": {
+      "Birthday": "Spring 25",
+      "Romance": "No",
+      "Interests": "Exploration",
+      "Shop": "Seabert's Carp Festival Stall"
+    },
+    "gift_summary": {
+      "Favorites": "\"Ninja Bubble\" (Lemon); Takoyaki",
+      "Likes": "VHS Camcorder; Any Sweets; Any Fishing Rods; Any Flowers",
+      "Dislikes": "Elva's Beef Curry with Rice; Red-Braised Chicken with Rice; Lun's Beef Stew; Confit Lamb Stew; Potato Stew; Any Fruit; Any Crop Seeds",
+      "Hates": "Grilled Vegetables; Any Weapons; Any Manure"
+    },
+    "schedule": [
+      {
+        "Time": "06:00",
+        "Location": "Torleone & Seabert's Home",
+        "Activity": "Visit",
+        "Conditions": "Not Rainy"
+      },
+      {
+        "Time": "06:00",
+        "Location": "Torleone & Seabert's Home",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Any day except Mon, Fri, Sat, or Sun"
+      },
+      {
+        "Time": "06:00",
+        "Location": "Torleone & Seabert's Home",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Fri"
+      },
+      {
+        "Time": "06:00",
+        "Location": "Torleone & Seabert's Home",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Mon, Fri, Sat, or Sun"
+      },
+      {
+        "Time": "06:00",
+        "Location": "Torleone & Seabert's Home",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Sat"
+      },
+      {
+        "Time": "06:00",
+        "Location": "Torleone & Seabert's Home",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Sun"
+      },
+      {
+        "Time": "15:00",
+        "Location": "Hot Spring",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Any day except Mon, Fri, Sat, or Sun; Hot Spring unlocked; Hot spring bathing unlocked"
+      },
+      {
+        "Time": "15:00",
+        "Location": "Torleone & Seabert's Home",
+        "Activity": "Visit",
+        "Conditions": "Not Rainy"
+      },
+      {
+        "Time": "18:00",
+        "Location": "Torleone & Seabert's Home",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Sat; Before Tavern is unlocked"
+      },
+      {
+        "Time": "20:00",
+        "Location": "Hot Spring",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Any day except Mon, Fri, Sat, or Sun; Hot Spring unlocked; Hot spring bathing unlocked"
+      },
+      {
+        "Time": "20:00",
+        "Location": "Torleone & Seabert's Home",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Any day except Mon, Fri, Sat, or Sun; Before Hot Spring is unlocked; Before Hot spring bathing is unlocked"
+      },
+      {
+        "Time": "20:00",
+        "Location": "Torleone & Seabert's Home",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Fri"
+      },
+      {
+        "Time": "20:00",
+        "Location": "Torleone & Seabert's Home",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Mon, Fri, Sat, or Sun"
+      },
+      {
+        "Time": "20:00",
+        "Location": "Torleone & Seabert's Home",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Sun"
+      },
+      {
+        "Time": "",
+        "Location": "",
+        "Activity": "",
+        "Conditions": ""
+      },
+      {
+        "Time": "21:00",
+        "Location": "Torleone & Seabert's Home",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Any day except Mon, Fri, Sat, or Sun"
+      },
+      {
+        "Time": "23:00",
+        "Location": "Torleone & Seabert's Home",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Sat"
+      }
+    ],
+    "events": [
+      {
+        "Event": "Heart Event 1",
+        "Requirement": "2 hearts / favorability",
+        "Location": "Varies by event",
+        "What Happens": "Torleone is worried about Seabert who seems to be struggling, but will not talk to Torleone because he does not want him to be worried. See if you’re able to get Seabert to open up to you."
+      },
+      {
+        "Event": "Heart Event 2",
+        "Requirement": "3 hearts / favorability",
+        "Location": "Shuten's Tavern",
+        "What Happens": "Yui has asked you to bring the photo Seabert took of you and Kon to the tavern, as it will be a part of a little exhibition to celebrate Seabert's talent! Head over to the tavern now!"
+      }
+    ]
+  },
+  "4208": {
+    "name": "Shuten",
+    "source_file": "Tales of Seikyu - Shuten's Gifts, Schedule and Heart Events - Neoseeker.htm",
+    "details": {
+      "Birthday": "Autumn 28",
+      "Romance": "Yes",
+      "Interests": "Cooking",
+      "Date Invitations": "Hot Spring and Tavern",
+      "Shop": "Bar"
+    },
+    "gift_summary": {
+      "Favorites": "Sake; Strong Tea",
+      "Likes": "\"Ninja Bubble\" (Lemon); \"Ninja Bubble\" (Strawberry); \"Ninja Bubble\" (Pineapple); \"Ninja Bubble\" (Melon); Any Spicy Dishes",
+      "Dislikes": "Any Weapons; Any Sweets",
+      "Hates": "Tapioca Pudding; Any Loot; Any Manure"
+    },
+    "schedule": [
+      {
+        "Time": "09:00",
+        "Location": "Casino",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Mon; Casino unlocked"
+      },
+      {
+        "Time": "09:00",
+        "Location": "Shuten's Home",
+        "Activity": "Visit",
+        "Conditions": "Not Rainy"
+      },
+      {
+        "Time": "09:00",
+        "Location": "Shuten's Home",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Any day except Mon, Thu, or Sat"
+      },
+      {
+        "Time": "09:00",
+        "Location": "Shuten's Home",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Mon; Before Casino is unlocked"
+      },
+      {
+        "Time": "12:00",
+        "Location": "Shuten's Tavern",
+        "Activity": "Visit",
+        "Conditions": "Regular schedule"
+      },
+      {
+        "Time": "15:00",
+        "Location": "Hot Spring",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Sat; Hot Spring unlocked; Hot spring bathing unlocked"
+      },
+      {
+        "Time": "18:00",
+        "Location": "Shuten's Home",
+        "Activity": "Visit",
+        "Conditions": "Not Rainy"
+      },
+      {
+        "Time": "21:00",
+        "Location": "Hot Spring",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Sat; Hot Spring unlocked; Hot spring bathing unlocked"
+      }
+    ],
+    "events": [
+      {
+        "Event": "Heart Event 1",
+        "Requirement": "1 heart / favorability",
+        "Location": "Shuten's Tavern",
+        "What Happens": "Shuten invites you to the tavern to plan out the Recipe Heist that was discussed at the welcome bonfire."
+      },
+      {
+        "Event": "Heart Event 2",
+        "Requirement": "3 hearts / favorability",
+        "Location": "Shuten's Tavern",
+        "What Happens": "Shuten asks you to cover her at the tavern while she takes the boys out for the afternoon."
+      },
+      {
+        "Event": "Heart Event 3",
+        "Requirement": "4 hearts / favorability",
+        "Location": "Shuten's Tavern",
+        "What Happens": "It's heist time! Time to put the plan in action and steal that recipe."
+      },
+      {
+        "Event": "Heart Event 4",
+        "Requirement": "5 hearts / favorability",
+        "Location": "Torleone's Fish 'n' Tackle Shop",
+        "What Happens": "Ritsuryo and Kinn think Shuten is keeping a secret from them about the heist, and want you to come and confront her."
+      },
+      {
+        "Event": "Heart Event 5",
+        "Requirement": "6 hearts / favorability",
+        "Location": "Shuten's Tavern",
+        "What Happens": "Shuten has invited you and Kon over for late-night drinks at the tavern. Head over there when you’re free."
+      },
+      {
+        "Event": "Heart Event 6",
+        "Requirement": "7 hearts / favorability",
+        "Location": "Shuten's Home",
+        "What Happens": "Shuten has invited you and Kon over for a special family dinner!"
+      },
+      {
+        "Event": "Hot Spring Date",
+        "Requirement": "3+ hearts / favorability and the date location unlocked",
+        "Location": "Hot Spring (19:00-21:00)",
+        "What Happens": "You spend an evening with Shuten at the hot spring."
+      },
+      {
+        "Event": "Tavern Date",
+        "Requirement": "3+ hearts / favorability and the date location unlocked",
+        "Location": "Tavern (19:00-23:00)",
+        "What Happens": "You spend an evening with Shuten at the tavern."
+      },
+      {
+        "Event": "Night Date",
+        "Requirement": "8 hearts / favorability and lover status",
+        "Location": "After 22:00",
+        "What Happens": "You share a late-night relationship scene with Shuten."
+      },
+      {
+        "Event": "Wedding",
+        "Requirement": "10 hearts / favorability",
+        "Location": "Wedding quest",
+        "What Happens": "Shuten joins you for the wedding ceremony."
+      }
+    ]
+  },
+  "4213": {
+    "name": "Theo",
+    "source_file": "Tales of Seikyu - Theo's Gifts and Schedule - Neoseeker.htm",
+    "details": {
+      "Birthday": "Summer 12",
+      "Romance": "No",
+      "Interests": "Collection",
+      "Shops": "Theo's Takoyaki Stall; Lantern Stand"
+    },
+    "gift_summary": {
+      "Favorites": "Rice Burger; Any Flowers",
+      "Likes": "Omurice; Okonomiyaki",
+      "Dislikes": "Any Fruit",
+      "Hates": "Strawberry Milkshake; Any Loot; Any Manure"
+    },
+    "schedule": [
+      {
+        "Time": "06:00",
+        "Location": "Theo & Ivan's Home",
+        "Activity": "Visit",
+        "Conditions": "Not Rainy"
+      },
+      {
+        "Time": "06:00",
+        "Location": "Theo & Ivan's Home",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Any day except Tue or Fri"
+      },
+      {
+        "Time": "06:00",
+        "Location": "Theo & Ivan's Home",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Tue"
+      },
+      {
+        "Time": "06:00",
+        "Location": "Theo & Ivan's Home",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Tue or Fri"
+      },
+      {
+        "Time": "09:00",
+        "Location": "Theo & Ivan's Home",
+        "Activity": "Visit",
+        "Conditions": "Not Rainy"
+      },
+      {
+        "Time": "09:00",
+        "Location": "Theo & Ivan's Home",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Tue or Fri"
+      },
+      {
+        "Time": "17:00",
+        "Location": "Theo & Ivan's Home",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Any day except Tue or Fri; Before Tavern is unlocked"
+      },
+      {
+        "Time": "17:00",
+        "Location": "Theo & Ivan's Home",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Tue; Before Tavern is unlocked"
+      },
+      {
+        "Time": "20:00",
+        "Location": "Theo & Ivan's Home",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Tue or Fri; Before Tavern is unlocked"
+      },
+      {
+        "Time": "21:30",
+        "Location": "Theo & Ivan's Home",
+        "Activity": "Visit",
+        "Conditions": "Not Rainy"
+      },
+      {
+        "Time": "21:30",
+        "Location": "Theo & Ivan's Home",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Tue or Fri"
+      },
+      {
+        "Time": "23:00",
+        "Location": "Theo & Ivan's Home",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Any day except Tue or Fri"
+      },
+      {
+        "Time": "23:00",
+        "Location": "Theo & Ivan's Home",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Tue"
+      }
+    ],
+    "events": []
+  },
+  "4214": {
+    "name": "Tommy",
+    "source_file": "Tales of Seikyu - Tommy's Gifts and Schedule - Neoseeker.htm",
+    "details": {
+      "Birthday": "Summer 12",
+      "Romance": "No",
+      "Interests": "Cooking",
+      "Shop": "Tommy's Teppanyaki Stall"
+    },
+    "gift_summary": {
+      "Favorites": "Omurice; Okonomiyaki; Rice Burger",
+      "Likes": "Chicken Egg; Any Vegetable",
+      "Dislikes": "Any Fruit; Any Dairy",
+      "Hates": "Cheese; Multi-Flavored Scone; Any Manure"
+    },
+    "schedule": [
+      {
+        "Time": "00:00",
+        "Location": "Theo & Ivan's Home",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Any day except Tue"
+      },
+      {
+        "Time": "02:00",
+        "Location": "Tommy's Home",
+        "Activity": "Visit",
+        "Conditions": "Not Rainy"
+      },
+      {
+        "Time": "02:00",
+        "Location": "Tommy's Home",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Tue"
+      },
+      {
+        "Time": "06:00",
+        "Location": "Tommy's Home",
+        "Activity": "Visit",
+        "Conditions": "Not Rainy"
+      },
+      {
+        "Time": "06:00",
+        "Location": "Tommy's Home",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Tue"
+      },
+      {
+        "Time": "17:00",
+        "Location": "Tommy's Home",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Any day except Tue; Before Tavern is unlocked"
+      },
+      {
+        "Time": "21:00",
+        "Location": "Tommy's Home",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Any day except Tue"
+      }
+    ],
+    "events": []
+  },
+  "4206": {
+    "name": "Torleone",
+    "source_file": "Tales of Seikyu - Torleone's Gifts, Schedule and Heart Events - Neoseeker.htm",
+    "details": {
+      "Birthday": "Summer 9",
+      "Romance": "Yes",
+      "Gifts": "Yes",
+      "Interests": "Fishing",
+      "Date Invitations": "Hot Spring and Tavern",
+      "Shop": "Torleone’s Fish 'n' Tackle Shop"
+    },
+    "gift_summary": {
+      "Favorites": "Eel; King Crab; Lobster; Gambler's Amulet",
+      "Likes": "Takoyaki; Any Seafood Dishes; Any Fish",
+      "Dislikes": "",
+      "Hates": "Any Manure"
+    },
+    "schedule": [
+      {
+        "Time": "18:00",
+        "Location": "Torleone & Seabert's Home",
+        "Activity": "Visit",
+        "Conditions": "Sat; Before Tavern is unlocked"
+      }
+    ],
+    "events": [
+      {
+        "Event": "Heart Event 1",
+        "Requirement": "1 heart / favorability",
+        "Location": "Dock (Uozumi comes to your house in the morning)",
+        "What Happens": "Torleone has invited you to go fishing with him and his gang. Go to the docks where they are waiting for you and Kon."
+      },
+      {
+        "Event": "Heart Event 2",
+        "Requirement": "3 hearts / favorability",
+        "Location": "Torleone's place",
+        "What Happens": "Torleone has invited you to watch a movie with him and Seabert. Go to his place at 6 pm."
+      },
+      {
+        "Event": "Heart Event 3",
+        "Requirement": "6 hearts / favorability",
+        "Location": "Pearl Lake",
+        "What Happens": "Torleone told you that he is going to pop the question to Miss Ama and he wants you there! Meet him at Pearl Lake at 3 pm."
+      },
+      {
+        "Event": "Heart Event 4",
+        "Requirement": "7 hearts / favorability",
+        "Location": "Varies by event",
+        "What Happens": "Miss Ama and Torleone return from wedding planning, thank you for helping their relationship, and talk about staying close."
+      },
+      {
+        "Event": "Hot Spring Date",
+        "Requirement": "3+ hearts / favorability and the date location unlocked",
+        "Location": "Hot Spring (19:00-21:00)",
+        "What Happens": "You spend an evening with Torleone at the hot spring."
+      },
+      {
+        "Event": "Tavern Date",
+        "Requirement": "3+ hearts / favorability and the date location unlocked",
+        "Location": "Tavern (19:00-23:00)",
+        "What Happens": "You spend an evening with Torleone at the tavern."
+      },
+      {
+        "Event": "Night Date",
+        "Requirement": "8 hearts / favorability and lover status",
+        "Location": "After 22:00",
+        "What Happens": "You share a late-night relationship scene with Torleone."
+      },
+      {
+        "Event": "Wedding",
+        "Requirement": "10 hearts / favorability",
+        "Location": "Wedding quest",
+        "What Happens": "Torleone joins you for the wedding ceremony."
+      }
+    ]
+  },
+  "4216": {
+    "name": "Uozumi",
+    "source_file": "Tales of Seikyu - Uozumi's Gifts, Schedule and Events - Neoseeker.htm",
+    "details": {
+      "Birthday": "Winter 17",
+      "Romance": "No",
+      "Interests": "Fishing"
+    },
+    "gift_summary": {
+      "Favorites": "Pearl; Bobo Pearl; Any Fish",
+      "Likes": "Shrimp Onigiri; Takoyaki; Any Fishing Rods",
+      "Dislikes": "Any Sweets; Any Furniture; Any Vegetable",
+      "Hates": "Strawberry Milkshake; Strawberry; Strawberry Seeds; Strawberry Cake; Any Manure"
+    },
+    "schedule": [
+      {
+        "Time": "06:00",
+        "Location": "Uozumi's Home",
+        "Activity": "Visit",
+        "Conditions": "Not Rainy"
+      },
+      {
+        "Time": "06:00",
+        "Location": "Uozumi's Home",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Any day except Fri or Sat"
+      },
+      {
+        "Time": "06:00",
+        "Location": "Uozumi's Home",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Fri"
+      },
+      {
+        "Time": "06:00",
+        "Location": "Uozumi's Home",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Fri or Sat"
+      },
+      {
+        "Time": "18:00",
+        "Location": "Torleone & Seabert's Home",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Any day except Fri or Sat; Before Tavern is unlocked"
+      },
+      {
+        "Time": "21:00",
+        "Location": "Uozumi's Home",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Fri"
+      },
+      {
+        "Time": "23:00",
+        "Location": "Uozumi's Home",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Any day except Fri or Sat"
+      },
+      {
+        "Time": "23:00",
+        "Location": "Uozumi's Home",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Fri or Sat"
+      }
+    ],
+    "events": [
+      {
+        "Event": "Heart Event",
+        "Requirement": "1 heart / favorability",
+        "Location": "Dock",
+        "What Happens": "Uozumi would like to show you his fishing masterpiece and has invited you to go fishing together! Head to the docks to find him."
+      }
+    ]
+  },
+  "4229": {
+    "name": "Uwabami",
+    "source_file": "Tales of Seikyu - Uwabami's Gifts, Schedule and Heart Events - Neoseeker.htm",
+    "details": {
+      "Birthday": "Spring 26",
+      "Romance": "Yes",
+      "Interests": "Fighting",
+      "Date Invitations": "Hot Spring and Tavern"
+    },
+    "gift_summary": {
+      "Favorites": "Dororo, the Black Sword; Black Bamboo Scythe; Viper Fang; Golden Sword; Muramasa; Any Meat; Any Meat Dishes; Any Furniture; Any Egg",
+      "Likes": "Coffee Bean; Coffee; Coffee-Flavored Cake; Any Weapons; Any Ores; Any Gem; Any Exclusive Gem; Any Flowers; Any Projectiles",
+      "Dislikes": "Any Vegetable; Any Fishing Rods; Any Fish Bait; Any Wood",
+      "Hates": "Kappa Mask; Kappa's Affection Ring; Kappa's Affection Necklace; Cucumber; Giant Cucumber; Cucumber Seeds; Any Fruit; Any Pet Decorating; Any Animal Food; Any Adopt Pet"
+    },
+    "schedule": [
+      {
+        "Time": "09:00",
+        "Location": "Nyotengu's Home",
+        "Activity": "Visit",
+        "Conditions": "Any day except Wed, Fri, or Sun"
+      },
+      {
+        "Time": "13:00",
+        "Location": "Hot Spring",
+        "Activity": "Visit",
+        "Conditions": "Wed, Fri, or Sun; Before Hot Spring is unlocked"
+      },
+      {
+        "Time": "17:00",
+        "Location": "Hot Spring",
+        "Activity": "Visit",
+        "Conditions": "Wed, Fri, or Sun; Before Hot Spring is unlocked"
+      }
+    ],
+    "events": [
+      {
+        "Event": "Hot Spring Date",
+        "Requirement": "3+ hearts / favorability and the date location unlocked",
+        "Location": "Hot Spring (19:00-21:00)",
+        "What Happens": "You spend an evening with Uwabami at the hot spring."
+      },
+      {
+        "Event": "Tavern Date",
+        "Requirement": "3+ hearts / favorability and the date location unlocked",
+        "Location": "Tavern (19:00-23:00)",
+        "What Happens": "You spend an evening with Uwabami at the tavern."
+      },
+      {
+        "Event": "Night Date",
+        "Requirement": "8 hearts / favorability and lover status",
+        "Location": "After 22:00",
+        "What Happens": "You share a late-night relationship scene with Uwabami."
+      },
+      {
+        "Event": "Wedding",
+        "Requirement": "10 hearts / favorability",
+        "Location": "Wedding quest",
+        "What Happens": "Uwabami joins you for the wedding ceremony."
+      }
+    ]
+  },
+  "4202": {
+    "name": "Yohji",
+    "source_file": "Tales of Seikyu - Yohji's Gifts, Schedule and Heart Events - Neoseeker.htm",
+    "details": {
+      "Birthday": "Winter 9",
+      "Romance": "Yes",
+      "Interests": "Exploration",
+      "Date Invitations": "Hot Spring and Tavern"
+    },
+    "gift_summary": {
+      "Favorites": "Coffee Bean; Coffee; Coffee-Flavored Cake; Any Artisan Furniture",
+      "Likes": "Confit Lamb Stew; Soy Sauce Dango; Any Sweets; Any Pastries",
+      "Dislikes": "Any Spicy Dishes; Any Ores",
+      "Hates": "Chili Pepper; \"Ninja Bubble\" (Lemon); \"Ninja Bubble\" (Strawberry); \"Ninja Bubble\" (Pineapple); \"Ninja Bubble\" (Melon); Any Manure"
+    },
+    "schedule": [
+      {
+        "Time": "09:00",
+        "Location": "Yohji & Liliana's Home",
+        "Activity": "Visit",
+        "Conditions": "Not Sunny"
+      },
+      {
+        "Time": "11:00",
+        "Location": "Casino",
+        "Activity": "Visit",
+        "Conditions": "Sunny; Casino unlocked"
+      },
+      {
+        "Time": "18:00",
+        "Location": "Hot Spring",
+        "Activity": "Visit",
+        "Conditions": "Sunny; Hot Spring unlocked; Hot spring bathing unlocked"
+      },
+      {
+        "Time": "21:00",
+        "Location": "Hot Spring",
+        "Activity": "Visit",
+        "Conditions": "Sunny; Hot Spring unlocked; Hot spring bathing unlocked"
+      }
+    ],
+    "events": [
+      {
+        "Event": "Heart Event 1",
+        "Requirement": "5 hearts / favorability; Bring Yohji a cake on his day off.",
+        "Location": "Varies by event",
+        "What Happens": "Yui suggests that you bring Yohji a cake to cheer him up on his day off! Perhaps you can help him learn how to relax."
+      },
+      {
+        "Event": "Heart Event 2",
+        "Requirement": "6 hearts / favorability",
+        "Location": "Ruins",
+        "What Happens": "The ruins are in darkness with a dark fog, making it impossible to navigate. Ask Yohji for advice, he may have a way through it"
+      },
+      {
+        "Event": "Heart Event 3",
+        "Requirement": "7 hearts / favorability",
+        "Location": "Yohji's house",
+        "What Happens": "You saved Yohji's life while you were exploring the ruins, and he would like to thank you in person and give you a gift. Visit Yohji at his house."
+      },
+      {
+        "Event": "Hot Spring Date",
+        "Requirement": "3+ hearts / favorability and the date location unlocked",
+        "Location": "Hot Spring (19:00-21:00)",
+        "What Happens": "You spend an evening with Yohji at the hot spring."
+      },
+      {
+        "Event": "Tavern Date",
+        "Requirement": "3+ hearts / favorability and the date location unlocked",
+        "Location": "Tavern (19:00-23:00)",
+        "What Happens": "You spend an evening with Yohji at the tavern."
+      },
+      {
+        "Event": "Night Date",
+        "Requirement": "8 hearts / favorability and lover status",
+        "Location": "After 22:00",
+        "What Happens": "You share a late-night relationship scene with Yohji."
+      },
+      {
+        "Event": "Wedding",
+        "Requirement": "10 hearts / favorability",
+        "Location": "Wedding quest",
+        "What Happens": "Yohji joins you for the wedding ceremony."
+      }
+    ]
+  },
+  "4105": {
+    "name": "Yoni",
+    "source_file": "Tales of Seikyu - Yoni's Gifts, Schedule and Heart Events - Neoseeker.htm",
+    "details": {
+      "Birthday": "Summer 5",
+      "Romance": "Yes",
+      "Interests": "Farming",
+      "Date Invitations": "Hot Spring and Tavern"
+    },
+    "gift_summary": {
+      "Favorites": "Omurice; Any Flowers",
+      "Likes": "Any Vegetable; Any Fruit; Any Crop Seeds",
+      "Dislikes": "Any Meat Dishes",
+      "Hates": "Any Fish; Any Tea; Any Manure"
+    },
+    "schedule": [
+      {
+        "Time": "06:00",
+        "Location": "Yoni's Home",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Any day except Mon, Tue, Wed, or Sun"
+      },
+      {
+        "Time": "09:00",
+        "Location": "Casino",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Tue; Casino unlocked"
+      },
+      {
+        "Time": "09:00",
+        "Location": "Yoni's Home",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Sun"
+      },
+      {
+        "Time": "12:00",
+        "Location": "Yoni's Home",
+        "Activity": "Visit",
+        "Conditions": "Not Rainy"
+      },
+      {
+        "Time": "13:00",
+        "Location": "Hot Spring",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Any day except Mon, Tue, Wed, or Sun; Hot Spring unlocked; Hot spring bathing unlocked"
+      },
+      {
+        "Time": "17:00",
+        "Location": "Ranch Shop",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Sun"
+      },
+      {
+        "Time": "17:00",
+        "Location": "Tavern",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Any day except Mon, Tue, Wed, or Sun; Before Hot Spring is unlocked; Before Hot spring bathing is unlocked; Tavern unlocked"
+      },
+      {
+        "Time": "17:00",
+        "Location": "Tavern",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Mon, Tue, or Wed; Tavern unlocked"
+      },
+      {
+        "Time": "17:00",
+        "Location": "Yoni's Home",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Any day except Mon, Tue, Wed, or Sun; Before Hot Spring is unlocked; Before Hot spring bathing is unlocked; Before Tavern is unlocked"
+      },
+      {
+        "Time": "17:00",
+        "Location": "Yoni's Home",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Mon, Tue, or Wed; Before Tavern is unlocked"
+      },
+      {
+        "Time": "18:00",
+        "Location": "Casino",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Tue; Casino unlocked"
+      },
+      {
+        "Time": "20:00",
+        "Location": "Casino",
+        "Activity": "Visit",
+        "Conditions": "Not Rainy; Tavern unlocked; Mon"
+      },
+      {
+        "Time": "20:00",
+        "Location": "Casino",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Any day except Mon, Tue, Wed, or Sun; Before Hot Spring is unlocked; Before Hot spring bathing is unlocked; Tavern unlocked"
+      },
+      {
+        "Time": "20:00",
+        "Location": "Casino",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Mon, Tue, or Wed; Tavern unlocked"
+      },
+      {
+        "Time": "",
+        "Location": "",
+        "Activity": "",
+        "Conditions": ""
+      },
+      {
+        "Time": "20:00",
+        "Location": "Hot Spring",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Any day except Mon, Tue, Wed, or Sun; Hot Spring unlocked; Hot spring bathing unlocked"
+      },
+      {
+        "Time": "20:00",
+        "Location": "Yoni's Home",
+        "Activity": "Visit",
+        "Conditions": "Not Rainy"
+      },
+      {
+        "Time": "21:00",
+        "Location": "Yoni's Home",
+        "Activity": "Visit",
+        "Conditions": "Regular schedule"
+      },
+      {
+        "Time": "23:00",
+        "Location": "Casino",
+        "Activity": "Visit",
+        "Conditions": "Not Rainy; Tavern unlocked; Mon"
+      },
+      {
+        "Time": "23:00",
+        "Location": "Casino",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Any day except Mon, Tue, Wed, or Sun; Before Hot Spring is unlocked; Before Hot spring bathing is unlocked; Tavern unlocked"
+      },
+      {
+        "Time": "23:00",
+        "Location": "Casino",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Mon, Tue, or Wed; Tavern unlocked"
+      }
+    ],
+    "events": [
+      {
+        "Event": "Heart Event 1",
+        "Requirement": "7 hearts / favorability",
+        "Location": "Yoni's Home",
+        "What Happens": "Yoni debuts a new music style and is thrilled when you hear the real her in it."
+      },
+      {
+        "Event": "Heart Event 2",
+        "Requirement": "9 hearts / favorability",
+        "Location": "Yoni's house",
+        "What Happens": "Yoni asks you to come over to her house. She is finally ready to perform her song for you."
+      },
+      {
+        "Event": "Hot Spring Date",
+        "Requirement": "3+ hearts / favorability and the date location unlocked",
+        "Location": "Hot Spring (19:00-21:00)",
+        "What Happens": "You spend an evening with Yoni at the hot spring."
+      },
+      {
+        "Event": "Tavern Date",
+        "Requirement": "3+ hearts / favorability and the date location unlocked",
+        "Location": "Tavern (19:00-23:00)",
+        "What Happens": "You spend an evening with Yoni at the tavern."
+      },
+      {
+        "Event": "Night Date",
+        "Requirement": "8 hearts / favorability and lover status",
+        "Location": "After 22:00",
+        "What Happens": "You share a late-night relationship scene with Yoni."
+      },
+      {
+        "Event": "Wedding",
+        "Requirement": "10 hearts / favorability",
+        "Location": "Wedding quest",
+        "What Happens": "Yoni joins you for the wedding ceremony."
+      }
+    ]
+  },
+  "4209": {
+    "name": "Yui",
+    "source_file": "Tales of Seikyu - Yui's Gifts, Schedule and Heart Events - Neoseeker.htm",
+    "details": {
+      "Birthday": "Summer 3",
+      "Romance": "Yes",
+      "Interests": "Cooking",
+      "Date Invitations": "Hot Spring and Tavern"
+    },
+    "gift_summary": {
+      "Favorites": "Strawberry Cake; \"Ninja Bubble\" (Strawberry); Rose",
+      "Likes": "Three-Color Dango; Any Flowers; Any Sweets",
+      "Dislikes": "Any Spicy Dishes; Any Loot",
+      "Hates": "Yokai Shroom; Shiitake Mushroom; Any Wine and Liquor; Any Manure"
+    },
+    "schedule": [
+      {
+        "Time": "09:00",
+        "Location": "Yui Oda's Home",
+        "Activity": "Visit",
+        "Conditions": "Not Rainy"
+      },
+      {
+        "Time": "09:00",
+        "Location": "Yui Oda's Home",
+        "Activity": "Visit",
+        "Conditions": "Rainy"
+      },
+      {
+        "Time": "09:00",
+        "Location": "Yui Oda's Home",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Sun"
+      },
+      {
+        "Time": "09:00",
+        "Location": "Yui Oda's Home",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Sun; Spring or Autumn"
+      },
+      {
+        "Time": "09:00",
+        "Location": "Yui Oda's Home",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Tue"
+      },
+      {
+        "Time": "10:00",
+        "Location": "Yui Oda's Home",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Sun"
+      },
+      {
+        "Time": "15:00",
+        "Location": "Hot Spring",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Mon; Hot Spring unlocked; Hot spring bathing unlocked"
+      },
+      {
+        "Time": "17:00",
+        "Location": "Casino",
+        "Activity": "Visit",
+        "Conditions": "Not Rainy; Casino unlocked"
+      },
+      {
+        "Time": "20:00",
+        "Location": "Hot Spring",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Mon; Hot Spring unlocked; Hot spring bathing unlocked"
+      }
+    ],
+    "events": [
+      {
+        "Event": "Heart Event 1",
+        "Requirement": "2 hearts / favorability",
+        "Location": "Yui's house",
+        "What Happens": "Kon notices a sweet scent emanating from Yui Oda's house. She wants to check it out."
+      },
+      {
+        "Event": "Heart Event 2",
+        "Requirement": "4 hearts / favorability",
+        "Location": "Farmhouse",
+        "What Happens": "Yui comes to the farmhouse asking to speak with you. She is embarrassed she kicked you out of her house."
+      },
+      {
+        "Event": "Heart Event 3",
+        "Requirement": "5 hearts / favorability",
+        "Location": "Yui's house",
+        "What Happens": "Yui calls you over to support her as she tells the townsfolk about her true form. Go to her house in the evening."
+      },
+      {
+        "Event": "Heart Event 4",
+        "Requirement": "6 hearts / favorability; Help investigate Yui's body.",
+        "Location": "Varies by event",
+        "What Happens": "Yui asks you to help investigate her body because everything has been too hectic for her to look into it herself."
+      },
+      {
+        "Event": "Heart Event 5",
+        "Requirement": "7 hearts / favorability",
+        "Location": "Cave",
+        "What Happens": "Yui told you about her dream and has asked for your help. Go investigate."
+      },
+      {
+        "Event": "Heart Event 6",
+        "Requirement": "8 hearts / favorability",
+        "Location": "Cave",
+        "What Happens": "Yui is ready to go to the cave. She would like you to accompany her on her journey."
+      },
+      {
+        "Event": "Hot Spring Date",
+        "Requirement": "3+ hearts / favorability and the date location unlocked",
+        "Location": "Hot Spring (19:00-21:00)",
+        "What Happens": "You spend an evening with Yui at the hot spring."
+      },
+      {
+        "Event": "Tavern Date",
+        "Requirement": "3+ hearts / favorability and the date location unlocked",
+        "Location": "Tavern (19:00-23:00)",
+        "What Happens": "You spend an evening with Yui at the tavern."
+      },
+      {
+        "Event": "Night Date",
+        "Requirement": "8 hearts / favorability and lover status",
+        "Location": "After 22:00",
+        "What Happens": "You share a late-night relationship scene with Yui."
+      },
+      {
+        "Event": "Wedding",
+        "Requirement": "10 hearts / favorability",
+        "Location": "Wedding quest",
+        "What Happens": "Yui joins you for the wedding ceremony."
+      }
+    ]
+  },
+  "4607": {
+    "name": "Yui",
+    "source_file": "Tales of Seikyu - Yui's Gifts, Schedule and Heart Events - Neoseeker.htm",
+    "details": {
+      "Birthday": "Summer 3",
+      "Romance": "Yes",
+      "Interests": "Cooking",
+      "Date Invitations": "Hot Spring and Tavern"
+    },
+    "gift_summary": {
+      "Favorites": "Strawberry Cake; \"Ninja Bubble\" (Strawberry); Rose",
+      "Likes": "Three-Color Dango; Any Flowers; Any Sweets",
+      "Dislikes": "Any Spicy Dishes; Any Loot",
+      "Hates": "Yokai Shroom; Shiitake Mushroom; Any Wine and Liquor; Any Manure"
+    },
+    "schedule": [
+      {
+        "Time": "09:00",
+        "Location": "Yui Oda's Home",
+        "Activity": "Visit",
+        "Conditions": "Not Rainy"
+      },
+      {
+        "Time": "09:00",
+        "Location": "Yui Oda's Home",
+        "Activity": "Visit",
+        "Conditions": "Rainy"
+      },
+      {
+        "Time": "09:00",
+        "Location": "Yui Oda's Home",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Sun"
+      },
+      {
+        "Time": "09:00",
+        "Location": "Yui Oda's Home",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Sun; Spring or Autumn"
+      },
+      {
+        "Time": "09:00",
+        "Location": "Yui Oda's Home",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Tue"
+      },
+      {
+        "Time": "10:00",
+        "Location": "Yui Oda's Home",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Sun"
+      },
+      {
+        "Time": "15:00",
+        "Location": "Hot Spring",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Mon; Hot Spring unlocked; Hot spring bathing unlocked"
+      },
+      {
+        "Time": "17:00",
+        "Location": "Casino",
+        "Activity": "Visit",
+        "Conditions": "Not Rainy; Casino unlocked"
+      },
+      {
+        "Time": "20:00",
+        "Location": "Hot Spring",
+        "Activity": "Visit",
+        "Conditions": "Rainy; Mon; Hot Spring unlocked; Hot spring bathing unlocked"
+      }
+    ],
+    "events": [
+      {
+        "Event": "Heart Event 1",
+        "Requirement": "2 hearts / favorability",
+        "Location": "Yui's house",
+        "What Happens": "Kon notices a sweet scent emanating from Yui Oda's house. She wants to check it out."
+      },
+      {
+        "Event": "Heart Event 2",
+        "Requirement": "4 hearts / favorability",
+        "Location": "Farmhouse",
+        "What Happens": "Yui comes to the farmhouse asking to speak with you. She is embarrassed she kicked you out of her house."
+      },
+      {
+        "Event": "Heart Event 3",
+        "Requirement": "5 hearts / favorability",
+        "Location": "Yui's house",
+        "What Happens": "Yui calls you over to support her as she tells the townsfolk about her true form. Go to her house in the evening."
+      },
+      {
+        "Event": "Heart Event 4",
+        "Requirement": "6 hearts / favorability; Help investigate Yui's body.",
+        "Location": "Varies by event",
+        "What Happens": "Yui asks you to help investigate her body because everything has been too hectic for her to look into it herself."
+      },
+      {
+        "Event": "Heart Event 5",
+        "Requirement": "7 hearts / favorability",
+        "Location": "Cave",
+        "What Happens": "Yui told you about her dream and has asked for your help. Go investigate."
+      },
+      {
+        "Event": "Heart Event 6",
+        "Requirement": "8 hearts / favorability",
+        "Location": "Cave",
+        "What Happens": "Yui is ready to go to the cave. She would like you to accompany her on her journey."
+      },
+      {
+        "Event": "Hot Spring Date",
+        "Requirement": "3+ hearts / favorability and the date location unlocked",
+        "Location": "Hot Spring (19:00-21:00)",
+        "What Happens": "You spend an evening with Yui at the hot spring."
+      },
+      {
+        "Event": "Tavern Date",
+        "Requirement": "3+ hearts / favorability and the date location unlocked",
+        "Location": "Tavern (19:00-23:00)",
+        "What Happens": "You spend an evening with Yui at the tavern."
+      },
+      {
+        "Event": "Night Date",
+        "Requirement": "8 hearts / favorability and lover status",
+        "Location": "After 22:00",
+        "What Happens": "You share a late-night relationship scene with Yui."
+      },
+      {
+        "Event": "Wedding",
+        "Requirement": "10 hearts / favorability",
+        "Location": "Wedding quest",
+        "What Happens": "Yui joins you for the wedding ceremony."
+      }
+    ]
+  },
+  "4226": {
+    "name": "Yuki-onna",
+    "source_file": "Tales of Seikyu - Yuki-onna's Gifts, Schedule and Events - Neoseeker.htm",
+    "details": {
+      "Birthday": "Winter 13",
+      "Romance": "No",
+      "Interests": "Exploration"
+    },
+    "gift_summary": {
+      "Favorites": "Extra-Cold Ice Cream; Bobo Pearl; Sulfur Ore",
+      "Likes": "Sake; Fruit Wine; Sakura Wine",
+      "Dislikes": "Giant Green Tea; Strong Tea; Coffee; Coffee-Flavored Cake; Coffee Machine; Coffee Bean; Beer Keg; Beer",
+      "Hates": "Smelting Furnace; Charcoal Kiln; Double Gas Stove; Fireplace; Yokai Cauldron"
+    },
+    "schedule": [],
+    "events": [
+      {
+        "Event": "Hot Spring Date",
+        "Requirement": "3+ hearts / favorability and the date location unlocked",
+        "Location": "Hot Spring (19:00-21:00)",
+        "What Happens": "You spend an evening with Yuki-onna at the hot spring."
+      },
+      {
+        "Event": "Tavern Date",
+        "Requirement": "3+ hearts / favorability and the date location unlocked",
+        "Location": "Tavern (19:00-23:00)",
+        "What Happens": "You spend an evening with Yuki-onna at the tavern."
+      },
+      {
+        "Event": "Night Date",
+        "Requirement": "8 hearts / favorability and lover status",
+        "Location": "After 22:00",
+        "What Happens": "You share a late-night relationship scene with Yuki-onna."
+      },
+      {
+        "Event": "Wedding",
+        "Requirement": "10 hearts / favorability",
+        "Location": "Wedding quest",
+        "What Happens": "Yuki-onna joins you for the wedding ceremony."
+      }
+    ]
+  },
+  "4227": {
+    "name": "Yuki-onna",
+    "source_file": "Tales of Seikyu - Yuki-onna's Gifts, Schedule and Events - Neoseeker.htm",
+    "details": {
+      "Birthday": "Winter 13",
+      "Romance": "No",
+      "Interests": "Exploration"
+    },
+    "gift_summary": {
+      "Favorites": "Extra-Cold Ice Cream; Bobo Pearl; Sulfur Ore",
+      "Likes": "Sake; Fruit Wine; Sakura Wine",
+      "Dislikes": "Giant Green Tea; Strong Tea; Coffee; Coffee-Flavored Cake; Coffee Machine; Coffee Bean; Beer Keg; Beer",
+      "Hates": "Smelting Furnace; Charcoal Kiln; Double Gas Stove; Fireplace; Yokai Cauldron"
+    },
+    "schedule": [],
+    "events": [
+      {
+        "Event": "Hot Spring Date",
+        "Requirement": "3+ hearts / favorability and the date location unlocked",
+        "Location": "Hot Spring (19:00-21:00)",
+        "What Happens": "You spend an evening with Yuki-onna at the hot spring."
+      },
+      {
+        "Event": "Tavern Date",
+        "Requirement": "3+ hearts / favorability and the date location unlocked",
+        "Location": "Tavern (19:00-23:00)",
+        "What Happens": "You spend an evening with Yuki-onna at the tavern."
+      },
+      {
+        "Event": "Night Date",
+        "Requirement": "8 hearts / favorability and lover status",
+        "Location": "After 22:00",
+        "What Happens": "You share a late-night relationship scene with Yuki-onna."
+      },
+      {
+        "Event": "Wedding",
+        "Requirement": "10 hearts / favorability",
+        "Location": "Wedding quest",
+        "What Happens": "Yuki-onna joins you for the wedding ceremony."
+      }
+    ]
+  }
+}

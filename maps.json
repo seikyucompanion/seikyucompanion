@@ -1,0 +1,28 @@
+{
+  "sections": [
+    {
+      "title": "Main Map",
+      "image": "https://cdn.staticneo.com/ew/4/41/TalesOfSeikyu_MainMap.jpg",
+      "description": "The Main Map is the clean reference map for Seikyu. Use this version when you only need landmarks, paths, rivers, and area shapes without numbered markers.",
+      "spoiler": false
+    },
+    {
+      "title": "Reward Chests Map",
+      "image": "https://cdn.staticneo.com/ew/e/e1/TalesOfSeikyu_RewardChestsMap.jpg",
+      "description": "The Reward Chests Map marks the known reward chest spots on the Main map. Use the coordinates to help you find the exact location in-game. Reward chest coordinates: Once you can make a Treasure Detector, it can help with chest hunting. The Treasure Detector marks treasure chest locations within a 100-meter range on the map and works both above ground and in the ruins. It is crafted from the Backpack category under Exploration Equipment with 4 Gold Ingots and 1 Iron Ingot.",
+      "spoiler": true
+    },
+    {
+      "title": "Fox Holes Map",
+      "image": "https://cdn.staticneo.com/ew/2/21/TalesOfSeikyu_FoxHolesMap.jpg",
+      "description": "The Fox Holes Map marks the seven fox hole spots on the Main map. Fox hole coordinates: If a fox hole looks close on the map but you cannot interact with it right away, check the surrounding terrain and height. Several exploration spots in Seikyu sit on slopes, ledges, or tucked-away paths.",
+      "spoiler": true
+    },
+    {
+      "title": "Fox Shrines Map",
+      "image": "https://cdn.staticneo.com/ew/4/49/TalesOfSeikyu_FoxShrinesMap.jpg",
+      "description": "The Fox Shrines Map marks the Fox Shrines on the Main map. These are the fast-travel shrine points in-game. Fox Shrine coordinates: Use this map when planning routes between chest and fox hole searches. Unlocking and using nearby Fox Shrines can save a lot of backtracking while you fill in the rest of the map.",
+      "spoiler": true
+    }
+  ]
+}
