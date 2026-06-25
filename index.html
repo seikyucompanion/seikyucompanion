@@ -4493,23 +4493,21 @@
     }
     function emptyV() { return `<div class="empty"><span class="big">縁</span>Pick a villager to see their birthday, what they love, and how your friendship's going.</div>`; }
     function birthday(n) { const i = n.info || {}; if (i.birthday_day && i.birthday_day > 0) return `${i.birthday_season || ""} ${i.birthday_day}`.trim(); return ""; }
-    function scheduleFor(n) {
-      const base = (SCHEDULES && SCHEDULES[n.id]) || {};
-      const over = (VILLAGER_OVERRIDES[n.id] && VILLAGER_OVERRIDES[n.id].schedule) || {};
-      if (!Object.keys(base).length && !Object.keys(over).length) return null;
-      return {
-        name: base.name || n.name,
-        details: Object.assign({}, base.details || {}, over.details || {}),
-        schedule: (over.schedule && over.schedule.length) ? over.schedule : (base.schedule || []),
-        events: (over.events && over.events.length) ? over.events : (base.events || [])
-      };
+    function scheduleFor(n) { return (SCHEDULES && SCHEDULES[n.id]) || null; }
+    function scheduleRowsTable(rows) {
+      const body = (rows || []).map(r =>
+        `<tr><td data-label="Time">${esc(r.Time)}</td><td data-label="Location">${esc(r.Location)}</td><td data-label="Activity">${esc(r.Activity)}</td><td data-label="Conditions">${esc(r.Conditions)}</td></tr>`
+      ).join("");
+      return body
+        ? `<table class="data-table"><thead><tr><th>Time</th><th>Location</th><th>Activity</th><th>Conditions</th></tr></thead><tbody>${body}</tbody></table>`
+        : `<p class="muted">No daily schedule listed in the saved page.</p>`;
     }
     function scheduleBlock(n) {
       const s = scheduleFor(n);
       if (!s) return "";
-      const body = scheduleRowsTable(s.schedule || []);
-      const title = (VILLAGER_OVERRIDES[n.id] && VILLAGER_OVERRIDES[n.id].scheduleTitle) || "Schedule";
-      return fold("sched-" + n.id, title, body, { card: true, count: (s.schedule || []).length || "none", collapsed: true });
+      const rows = (s.schedule || []).map(r => `<tr><td data-label="Time">${esc(r.Time)}</td><td data-label="Location">${esc(r.Location)}</td><td data-label="Activity">${esc(r.Activity)}</td><td data-label="Conditions">${esc(r.Conditions)}</td></tr>`).join("");
+      const body = rows ? `<table class="data-table"><thead><tr><th>Time</th><th>Location</th><th>Activity</th><th>Conditions</th></tr></thead><tbody>${rows}</tbody></table>` : `<p class="muted">No daily schedule listed in the saved page.</p>`;
+      return fold("sched-" + n.id, "Schedule", body, { card: true, count: (s.schedule || []).length || "none", collapsed: true });
     }
     function eventBlock(n) {
       const s = scheduleFor(n), events = s ? (s.events || []) : [];
